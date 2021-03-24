@@ -60,6 +60,7 @@ Asmeninių tvarkymų medis.
                             - [ ] 1. `TODO` kur naudojame `raw`
                             - [ ] 2. `TODO` kur naudojame `shell`
                             - [ ] 3. `TODO` kur liko, naudojame `Py-based`
+            - [ ] 7. Debesinė saugykla
         - [ ] 2. Patobulinimai, nepatogumo mažinimas, automatizavimai
             - [ ] 1. DC tvarkymas
                 - [ ] 1. DCIM

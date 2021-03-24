@@ -1,6 +1,9 @@
 # dalykai
 Asmeninių tvarkymų medis, strigimų (jų priežąsčių ar net RCA) medis
 
+- [ ] 1. **Tvarka:**
+    - [ ] TODO punktus
+
 ## Siekiai
 
 - [ ] 1. **Tvarka:**
@@ -8,7 +11,7 @@ Asmeninių tvarkymų medis, strigimų (jų priežąsčių ar net RCA) medis
 
 - [ ] 2. **Aiškumas:**
     - [ ] TODO punktus
-    
+
 # Medžiai
 
 ## Pavyzdys
@@ -41,3 +44,4 @@ Asmeninių tvarkymų medis, strigimų (jų priežąsčių ar net RCA) medis
     - [x] `my_javascript.js`
     - [x] `test.py`
 - [x] `README.md`
+

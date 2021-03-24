@@ -19,15 +19,15 @@ Pagal [Is there a way to represent a directory tree in a Github README.md?
 │   └── test.py
 └── README.md
 ```
-- [ ] example_folder\
-    - [ ] first_subfolder\
-        - [ ] sub-sub1\
-            - [x] file3.sh
-        - [ ] sub-sub2\
-            - [x] file4.cpp
-        - [x] random_file.rdm
-    - [ ] second_subfolder\
-    - [x] a_text_file.txt
-    - [x] my_javascript.js
-    - [x] test.py
-- [x] README.md
+- [ ] `example_folder\`
+    - [ ] `first_subfolder\`
+        - [ ] `sub-sub1\`
+            - [x] `file3.sh`
+        - [ ] `sub-sub2\`
+            - [x] `file4.cpp`
+        - [x] `random_file.rdm`
+    - [ ] `second_subfolder\`
+    - [x] `a_text_file.txt`
+    - [x] `my_javascript.js`
+    - [x] `test.py`
+- [x] `README.md`

@@ -4,11 +4,29 @@ Asmeninių tvarkymų medis, strigimų (jų priežąsčių ar net RCA) medis
 ## Siekiai
 
 - [ ] 1. **Tvarka:**
-    - [ ] TODO punktus
+    - [ ] 1. Fizinėje aplinkoje
+        - [ ] 1. Bute
+            - [ ] 1. Pakuotės, perdirbamos atliekos:
+                - [ ] 1, surūšiuoti;
+                    - [ ] a, `TODO`: kaip?
+                - [ ] 2, išgabenti;
+                - [ ] 3, dokumentuoti procesą;
+                - [ ] 4, pradėti kartojimą.
+    - [ ] 2. Su sveikata
+        - [ ] 1. Akių ilsinimas:
+            - [ ] 1. `TODO` kaip?
+            - [ ] 2. Dažniau žiūrėti į tolį:
+                - [ ] 1. `TODO`: kaip dažnai?
+            - [ ] 3. Mažiau žiūrėti į ekranus:
+                - [ ] 1. `TODO`: kaip?
+        - [ ] 2. Daugiau deguonies kvėpuojant:
+            - [ ] `TODO` vėdinimas
+            - [ ] `TODO` vaikščiojimas?
+    - [ ] `TODO` punktus
 
 .
 - [ ] 2. **Aiškumas:**
-    - [ ] TODO punktus
+    - [ ] `TODO` punktus
 
 # Medžiai
 

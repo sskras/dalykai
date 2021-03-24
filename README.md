@@ -1,6 +1,14 @@
 # dalykai
 Asmeninių tvarkymų medis, strigimų (jų priežąsčių ar net RCA) medis
 
+## Siekiai
+
+- [ ] 1. **Tvarka:**
+    - [ ] TODO punktus
+
+- [ ] 2. **Aiškumas:**
+    - [ ] TODO punktus
+    
 # Medžiai
 
 ## Pavyzdys

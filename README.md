@@ -26,7 +26,7 @@ Asmeninių tvarkymų medis.
             - [ ] `TODO` vaikščiojimas?
     - [ ] 3. Skaitmeninėje aplinkoje
         - [ ] 1. Pirmos būtinybės poreikiai
-            - [x] 0. Užduočių ir problemų žymėjimasis + versijavimas.
+            - [x] 0. Užduočių ir problemų žymėjimasis + versijavimas (https://github.com/sskras/dalykai).
             - [ ] 1. Bekupai
             - [ ] 2. Pašto programos
             - [ ] 3. Desktopų CMDB

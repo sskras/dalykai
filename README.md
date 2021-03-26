@@ -80,12 +80,13 @@ Asmeninių tvarkymų medis.
                             - [ ] 2. Dublikatų tvarkymas.
                             - [ ] 3. Padarytųjų uždarymas.
             - [ ] 7. Debesinė saugykla
-        - [ ] 2. Patobulinimai, nepatogumo mažinimas, automatizavimai
+        - [ ] 2. 
+        - [ ] 3. Patobulinimai, nepatogumo mažinimas, automatizavimai
             - [ ] 1. DC tvarkymas
                 - [ ] 1. DCIM
                     - [ ] 1. Įrankio suradimas
                     - [ ] 2. CI žymėjimas
-        - [ ] 3. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
+        - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 1. Hypervisors
                 - [ ] 1. Mokymaisi, tyrimai, dokumentavimas
                 - [ ] 2. Kūrimas:

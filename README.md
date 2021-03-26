@@ -80,7 +80,9 @@ Asmeninių tvarkymų medis.
                             - [ ] 2. Dublikatų tvarkymas.
                             - [ ] 3. Padarytųjų uždarymas.
             - [ ] 7. Debesinė saugykla
-        - [ ] 2. 
+        - [ ] 2. Skaitmeninio paveldo išsaugojimas
+            - [ ] 1. `led.ot.lt` perkėlimas
+            - [ ] 2. `news.omnitel.net` perkėlimas
         - [ ] 3. Patobulinimai, nepatogumo mažinimas, automatizavimai
             - [ ] 1. DC tvarkymas
                 - [ ] 1. DCIM

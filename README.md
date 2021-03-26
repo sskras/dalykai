@@ -60,6 +60,25 @@ Asmeninių tvarkymų medis.
                             - [ ] 1. `TODO` kur naudojame `raw`
                             - [ ] 2. `TODO` kur naudojame `shell`
                             - [ ] 3. `TODO` kur liko, naudojame `Py-based`
+                - [ ] 3. Organizacijoje
+                    - [ ] 0. Vieningas tekstų taisymo versijavimas
+                        - [ ] 1. RnD su `vim` + `gite.sh`
+                            - [ ] 1. `TODO` kaip dirbant failų medyje apjungti į vieną repozitoriją / nesuskaldyti jos į keletą mažų `.di3fs`?
+                            - [ ] 2. `TODO` kaip atjungti/vėl įjungti versijavimą vienu paspaudimu? (turbūt per `.vimrc`)
+                    - [ ] 1. Laiku deklaruojamas laikas
+                    - [ ] 2. Įrankiai laiko sekimui
+                        - [ ] 1. `tit` ir `tw` Bash-skriptų apjungimas.
+                        - [ ] 2. Task Warrior ir Time Warrior integracijos patobulinimas
+                            - [ ] 1. `task modify` turi keisti ne tik dabartinį `timew track`-ą, bet ir visus praeity.
+                        - [ ] 3. `TrackingTime.co` istorinių duomenų importas:
+                            - [ ] 1. REST inferfeiso pramokimas.
+                            - [ ] 2. Testai.
+                            - [ ] 3. Importavimas.
+                            - [ ] 4. Dublikatų suradimas ir susiejimas / apjungimas.
+                        - [ ] 4. Senų taskų tvarkymas:
+                            - [ ] 1. Pavadinimų taisymas.
+                            - [ ] 2. Dublikatų tvarkymas.
+                            - [ ] 3. Padarytųjų uždarymas.
             - [ ] 7. Debesinė saugykla
         - [ ] 2. Patobulinimai, nepatogumo mažinimas, automatizavimai
             - [ ] 1. DC tvarkymas

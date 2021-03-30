@@ -80,6 +80,25 @@ Asmeninių tvarkymų medis.
                             - [ ] 2. Dublikatų tvarkymas.
                             - [ ] 3. Padarytųjų uždarymas.
             - [ ] 7. Debesinė saugykla
+            - [ ] 8. Patikima nešiojama USB-talpykla.
+                - [ ] 1. OpenZFS pramokimas.
+                    - [x] 1. Apžvalginių straipsnių skaitymas.
+                    - [ ] 2. Naudojimas linukse.
+                        - [x] 1. Instaliavimas CentOS 7.
+                        - [x] 2. OmniOS rpool prijungimas CentOSe.
+                        - [ ] 3. Linux-importo automatizavimas/skriptas.
+                    - [ ] 3. Naudojimas iliumose.
+                - [ ] 2. OpenZFS-on-Windows paruošimas.
+                    - [x] 1. ZFSin bugreportų skaitymas.
+                    - [ ] 2. ZFSin testavimas.
+                    - [ ] 3. OpenZFS-on-Windows testavimas.
+                    - [ ] 4. Bent vieno portinimas į MSYS2.
+                        - [ ] 1. `BLOCKER`: MSYS2 + WDM draiveriai.
+                - [ ] 3. Patikima 2.5" Dual-Bay SATA-USB lentynėlė.
+                    - [x] 1. Lentynėlių sąrašas: https://twitter.com/sskras/status/1376979608051060738
+                    - [ ] 2. Spekų, privalumų ir trūkumų sąrašas.
+                    - [ ] 3. Bent poros modelių pirkimas.
+                    - [ ] 4. Skirtingų modelių sukombinavimas į vieną (jei pavieniai prastai veiktų).
         - [ ] 2. Skaitmeninio paveldo išsaugojimas
             - [ ] 1. `led.ot.lt` perkėlimas
             - [ ] 2. `news.omnitel.net` perkėlimas

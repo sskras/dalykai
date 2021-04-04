@@ -137,7 +137,7 @@
         - [ ] 4. `news.omnitel.net` originalo paskutinė apžiūra.
     - [ ] 4. `news.omnitel.net` klono paleidimas lokaliai.
         - [ ] 1. VMM platformos pasirinkimas:
-            - [ ] 1. VirtualBox:
+            - [x] 1. VirtualBox:
                 - [x] 1. Privalumai:
                     - [x] 1. Praverstų studijoms (M2).
                     - [x] 2. Formaliai jau instaliuotas.
@@ -155,6 +155,77 @@
                     - [x] 1. Nežinia, ar pakaks vietos.
                     - [x] 2. Neturiu jokios patirties.
             - [ ] 3. Virtual Hardware (abiejų VMM) artimumo `VMware` platformai palyginimas.
+                - [ ] 1. Dabartinės VM konfigūracijos eksportas iš `ESXi`/`vSphere`.
+                    - [x] 1. Tyrimas, kokio formato failas reikalingas, turbūt `.ovf`:
+                          https://communities.vmware.com/t5/Open-Virtualization-Format-Tool/How-to-merge-extracted-ova-containing-vmdk-mf-and-ovf/td-p/1837810
+                          https://nolabnoparty.com/en/vmware-fix-invalid-ovf-manifest-entry-error/#:~:text=mf%20%2D%20is%20a%20manifest%20file,image%20of%20the%20virtual%20machine
+                    - [ ] 2. Įrankio konfigo eksportui paieška.
+                        - [x] 1. Turbūt `vifs.pl` 
+                          https://kb.vmware.com/s/article/1017022
+                        - [x] 2. Hosto naudojamų Datastore ir Admino kredencialų užrašymo/formato paieška.
+                          https://vdc-repo.vmware.com/vmwb-repository/dcr-public/37dc6c55-7dc3-444b-973e-9290ffad06ab/1e788ab5-854b-409f-ad54-3305085674f4/doc/cli_manage_files.5.9.html
+                          https://code.vmware.com/docs/151/vsphere-cli/doc/cli_manage_files.5.8.html
+                        - [x] 3. `.vmx` failo turbūt negausiu, bet jei reiktų, įmanoma perkonvertuot: 
+                          https://help.skytap.com/Using_OVF_Converter_Tool.html
+                        - [x] 4. Tyrimas, ar įmanoma pasiimti `.ovf` failą.
+                            - [x] 1. Pagrindinis diskas yra `[ICP_DS_Z141_03] news/news.vmdk`.
+                            - [ ] 2. Gal konfigas tada bus `[ICP_DS_Z141_03] news/news.ovf` ?
+                        - [x] 5. Bet kokiu atveju "menu > Template > Export OVF Template" neveikia.
+                    - [ ] 3. Turbūt reikia teisių, o neturiu.
+                    - [x] 4. Išsisaugau rankiniu būdu:\
+` CPU: 1`\
+` Memory: 4 GB`\
+` Hard disk 1: 80 GB`\
+`    Disk File: [ICP_DS_Z141_03] news/news.vmdk`\
+` SCSI controller 0: VMware Paravirtual`\
+` Network adapter 1: VLAN-2705 | [x] Connected `\
+`	Status: [x] Connect At Power On`\
+`	Port ID: 651`\
+`	Adapter Type: VMXNET 3`\
+`    DirectPath I/O: [x] Enable`\
+`    Shares: Normal | 50`\
+`    Reservation: 0 | Mbit/s`\
+`    Limit: Unlimited | Mbit/s`\
+`    MAC Address: 00:50:56:ad:84:d4`\
+` CD/DVD drive 1: Client Device | [ ] Connected `\
+` Video card: <Specify custom settings>`\
+`    Number of displays: 1`\
+`	Total video memory: 8 MB`\
+`    3D Graphics: [ ] Enable 3D Support`\
+`    3D Renderer: Automatic`\
+`    3D Memory: 256 MB`\
+` VMCI device: Device on the virtual machine PCI bus that provides support for the virtual machine communication interface`\
+` Other: Additional Hardware`\
+`    Controllers:`\
+`        PCI controller 0`\
+`        IDE 0`\
+`        IDE 1`\
+`        PS2 controller 0`\
+`        SIO controller 0`\
+`    SCSI Adapters: SCSI controller 0 (VMware paravirtual SCSI)`\
+`    Input Devices:`\
+`	    Keyboard`\
+`        Pointing device`\
++\
+`-[0000:00]-+-00.0  Intel Corporation 440BX/ZX/DX - 82443BX/ZX/DX Host bridge`\
+`           +-01.0-[01]--`\
+`           +-07.0  Intel Corporation 82371AB/EB/MB PIIX4 ISA`\
+`           +-07.1  Intel Corporation 82371AB/EB/MB PIIX4 IDE`\
+`           +-07.3  Intel Corporation 82371AB/EB/MB PIIX4 ACPI`\
+`           +-07.7  VMware Virtual Machine Communication Interface`\
+`           +-0f.0  VMware SVGA II Adapter`\
+`           +-11.0-[02]--`\
+`           +-15.0-[03]----00.0  VMware PVSCSI SCSI Controller`\
+`           +-15.1-[04]--`\
+`           +-15.2-[05]--`\
+`           +-15.3-[06]--`\
+`           +-15.4-[07]--`\
+`           +-15.5-[08]--`\
+`           +-15.6-[09]--`\
+`           +-15.7-[0a]--`\
+`           +-16.0-[0b]----00.0  VMware VMXNET3 Ethernet Controller`
+                - [ ] 2. Lyginu tik su KVM:
+                    - [ ] 1. 
         - [ ] 2. Disko RAW-Image atsarginė kopija.
         - [ ] 3. VM konfigūracijos kopijavimas, atkūrimas (klonuoti į identišką virtualią geležį turbūt nepavyks).
         - [ ] 4. Testinė keltis iš CentOS 7.9 `.iso` failo.

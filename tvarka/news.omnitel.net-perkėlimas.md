@@ -134,5 +134,54 @@
 ...\
 `admin2@trimpasINT:~$`\
 `admin2@trimpasINT:~$ channel 3: open failed: administratively prohibited: open failed`
+        - [ ] 4. `news.omnitel.net` originalo paskutinė apžiūra.
     - [ ] 4. `news.omnitel.net` klono paleidimas lokaliai.
+        - [ ] 1. VMM platformos pasirinkimas:
+            - [ ] 1. VirtualBox:
+                - [x] 1. Privalumai:
+                    - [x] 1. Praverstų studijoms (M2).
+                    - [x] 2. Formaliai jau instaliuotas.
+                - [x] 1. Trūkumai:
+                    - [x] 1. Nežinia, ar pakaks vietos.
+                    - [x] 2. Neveikia kažkuris/virtualizavimo Kernel Module ar pan. \
+                          (Galimai tektų persikompiliuot).
+            - [x] 2. KVM:
+                - [x] 1. Privalumai:
+                    - [x] 1. Taip pat naudojamas pas `iv.lt`.
+                    - [x] 2. Labiau integruotas su CLI.
+                    - [x] 3. Turi užtikrintesnę ateitį.
+                    - [x] 4. Praverstų karjerai.
+                - [x] 1. Trūkumai:
+                    - [x] 1. Nežinia, ar pakaks vietos.
+                    - [x] 2. Neturiu jokios patirties.
+            - [ ] 3. Virtual Hardware (abiejų VMM) artimumo `VMware` platformai palyginimas.
+        - [ ] 2. Disko RAW-Image atsarginė kopija.
+        - [ ] 3. VM konfigūracijos kopijavimas, atkūrimas (klonuoti į identišką virtualią geležį turbūt nepavyks).
+        - [ ] 4. Testinė keltis iš CentOS 7.9 `.iso` failo.
+        - [ ] 5. Sisteminio disko Image prijungimas.
+        - [ ] 6. NIC interfeisų ir kitų geležies aspektų palyginimas su originalia mašina.
+        - [ ] 7. Reikiamų sisteminių failų pataisymas:
+            - [ ] 1. `/etc/resolv.conf`;
+            - [ ] 2. IP adresacijai;
+            - [ ] 3. Hostname(?);
+            - [ ] 4. `/etc/hosts`.
+            - [ ] 5. Pakeitimų sąrašo sudarymas (pravers migruojant į 
+        - [ ] 8. `innd` startupo išjungimas.
+        - [ ] 9. Testinė keltis iš prijungto sisteminio disko.
+        - [ ] 10. Reikiamų aplikacinių, `innd` failų pataisymas:
+            - [ ] 1. `TODO` kuriuos via `andnrb`.
+            - [ ] 2. Ar tikrai keičiame `pathhost: trimpas.omnitel.net`? \
+                  Palikus jį galbūt viskas (Message DB) išsisaugotų, ir pakaktų tepakeisti `news.omnitel.net` (papildyti viena raide).
+        - [ ] 11. `innd` pirminė apžiūra, testavimas ir debuginimas.
+        - [ ] 12. `innd` lokalus klientinis testavimas.
+        - [ ] 13. VM išjungimas ir atsarginė kopija.
+        - [ ] 14. Disko RAW-Image konvertavimas į Copy-on-Write/gimtąjį VMM formatą.
+        - [ ] 15. VM klonavimas į mažesnį diską:
+            - [ ]  1. arba pasinaudojant COW formato galimybėmis (80G -> 12G) + pvz. Clonezilla,
+            - [ ]  2. arba atliekant FS kopiją `xfsdump` ir `xfsrestore` pagalba + GRUB2 reinstall.
+        - [ ] 16. OS ir `innd` testavimas naujoje VM (su nauju sisteminio disko formatu).
     - [ ] 5. `news.omnitel.net` klono hostinimas.
+        - [ ] 1. VM įsigijimas pas `iv.lt`:
+            - [ ] 1. `TODO`
+        - [ ] 2. V2V Offline perkėlimo tyrimas.
+        - [ ] 3. ?

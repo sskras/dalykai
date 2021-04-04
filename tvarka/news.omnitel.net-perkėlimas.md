@@ -141,7 +141,7 @@
                 - [x] 1. Privalumai:
                     - [x] 1. Praverstų studijoms (M2).
                     - [x] 2. Formaliai jau instaliuotas.
-                - [x] 1. Trūkumai:
+                - [x] 2. Trūkumai:
                     - [x] 1. Nežinia, ar pakaks vietos.
                     - [x] 2. Neveikia kažkuris/virtualizavimo Kernel Module ar pan. \
                           (Galimai tektų persikompiliuot).
@@ -151,7 +151,7 @@
                     - [x] 2. Labiau integruotas su CLI.
                     - [x] 3. Turi užtikrintesnę ateitį.
                     - [x] 4. Praverstų karjerai.
-                - [x] 1. Trūkumai:
+                - [x] 2. Trūkumai:
                     - [x] 1. Nežinia, ar pakaks vietos.
                     - [x] 2. Neturiu jokios patirties.
             - [ ] 3. Virtual Hardware (abiejų VMM) artimumo `VMware` platformai palyginimas.
@@ -224,10 +224,25 @@
 `           +-15.6-[09]--`\
 `           +-15.7-[0a]--`\
 `           +-16.0-[0b]----00.0  VMware VMXNET3 Ethernet Controller`
-                - [ ] 2. Lyginu tik su KVM:
-                    - [ ] 1. 
+                - [x] 2. Lyginu tik su KVM:
+                    - [x] 1. NIC: VMXNET3 => VirtIO: https://corneschi.ro/posts/convert-esx-to-kvm/#modifying-network-configuration
+                    - [x] 2. NIC: VMXNET3 OK-2-stay: https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines#qm_network_device
+                    - [x] 3. SCSI: vmw_pvscsi => virtio: https://www.sysorchestra.com/migrate-vmware-esxi-virtual-machines-to-proxmox-kvm-with-lvm-thin-logical-volumes/
+                - [x] 3. Nelyginu su VirtualBox. (Dėl laiko stokos)
+            - [x] 4. Pasirenku KVM.
         - [ ] 2. Disko RAW-Image atsarginė kopija.
         - [ ] 3. VM konfigūracijos kopijavimas, atkūrimas (klonuoti į identišką virtualią geležį turbūt nepavyks).
+            - [x] 1. Domain XML formato tyrimas, per kiek laiko įkandama: https://libvirt.org/formatdomain.html
+                - [x] 1. Per sudėtingi sisteminiai elementai, pvz.:
+                    - [x] 1. CPU resursai;
+                    - [x] 2. UUIDai;
+                    - [x] 3. BIOS.
+                - [x] 2. Atmetu.
+            - [x] 2. Jei įkandama, testas su `virt-v2v`: \
+                - [x] 1. URL: https://libguestfs.org/virt-v2v.1.html#convert-disk-image-to-disk-image
+                - [x] 2. Atmetu dėl XML sudėtingumo.
+            - [ ] 3. Jei ne, kūrimas rankomis.
+                - [ ] 1. `TODO`
         - [ ] 4. Testinė keltis iš CentOS 7.9 `.iso` failo.
         - [ ] 5. Sisteminio disko Image prijungimas.
         - [ ] 6. NIC interfeisų ir kitų geležies aspektų palyginimas su originalia mašina.
@@ -236,7 +251,7 @@
             - [ ] 2. IP adresacijai;
             - [ ] 3. Hostname(?);
             - [ ] 4. `/etc/hosts`.
-            - [ ] 5. Pakeitimų sąrašo sudarymas (pravers migruojant į 
+            - [ ] 5. Pakeitimų sąrašo sudarymas (pravers migruojant į `iv.lt` infrą).
         - [ ] 8. `innd` startupo išjungimas.
         - [ ] 9. Testinė keltis iš prijungto sisteminio disko.
         - [ ] 10. Reikiamų aplikacinių, `innd` failų pataisymas:
@@ -247,9 +262,10 @@
         - [ ] 12. `innd` lokalus klientinis testavimas.
         - [ ] 13. VM išjungimas ir atsarginė kopija.
         - [ ] 14. Disko RAW-Image konvertavimas į Copy-on-Write/gimtąjį VMM formatą.
+            - [ ] 1. https://libguestfs.org/virt-v2v.1.html#convert-disk-image-to-disk-image
         - [ ] 15. VM klonavimas į mažesnį diską:
-            - [ ]  1. arba pasinaudojant COW formato galimybėmis (80G -> 12G) + pvz. Clonezilla,
-            - [ ]  2. arba atliekant FS kopiją `xfsdump` ir `xfsrestore` pagalba + GRUB2 reinstall.
+            - [ ] 1. arba pasinaudojant COW formato galimybėmis (80G -> 12G) + pvz. Clonezilla,
+            - [ ] 2. arba atliekant FS kopiją `xfsdump` ir `xfsrestore` pagalba + GRUB2 reinstall.
         - [ ] 16. OS ir `innd` testavimas naujoje VM (su nauju sisteminio disko formatu).
     - [ ] 5. `news.omnitel.net` klono hostinimas.
         - [ ] 1. VM įsigijimas pas `iv.lt`:

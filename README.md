@@ -33,10 +33,10 @@ Asmeninių tvarkymų medis.
                         - [ ] 1. 3.5" PATA diskus
                         - [ ] 2. 2.5" SATA diskus
                         - [ ] 3. 2.5" USB diskus
-                    - [ ] 2. `BLOCKER`: [DCIM + hardware asset management](#DCIM-hardware-asset-management)
+                    - [ ] `BLOCKER`: [DCIM + hardware asset management](#DCIM---hardware-asset-management) suderinimas
                     - [ ] 3. Sužymėti sukauptas duomenų talpyklas
                 - [ ] 2. Susikurti naują (turbūt centralizuotą) bekupavimo sistemą.
-                - [ ] 3. Į ją perkelti visus išskaidytus bekupus
+                - [ ] 3. Į ją perkelti visus savo randamus bekupus
             - [ ] 2. Pašto programos
             - [ ] 3. Desktopų CMDB
             - [ ] 4. UE Management (Sailfish OS)
@@ -101,8 +101,8 @@ Asmeninių tvarkymų medis.
                     - [x] 1. ZFSin bugreportų skaitymas.
                     - [ ] 2. ZFSin testavimas.
                     - [ ] 3. OpenZFS-on-Windows testavimas.
+                    - [ ] `BLOCKER`: [MSYS2 + WDM draiveriai](#MSYS---WDM-draiveriai).
                     - [ ] 4. Bent vieno portinimas į MSYS2.
-                        - [ ] 1. `BLOCKER`: [MSYS2 + WDM draiveriai](#MSYS-WDM-draiveriai).
                 - [ ] 3. Patikima 2.5" Dual-Bay SATA-USB lentynėlė.
                     - [x] 1. Lentynėlių sąrašas: https://twitter.com/sskras/status/1376979608051060738
                     - [ ] 2. Spekų, privalumų ir trūkumų sąrašas.
@@ -114,8 +114,8 @@ Asmeninių tvarkymų medis.
         - [ ] 3. Patobulinimai, nepatogumo mažinimas, automatizavimai
             - [ ] 1. DC tvarkymas
                 - [ ] 1. DCIM
-                    - [ ] 1. Įrankio suradimas
-                    - [ ] 2. CI žymėjimas
+                    - [ ] `BLOCKER`: [DCIM + hardware asset management](#DCIM---hardware-asset-management) suderinimas
+                    - [ ] 1. CI žymėjimas
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 1. Hypervisors
                 - [ ] 1. Mokymaisi, tyrimai, dokumentavimas
@@ -133,8 +133,24 @@ Asmeninių tvarkymų medis.
 
 Strigimų (jų priežąsčių ar net RCA) medis.
 
-<a id="MSYS-WDM-draiveriai"></a>
+  <a id="MSYS----WDM-draiveriai"></a>
 - [ ] 1. MSYS2 + WDM draiveriai
 
-<a id="DCIM-hardware-asset-management"></a>
-- [ ] 2. DCIM + hardware asset management
+  <a id="DCIM---hardware-asset-management"></a>
+- [ ] 2. DCIM + hardware asset management suderinimas
+    - [ ] 1. Poreikio apibrėžimas:
+        - [x] 1. DC įrangai
+        - [x] 2. Namų įrangai
+        - [ ] 3. Kriterijų sąrašas:
+    - [ ] 2. Įrankio suradimas
+        - [x] 1. Keywords:
+            - [x] `OpenSource` 
+            - [x] `DCIM`
+            - [x] `hardware asset management`
+        - [ ] 2. Suguglinimai: 
+            - [x] 1. https://github.com/little-brother/dcim-list
+        - [ ] 3. App kandidatai:
+            - [ ] 1. 
+        - [ ] 4. App palyginimas ir išrinkimas
+    - [ ] 3. Įrankio suderinimas
+    - [ ] 4. Įrankio startas

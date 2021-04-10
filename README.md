@@ -28,6 +28,15 @@ Asmeninių tvarkymų medis.
         - [ ] 1. Pirmos būtinybės poreikiai
             - [x] 0. Užduočių ir problemų žymėjimasis + versijavimas (https://github.com/sskras/dalykai).
             - [ ] 1. Bekupai
+                - [ ] 1. Susirinkti visus savo Ad-hoc darytus bekupus
+                    - [ ] 1. Sukaupti senas naudotas savo duomenų talpyklas:
+                        - [ ] 1. 3.5" PATA diskus
+                        - [ ] 2. 2.5" SATA diskus
+                        - [ ] 3. 2.5" USB diskus
+                    - [ ] 2. `BLOCKER`: DCIM + hardware asset management
+                    - [ ] 3. Sužymėti sukauptas duomenų talpyklas
+                - [ ] 2. Susikurti naują (turbūt centralizuotą) bekupavimo sistemą.
+                - [ ] 3. Į ją perkelti visus išskaidytus bekupus
             - [ ] 2. Pašto programos
             - [ ] 3. Desktopų CMDB
             - [ ] 4. UE Management (Sailfish OS)

@@ -33,7 +33,7 @@ Asmeninių tvarkymų medis.
                         - [ ] 1. 3.5" PATA diskus
                         - [ ] 2. 2.5" SATA diskus
                         - [ ] 3. 2.5" USB diskus
-                    - [ ] 2. `BLOCKER`: DCIM + hardware asset management
+                    - [ ] 2. `BLOCKER`: [DCIM + hardware asset management](#DCIM-hardware-asset-management)
                     - [ ] 3. Sužymėti sukauptas duomenų talpyklas
                 - [ ] 2. Susikurti naują (turbūt centralizuotą) bekupavimo sistemą.
                 - [ ] 3. Į ją perkelti visus išskaidytus bekupus
@@ -102,7 +102,7 @@ Asmeninių tvarkymų medis.
                     - [ ] 2. ZFSin testavimas.
                     - [ ] 3. OpenZFS-on-Windows testavimas.
                     - [ ] 4. Bent vieno portinimas į MSYS2.
-                        - [ ] 1. `BLOCKER`: MSYS2 + WDM draiveriai.
+                        - [ ] 1. `BLOCKER`: [MSYS2 + WDM draiveriai](#MSYS-WDM-draiveriai).
                 - [ ] 3. Patikima 2.5" Dual-Bay SATA-USB lentynėlė.
                     - [x] 1. Lentynėlių sąrašas: https://twitter.com/sskras/status/1376979608051060738
                     - [ ] 2. Spekų, privalumų ir trūkumų sąrašas.
@@ -129,6 +129,12 @@ Asmeninių tvarkymų medis.
 - [ ] 2. **Aiškumas:**
     - [ ] `TODO` punktus
 
-# Iššūkiai ir problemos
+# Iššūkiai, blokeriai ir problemos
 
-`TODO` Strigimų (jų priežąsčių ar net RCA) medis.
+Strigimų (jų priežąsčių ar net RCA) medis.
+
+<a id="MSYS-WDM-draiveriai"></a>
+- [ ] 1. MSYS2 + WDM draiveriai
+
+<a id="DCIM-hardware-asset-management"></a>
+- [ ] 2. DCIM + hardware asset management

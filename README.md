@@ -125,10 +125,17 @@ Asmeninių tvarkymų medis.
                     - [ ] 3, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
     - [ ] 4. Studijose
         - [ ] 1. Užbaigti VGTU ELF magistrantūrą
-            - [ ] 1. Susitvarkyti 2020 m. kursą.
+            - [ ] 1. Susitvarkyti 2020 m. kursą
+                - [x] 1. s1
+                    - [ ] 1. `TODO` punktus (daug kas atlikta nekokybiškai | tiek iš universiteto, tiek vėliau ir iš mano pusės)
+                - [ ] 2. s2
+                    - [ ] 1. IiSA: Informacijos ir sistemų apsauga
+                    - [ ] 2. PIPr: Pažangūs interneto protokolai
+                    - [ ] 3. ISAd: Informacinių sistemų administravimas
+                    - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
             - [ ] 2. Jei nepatiks, pabandyti jį pakartoti.
         - [ ] 2. Pasvarstyti apie kompiuterinę lingvistiką.
-    - [ ] `TODO` kitus punktus
+    - [ ] 5. `TODO` kitus punktus
 
 .
 - [ ] 2. **Aiškumas:**

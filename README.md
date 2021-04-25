@@ -123,6 +123,11 @@ Asmeninių tvarkymų medis.
                     - [ ] 1, ODD emuliacija (xordivm)
                     - [ ] 2, Remote-mgmt (iLO) emuliacija
                     - [ ] 3, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
+    - [ ] 4. Studijose
+        - [ ] 1. Užbaigti VGTU ELF magistrantūrą
+            - [ ] 1. Susitvarkyti 2020 m. kursą.
+            - [ ] 2. Jei nepatiks, pabandyti jį pakartoti.
+        - [ ] 2. Pasvarstyti apie kompiuterinę lingvistiką.
     - [ ] `TODO` kitus punktus
 
 .

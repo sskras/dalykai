@@ -131,7 +131,35 @@ Asmeninių tvarkymų medis.
                 - [ ] 2. s2
                     - [ ] 1. IiSA: Informacijos ir sistemų apsauga
                         - [ ] Paskaitos
+                            - [x] 1. Prasidėjo
+                            - [x] 2. Aiškūs įrankiai, pradžios laikas, trukmė
+                            - [x] 3. Vyksta
+                            - [ ] 4. Pasibaigė
+                            - [ ] 5. Konspekto sudarymas
+                            - [ ] 6. Paskaitų peržiūra
+                              <a id="Paskaitu-perziura-IiSA"></a>
                         - [ ] Laboratoriniai darbai
+                            - [x] 1. Prasidėjo
+                            - [ ] 2. Aiški užduotis
+                                - [x] 1. Aiškūs įrankiai:
+                                    - [x] 1. VMM = VirtualBox
+                                    - [x] 2. Guest OS = Ubuntu
+                                - [x] 2. Darbų skaičius = 5
+                                - [x] 3. Temos:
+                                    - [ ] 1. `TODO` pavadinimas
+                                    - [ ] 2. `TODO` pavadinimas
+                                    - [ ] 3. `TODO` pavadinimas
+                                    - [ ] 4. `TODO` pavadinimas
+                                    - [ ] 5. `TODO` pavadinimas
+                                - [ ] 4. `BLOCKER` [Peržiūrėti aptarimus paskaitų pradžioje](#Paskaitu-perziura-IiSA)
+                                - [ ] 5. Pristatymo forma:
+                            - [ ] 3. Aiški eiga:
+                                - [ ] 1. Pervesti užduotis į .md (ar kitą Markup kalbą grupės repozitorijoje)
+                                - [ ] 2. Pasiruošti infrą
+                                - [ ] 3. Atlikti
+                                - [ ] 4. Įrašyti asciinema
+                                - [ ] 5. Paruošti ataskaitą, jei pasirodys, kad reikia
+                            - [ ] 4. Pasibaigė
                         - [ ] Namų darbai (mini-referatas + skaidrės pristatymui)
                     - [ ] 2. PIPr: Pažangūs interneto protokolai
                     - [ ] 3. ISAd: Informacinių sistemų administravimas

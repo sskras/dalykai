@@ -126,10 +126,13 @@ Asmeninių tvarkymų medis.
     - [ ] 4. Studijose
         - [ ] 1. Užbaigti VGTU ELF magistrantūrą
             - [ ] 1. Susitvarkyti 2020 m. kursą
-                - [x] 1. s1
-                    - [ ] 1. `TODO` punktus (daug kas atlikta nekokybiškai | tiek iš universiteto, tiek vėliau ir iš mano pusės)
+                - [x] 1. s1 :heavy_check_mark:
+                    - [ ] 1. :white_check_mark: `TODO` punktus (daug kas atlikta nekokybiškai | tiek iš universiteto, tiek vėliau ir iš mano pusės)
                 - [ ] 2. s2
                     - [ ] 1. IiSA: Informacijos ir sistemų apsauga
+                        - [ ] Paskaitos
+                        - [ ] Laboratoriniai darbai
+                        - [ ] Namų darbai (mini-referatas + skaidrės pristatymui)
                     - [ ] 2. PIPr: Pažangūs interneto protokolai
                     - [ ] 3. ISAd: Informacinių sistemų administravimas
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas

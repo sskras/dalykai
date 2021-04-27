@@ -166,7 +166,7 @@ Asmeninių tvarkymų medis.
                             - [ ] 4. Pasibaigė
                         - [ ] 3. Namų darbai
                             - [ ] 1. Mini-referatas
-                            - [ ] 2. ~~Skaidrės pristatymui~~ (2021-04-21 Failed)
+                            - [x] 2. ~~Skaidrės pristatymui~~ (2021-04-26 Failed)
                         - [x] 4. Tarpinis egzaminas
                             - [x] 1. ~~Pasiruošimas~~
                             - [x] 2. 20 klausimų laikymas ekspromtu
@@ -174,6 +174,17 @@ Asmeninių tvarkymų medis.
                             - [x] 4. Dėstytojo vertinimas = 10 (po patempimo)
                         - [ ] 5. Galutinis egzaminas
                     - [ ] 2. PIPr: Pažangūs interneto protokolai
+                        - [ ] 1. Paskaitos
+                            - [x] 1. Prasidėjo
+                            - [x] 2. Aiškūs įrankiai (Zoom), pradžios laikas, trukmė
+                            - [x] 3. Vyksta
+                            - [ ] 4. Konspekto sudarymas
+                            - [ ] 5. Paskaitų peržiūra
+                              <a id="Paskaitu-perziura-PIPr"></a>
+                                - [ ] 1. `TODO` sąrašas
+                                - [ ] X. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
+                            - [ ] 6. Pasibaigė
+                        - [ ] 2. Laboratoriniai darbai
                     - [ ] 3. ISAd: Informacinių sistemų administravimas
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
             - [ ] 2. Jei nepatiks, pabandyti jį pakartoti.

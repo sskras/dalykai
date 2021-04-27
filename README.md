@@ -137,6 +137,8 @@ Asmeninių tvarkymų medis.
                             - [ ] 4. Konspekto sudarymas
                             - [ ] 5. Paskaitų peržiūra
                               <a id="Paskaitu-perziura-IiSA"></a>
+                                - [ ] 1. `TODO` sąrašas, kurį 2021-04-26 pavyko peržiūrėti (~2/3)
+                                - [x] X. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
                             - [ ] 6. Pasibaigė
                         - [ ] 2. Laboratoriniai darbai
                             - [x] 1. Prasidėjo
@@ -144,13 +146,15 @@ Asmeninių tvarkymų medis.
                                 - [x] 1. Aiškūs įrankiai:
                                     - [x] 1. VMM = VirtualBox
                                     - [x] 2. Guest OS = Ubuntu
+                                    - [x] 3. Guest URL = https://sourceforge.net/projects/osboxes/files/v/vb/55-U-u/20.04/20.04.2/
                                 - [x] 2. Darbų skaičius = 5
-                                - [x] 3. Temos:
-                                    - [ ] 1. `TODO` pavadinimas
-                                    - [ ] 2. `TODO` pavadinimas
-                                    - [ ] 3. `TODO` pavadinimas
-                                    - [ ] 4. `TODO` pavadinimas
-                                    - [ ] 5. `TODO` pavadinimas
+                                - [x] 3. Temos:  
+                                    - [x] URL: https://moodle.garsva.lt/course/view.php?id=4#section-8
+                                    - [x] 1LD: Pažintis su Ubuntu (Debian šeimos) linux
+                                    - [x] 2LD: Ubuntu tinklo komandos
+                                    - [x] 3LD: Ugniasienė iptables pagrindai
+                                    - [x] 4LD: Atakų atpažinimo sistemos Snort tyrimas
+                                    - [x] 5LD: Virtualaus privataus tinklo konfigūravimas
                                 - [ ] 4. `BLOCKER` [Peržiūrėti aptarimus paskaitų pradžioje](#Paskaitu-perziura-IiSA)
                                 - [ ] 5. Pristatymo forma:
                             - [ ] 3. Aiški eiga:
@@ -160,7 +164,9 @@ Asmeninių tvarkymų medis.
                                 - [ ] 4. Įrašyti asciinema
                                 - [ ] 5. Paruošti ataskaitą, jei pasirodys, kad reikia
                             - [ ] 4. Pasibaigė
-                        - [ ] 3. Namų darbai (mini-referatas + skaidrės pristatymui)
+                        - [ ] 3. Namų darbai
+                            - [ ] 1. Mini-referatas
+                            - [ ] 2. ~~Skaidrės pristatymui~~ (2021-04-21 Failed)
                         - [x] 4. Tarpinis egzaminas
                             - [x] 1. ~~Pasiruošimas~~
                             - [x] 2. 20 klausimų laikymas ekspromtu

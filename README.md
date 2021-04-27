@@ -184,7 +184,10 @@ Asmeninių tvarkymų medis.
                                 - [ ] 1. `TODO` sąrašas
                                 - [ ] X. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
                             - [ ] 6. Pasibaigė
-                        - [ ] 2. Laboratoriniai darbai
+                        - [ ] 2. Laboratoriniai darbai ?
+                        - [ ] 3. Namų darbai
+                            - [ ] 1. `RFC 813` analizė
+                            - [ ] 2. Pristatymas
                     - [ ] 3. ISAd: Informacinių sistemų administravimas
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
             - [ ] 2. Jei nepatiks, pabandyti jį pakartoti.

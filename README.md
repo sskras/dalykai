@@ -125,7 +125,52 @@ Asmeninių tvarkymų medis.
                     - [ ] 3, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
     - [ ] 4. Studijose
         - [ ] 1. Užbaigti VGTU ELF magistrantūrą
-            - [ ] 1. Susitvarkyti 2020 m. kursą
+            - [ ] 1. Skaitmeniniai įrankiai:
+                - [ ] 1. Konferencingui:
+                    - [ ] 1. `Zoom`: OK
+                    - [ ] 2. `Teams`: NOK
+                    - [ ] 3. F/LOSS: `TODO`
+                - [ ] 2. Įrašams
+                    - [ ] 1. Capture
+                        - [x] 1. ~~Nimbus~~
+                            - [x] 1. NOK, Chromebook CPU per silpnas
+                        - [ ] 2. `OBS Studio`
+                            - [x] 1. `saukrs`: OK
+                            - [x] 2. `povstp`: NOK, Inter-frame sugadinimai/artefaktai
+                            - [ ] 3. `TODO`: sulyginti nustatymus ir gal pakoreguoti
+                    - [ ] 2. Talpykla
+                        - [ ] 1. Mega.nz:
+                            - [x] 1. Talpa: OK
+                            - [x] 2. Preview: OK
+                            - [ ] 3. Pradėjo riboti talpą per user? (`povstp` padarė splitą s2)
+                                - [ ] 1. `TODO`: susitikrinti talpas, galbūt paskaityti EULA naujinimus
+                            - [x] 4. Pradėjo riboti Download apimtis per IP per laiko vnt.
+                    - [ ] 3. Kiekvieno užsiėmimo epizodų Timestamp žymėjimas: `TODO`
+                - [ ] 3. Dokumentams
+                    - [x] 1. Talpykla = GitHub
+                    - [ ] 2. ASCII-based formato parinkimas:
+                        - [x] 1. Github Falvored Markdown (GFM)
+                        - [ ] 2. AsciiDoc
+                        - [ ] 3. ReStructured Text
+                    - [ ] 3. Web redaktorius:
+                        - [x] 1. http://jbt.github.io/markdown-editor/
+                        - [ ] 2. `TODO`-kitas
+                    - [x] 4. Redaktoriaus ir talpyklos integracija
+                        - [ ] 1. `TODO`-kitas
+                    - [x] 5. Vertimas į `.pdf`
+                        - [x] 1. `jbt`
+                    - [ ] X. Baigta
+                - [ ] 4. Skaidrėms
+                    - [x] 1. Talpykla = GitHub
+                    - [ ] 2. HTML-based variklis:
+                        - [ ] 1. `TODO`
+                    - [ ] 3. Testas
+                    - [ ] X. Baigta
+                - [x] 5. Konspektams
+                    - [x] 1. Talpykla = GitHub
+                    - [x] 2. Formatas = Github Flavoured Markdown
+                - [ ] X. Baigta
+            - [ ] 2. Susitvarkyti 2020 m. kursą
                 - [x] 1. s1 :heavy_check_mark:
                     - [ ] 1. :white_check_mark: `TODO` punktus (daug kas atlikta nekokybiškai | tiek iš universiteto, tiek vėliau ir iš mano pusės)
                 - [ ] 2. s2
@@ -188,9 +233,11 @@ Asmeninių tvarkymų medis.
                         - [ ] 3. Namų darbai
                             - [ ] 1. `RFC 813` analizė
                             - [ ] 2. Pristatymas
+                            - [ ] 3. Skaidrės
+                        - [ ] 4. Kursinis darbas
                     - [ ] 3. ISAd: Informacinių sistemų administravimas
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
-            - [ ] 2. Jei nepatiks, pabandyti jį pakartoti.
+            - [ ] 3. Jei nepatiks, pabandyti jį pakartoti.
         - [ ] 2. Pasvarstyti apie kompiuterinę lingvistiką.
     - [ ] 5. `TODO` kitus punktus
 

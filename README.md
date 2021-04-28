@@ -163,9 +163,53 @@ Asmeninių tvarkymų medis.
                     - [ ] X. Baigta
                 - [ ] 4. Skaidrėms
                     - [x] 1. Talpykla = GitHub
-                    - [ ] 2. HTML-based variklis:
-                        - [ ] 1. `TODO`
-                    - [ ] 3. Testas
+                    - [x] 2. Variklių pavyzdžiai:  
+                          https://github.com/robbie-cao/awesome-slides#javascript-and-html5-presentation-frameworks  
+                          https://github.com/astefanutti/decktape#decktape
+                        - [ ] • Bespoke.js
+                        - [ ] • deck.js
+                        - [ ] • DZSlides
+                        - [ ] • Flowtime.js
+                        - [ ] • impress.js
+                        - [ ] • Inspire.js
+                        - [ ] • NueDeck
+                        - [x] • remark
+                        - [x] • reveal.js
+                        - [ ] • RISE
+                        - [ ] • Shower
+                        - [ ] • Slidy
+                        - [x] • WebSlides
+                    - [x] 3. HTML/CSS sintaksės varikliai:
+                        - [x] 1. Pure CSS slides:  
+                              https://chenhuijing.com/blog/html-slides-without-frameworks/
+                        - [x] 2. W3.CSS Slideshow:
+                            - [x] 1. https://www.w3schools.com/w3css/w3css_slideshow.asp  
+                            - [x] 2. https://www.w3schools.com/howto/howto_js_slideshow.asp
+                        - [x] 3. reveal.js:  
+                              https://revealjs.com/
+                            - [x] 1. https://huijing.github.io/slides/06-git-bomb/
+                            - [x] 2. https://huijing.github.io/slides/10-tl-workshop-2/
+                        - [x] 4. Talk.CSS:  
+                              https://github.com/SingaporeCSS/talk.css
+                            - [x] 1. https://singaporecss.github.io/talk.css/
+                        - [x] 5. WebSlides:  
+                              https://github.com/webslides/webslides/
+                            - [x] 1. https://webslides.tv/demos/keynote
+                        - [x] X. Baigta
+                    - [x] 4. Markdown sintaksės varikliai:
+                        - [x] 1. remark:  
+                              https://remarkjs.com/
+                            - [x] 1. https://joshbode.github.io/remark/ansi.html
+                        - [x] 2. marp:  
+                              https://github.com/marp-team/marp
+                            - [x] 1. https://speakerdeck.com/yhatt/marp-basic-example
+                            - [x] 2. https://marpit.marp.app/?id=how-to-use
+                        - [ ] X. Baigta
+                    - [x] 5. Eksportas į `.pdf`
+                        - [x] 1. https://github.com/astefanutti/decktape#examples
+                        - [x] 2. https://web.marp.app/ (Print to "Save as PDF")
+                    - [ ] 6. Pasirinkimas
+                    - [ ] 7. Testas
                     - [ ] X. Baigta
                 - [x] 5. Konspektams
                     - [x] 1. Talpykla = GitHub

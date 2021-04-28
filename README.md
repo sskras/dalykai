@@ -204,12 +204,15 @@ Asmeninių tvarkymų medis.
                               https://github.com/marp-team/marp
                             - [x] 1. https://speakerdeck.com/yhatt/marp-basic-example
                             - [x] 2. https://marpit.marp.app/?id=how-to-use
-                        - [ ] X. Baigta
+                        - [x] 3. spectacle:  
+                              https://formidable.com/open-source/spectacle/docs/basic-concepts/
+                            - [x] 1. https://raw.githack.com/FormidableLabs/spectacle/main/examples/one-page.html
+                        - [x] X. Baigta
                     - [x] 5. Eksportas į `.pdf`
                         - [x] 1. https://github.com/astefanutti/decktape#examples
                         - [x] 2. https://web.marp.app/ (Print to "Save as PDF")
                     - [ ] 6. Pasirinkimas
-                    - [ ] 7. Testas
+                    - [ ] 7. Bandymai
                     - [ ] X. Baigta
                 - [x] 5. Konspektams
                     - [x] 1. Talpykla = GitHub
@@ -297,6 +300,7 @@ Asmeninių tvarkymų medis.
                             - [x] 1. Parinkta tema: `/proc` FS
                             - [ ] 2. Analizė
                                 - [x] 1. Straipsnių/apžvalgų paieška
+                                    - [ ] `TODO` susirinkti suguglintuosius darbo OSe
                                 - [ ] 2. Išsirinkimas iš daugelio
                                 - [ ] 3. Parsirinktųjų skaitymas
                                 - [ ] 4. Reziume mintyse

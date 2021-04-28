@@ -145,7 +145,8 @@ Asmeninių tvarkymų medis.
                             - [ ] 3. Pradėjo riboti talpą per user? (`povstp` padarė splitą s2)
                                 - [ ] 1. `TODO`: susitikrinti talpas, galbūt paskaityti EULA naujinimus
                             - [x] 4. Pradėjo riboti Download apimtis per IP per laiko vnt.
-                    - [ ] 3. Kiekvieno užsiėmimo epizodų Timestamp žymėjimas: `TODO`
+                    - [ ] 3. Kiekvieno užsiėmimo pavadinimas ir jų epizodų Timestamp žymėjimas: `TODO`
+                    - [ ] 4. Užsiėmimų (paskaitų, LD) pavadinimų įkėlimas čia
                 - [ ] 3. Dokumentams
                     - [x] 1. Talpykla = GitHub
                     - [ ] 2. ASCII-based formato parinkimas:
@@ -236,6 +237,32 @@ Asmeninių tvarkymų medis.
                             - [ ] 3. Skaidrės
                         - [ ] 4. Kursinis darbas
                     - [ ] 3. ISAd: Informacinių sistemų administravimas
+                        - [ ] 1. Paskaitos
+                            - [x] 1. Prasidėjo
+                            - [x] 2. Aiškūs įrankiai, pradžios laikas, trukmė
+                                - [x] 1. ~~`Teams`~~: NOK, lagina dėstytojui, antras įrankis magistrantams
+                                - [x] 2. `Zoom`: OK, nors ir tenka persijungti kas 45 min.
+                            - [x] 3. Vyksta
+                            - [ ] 4. Konspekto sudarymas
+                            - [ ] 5. Paskaitų peržiūra
+                              <a id="Paskaitu-perziura-ISAd"></a>
+                                - [ ] 1. `TODO` sąrašas
+                                - [ ] X. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
+                            - [ ] 6. Pasibaigė
+                        - [ ] 2. Namų darbai – Linux komandos/pasistemės pristatymas
+                            - [x] 1. Parinkta tema: `/proc` FS
+                            - [ ] 2. Analizė
+                                - [x] 1. Straipsnių/apžvalgų paieška
+                                - [ ] 2. Išsirinkimas iš daugelio
+                                - [ ] 3. Parsirinktųjų skaitymas
+                                - [ ] 4. Reziume mintyse
+                            - [ ] 3. Skaidrės
+                                - [ ] 1. Reziume raštu
+                                - [ ] 2. Minčių struktūravimas
+                                - [ ] 3. Maketavimas
+                            - [ ] 4. Treniruotė
+                            - [ ] 5. Pristatymas
+                        - [ ] X. Baigta
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
             - [ ] 3. Jei nepatiks, pabandyti jį pakartoti.
         - [ ] 2. Pasvarstyti apie kompiuterinę lingvistiką.

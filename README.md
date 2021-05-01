@@ -8,12 +8,20 @@ Asmeninių tvarkymų medis.
     - [ ] 1. Fizinėje aplinkoje
         - [ ] 1. Bute
             - [ ] 1. Pakuotės, perdirbamos atliekos:
+                - [ ] 0, optimalus rūšiavimas: būdai ir kriterijai:
+                    - [ ] 1. Užklausos (ir diskusijos) soc. tinkluose
+                        - [ ] 1. Twitter
+                            - [x] 1. Apie stiklainių metimą į laužą: https://twitter.com/sskras/status/1382649493406035971
+                        - [ ] X. Aptarimai baigti
+                    - [ ] X. Optimalus rūšiavimas rastas
                 - [ ] 1, surūšiuoti;
-                    - [ ] a, `TODO` kaip?
                 - [ ] 2, išgabenti;
                 - [ ] 3, dokumentuoti procesą;
                 - [ ] 4, pradėti kartojimą;
                 - [ ] 5, registruoti trukdžius;
+            - [ ] X. Bute baigta
+        - [ ] X. Fizinėje aplinkoje baigta
+        ---
     - [ ] 2. Su sveikata
         - [ ] 1. Akių ilsinimas:
             - [ ] 1. `TODO` kaip?
@@ -24,6 +32,7 @@ Asmeninių tvarkymų medis.
         - [ ] 2. Daugiau deguonies kvėpuojant:
             - [ ] `TODO` vėdinimas
             - [ ] `TODO` vaikščiojimas?
+            ---
     - [ ] 3. Skaitmeninėje aplinkoje
         - [ ] 1. Pirmos būtinybės poreikiai
             - [x] 0. Užduočių ir problemų žymėjimasis + versijavimas (https://github.com/sskras/dalykai).
@@ -123,6 +132,7 @@ Asmeninių tvarkymų medis.
                     - [ ] 1, ODD emuliacija (xordivm)
                     - [ ] 2, Remote-mgmt (iLO) emuliacija
                     - [ ] 3, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
+                    ---
     - [ ] 4. Studijose
         - [ ] 1. Užbaigti VGTU ELF magistrantūrą
             - [ ] 1. Skaitmeniniai įrankiai:
@@ -314,6 +324,7 @@ Asmeninių tvarkymų medis.
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
             - [ ] 3. Jei nepatiks, pabandyti jį pakartoti.
         - [ ] 2. Pasvarstyti apie kompiuterinę lingvistiką.
+        ---
     - [ ] 5. `TODO` kitus punktus
 
 .

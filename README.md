@@ -119,10 +119,67 @@ Asmeninių tvarkymų medis.
                     - [ ] `BLOCKER`: [MSYS2 + WDM draiveriai](#MSYS---WDM-draiveriai).
                     - [ ] 4. Bent vieno portinimas į MSYS2.
                 - [ ] 3. Patikima 2.5" Dual-Bay SATA-USB lentynėlė.
-                    - [x] 1. Lentynėlių sąrašas: https://twitter.com/sskras/status/1376979608051060738
-                    - [ ] 2. Spekų, privalumų ir trūkumų sąrašas.
+                    - [x] 1. Lentynėlių sąrašas
+                        - [x] 1. https://twitter.com/sskras/status/1376979608051060738
+                        - [x] 2. Lietuvoje: CAMYSAFEDUAL25
+                            - [x] 1. 47.29 € http://www.skytech.lt/camysafedual25-itec-usbc-3130-mysafe-external-enclosure-for-65cm-25inch-sata-hdd-p-422660.html
+                            - [x] 2. 47.00 € https://www.varle.lt/dezutes-diskams/itec-i-tec-mysafe-speichergehause-mit-netzanzeige--9979205.html
+                            - [x] 3. 44,49 € https://www.topocentras.lt/isorine-baterija-i-tec-camysafedual25.html
+                        - [x] X. Lentynėlių sąrašas baigtas.
+                    - [ ] 2. Spekų (čipsetų), privalumų ir trūkumų sąrašas.
                     - [ ] 3. Bent poros modelių pirkimas.
                     - [ ] 4. Skirtingų modelių sukombinavimas į vieną (jei pavieniai prastai veiktų).
+                - [ ] 4. RAIDams tinkantys Storage Device
+                    - [ ] 0. Dydžio parinkimas:
+                        - [x] 1T ?
+                        - [x] 2T ?
+                            - [ ] http://www.skytech.lt/ct2000bx500ssd1-crucial-bx500-2tb-nand-sata-25inch-ssd-read-540-mbs-write-500-mb-p-494532.html
+                        - [ ] 3. Kriterijai
+                            - [x] 1. Power consumption
+                        - [ ] X.
+                    - [ ] 1. HDD paieška
+                        - [ ] 1. `TODO` analizė: SMR vs CMR for ZFS?
+                        - [ ] 
+                    - [ ] 2. SSD paieška
+                        - [x] 1. **1T**
+                            - [x] 1. T253X1960G0C101, Teamgroup GX1 960GB 2.5":
+                                - [x] 1.  90,99 € https://www.topocentras.lt/vidinis-kietasis-diskas-ssd-team-group-t253x1960g0c101.html
+                                - [x] 2.  94.19 € http://www.skytech.lt/t253x1960g0c101-team-group-ssd-gx1-960gb-sata-iii-6gbs-530480-mbs-p-449414.html
+                                - [x] 3.  93.69 € https://www.rde.lt/products/lt/416/209085/sort/1/filter/0_0_0_0/GX1-960GB-2.5-T253X1960G0C101-SSD-diskas.html
+                            - [x] 2. CT1000MX500SSD1, Crucial MX500 SSD , 2.5", 1TB, SATA/600, 3D NAND:
+                                - [x] 1.  98,49 € https://www.topocentras.lt/vidinis-kietasis-diskas-ssd-crucial-ct1000mx500ssd1.html
+                                - [x] 2.  98.59 € http://www.skytech.lt/ct1000mx500ssd1-crucial-mx500-ssd-1tb-sata600-nand-p-379573.html
+                                - [x] 3. 101,82 € https://www.kilobaitas.lt/Kietieji_diskai/Crucial/SSDCRUCIALMX5001TBSATA_30/CT1000MX500SSD1/CatalogStoreDetail.aspx?CatID=PL_663&ID=746165
+                            - [x] 3. MZ-77E1T0B/EU, SAMSUNG SSD 870 EVO 1TB 2.5"
+                                - [x] 1. 115.99 € https://www.rde.lt/products/lt/416/227869/sort/1/filter/0_0_0_0/870-Evo-1TB-2.5-MZ-77E1T0B-EU-SSD-diskas.html
+                                - [x] 2. 122,90 € https://www.varle.lt/kietieji-diskai/samsung-ssd-870-evo-1000-gb-ssd-form-factor-25--15122101.html
+                                - [x] 3. 125.69 € http://www.skytech.lt/mz77e1t0beu-samsung-ssd-870-evo-1tb-25inch-sata-560mbs-read-530mbs-write-p-536088.html
+                        - [ ] 2. **2T**
+                            - [x] 1. CT2000MX500SSD1, CRUCIAL MX500 2TB SATA 3.0 TLC:
+                                - [x] 1. 220,28 € https://www.varle.lt/kietieji-diskai/ssdcrucialmx5002tbsata-30tlcrasymo-greitis--8167910.html
+                                - [x] 2. 220.28 € https://www.rde.lt/products/lt/416/96380/sort/1/filter/0_0_0_0/MX500-2TB-SATAIII-TLC-SSD-diskas.html
+                                - [x] 3. 225.69 € http://www.skytech.lt/ct2000mx500ssd1-crucial-mx500-ssd-2tb-sata600-nand-p-379574.html
+                            - [x] 2. MZ-77E2T0B/EU, SAMSUNG 870 EVO 2TB SATA 3.0 MLC:
+                                - [x] 1. 213.49 € https://www.rde.lt/products/lt/416/227663/sort/1/filter/0_0_0_0/870-EVO-2TB-MZ-77E2T0B-EU-SSD-diskas.html
+                                - [x] 2. 232,83 € https://www.varle.lt/kietieji-diskai/samsung-ssd-870-evo-2t-sata-iii-25-inch--15150407.html
+                            - [ ] X.
+                        - [ ] X. SSD rasti
+                    - [ ] 3. Rekomendacijų paieška
+                        - [x] 1. `olemlk` pasiteiravimas dėl T253X1960G0C101 ir kt.
+                            - [x] 01. SSD: jei QLC, tik 5m. garantijos (Crucial)
+                            - [x] 02. SSD: jei TLC, Samsung EVO
+                            - [x] 03. HDD: tik Seagage (WD nupušo)
+                            - [ ] 04. https://www.eevblog.com/forum/general-computing/low-cost-sata-ssds-for-zfs/25/
+                            - [ ] 05. https://serverfault.com/questions/1034739/use-qlc-ssds-as-raidz-scientific-archive
+                            - [ ] 06. https://www.reddit.com/r/zfs/comments/fa73xd/how_to_coalesce_writes_to_qlc_ssds/
+                            - [ ] 07. https://zfsonlinux.topicbox.com/groups/zfs-discuss/Tcd8117c2fc006c46-M2879a4a0ce197bb9d805bf34/qlc-ssd-and-zfs
+                            - [ ] 08. https://www.reddit.com/r/zfs/comments/jixi2n/sata_ssd_dram_or_dramless_cache/
+                            - [ ] 09. https://www.truenas.com/community/threads/large-qlc-ssds-will-they-freenas.81283/
+                            - [ ] 10. https://forum.level1techs.com/t/ssd-for-all-ssd-freenas-pool/160302
+                        - [ ] 2. SSD apžvalgos
+                        - [ ] X.
+                    - [ ] X. RAID diskai rasti
+                - [ ] X. USB-talpykla baigta.
         - [ ] 2. Skaitmeninio paveldo išsaugojimas
             - [ ] 1. `led.ot.lt` perkėlimas
             - [ ] 2. [`news.omnitel.net` perkėlimas](tvarka/news.omnitel.net-perkėlimas.md)

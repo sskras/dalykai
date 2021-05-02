@@ -168,15 +168,16 @@ Asmeninių tvarkymų medis.
                         - [x] 1. `olemlk` pasiteiravimas dėl T253X1960G0C101 ir kt.
                             - [x] 01. SSD: jei QLC, tik 5m. garantijos (Crucial)
                             - [x] 02. SSD: jei TLC, Samsung EVO
-                            - [x] 03. HDD: tik Seagage (WD nupušo)
-                            - [ ] 04. https://www.eevblog.com/forum/general-computing/low-cost-sata-ssds-for-zfs/25/
-                            - [ ] 05. https://serverfault.com/questions/1034739/use-qlc-ssds-as-raidz-scientific-archive
-                            - [ ] 06. https://www.reddit.com/r/zfs/comments/fa73xd/how_to_coalesce_writes_to_qlc_ssds/
-                            - [ ] 07. https://zfsonlinux.topicbox.com/groups/zfs-discuss/Tcd8117c2fc006c46-M2879a4a0ce197bb9d805bf34/qlc-ssd-and-zfs
-                            - [ ] 08. https://www.reddit.com/r/zfs/comments/jixi2n/sata_ssd_dram_or_dramless_cache/
-                            - [ ] 09. https://www.truenas.com/community/threads/large-qlc-ssds-will-they-freenas.81283/
-                            - [ ] 10. https://forum.level1techs.com/t/ssd-for-all-ssd-freenas-pool/160302
-                        - [ ] 2. SSD apžvalgos
+                            - [x] 03. HDD: tik Seagate (WD nupušo)
+                        - [ ] 2. Forumai
+                            - [ ] 01. https://www.eevblog.com/forum/general-computing/low-cost-sata-ssds-for-zfs/25/
+                            - [ ] 02. https://serverfault.com/questions/1034739/use-qlc-ssds-as-raidz-scientific-archive
+                            - [ ] 03. https://www.reddit.com/r/zfs/comments/fa73xd/how_to_coalesce_writes_to_qlc_ssds/
+                            - [ ] 04. https://zfsonlinux.topicbox.com/groups/zfs-discuss/Tcd8117c2fc006c46-M2879a4a0ce197bb9d805bf34/qlc-ssd-and-zfs
+                            - [ ] 05. https://www.reddit.com/r/zfs/comments/jixi2n/sata_ssd_dram_or_dramless_cache/
+                            - [ ] 06. https://www.truenas.com/community/threads/large-qlc-ssds-will-they-freenas.81283/
+                            - [ ] 07. https://forum.level1techs.com/t/ssd-for-all-ssd-freenas-pool/160302
+                        - [ ] 3. SSD apžvalgos
                         - [ ] X.
                     - [ ] X. RAID diskai rasti
                 - [ ] X. USB-talpykla baigta.

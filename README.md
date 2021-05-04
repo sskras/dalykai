@@ -200,7 +200,10 @@ Asmeninių tvarkymų medis.
                     - [ ] 1, ODD emuliacija (xordivm)
                     - [ ] 2, Remote-mgmt (iLO) emuliacija
                     - [ ] 3, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
-                    ---
+                - [ ] X. Baigta su hypervizoriais
+            - [ ] X. Baigtos revoliucijos
+        - [ ] X. Baigta tvarka skaitmeninėje erdvėje
+        ---
     - [ ] 4. Studijose
         - [ ] 1. Užbaigti VGTU ELF magistrantūrą
             - [ ] 1. Skaitmeniniai įrankiai:

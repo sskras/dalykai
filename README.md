@@ -125,6 +125,10 @@ Asmeninių tvarkymų medis.
                             - [x] 1. 47.29 € http://www.skytech.lt/camysafedual25-itec-usbc-3130-mysafe-external-enclosure-for-65cm-25inch-sata-hdd-p-422660.html
                             - [x] 2. 47.00 € https://www.varle.lt/dezutes-diskams/itec-i-tec-mysafe-speichergehause-mit-netzanzeige--9979205.html
                             - [x] 3. 44,49 € https://www.topocentras.lt/isorine-baterija-i-tec-camysafedual25.html
+                        - [x] 3. Lietuvoje: IB-RD2253-U31
+                            - [x] 1. 47.39 € https://www.skytech.lt/ibrd2253u31-icybox-ibrd2253u31-icybox-external-raid-system-for-sata-iiiiii-ssd-a-p-330920.html
+                            - [x] 2. 47,39 € https://www.1a.lt/p/icy-box-2-bay-raid-system-sata-hdd-ssd-ib-rd2253-u31/
+                            - [x] 3. 48,29 € https://www.varle.lt/dezutes-diskams/raidsonic-external-raid-system-fo-ssd-and-hdd-ib-rd2253-u31--3259472.html
                         - [x] X. Lentynėlių sąrašas baigtas.
                     - [ ] 2. Spekų (čipsetų), privalumų ir trūkumų sąrašas.
                     - [ ] 3. Bent poros modelių pirkimas.

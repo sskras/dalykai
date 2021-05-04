@@ -182,8 +182,12 @@ Asmeninių tvarkymų medis.
                     - [ ] X. RAID diskai rasti
                 - [ ] X. USB-talpykla baigta.
         - [ ] 2. Skaitmeninio paveldo išsaugojimas
-            - [ ] 1. `led.ot.lt` perkėlimas
-            - [ ] 2. [`news.omnitel.net` perkėlimas](tvarka/news.omnitel.net-perkėlimas.md)
+            - [ ] 1. site rehosting:
+                - [ ] 1. `led.ot.lt` perkėlimas
+                - [ ] 2. [`news.omnitel.net` perkėlimas](tvarka/news.omnitel.net-perkėlimas.md)
+            - [ ] 2. FOSS mirroring/revival:
+                - [ ] 1. DataRecovery version 2.4.7, http://software.tokiwa.qcweb.jp/EN/dr.html
+            - [ ] X.
         - [ ] 3. Patobulinimai, nepatogumo mažinimas, automatizavimai
             - [ ] 1. DC tvarkymas
                 - [ ] 1. DCIM

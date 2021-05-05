@@ -395,8 +395,8 @@ Asmeninių tvarkymų medis.
                                 - [ ] 1. Reziume raštu
                                 - [ ] 2. Minčių struktūravimas
                                 - [ ] 3. Maketavimas
-                            - [ ] 4. Treniruotė
-                            - [ ] 5. Pristatymas
+                            - [ ] 5. Treniruotė
+                            - [ ] 6. Pristatymas
                         - [ ] X. ISAd baigtas
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
             - [ ] 3. Jei nepatiks, pabandyti jį pakartoti.

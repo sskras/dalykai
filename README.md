@@ -247,6 +247,7 @@ Asmeninių tvarkymų medis.
                         - [x] 1. `jbt`
                     - [ ] X. Baigta
                 - [ ] 4. Skaidrėms
+                  <a id="Skaidrėms"></a>
                     - [x] 1. Talpykla = GitHub
                     - [x] 2. Variklių pavyzdžiai:  
                           https://github.com/robbie-cao/awesome-slides#javascript-and-html5-presentation-frameworks  
@@ -389,13 +390,14 @@ Asmeninių tvarkymų medis.
                                 - [ ] 2. Išsirinkimas iš daugelio
                                 - [ ] 3. Parsirinktųjų skaitymas
                                 - [ ] 4. Reziume mintyse
-                            - [ ] 3. Skaidrės
+                            - [ ] 3. `BLOCKER`: [Skaidrių įrankis](#Skaidrėms)
+                            - [ ] 4. Skaidrės
                                 - [ ] 1. Reziume raštu
                                 - [ ] 2. Minčių struktūravimas
                                 - [ ] 3. Maketavimas
                             - [ ] 4. Treniruotė
                             - [ ] 5. Pristatymas
-                        - [ ] X. Baigta
+                        - [ ] X. ISAd baigtas
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
             - [ ] 3. Jei nepatiks, pabandyti jį pakartoti.
         - [ ] 2. Pasvarstyti apie kompiuterinę lingvistiką.

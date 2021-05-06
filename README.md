@@ -408,6 +408,8 @@ Asmeninių tvarkymų medis.
                                 - [ ] 2. Minčių struktūravimas
                                     - [ ] 1. Privalumai
                                     - [ ] 2. Trūkumai
+                                        - [ ] 1. "No permissions needed to read any world readable file in ProcFS …"
+                                    - [ ] 3. "Viskas yra procesas" ?
                                 - [ ] 3. Maketavimas
                             - [ ] 5. Treniruotė
                             - [ ] 6. Pristatymas

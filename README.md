@@ -388,7 +388,7 @@ Asmeninių tvarkymų medis.
                                 - [x] 1. Straipsnių/apžvalgų paieška
                                     - [x] 01. https://www.google.com/search?q=procfs+slides&tbm=isch
                                     - [x] 02. 2004-07-30, https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/proc.html
-                                    - [x] 03. 2009-06-09  https://www.kernel.org/doc/html/latest/filesystems/proc.html
+                                    - [x] 03. 2009-06-09, https://www.kernel.org/doc/html/latest/filesystems/proc.html
                                     - [x] 04. 2014-10-09, https://present5.com/cs-6431-security-issues-in-web-applications-vitaly/
                                     - [x] 05. 2018-10-10, https://ops.tips/blog/a-month-of-proc/
                                     - [x] 06. 2018-10-25, https://ops.tips/blog/what-is-that-proc-thing/
@@ -397,7 +397,7 @@ Asmeninių tvarkymų medis.
                                     - [x] 09. 2020-03-16, https://www.redhat.com/sysadmin/linux-proc-filesystem
                                     - [x] 10. 2020-04-02, https://opensource.com/article/20/4/proc-filesystem
                                     - [x] 11. 2020-06-24, https://www.journaldev.com/41537/proc-file-system-in-linux
-                                    - [x] 12. 2021-01-14  https://en.wikipedia.org/wiki/Procfs
+                                    - [x] 12. 2021-01-14, https://en.wikipedia.org/wiki/Procfs
                                     - [x] X. Straipsnių pakaks
                                 - [ ] 2. Išsirinkimas iš daugelio
                                 - [ ] 3. Parsirinktųjų skaitymas

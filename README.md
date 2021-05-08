@@ -161,6 +161,10 @@ Asmeninių tvarkymų medis.
                         - [ ] 1. USB kontrolerio ID (pagal `lsusb` ?)
                         - [ ] 2. TRIM palaikymas
                         - [ ] 3. Hot Swap palaikymas
+                        - [ ] 4. Pralaidos bandymai:
+                        	- [ ] 1. Single Disk testai
+                        	- [ ] 2. Dual Disk testai
+                        	- [ ] 3. Abiejų lentynų palyginimas
                         - [ ] X. Bandymai baigti
                     - [ ] X. Skirtingų modelių sukombinavimas į vieną (jei pavieniai prastai veiktų).
                 - [ ] 4. RAIDams tinkantys Storage Device
@@ -214,7 +218,7 @@ Asmeninių tvarkymų medis.
                             - [x] 2. MZ-77E2T0B/EU, SAMSUNG 870 EVO 2TB SATA 3.0 MLC:
                                 - [x] 1. 213.49 € https://www.rde.lt/products/lt/416/227663/sort/1/filter/0_0_0_0/870-EVO-2TB-MZ-77E2T0B-EU-SSD-diskas.html
                                 - [x] 2. 232,83 € https://www.varle.lt/kietieji-diskai/samsung-ssd-870-evo-2t-sata-iii-25-inch--15150407.html
-                            - [x] X.
+                            - [x] X. Baigta 2T SSD paieška
                         - [x] X. SSD rasti
                     - [x] 3. Rekomendacijų paieška
                         - [x] 1. `olemlk` pasiteiravimas dėl T253X1960G0C101 ir kt.
@@ -233,6 +237,27 @@ Asmeninių tvarkymų medis.
                         - [x] 3. ~~SSD apžvalgos~~
                         - [x] X. Rekomendacijos rastos
                     - [x] X. RAID diskai rasti
+                - [ ] 5. Diskų bandymai
+                    - [ ] 1. Pralaida:
+                        - [ ] 1. Testinės mašinos parinkimas (pageidautina labai naujos)
+                        - [ ] 2. Native SATA pralaida
+                        - [ ] 3. Single SATA-USB pralaida
+                        - [ ] 4. Dual SATA-USB Single pralaida
+                        - [ ] 5. Dual SATA-USB Dual pralaida
+                    - [ ] X. Bandymai baigti
+                - [ ] 6. Cross-platform OpenZFS Features parinkimas
+                    - [ ] 1. Turi veikti su Windows
+                    - [ ] 2. Turi veikti su CentOS
+                    - [ ] 3. Turi veikti su OmniOS
+                    - [ ] 4. Ar turi veikti su Solaris 11.4 ?
+                    - [ ] 5. Ar turi veikti su Solaris 10 6/06+ ?
+                - [ ] 7. OpenZFS vdev Block Device išdėstymo parinkimas:
+                    - [ ] 1. Whole-disk volumes?
+                    - [ ] 2. Volume on partitions?
+                        - [x] 1. Skirtingo, bet panašaus dydžio diskai leistų didesniajame turėti particiją, pvz. prieinamą visoms OS ir saugančią ZFS draiverius.
+                    - [ ] 3. Pralaidos bandymai su RAID-1 ir abiem scenarijais
+                    - [ ] X. Block Device išdėstymas parinktas
+                - [ ] W. 
                 - [ ] X. USB-talpykla baigta.
         - [ ] 2. Skaitmeninio paveldo išsaugojimas
             - [ ] 1. site rehosting:

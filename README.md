@@ -274,7 +274,7 @@ Asmeninių tvarkymų medis.
                     - [ ] 1. CI žymėjimas
                 - [ ] X. DC sutvarkytas
             - [ ] 2. Hierarchinis projekto/užduočių žymėjimas Excel
-                - [ ] 1. Maždaug kaip [Užduočių-ir-problemų-žymėjimasis---versijavimas](#Užduočių-ir-problemų-žymėjimasis---versijavimas), tik su Excel.
+                - [ ] 1. Maždaug kaip [Užduočių ir problemų žymėjimasis + versijavimas](#Užduočių-ir-problemų-žymėjimasis---versijavimas), tik su Excel.
                 - [ ] 2. Būdas su "Group Members":  
                       https://blogs.sap.com/2017/09/01/local-hierarchy-in-analysis-for-office-grouping/
                 - [ ] 3. Būdas su "Auto Outline":  

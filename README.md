@@ -35,7 +35,8 @@ Asmeninių tvarkymų medis.
             ---
     - [ ] 3. Skaitmeninėje aplinkoje
         - [ ] 1. Pirmos būtinybės poreikiai
-            - [ ] 0. Užduočių ir problemų žymėjimasis + versijavimas (https://github.com/sskras/dalykai).
+              <a id="Užduočių-ir-problemų-žymėjimasis---versijavimas"></a>
+            - [ ] 0. Užduočių ir problemų žymėjimasis + versijavimas (https://github.com/sskras/dalykai). 
                 - [x] 1. Sukūrimas iš akies
                 - [x] 2. Pildymas
                 - [ ] 3. Struktūros keitimas
@@ -271,6 +272,19 @@ Asmeninių tvarkymų medis.
                 - [ ] 1. DCIM
                     - [ ] `BLOCKER`: [DCIM + hardware asset management](#DCIM---hardware-asset-management) suderinimas
                     - [ ] 1. CI žymėjimas
+                - [ ] X. DC sutvarkytas
+            - [ ] 2. Hierarchinis projekto/užduočių žymėjimas Excel
+                - [ ] 1. Maždaug kaip [Užduočių-ir-problemų-žymėjimasis---versijavimas](#Užduočių-ir-problemų-žymėjimasis---versijavimas), tik su Excel.
+                - [ ] 2. Būdas su "Group Members":  
+                      https://blogs.sap.com/2017/09/01/local-hierarchy-in-analysis-for-office-grouping/
+                - [ ] 3. Būdas su "Auto Outline":  
+                      https://support.microsoft.com/en-ie/office/outline-group-data-in-a-worksheet-08ce98c4-0063-4d42-8ac7-8278c49e9aff
+                - [ ] 4. Būdas su "Pivot Table":  
+                      https://en.wikipedia.org/wiki/Pivot_table#Mechanics  
+                      https://www.mrexcel.com/excel-tips/creating-a-hierarchy-in-a-pivot-table/  
+                      https://www.tutorialspoint.com/excel_power_pivot/excel_power_pivot_hierarchies.htm
+                - [ ] X. Baigta Excel hierarchija
+            - [ ] X. Patobulinimų pabaiga.
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 1. Hypervisors
                 - [ ] 1. Mokymaisi, tyrimai, dokumentavimas

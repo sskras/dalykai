@@ -121,30 +121,78 @@ Asmeninių tvarkymų medis.
                 - [ ] 3. Patikima 2.5" Dual-Bay SATA-USB lentynėlė.
                     - [x] 1. Lentynėlių sąrašas
                         - [x] 1. https://twitter.com/sskras/status/1376979608051060738
+                          <a id="Lietuvoje--CAMYSAFEDUAL25"></a>
                         - [x] 2. Lietuvoje: CAMYSAFEDUAL25
-                            - [x] 1. 47.29 € http://www.skytech.lt/camysafedual25-itec-usbc-3130-mysafe-external-enclosure-for-65cm-25inch-sata-hdd-p-422660.html
+                            - [x] 1. 44,49 € https://www.topocentras.lt/isorine-baterija-i-tec-camysafedual25.html
                             - [x] 2. 47.00 € https://www.varle.lt/dezutes-diskams/itec-i-tec-mysafe-speichergehause-mit-netzanzeige--9979205.html
-                            - [x] 3. 44,49 € https://www.topocentras.lt/isorine-baterija-i-tec-camysafedual25.html
+                            - [x] 3. 47.29 € http://www.skytech.lt/camysafedual25-itec-usbc-3130-mysafe-external-enclosure-for-65cm-25inch-sata-hdd-p-422660.html
+                          <a id="Lietuvoje--IB-RD2253-U31"></a>
                         - [x] 3. Lietuvoje: IB-RD2253-U31
                             - [x] 1. 47.39 € https://www.skytech.lt/ibrd2253u31-icybox-ibrd2253u31-icybox-external-raid-system-for-sata-iiiiii-ssd-a-p-330920.html
                             - [x] 2. 47,39 € https://www.1a.lt/p/icy-box-2-bay-raid-system-sata-hdd-ssd-ib-rd2253-u31/
                             - [x] 3. 48,29 € https://www.varle.lt/dezutes-diskams/raidsonic-external-raid-system-fo-ssd-and-hdd-ib-rd2253-u31--3259472.html
                         - [x] X. Lentynėlių sąrašas baigtas.
                     - [ ] 2. Spekų (čipsetų), privalumų ir trūkumų sąrašas.
-                    - [ ] 3. Bent poros modelių pirkimas.
-                    - [ ] 4. Skirtingų modelių sukombinavimas į vieną (jei pavieniai prastai veiktų).
+                        - [ ] 1. `TODO` iš Amazon komentarų:
+                        - [x] 2. Teigia, kad `IB-RD2253-U31` nepalaiko TRIM:\
+                              https://www.amazon.co.uk/product-reviews/B01BHR3VPA/ref=cm_cr_arp_d_viewopt_kywd?_encoding=UTF8&showViewpoints=1&pageNumber=1&filterByKeyword=trim
+                    - [x] 3. Bent poros modelių pirkimas.
+                        - [x] 1. 2021-05-08 [CAMYSAFEDUAL25](#Lietuvoje--CAMYSAFEDUAL25): 47.29 €
+                        - [x] 2. 2021-05-08 [IB-RD2253-U31](#Lietuvoje--IB-RD2253-U31): 47.39 €
+                        - [x] X. Nupirkta
+                    - [x] 4. Apžiūra
+                        - [x] 1. Išpakavimas
+                        - [x] 2. Maitinimo grandinė:
+                            - [x] 1. PSU galingesnis pas `CAMYSAFEDUAL25` (2A vs 1,5A)
+                            - [x] 2. Kištukai lyg kiekvieno iš dviejų tinka abiems.
+                            - [x] 3. `IB-RD2253-U31` turi maitinimo jungiklį (bet ar naudinga?)
+                        - [x] 3. Korpusas:
+                            - [x] 1. Prieinamumas prie kontrolerio plokštės lankstesnis pas`IB-RD2253-U31`.
+                        	- [x] 2. Surinkto korpuso klibėjimas mažesnis pas `IB-RD2253-U31`.
+                        	- [x] 3. Lengvesnis diskiuko pakeitimas pas `CAMYSAFEDUAL25` (nelaiko varžtai).
+                        	- [x] 4. Patikimesnis diskų tvirtinimas pas `IB-RD2253-U31` (kelionėms, ypač jei HDD).
+                        	- [x] 5. Storesni diskiukai (iki 9.5 mm) telpa tik į `IB-RD2253-U31`.
+                        - [x] 4. Instrukcijų skaitymas:
+                            - [x] 1. CAMYSAFEDUAL25
+                            - [x] 2. IB-RD2253-U31
+                        - [x] 5. Supakavimas
+                        - [x] X. Apžiūra baigta
+                    - [ ] 5. Bandymai
+                        - [ ] 1. USB kontrolerio ID (pagal `lsusb` ?)
+                        - [ ] 2. TRIM palaikymas
+                        - [ ] 3. Hot Swap palaikymas
+                        - [ ] X. Bandymai baigti
+                    - [ ] X. Skirtingų modelių sukombinavimas į vieną (jei pavieniai prastai veiktų).
                 - [ ] 4. RAIDams tinkantys Storage Device
-                    - [ ] 0. Dydžio parinkimas:
+                    - [ ] 0. Dydžio ir tipo parinkimas:
                         - [x] 1T ?
                         - [x] 2T ?
-                            - [ ] http://www.skytech.lt/ct2000bx500ssd1-crucial-bx500-2tb-nand-sata-25inch-ssd-read-540-mbs-write-500-mb-p-494532.html
-                        - [ ] 3. Kriterijai
+                        - [x] 3. HDD ar SSD ?
+                        - [ ] 4. Kriterijai:
                             - [x] 1. Power consumption
-                        - [ ] X.
+                                - [ ] 1. SSD valgo lyg vienodai, ir lyg visi iki 10 W:
+                                - [ ] 2. HDD neaišku:
+                            - [x] 2. Gedimų taisymas
+                                - [x] 1. Jei RAID-1, SSD mirtis nebaisi (lengva pakeisti)
+                                - [x] 2. Jei RAID-0 arba Single, tada HDD tinka labiau
+                                - [x] 3. Jei nešiojimui (ar ant lovos), SSD atsparesni (smūgiams, kritimams)
+                            - [x] 3. Tipas
+                                - [x] 1. SSD lyg valgo mažiau nei HDD
+                                - [x] 2. SMR-HDD pigūs ir nelabai tinkami, CMR-HDD kainuoja 80% SSD
+                                - [x] 3. SSD Random IOPS puikūs
+                                - [x] X. Baigti kriterijai
+                            - [ ] 4. Random IOPS
+                            - [ ] X. Kriterijai parinkti
+                        - [x] 5. Apsisprendimai:
+                            - [x] 1. CMR-HDD tyrimas lėtas, imu SSD.
+                            - [x] 2. Pradžiai patikimumas, imu RAID-1.
+                            - [x] 3. RAID-1 jei numirs SSD, pakeisim.
+                            - [x] X. Apsispręsta
+                        - [x] X. Dydžiai ir tipai parinkti: pradžiai SSD + RAID-1
                     - [ ] 1. HDD paieška
                         - [ ] 1. `TODO` analizė: SMR vs CMR for ZFS?
-                        - [ ] 
-                    - [ ] 2. SSD paieška
+                        - [ ] X. HDD rasti (jei išvis reikalingi)
+                    - [x] 2. SSD paieška
                         - [x] 1. **1T**
                             - [x] 1. T253X1960G0C101, Teamgroup GX1 960GB 2.5":
                                 - [x] 1.  90,99 € https://www.topocentras.lt/vidinis-kietasis-diskas-ssd-team-group-t253x1960g0c101.html
@@ -158,7 +206,7 @@ Asmeninių tvarkymų medis.
                                 - [x] 1. 115.99 € https://www.rde.lt/products/lt/416/227869/sort/1/filter/0_0_0_0/870-Evo-1TB-2.5-MZ-77E1T0B-EU-SSD-diskas.html
                                 - [x] 2. 122,90 € https://www.varle.lt/kietieji-diskai/samsung-ssd-870-evo-1000-gb-ssd-form-factor-25--15122101.html
                                 - [x] 3. 125.69 € http://www.skytech.lt/mz77e1t0beu-samsung-ssd-870-evo-1tb-25inch-sata-560mbs-read-530mbs-write-p-536088.html
-                        - [ ] 2. **2T**
+                        - [x] 2. **2T**
                             - [x] 1. CT2000MX500SSD1, CRUCIAL MX500 2TB SATA 3.0 TLC:
                                 - [x] 1. 220,28 € https://www.varle.lt/kietieji-diskai/ssdcrucialmx5002tbsata-30tlcrasymo-greitis--8167910.html
                                 - [x] 2. 220.28 € https://www.rde.lt/products/lt/416/96380/sort/1/filter/0_0_0_0/MX500-2TB-SATAIII-TLC-SSD-diskas.html
@@ -166,24 +214,25 @@ Asmeninių tvarkymų medis.
                             - [x] 2. MZ-77E2T0B/EU, SAMSUNG 870 EVO 2TB SATA 3.0 MLC:
                                 - [x] 1. 213.49 € https://www.rde.lt/products/lt/416/227663/sort/1/filter/0_0_0_0/870-EVO-2TB-MZ-77E2T0B-EU-SSD-diskas.html
                                 - [x] 2. 232,83 € https://www.varle.lt/kietieji-diskai/samsung-ssd-870-evo-2t-sata-iii-25-inch--15150407.html
-                            - [ ] X.
-                        - [ ] X. SSD rasti
-                    - [ ] 3. Rekomendacijų paieška
+                            - [x] X.
+                        - [x] X. SSD rasti
+                    - [x] 3. Rekomendacijų paieška
                         - [x] 1. `olemlk` pasiteiravimas dėl T253X1960G0C101 ir kt.
+                            - [x] 00. SSD: Team Group gamintojas nežinomas, naujas, reikia laukti ir stebėti gedimus/atsiliepimus
                             - [x] 01. SSD: jei QLC, tik 5m. garantijos (Crucial)
-                            - [x] 02. SSD: jei TLC, Samsung EVO
+                            - [x] 02. SSD: jei TLC, Samsung EVO arba PRO
                             - [x] 03. HDD: tik Seagate (WD nupušo)
-                        - [ ] 2. Forumai
-                            - [ ] 01. https://www.eevblog.com/forum/general-computing/low-cost-sata-ssds-for-zfs/25/
-                            - [ ] 02. https://serverfault.com/questions/1034739/use-qlc-ssds-as-raidz-scientific-archive
-                            - [ ] 03. https://www.reddit.com/r/zfs/comments/fa73xd/how_to_coalesce_writes_to_qlc_ssds/
-                            - [ ] 04. https://zfsonlinux.topicbox.com/groups/zfs-discuss/Tcd8117c2fc006c46-M2879a4a0ce197bb9d805bf34/qlc-ssd-and-zfs
-                            - [ ] 05. https://www.reddit.com/r/zfs/comments/jixi2n/sata_ssd_dram_or_dramless_cache/
-                            - [ ] 06. https://www.truenas.com/community/threads/large-qlc-ssds-will-they-freenas.81283/
-                            - [ ] 07. https://forum.level1techs.com/t/ssd-for-all-ssd-freenas-pool/160302
-                        - [ ] 3. SSD apžvalgos
-                        - [ ] X.
-                    - [ ] X. RAID diskai rasti
+                        - [x] 2. Forumai
+                            - [x] 01. https://www.eevblog.com/forum/general-computing/low-cost-sata-ssds-for-zfs/25/
+                            - [x] 02. https://serverfault.com/questions/1034739/use-qlc-ssds-as-raidz-scientific-archive
+                            - [x] 03. https://www.reddit.com/r/zfs/comments/fa73xd/how_to_coalesce_writes_to_qlc_ssds/
+                            - [x] 04. https://zfsonlinux.topicbox.com/groups/zfs-discuss/Tcd8117c2fc006c46-M2879a4a0ce197bb9d805bf34/qlc-ssd-and-zfs
+                            - [x] 05. https://www.reddit.com/r/zfs/comments/jixi2n/sata_ssd_dram_or_dramless_cache/
+                            - [x] 06. https://www.truenas.com/community/threads/large-qlc-ssds-will-they-freenas.81283/
+                            - [x] 07. https://forum.level1techs.com/t/ssd-for-all-ssd-freenas-pool/160302
+                        - [x] 3. ~~SSD apžvalgos~~
+                        - [x] X. Rekomendacijos rastos
+                    - [x] X. RAID diskai rasti
                 - [ ] X. USB-talpykla baigta.
         - [ ] 2. Skaitmeninio paveldo išsaugojimas
             - [ ] 1. site rehosting:

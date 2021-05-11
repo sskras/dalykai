@@ -472,6 +472,15 @@ Asmeninių tvarkymų medis.
                             - [ ] 2. Pristatymas
                             - [ ] 3. Skaidrės
                         - [ ] 4. Kursinis darbas
+                            - [x] 1. Tema: Tinklo simuliacija panaudojant NS-2
+                            - [ ] 2. NS-2 (įrankių) ruošimas
+                                - [ ] 1. RPM-paketų paieška CentOS mašinai
+                                - [ ] 2. RPM-paketų kompiliavimas
+                                - [ ] 3. Testavimas
+                            - [ ] 3. Tinklo simuliavimas
+                            - [ ] 4. Rezultatų apiforminimas
+                            - [ ] X. Baigtas kursinis darbas
+                        - [ ] X. Baigtas PIPr kursas
                     - [ ] 3. ISAd: Informacinių sistemų administravimas
                         - [ ] 1. Paskaitos
                             - [x] 1. Prasidėjo

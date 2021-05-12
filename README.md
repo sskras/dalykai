@@ -530,6 +530,10 @@ Asmeninių tvarkymų medis.
                                     - [x] 12. 2021-01-14, https://en.wikipedia.org/wiki/Procfs
                                     - [x] X. Straipsnių pakaks
                                 - [ ] 2. Išsirinkimas iš daugelio
+                                    - [ ] 1. Permetimas akimis
+                                    - [ ] 2. Struktūrų konspektas
+                                    - [ ] 3. Rinkimasis
+                                    - [ ] X. Straipsniai pasirinkti
                                 - [ ] 3. Parsirinktųjų skaitymas
                                 - [ ] 4. Reziume mintyse
                             - [ ] 3. `BLOCKER`: [Skaidrių įrankis](#Skaidrėms)

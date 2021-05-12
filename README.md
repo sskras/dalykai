@@ -29,9 +29,14 @@ Asmeninių tvarkymų medis.
                 - [ ] 1. `TODO` kaip dažnai?
             - [ ] 3. Mažiau žiūrėti į ekranus:
                 - [ ] 1. `TODO` kaip?
+            - [ ] X. Akys jau ilsinamos
         - [ ] 2. Daugiau deguonies kvėpuojant:
             - [ ] `TODO` vėdinimas
-            - [ ] `TODO` vaikščiojimas?
+            - [ ] 2. Vaikščiojimas:
+                - [ ] 12. `2021-05-08`: 5h su `dmislv` Ribiškių taku
+                - [ ] 13. `2021-05-11`: 1h su `dmislv` nuo TRParko per Žirmūnų tiltą iki Šilo tilto ir atgal
+            - [ ] X. Turim daugiau deguonies
+        - [ ] X. Pasirūpinta sveikata
             ---
     - [ ] 3. Skaitmeninėje aplinkoje
         - [ ] 1. Pirmos būtinybės poreikiai

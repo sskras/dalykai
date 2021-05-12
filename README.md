@@ -529,7 +529,7 @@ Asmeninių tvarkymų medis.
                                     - [x] 10. 2020-04-02, https://opensource.com/article/20/4/proc-filesystem
                                     - [x] 11. 2020-06-24, https://www.journaldev.com/41537/proc-file-system-in-linux
                                     - [x] 12. 2021-01-14, https://en.wikipedia.org/wiki/Procfs
-                                    - [ ] 13. 1996-03-07, TLDP straipsniai:
+                                    - [x] 13. 1996-03-07, TLDP straipsniai:  
                                               Net-2: https://tldp.org/LDP/nag/node59.html  
                                               DEVPTS: https://tldp.org/LDP/lfs/5.0/html/chapter06/proc.html  
                                               SCSI: https://tldp.org/HOWTO/SCSI-2.4-HOWTO/procfs.html  

@@ -516,7 +516,8 @@ Asmeninių tvarkymų medis.
                             - [x] 1. Parinkta tema: `/proc` FS
                             - [ ] 2. Analizė
                                 - [x] 1. Straipsnių/apžvalgų paieška
-                                    - [x] 01. https://www.google.com/search?q=procfs+slides&tbm=isch
+                                    - [x] 00. https://www.google.com/search?q=procfs+slides&tbm=isch
+                                    - [x] 01. 2001-12-03, https://tldp.org/LDP/sag/html/proc-fs.html  
                                     - [x] 02. 2004-07-30, https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/proc.html
                                     - [x] 03. 2009-06-09, https://www.kernel.org/doc/html/latest/filesystems/proc.html
                                     - [x] 04. 2014-10-09, https://present5.com/cs-6431-security-issues-in-web-applications-vitaly/
@@ -528,6 +529,14 @@ Asmeninių tvarkymų medis.
                                     - [x] 10. 2020-04-02, https://opensource.com/article/20/4/proc-filesystem
                                     - [x] 11. 2020-06-24, https://www.journaldev.com/41537/proc-file-system-in-linux
                                     - [x] 12. 2021-01-14, https://en.wikipedia.org/wiki/Procfs
+                                    - [ ] 13. 1996-03-07, TLDP straipsniai:
+                                              Net-2: https://tldp.org/LDP/nag/node59.html  
+                                              DEVPTS: https://tldp.org/LDP/lfs/5.0/html/chapter06/proc.html  
+                                              SCSI: https://tldp.org/HOWTO/SCSI-2.4-HOWTO/procfs.html  
+                                              TCPIP: https://tldp.org/HOWTO/TCP-Keepalive-HOWTO/usingkeepalive.html  
+                                              IPv6: https://tldp.org/HOWTO/Linux+IPv6-HOWTO/ch11s01.html  
+                                              LKM-2-USER: https://tldp.org/LDP/lkmpg/2.6/html/x710.html  
+                                              USER-2-LKM: https://tldp.org/LDP/lkmpg/2.4/html/x770.html
                                     - [x] X. Straipsnių pakaks
                                 - [ ] 2. Išsirinkimas iš daugelio
                                     - [ ] 1. Permetimas akimis

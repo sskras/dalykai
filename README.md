@@ -469,8 +469,21 @@ Asmeninių tvarkymų medis.
                         - [ ] 2. Laboratoriniai darbai ?
                         - [ ] 3. Namų darbai
                             - [ ] 1. `RFC 813` analizė
-                            - [ ] 2. Pristatymas
-                            - [ ] 3. Skaidrės
+                                - [x] 1. Dokumento performatavimas
+                                - [ ] 2. Skaitymas
+                                    - [x] 1. Pradžia
+                                    - [ ] 2. Tęsimas
+                                    - [ ] 3. Pabaiga
+                                - [ ] 3. Pastabų žymėjimasis
+                                - [ ] 4. Reziume
+                            - [ ] 2. Pristatymo ruošimas
+                                - [ ] 1. Formatas
+                                    - [ ] 1. Interactive HTML / Mouse Hovering?
+                                    - [ ] 2. Highlighting Overlay?
+                                    - [ ] 3. Skaidrės?
+                                - [ ] 2. Turinys
+                            - [ ] 3. Treniruotė
+                            - [ ] 4. Pristatymas
                         - [ ] 4. Kursinis darbas
                             - [x] 1. Tema: Tinklo simuliacija panaudojant NS-2
                             - [ ] 2. NS-2 (įrankių) ruošimas

@@ -37,7 +37,7 @@ Asmeninių tvarkymų medis.
                 - [ ] 13. `2021-05-11`: 1h su `dmislv` nuo TRParko per Žirmūnų tiltą iki Šilo tilto ir atgal
             - [ ] X. Turim daugiau deguonies
         - [ ] X. Pasirūpinta sveikata
-            ---
+        ---
     - [ ] 3. Skaitmeninėje aplinkoje
         - [ ] 1. Pirmos būtinybės poreikiai
               <a id="Užduočių-ir-problemų-žymėjimasis---versijavimas"></a>

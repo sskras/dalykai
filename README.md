@@ -303,6 +303,7 @@ Asmeninių tvarkymų medis.
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---
+      <a id="Studijose"></a>
     - [ ] 4. Studijose
         - [ ] 1. Užbaigti VGTU ELF magistrantūrą
             - [ ] 1. Skaitmeniniai įrankiai:

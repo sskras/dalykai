@@ -405,8 +405,9 @@ Asmeninių tvarkymų medis.
                     - [x] 2. Formatas = Github Flavoured Markdown
                 - [ ] X. Baigta
             - [ ] 2. Susitvarkyti 2020 m. kursą
-                - [x] 1. s1 :heavy_check_mark:
-                    - [ ] 1. :white_check_mark: `TODO` punktus (daug kas atlikta nekokybiškai | tiek iš universiteto, tiek vėliau ir iš mano pusės)
+                - [x] 1. s1
+                    - [ ] 1. `TODO` punktus  \
+                          (daug kas atlikta nekokybiškai | tiek iš universiteto, tiek vėliau ir iš mano pusės)
                 - [ ] 2. s2
                     - [ ] 1. IiSA: Informacijos ir sistemų apsauga
                         - [ ] 1. Paskaitos
@@ -603,3 +604,8 @@ Strigimų (jų priežąsčių ar net RCA) medis.
         - [ ] 4. App palyginimas ir išrinkimas
     - [ ] 3. Įrankio suderinimas
     - [ ] 4. Įrankio startas
+
+### Spec. simboliai:
+
+:heavy_check_mark:  \
+:white_check_mark:

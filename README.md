@@ -433,22 +433,22 @@ Asmeninių tvarkymų medis.
                                 - [ ] 5. Pristatymo forma:
                             - [ ] 3. Aiški eiga žemiau: (iki "X. Pasibaigė ...")
                             - [ ] 4. Pervesti užduotis į .md (ar kitą Markup kalbą grupės repozitorijoje)
-                                - [ ] 1LD:
+                                - [x] 1LD:
                                     - [x] 01. Užduotis
                                     - [x] 02. Tikslas
                                     - [x] 03. Linux OS pagrindinės komandos, direktorijos ir programos
                                     - [x] 04. Bazinės Linux OS komandos
-                                    - [ ] 05. Trumpas darbo su Linux komandomis aprašas
-                                    - [ ] 06. Katalogų struktūra ir paskirtis
-                                    - [ ] 07. Failų sistemų ar papildomų informacijos saugojimo įrenginių prijungimas
-                                    - [ ] 08. Failų ir katalogų pasiekimo teisės
+                                    - [x] 05. ~~Trumpas darbo su Linux komandomis aprašas
+                                    - [x] 06. ~~Katalogų struktūra ir paskirtis
+                                    - [x] 07. ~~Failų sistemų ar papildomų informacijos saugojimo įrenginių prijungimas
+                                    - [x] 08. ~~Failų ir katalogų pasiekimo teisės
                                     - [x] 09. Darbo eiga
                                     - [x] 10. Ataskaitos turinys
-                                    - [ ] XX. Baigtas 1LD aprašas
+                                    - [x] XX. Baigtas 1LD aprašas
                                 - [ ] X. Baigti visi LD aprašai
                             - [ ] 5. Pasiruošti infrą
                             - [ ] 6. Atlikti
-                            - [ ] 7. Įrašyti asciinema
+                            - [ ] 7. Įrašyti į `asciinema`
                             - [ ] 8. Paruošti ataskaitą, jei pasirodys, kad reikia
                             - [ ] X. Pasibaigė IiSA LD
                         - [ ] 3. Namų darbai

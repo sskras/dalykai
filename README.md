@@ -438,10 +438,10 @@ Asmeninių tvarkymų medis.
                                     - [x] 02. Tikslas
                                     - [x] 03. Linux OS pagrindinės komandos, direktorijos ir programos
                                     - [x] 04. Bazinės Linux OS komandos
-                                    - [x] 05. ~~Trumpas darbo su Linux komandomis aprašas
-                                    - [x] 06. ~~Katalogų struktūra ir paskirtis
-                                    - [x] 07. ~~Failų sistemų ar papildomų informacijos saugojimo įrenginių prijungimas
-                                    - [x] 08. ~~Failų ir katalogų pasiekimo teisės
+                                    - [x] 05. ~~Trumpas darbo su Linux komandomis aprašas~~
+                                    - [x] 06. ~~Katalogų struktūra ir paskirtis~~
+                                    - [x] 07. ~~Failų sistemų ar papildomų informacijos saugojimo įrenginių prijungimas~~
+                                    - [x] 08. ~~Failų ir katalogų pasiekimo teisės~~
                                     - [x] 09. Darbo eiga
                                     - [x] 10. Ataskaitos turinys
                                     - [x] XX. Baigtas 1LD aprašas

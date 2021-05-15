@@ -555,14 +555,14 @@ Asmeninių tvarkymų medis.
                                 - [ ] 1. Reziume raštu
                                 - [ ] 2. Minčių struktūravimas
                                     - [ ] 1. Privalumai
-                                        - [ ] 1. Greičiau nei `sysctl`?
+                                    - [ ] 1a. Greičiau nei `sysctl`?
                                     - [ ] 2. Trūkumai
-                                        - [ ] 1. "No permissions needed to read any world readable file in ProcFS …"
+                                    - [ ] 2a. "No permissions needed to read any world readable file in ProcFS …"
                                     - [ ] 3. "Viskas yra procesas" ?
                                     - [ ] 4. Aktualumo scenarijai:
-                                        - [x] 1. Must: LKM-2-USER komunikacijai, TCP stekui
-                                        - [x] 2. Advanced user: kai lipdai kernelį iš gabalėlių (ir pvz. neveikia DEVPTS)
-                                        - [x] 3. Regular user: pasitikrinti kasdienius poreikius, pvz. CPU galimybes, dažnį, Core skaičių
+                                    - [x] 4a. Must: LKM-2-USER komunikacijai, TCP stekui
+                                    - [x] 4b. Advanced user: kai lipdai kernelį iš gabalėlių (ir pvz. neveikia DEVPTS)
+                                    - [x] 4c. Regular user: pasitikrinti kasdienius poreikius, pvz. CPU galimybes, dažnį, Core skaičių
                                     - [ ] X. Mintys sustruktūruotos
                                 - [ ] 3. Maketavimas
                             - [ ] 5. Treniruotė

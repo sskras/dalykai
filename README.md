@@ -310,7 +310,11 @@ Asmeninių tvarkymų medis.
                 - [ ] 1. Konferencingui:
                     - [ ] 1. `Zoom`: OK
                     - [ ] 2. `Teams`: NOK
-                    - [ ] 3. F/LOSS: `TODO`
+                    - [ ] 3. F/LOSS sistema:
+                        - [x] 1. URL: https://alternativeto.net/software/zoom-cloud-meetings/?license=opensource&platform=online
+                        - [ ] 2. `TODO` peržiūrėti ir apžvelgti
+                        - [ ] X. Baigta F/LOSS programų atranka
+                    - [ ] X. Rasti konferencingo softai.
                 - [ ] 2. Įrašams
                     - [ ] 1. Capture
                         - [x] 1. ~~Nimbus~~

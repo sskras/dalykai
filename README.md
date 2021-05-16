@@ -270,8 +270,10 @@ Asmeninių tvarkymų medis.
                 - [ ] 1. `led.ot.lt` perkėlimas
                 - [ ] 2. [`news.omnitel.net` perkėlimas](tvarka/news.omnitel.net-perkėlimas.md)
             - [ ] 2. FOSS mirroring/revival:
+                - [ ] 0. `TODO` GitHub repo for the mirroring
                 - [ ] 1. DataRecovery version 2.4.7, http://software.tokiwa.qcweb.jp/EN/dr.html
-            - [ ] X.
+                - [ ] 2. TinyVisor, https://osdn.net/projects/tinyvisor/downloads/66690/tinyvisor-1.8.tar.gz/
+            - [ ] X. Sutvarkytas paveldas
         - [ ] 3. Patobulinimai, nepatogumo mažinimas, automatizavimai
             - [ ] 1. DC tvarkymas
                 - [ ] 1. DCIM

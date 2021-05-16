@@ -273,6 +273,9 @@ Asmeninių tvarkymų medis.
                 - [ ] 0. `TODO` GitHub repo for the mirroring
                 - [ ] 1. DataRecovery version 2.4.7, http://software.tokiwa.qcweb.jp/EN/dr.html
                 - [ ] 2. TinyVisor, https://osdn.net/projects/tinyvisor/downloads/66690/tinyvisor-1.8.tar.gz/
+                - [ ] 3. TVMM,  \
+                      http://www.yl.is.s.u-tokyo.ac.jp/~kaneda/tvmm/tvmm-2006-6-2.tar.gz  \
+                      https://github.com/kkaneda/tvmm
             - [ ] X. Sutvarkytas paveldas
         - [ ] 3. Patobulinimai, nepatogumo mažinimas, automatizavimai
             - [ ] 1. DC tvarkymas
@@ -297,6 +300,27 @@ Asmeninių tvarkymų medis.
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 1. Hypervisors
                 - [ ] 1. Mokymaisi, tyrimai, dokumentavimas
+                    - [x] 01. About ACPI and DMA, IOMMU:  \
+                          https://translate.google.com/translate?hl=en&sl=ja&u=https://zenn.dev/oshibori/scraps/478be45c3fae3e
+                    - [x] 02. How to make a hypervisor-Virtualization technology to understand properly-The 16th PCI Passthrough Part 2 "Details of VT-d":  \
+                          https://translate.google.com/translate?hl=en&sl=ja&u=https://syuu1228.github.io/howto_implement_hypervisor/part16.html
+                    - [x] 03. How to make a hypervisor  \
+                          http://syuu1228.github.io/howto_implement_hypervisor/
+                    - [x] 04. ACPI DMAR memo:  \
+                          https://translate.google.com/translate?hl=en&sl=ja&u=https://mmi.hatenablog.com/entry/2018/03/10/215742
+                    - [x] 05. Reading the code of TinyVisor's IOMMU:  \
+                          https://translate.google.com/translate?hl=en&sl=ja&u=https://qiita.com/YsuOS/items/a6deab2e92fb77be7006
+                    - [x] 06. Tiny Virtual Machine Monitor:  \
+                          http://www.yl.is.s.u-tokyo.ac.jp/~kaneda/tvmm/
+                    - [x] 07. MAVMM: Lightweight and Purpose Built VMM for Malware Analysis:  \
+                          https://sites.google.com/site/bletchleypark2/3-operating-system/vmi/mavmm
+                    - [x] 08. Who watches the watcher? Detecting hypervisor introspection from unprivileged guests:  \
+                          https://www.researchgate.net/publication/345646485_Who_watches_the_watcher_Detecting_hypervisor_introspection_from_unprivileged_guests
+                    - [x] 09. Checkpointing an Operating System Using a Parapass-through Hypervisor:  \
+                          https://www.researchgate.net/publication/273895166_Checkpointing_an_Operating_System_Using_a_Parapass-through_Hypervisor
+                    - [x] 10. HyperLeech: Stealthy System Virtualization with Minimal Target Impact through DMA-Based Hypervisor Injection:  \
+                          https://www.usenix.org/system/files/raid20-palutke.pdf
+                    - [ ] XX. Baigti hipervizorių tyrimai
                 - [ ] 2. Kūrimas:
                     - [ ] 1, ODD emuliacija (xordivm)
                     - [ ] 2, Remote-mgmt (iLO) emuliacija

@@ -320,6 +320,8 @@ Asmeninių tvarkymų medis.
                           https://www.researchgate.net/publication/273895166_Checkpointing_an_Operating_System_Using_a_Parapass-through_Hypervisor
                     - [x] 10. HyperLeech: Stealthy System Virtualization with Minimal Target Impact through DMA-Based Hypervisor Injection:  \
                           https://www.usenix.org/system/files/raid20-palutke.pdf
+                    - [x] 11. rVMI; Hypervisor-Level Debugger Benefits & Challenges:  \
+                          http://archive.hack.lu/2018/Hypervisor-Level%20Debugger%20Benefits%20&%20Challenges%20-%20Hack.lu%202018.pdf
                     - [ ] XX. Baigti hipervizorių tyrimai
                 - [ ] 2. Kūrimas:
                     - [ ] 1, ODD emuliacija (xordivm)

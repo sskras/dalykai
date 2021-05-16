@@ -40,14 +40,15 @@ Asmeninių tvarkymų medis.
     - [ ] 3. Skaitmeninėje aplinkoje
         - [ ] 1. Pirmos būtinybės poreikiai
               <a id="Užduočių-ir-problemų-žymėjimasis---versijavimas"></a>
-            - [ ] 0. Užduočių ir problemų žymėjimasis + versijavimas (https://github.com/sskras/dalykai). 
-                - [x] 1. Sukūrimas iš akies
+            - [ ] 0. Užduočių ir problemų žymėjimasis + versijavimas
+                - [x] 1. Sukūrimas iš akies, https://github.com/sskras/dalykai
                 - [x] 2. Pildymas
                 - [ ] 3. Struktūros keitimas
                     - [x] 1. `---` žymės įvedimas tarp stambių punktų (kad lengva būtų naršyti)
                     - [ ] 2. Uždarančiojo punktą `X. ...` įvedimas, kad sub-punktų pradžios sudarytų simetrišką `>` formą
                 - [ ] 4. 
-            - [ ] 1. Bekupai
+            - [ ] 1. Skaitmeninių savo veiksmų žymėjimasis
+            - [ ] 2. Bekupai
                 - [ ] 1. Susirinkti visus savo Ad-hoc darytus bekupus
                     - [ ] 1. Kaupti senas naudotas savo duomenų talpyklas vienoje vietoje:
                         - [ ] 1. 3.5" PATA diskus
@@ -59,14 +60,11 @@ Asmeninių tvarkymų medis.
                 - [ ] 3. Į ją perkelti visus savo randamas failų ar diskų Image-kopijas
                 - [ ] 4. Pašto bekupai
                     - [ ] 1. Gmail.com
-                    - [ ] 2. `ar.fi.lt` + `ar-fi.lt`
+                    - [ ] 2. `ar`?`fi.lt`
                     - [ ] X. Subekupuoti visi laiškai
-            - [ ] 2. Pašto programos
-            - [ ] 3. Desktopų CMDB
-            - [ ] 4. UE Management (Sailfish OS)
-            - [ ] 5. Studijų įrankiai
-                - [ ] 1. Dokumentavimui (būtinai versijuotam)
-                - [ ] 2. Tiesiogiam mokymuisi
+            - [ ] 3. Pašto programos
+            - [ ] 4. Desktopų CMDB
+            - [ ] 5. UE Management (Sailfish OS)
             - [ ] 6. Tvarka darbe
                 - [ ] 1. KDV
                 - [ ] 2. Infrastruktūroje

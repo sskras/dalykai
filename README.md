@@ -39,15 +39,16 @@ Asmeninių tvarkymų medis.
         ---
     - [ ] 3. Skaitmeninėje aplinkoje
         - [ ] 1. Pirmos būtinybės poreikiai
-              <a id="Užduočių-ir-problemų-žymėjimasis---versijavimas"></a>
-            - [ ] 0. Užduočių ir problemų žymėjimasis + versijavimas
-                - [x] 1. Sukūrimas iš akies, https://github.com/sskras/dalykai
-                - [x] 2. Pildymas
-                - [ ] 3. Struktūros keitimas
-                    - [x] 1. `---` žymės įvedimas tarp stambių punktų (kad lengva būtų naršyti)
-                    - [ ] 2. Uždarančiojo punktą `X. ...` įvedimas, kad sub-punktų pradžios sudarytų simetrišką `>` formą
-                - [ ] 4. 
             - [ ] 1. Skaitmeninių savo veiksmų žymėjimasis
+                - [x] 1. Pasirinktas formatas = ASCII
+                  <a id="Užduočių-ir-problemų-žymėjimasis---versijavimas"></a>
+                - [ ] 2. Užduočių ir problemų žymėjimasis + versijavimas
+                    - [x] 1. Sukūrimas iš akies, https://github.com/sskras/dalykai
+                    - [x] 2. Pildymas
+                    - [ ] 3. Struktūros keitimas
+                        - [x] 1. `---` žymės įvedimas tarp stambių punktų (kad lengva būtų naršyti)
+                        - [ ] 2. Uždarančiojo punktą `X. ...` įvedimas, kad sub-punktų pradžios sudarytų simetrišką `>` formą
+                    - [ ] X. Užduotys pilnai žymimos
             - [ ] 2. Bekupai
                 - [ ] 1. Susirinkti visus savo Ad-hoc darytus bekupus
                     - [ ] 1. Kaupti senas naudotas savo duomenų talpyklas vienoje vietoje:

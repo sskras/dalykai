@@ -14,7 +14,6 @@ Asmeninių tvarkymų medis.
                             - [x] 1. Apie stiklainių metimą į laužą: https://twitter.com/sskras/status/1382649493406035971
                         - [ ] X. Aptarimai baigti
                     - [ ] X. Optimalus rūšiavimas rastas
-                - [ ] 1, surūšiuoti;
                 - [ ] 2, išgabenti;
                 - [ ] 3, dokumentuoti procesą;
                 - [ ] 4, pradėti kartojimą;
@@ -50,14 +49,18 @@ Asmeninių tvarkymų medis.
                 - [ ] 4. 
             - [ ] 1. Bekupai
                 - [ ] 1. Susirinkti visus savo Ad-hoc darytus bekupus
-                    - [ ] 1. Sukaupti senas naudotas savo duomenų talpyklas:
+                    - [ ] 1. Kaupti senas naudotas savo duomenų talpyklas vienoje vietoje:
                         - [ ] 1. 3.5" PATA diskus
                         - [ ] 2. 2.5" SATA diskus
                         - [ ] 3. 2.5" USB diskus
                     - [ ] `BLOCKER`: [DCIM + hardware asset management](#DCIM---hardware-asset-management) suderinimas
                     - [ ] 3. Sužymėti sukauptas duomenų talpyklas
                 - [ ] 2. Susikurti naują (turbūt centralizuotą) bekupavimo sistemą.
-                - [ ] 3. Į ją perkelti visus savo randamus bekupus
+                - [ ] 3. Į ją perkelti visus savo randamas failų ar diskų Image-kopijas
+                - [ ] 4. Pašto bekupai
+                    - [ ] 1. Gmail.com
+                    - [ ] 2. `ar.fi.lt` + `ar-fi.lt`
+                    - [ ] X. Subekupuoti visi laiškai
             - [ ] 2. Pašto programos
             - [ ] 3. Desktopų CMDB
             - [ ] 4. UE Management (Sailfish OS)

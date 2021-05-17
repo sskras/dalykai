@@ -48,7 +48,46 @@ Asmeninių tvarkymų medis.
                     - [ ] 3. Struktūros keitimas
                         - [x] 1. `---` žymės įvedimas tarp stambių punktų (kad lengva būtų naršyti)
                         - [ ] 2. Uždarančiojo punktą `X. ...` įvedimas, kad sub-punktų pradžios sudarytų simetrišką `>` formą
+                    - [x] 4. Trūkumai
+                        - [x] 1. Max. level of nesting = 10 (GitHube)
                     - [ ] X. Užduotys pilnai žymimos
+                - [ ] 3. Veiksmų žymėjimasis + detalių versijavimas
+                    - [ ] 1. Bendrai
+                        - [x] 1. Laiko ir darbų sekimas kartu, pirmieji bandymai:
+                            - [x] 1. Tekstinis failas (neversijuotas)
+                            - [x] 2. `TrackingTime.co`
+                        - [ ] 2. Darbų medis: `Task Warrior`
+                            - [x] 1. Pradėjau naudoti ~2019 m.
+                            - [ ] 2. `TODO` patobulinimai
+                                - [ ] 1. Atskirti darbdavio veiksmus nuo asmeninių.
+                                - [ ] 2. Atsinaujinti versiją
+                                - [ ] 3. Importuotis darbus per RESTapi iš `TrackingTime.co`
+                            - [ ] X. Darbų medžio įrankis sutvarkytas
+                        - [ ] 3. Laiko žymėjimas: `TimeWarrior`
+                            - [x] 1. Pradėjau naudoti ~2019 m.
+                            - [ ] 2. `TODO` patobulinimai
+                                - [ ] 1. patogesni _Bash-wrapper_-iai
+                                - [ ] 2. Atsinaujinti versiją
+                                - [ ] 3. Importuotis intervalus per RESTapi iš `TrackingTime.co`
+                                - [ ] 4. Sukurti Msys2 paketą (MinGW versiją)
+                            - [ ] X. Laiko žymėjimasis sutvarkytas
+                        - [ ] X. Bendrų dalykų žymėjimas sutvarkytas
+                    - [ ] 2. Asmeniškai
+                        - [ ] 1. Android įrankiai:
+                            - [ ] 1. Microsoft To Do: https://todo.microsoft.com/tasks/
+                            - [ ] 2. TickTick: https://ticktick.com/
+                        - [ ] X. Sutvarkytas asmeniškų veiksmų žymėjimas
+                    - [ ] 3. Darbui
+                        - [ ] 1. Kuo didesnio sk. veiksmų perkėlimas KDV į tekstinę konsolę:
+                            - [x] 1. `Msys2` naudojimas
+                        - [x] 2. Kiekvienos svarbesnės `Bash`-sesijos įrašymas KDV:
+                            - [x] 1. `llog` aljasas/skriptas
+                        - [ ] X. Darbo veiksmai loginami
+                    - [ ] 4. Studijoms
+                        - [ ] 1. Studijų medžiagai
+                        - [ ] 2. Studijų metu atliktiems darbams
+                    - [ ] X. Norimi veiksmai yra žymimi
+                - [ ] X. Skaitmeninis gyvenimas jau žymimas
             - [ ] 2. Bekupai
                 - [ ] 1. Susirinkti visus savo Ad-hoc darytus bekupus
                     - [ ] 1. Kaupti senas naudotas savo duomenų talpyklas vienoje vietoje:

@@ -912,5 +912,84 @@ SATA Controller (0, 0): /rpool/VGTU-studijos/VMs/2021-VGTU-IiSA-LDVM1/2021-VGTU-
  NIC 1:                       MAC: 0800272BEBFD, Attachment: NAT, Cable connected: on, Trace: off (file: none), Type: 82540EM, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
  NIC 1 Settings:  MTU: 0, Socket (send: 64, receive: 64), TCP Window (send:64, receive: 64)
  NIC 2:                       disabled
-
 ```
+
+Received failure:
+```
+ error: out of memory.
+ Press any key to continue...
+```
+Padidinkim pagal `Server Edition`: https://ubuntu.com/server/docs/installation
+```
+[p@localhost ~]$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --cpus 2 --memory 1024
+[p@localhost ~]$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1
+
+[p@localhost ~]$ diff -u VM_2021-VGTU-IiSA-LDVM1_0{7,8}_config.txt | colordiff
+--- VM_2021-VGTU-IiSA-LDVM1_07_config.txt	2021-05-18 00:13:01.031293457 +0300
++++ VM_2021-VGTU-IiSA-LDVM1_08_config.txt	2021-05-18 00:23:22.650275090 +0300
+@@ -6,7 +6,7 @@
+ Snapshot folder:             /rpool/VGTU-studijos/VMs/2021-VGTU-IiSA-LDVM1/Snapshots
+ Log folder:                  /rpool/VGTU-studijos/VMs/2021-VGTU-IiSA-LDVM1/Logs
+ Hardware UUID:               9cbbb7b3-8b3d-4b57-bf27-9b89a15d4e77
+-Memory size:                 128MB
++Memory size:                 1024MB
+ Page Fusion:                 disabled
+ VRAM size:                   8MB
+ CPU exec cap:                100%
+@@ -14,7 +14,7 @@
+ CPUProfile:                  host
+ Chipset:                     piix3
+ Firmware:                    BIOS
+-Number of CPUs:              1
++Number of CPUs:              2
+ PAE:                         enabled
+ Long Mode:                   enabled
+ Triple Fault Reset:          disabled
+@@ -40,7 +40,7 @@
+ VT-x Unrestricted Exec.:     enabled
+ Paravirt. Provider:          Default
+ Effective Paravirt. Prov.:   KVM
+-State:                       powered off (since 2021-05-17T20:25:49.000000000)
++State:                       powered off (since 2021-05-17T21:19:25.000000000)
+ Graphics Controller:         VBoxVGA
+ Monitor count:               1
+ 3D Acceleration:             disabled
+```
+
+Another failure:
+```
+Oh no! Something has gone wrong.
+A problem has occurred and the system can't recover. Please contact a system administrator
+```
+
+Let's add some more RAM:
+```
+[p@localhost ~]$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --memory 2048
+
+[p@localhost ~]$ diff -u VM_2021-VGTU-IiSA-LDVM1_0{8,9}_config.txt | colordiff
+--- VM_2021-VGTU-IiSA-LDVM1_08_config.txt	2021-05-18 00:23:22.650275090 +0300
++++ VM_2021-VGTU-IiSA-LDVM1_09_config.txt	2021-05-18 00:30:59.226261600 +0300
+@@ -6,7 +6,7 @@
+ Snapshot folder:             /rpool/VGTU-studijos/VMs/2021-VGTU-IiSA-LDVM1/Snapshots
+ Log folder:                  /rpool/VGTU-studijos/VMs/2021-VGTU-IiSA-LDVM1/Logs
+ Hardware UUID:               9cbbb7b3-8b3d-4b57-bf27-9b89a15d4e77
+-Memory size:                 1024MB
++Memory size:                 2048MB
+ Page Fusion:                 disabled
+ VRAM size:                   8MB
+ CPU exec cap:                100%
+@@ -40,7 +40,7 @@
+ VT-x Unrestricted Exec.:     enabled
+ Paravirt. Provider:          Default
+ Effective Paravirt. Prov.:   KVM
+-State:                       powered off (since 2021-05-17T21:19:25.000000000)
++State:                       powered off (since 2021-05-17T21:30:35.000000000)
+ Graphics Controller:         VBoxVGA
+ Monitor count:               1
+ 3D Acceleration:             disabled
+```
+
+OK, now we get the erorr message a lot faster! :D
+But otherwise it seems to be working:
+username: osboxes
+password: osboxes.org

@@ -53,25 +53,29 @@ Asmeninių tvarkymų medis.
                     - [ ] X. Užduotys pilnai žymimos
                 - [ ] 3. Veiksmai + smulkmenos
                     - [ ] 1. Bendrai
-                        - [x] 1. Laiko ir darbų sekimas kartu, pirmieji bandymai:
-                            - [x] 1. Tekstinis failas (neversijuotas `@mf.vu.lt`)
-                            - [x] 2. `TrackingTime.co`
-                        - [ ] 2. Darbų medis: `Task Warrior`
-                            - [x] 1. Pradėjau naudoti ~2019 m.
-                            - [ ] 2. `TODO` patobulinimai
-                                - [ ] 1. Atskirti darbdavio veiksmus nuo asmeninių.
-                                - [ ] 2. Atsinaujinti versiją
-                                - [ ] 3. Importuotis darbus per RESTapi iš `TrackingTime.co`
-                            - [ ] X. Darbų medžio įrankis sutvarkytas
-                        - [ ] 3. Laiko žymėjimas: `TimeWarrior`
-                            - [x] 1. Pradėjau naudoti ~2019 m.
-                            - [ ] 2. `TODO` patobulinimai
-                                - [ ] 1. patogesni _Bash-wrapper_-iai:
-                                    - [ ] 1. `timew_fronted.sh` perdarymas
-                                - [ ] 2. Atsinaujinti versiją
-                                - [ ] 3. Importuotis intervalus per RESTapi iš `TrackingTime.co`
-                                - [ ] 4. Sukurti Msys2 paketą (MinGW versiją)
-                            - [ ] X. Laiko žymėjimasis sutvarkytas
+                        - [ ] 1. Laikas ir užduotys
+                            - [x] 1. Laiko ir darbų sekimas kartu, pirmieji bandymai:
+                                - [x] 1. Tekstinis failas (neversijuotas `@mf.vu.lt`)
+                                - [x] 2. Tekstinis failas (neversijuotas `@mb.vu.lt`)
+                                - [x] 3. `Redmine` darbai `@mb.vu.lt`
+                                - [x] 4. `TrackingTime.co`
+                            - [ ] 2. Darbų medis: `Task Warrior`
+                                - [x] 1. Pradėjau naudoti ~2019 m.
+                                - [ ] 2. `TODO` patobulinimai
+                                    - [ ] 1. Atskirti darbdavio veiksmus nuo asmeninių, studijų ir kt.
+                                    - [ ] 2. Atsinaujinti versiją
+                                    - [ ] 3. Importuotis darbus per RESTapi iš `TrackingTime.co`
+                                - [ ] X. Darbų medžio įrankis sutvarkytas
+                            - [ ] 3. Laiko žymėjimas: `TimeWarrior`
+                                - [x] 1. Pradėjau naudoti ~2019 m.
+                                - [ ] 2. `TODO` patobulinimai
+                                    - [ ] 1. patogesni _Bash-wrapper_-iai:
+                                        - [ ] 1. `timew_fronted.sh` perdarymas
+                                    - [ ] 2. Atsinaujinti versiją
+                                    - [ ] 3. Importuotis intervalus per RESTapi iš `TrackingTime.co`
+                                    - [ ] 4. Sukurti Msys2 paketą (MinGW versiją)
+                                - [ ] X. Laiko žymėjimasis sutvarkytas
+                            - [ ] X. Laikas ir užduotys žymimi
                         - [ ] X. Bendrų dalykų žymėjimas sutvarkytas
                     - [ ] 2. Asmeniškai
                         - [ ] 1. Android įrankiai:
@@ -524,6 +528,7 @@ Asmeninių tvarkymų medis.
                                     - [x] 09. Darbo eiga
                                     - [x] 10. Ataskaitos turinys
                                     - [x] XX. Baigtas 1LD aprašas
+                                - [x] 2LD:
                                 - [ ] X. Baigti visi LD aprašai
                             - [ ] 5. Pasiruošti infrą
                             - [ ] 6. Atlikti

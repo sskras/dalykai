@@ -85,6 +85,45 @@ Asmeninių tvarkymų medis.
                                     - [x] 1. [kita repo](https://github.com/sskras/dalykai/blob/main/tvarka/scripting-VirtualBox.asciidoc)
                                 - [ ] 3. Gedimų taisymas
                                     - [ ] 1. `VBoxManage: error: VT-x is disabled in the BIOS for all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)`
+                                        - [ ] 1. Forumai:
+                                            - [x] 1. How to determine if CPU VT extensions are enabled in bios?  \
+                                                  https://askubuntu.com/questions/103965/how-to-determine-if-cpu-vt-extensions-are-enabled-in-bios
+                                            - [x] 2. Problems with Hardware Accelerator with win10:  \
+                                                  https://forums.virtualbox.org/viewtopic.php?f=6&t=95143
+                                            - [x] 3. VT-x is disabled in the BIOS for both all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED):  \
+                                                  https://stackoverflow.com/questions/33304393/vt-x-is-disabled-in-the-bios-for-both-all-cpu-modes-verr-vmx-msr-all-vmx-disabl
+                                            - [x] 4. Check if virtualization is enabled without sudo on Centos 7?  \
+                                                  https://stackoverflow.com/questions/36397351/check-if-virtualization-is-enabled-without-sudo-on-centos-7
+                                            - [x] 5. Error Failed To Initialize:  \
+                                                  https://stackoverflow.com/questions/34485163/error-failed-to-initialize  \
+                                                  => Check detailed machine logs!
+                                            - [x] 6. https://sites.google.com/site/jacnoteslinux/home/virtualization/misc/find-out-if-cpu-support-intel-vt-and-amd-v-virtualization-support
+                                            - [x] 7. VT-x option not available:  \
+                                                  https://forums.virtualbox.org/viewtopic.php?f=7&t=98184
+                                            - [x] 8. `[ 2143.441510] kvm: disabled by bios`  \
+                                                - [x] 1. http://www.linux-kvm.org/page/FAQ#.22KVM:_disabled_by_BIOS.22_error  \
+                                                - [x] 2. https://unix.stackexchange.com/questions/27174/how-to-check-if-vt-x-is-enabled-in-bios/27177#27177
+                                                - [x] 3. Hint => `dmidecode`!
+                                            - [x] X. Peržvelgti forumai
+                                        - [x] 2. Virtualizacijos patikrinimas:
+                                            - [x] 1. CPU itself:
+                                                - [x] 1. https://www.cyberciti.biz/faq/linux-xen-vmware-kvm-intel-vt-amd-v-support/
+                                                - [x] 2. https://github.com/weaveworks/ignite/blob/main/docs/installation.md#checking-for-kvm-support
+                                                - [x] 3. https://vitux.com/how-to-check-if-your-processor-supports-virtualization-technology/
+                                                - [x] 4. https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/5/html/virtualization/sect-virtualization-tips_and_tricks-verifying_virtualization_extensions
+                                            - [x] 2. BIOS / `dmidecode` !
+                                                - [x] 1. https://stackoverflow.com/questions/11116704/check-if-vt-x-is-activated-without-having-to-reboot-in-linux/11118147#comment70537069_19464184
+                                                - [x] 2. Hint => `virt-host-validate` provided by `libvirt-client`
+                                                - [ ] 3. Tikrinimas fiziškai persijungiant į BIOS
+                                            - [x] 3. Išvada: panašu, kad CPU palaiko, o BIOS uždrausta.
+                                            - [ ] X. Patikrintas `VT-x` palaikymas
+                                        - [x] 3. Logų vieta: https://blogs.oracle.com/scoter/virtualbox-log-files-v2
+                                        - [ ] 4. Source code
+                                            - [x] 1. https://github.com/Ratio2/vbox/blob/master/src/VBox/VMM/VMMR3/HM.cpp#L214 | HMR3Init()
+                                            - [x] 2. https://github.com/Ratio2/vbox/blob/master/src/VBox/HostDrivers/Support/SUPLib.cpp#L1677 | SUPR3QueryVTCaps()
+                                            - [ ] 3. `TODO`: 
+                                        - [ ] X. Klaida pataisyta
+                                    - [ ] X.
                                 - [ ] 4. Implementavimas:
                                     - [x] `2.1.2.6`:  \
                                           [`s2 > IiSA: Informacijos ir sistemų apsauga > Laboratoriniai darbai > Pasiruošti infrą`](#Pasiruošti-infrą)

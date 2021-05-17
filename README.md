@@ -83,7 +83,9 @@ Asmeninių tvarkymų medis.
                                     - [x] 1. https://www.oracle.com/technical-resources/articles/it-infrastructure/admin-manage-vbox-cli.html
                                 - [ ] 2. Bandymai
                                 - [ ] 3. Implementavimas:
-                                    - [x] `2.1.2.6`: `s2` > `IiSA: Informacijos ir sistemų apsauga` > `Laboratoriniai darbai` > `Pasiruošti infrą`
+                                    - [x] `2.1.2.6`:  \
+                                          [`s2 > IiSA: Informacijos ir sistemų apsauga > Laboratoriniai darbai > Pasiruošti infrą`](#Pasiruošti-infrą)
+                                    - [ ] X. Baigtos VBox skriptinimo implementacijos
                                 - [ ] X. Suskriptintas `VirtualBox` valdymas
                             - [ ] X. Įgyvendinta IaC
                         - [ ] X. Bendrų dalykų žymėjimas sutvarkytas
@@ -541,6 +543,7 @@ Asmeninių tvarkymų medis.
                                 - [x] 2LD:
                                 - [ ] X. Baigti visi LD aprašai
                             - [ ] 5. `BLOCKER`: [`VirtualBox` skriptinimas](#-VirtualBox--skriptinimas)
+                              <a id="Pasiruošti-infrą"></a>
                             - [ ] 6. Pasiruošti infrą
                             - [ ] 7. Atlikti
                             - [ ] 8. Įrašyti į `asciinema`

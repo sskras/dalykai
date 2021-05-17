@@ -81,8 +81,11 @@ Asmeninių tvarkymų medis.
                             - [ ] 1. `VirtualBox` skriptinimas
                                 - [ ] 1. Dokumentacija:
                                     - [x] 1. https://www.oracle.com/technical-resources/articles/it-infrastructure/admin-manage-vbox-cli.html
-                                - [ ] 2. Bandymai
-                                - [ ] 3. Implementavimas:
+                                - [ ] 2. Bandymai:
+                                    - [x] 1. [kita repo](https://github.com/sskras/dalykai/blob/main/tvarka/scripting-VirtualBox.asciidoc)
+                                - [ ] 3. Gedimų taisymas
+                                    - [ ] 1. `VBoxManage: error: VT-x is disabled in the BIOS for all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)`
+                                - [ ] 4. Implementavimas:
                                     - [x] `2.1.2.6`:  \
                                           [`s2 > IiSA: Informacijos ir sistemų apsauga > Laboratoriniai darbai > Pasiruošti infrą`](#Pasiruošti-infrą)
                                     - [ ] X. Baigtos VBox skriptinimo implementacijos

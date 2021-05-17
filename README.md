@@ -82,6 +82,8 @@ Asmeninių tvarkymų medis.
                                 - [ ] 1. Dokumentacija:
                                     - [x] 1. https://www.oracle.com/technical-resources/articles/it-infrastructure/admin-manage-vbox-cli.html
                                 - [ ] 2. Bandymai
+                                - [ ] 3. Implementavimas:
+                                    - [x] `2.1.2.6`: `s2` > `IiSA: Informacijos ir sistemų apsauga` > `Laboratoriniai darbai` > `Pasiruošti infrą`
                                 - [ ] X. Suskriptintas `VirtualBox` valdymas
                             - [ ] X. Įgyvendinta IaC
                         - [ ] X. Bendrų dalykų žymėjimas sutvarkytas
@@ -538,11 +540,11 @@ Asmeninių tvarkymų medis.
                                     - [x] XX. Baigtas 1LD aprašas
                                 - [x] 2LD:
                                 - [ ] X. Baigti visi LD aprašai
-                            - [ ] 5. `IMPL`: [`VirtualBox` skriptinimas](#-VirtualBox--skriptinimas)
+                            - [ ] 5. `BLOCKER`: [`VirtualBox` skriptinimas](#-VirtualBox--skriptinimas)
                             - [ ] 6. Pasiruošti infrą
-                            - [ ] 6. Atlikti
-                            - [ ] 7. Įrašyti į `asciinema`
-                            - [ ] 8. Paruošti ataskaitą, jei pasirodys, kad reikia
+                            - [ ] 7. Atlikti
+                            - [ ] 8. Įrašyti į `asciinema`
+                            - [ ] 9. Paruošti ataskaitą, jei pasirodys, kad reikia
                             - [ ] X. Pasibaigė IiSA LD
                         - [ ] 3. Namų darbai
                             - [ ] 1. Mini-referatas

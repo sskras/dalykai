@@ -121,7 +121,7 @@ Asmeninių tvarkymų medis.
                                         - [ ] 4. Source code
                                             - [x] 1. https://github.com/Ratio2/vbox/blob/master/src/VBox/VMM/VMMR3/HM.cpp#L214 | HMR3Init()
                                             - [x] 2. https://github.com/Ratio2/vbox/blob/master/src/VBox/HostDrivers/Support/SUPLib.cpp#L1677 | SUPR3QueryVTCaps()
-                                            - [ ] 3. `TODO`: 
+                                            - [ ] 3. `TODO`: `vboxdrv/linux/SUPDrv-linux.c`
                                         - [ ] X. Klaida pataisyta
                                     - [ ] X.
                                 - [ ] 4. Implementavimas:

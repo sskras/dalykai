@@ -848,4 +848,69 @@ Try importing the `.vdi`:
 [p@localhost VMs]$ mv -v "64bit/Ubuntu 21.04 (64bit).vdi" 2021-VGTU-IiSA-LDVM1/2021-VGTU-IiSA-LDVM1.vdi
 ‘64bit/Ubuntu 21.04 (64bit).vdi’ -> ‘2021-VGTU-IiSA-LDVM1/2021-VGTU-IiSA-LDVM1.vdi’
 
+[p@localhost ~]$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1 | grep -i storage
+[p@localhost ~]$ 
+
+[p@localhost ~]$ VBoxManage storagectl 2021-VGTU-IiSA-LDVM1 --name "SATA Controller" --add sata --bootable on
+
+[p@localhost 20210517_VBox-scripting]$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1 | grep -i storage
+Storage Controller Name (0):            SATA Controller
+Storage Controller Type (0):            IntelAhci
+Storage Controller Instance Number (0): 0
+Storage Controller Max Port Count (0):  30
+Storage Controller Port Count (0):      30
+Storage Controller Bootable (0):        on
+
+[p@localhost 20210517_VBox-scripting]$ diff -u VM_2021-VGTU-IiSA-LDVM1_0{5,6}_config.txt | colordiff
+--- VM_2021-VGTU-IiSA-LDVM1_05_config.txt	2021-05-17 23:20:39.531386278 +0300
++++ VM_2021-VGTU-IiSA-LDVM1_06_config.txt	2021-05-17 23:10:04.739405034 +0300
+@@ -40,7 +40,7 @@
+ VT-x Unrestricted Exec.:     enabled
+ Paravirt. Provider:          Default
+ Effective Paravirt. Prov.:   KVM
+-State:                       powered off (since 2021-05-17T13:43:00.000000000)
++State:                       powered off (since 2021-05-17T19:54:50.000000000)
+ Graphics Controller:         VBoxVGA
+ Monitor count:               1
+ 3D Acceleration:             disabled
+@@ -56,6 +56,12 @@
+ Autostart Delay:             0
+ Default Frontend:            
+ VM process priority:         default
++Storage Controller Name (0):            SATA Controller
++Storage Controller Type (0):            IntelAhci
++Storage Controller Instance Number (0): 0
++Storage Controller Max Port Count (0):  30
++Storage Controller Port Count (0):      30
++Storage Controller Bootable (0):        on
+ NIC 1:                       MAC: 0800272BEBFD, Attachment: NAT, Cable connected: on, Trace: off (file: none), Type: 82540EM, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+ NIC 1 Settings:  MTU: 0, Socket (send: 64, receive: 64), TCP Window (send:64, receive: 64)
+ NIC 2:                       disabled
+
+[p@localhost ~]$ VBoxManage storageattach 2021-VGTU-IiSA-LDVM1 --storagectl "SATA Controller" --port 0 --device 0 --type hdd --medium /rpool/VGTU-studijos/VMs/2021-VGTU-IiSA-LDVM1/2021-VGTU-IiSA-LDVM1.vdi 
+
+[p@localhost ~]$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1 | grep -i vdi
+SATA Controller (0, 0): /rpool/VGTU-studijos/VMs/2021-VGTU-IiSA-LDVM1/2021-VGTU-IiSA-LDVM1.vdi (UUID: 1c4fb197-350c-4202-9588-587f79276d90)
+
+[p@localhost ~]$ diff -u VM_2021-VGTU-IiSA-LDVM1_0{6,7}_config.txt | colordiff
+--- VM_2021-VGTU-IiSA-LDVM1_06_config.txt	2021-05-17 23:10:04.739405034 +0300
++++ VM_2021-VGTU-IiSA-LDVM1_07_config.txt	2021-05-18 00:13:01.031293457 +0300
+@@ -40,7 +40,7 @@
+ VT-x Unrestricted Exec.:     enabled
+ Paravirt. Provider:          Default
+ Effective Paravirt. Prov.:   KVM
+-State:                       powered off (since 2021-05-17T19:54:50.000000000)
++State:                       powered off (since 2021-05-17T20:25:49.000000000)
+ Graphics Controller:         VBoxVGA
+ Monitor count:               1
+ 3D Acceleration:             disabled
+@@ -62,6 +62,7 @@
+ Storage Controller Max Port Count (0):  30
+ Storage Controller Port Count (0):      30
+ Storage Controller Bootable (0):        on
++SATA Controller (0, 0): /rpool/VGTU-studijos/VMs/2021-VGTU-IiSA-LDVM1/2021-VGTU-IiSA-LDVM1.vdi (UUID: 1c4fb197-350c-4202-9588-587f79276d90)
+ NIC 1:                       MAC: 0800272BEBFD, Attachment: NAT, Cable connected: on, Trace: off (file: none), Type: 82540EM, Reported speed: 0 Mbps, Boot priority: 0, Promisc Policy: deny, Bandwidth group: none
+ NIC 1 Settings:  MTU: 0, Socket (send: 64, receive: 64), TCP Window (send:64, receive: 64)
+ NIC 2:                       disabled
+
 ```

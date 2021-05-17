@@ -114,9 +114,14 @@ Asmeninių tvarkymų medis.
                                             - [x] 2. BIOS / `dmidecode` !
                                                 - [x] 1. https://stackoverflow.com/questions/11116704/check-if-vt-x-is-activated-without-having-to-reboot-in-linux/11118147#comment70537069_19464184
                                                 - [x] 2. Hint => `virt-host-validate` provided by `libvirt-client`
-                                                - [ ] 3. Tikrinimas fiziškai persijungiant į BIOS
-                                            - [x] 3. Išvada: panašu, kad CPU palaiko, o BIOS uždrausta.
-                                            - [ ] X. Patikrintas `VT-x` palaikymas
+                                                - [x] 3. Tikrinimas fiziškai persijungiant į BIOS
+                                                    - [x] 1. Buvo išjungta, įjungiau:
+                                                        - [x] 1. `VT-x`
+                                                        - [x] 2. `VT-d`
+                                                    - [x] 2. Patikrinau `dmidecode` išvedimo skirtumą: nieko aiškaus
+                                                - [x] X. BIOS sutvarkytas
+                                            - [x] 3. Išvada: CPU palaiko iškart, o BIOS nustatymuose buvo uždrausta.
+                                            - [x] X. Patikrintas `VT-x` palaikymas
                                         - [x] 3. Logų vieta: https://blogs.oracle.com/scoter/virtualbox-log-files-v2
                                         - [ ] 4. Source code
                                             - [x] 1. https://github.com/Ratio2/vbox/blob/master/src/VBox/VMM/VMMR3/HM.cpp#L214 | HMR3Init()
@@ -430,7 +435,19 @@ Asmeninių tvarkymų medis.
                     - [ ] 1, ODD emuliacija (xordivm)
                     - [ ] 2, Remote-mgmt (iLO) emuliacija
                     - [ ] 3, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
+                    - [ ] 4, iLO/MP/iBMC/DRAC emuliacija ryšiui per tinklą
+                    - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
+                        - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu
+                    - [ ] X. Hipervizorių kūryba baigta
                 - [ ] X. Baigta su hypervizoriais
+            - [ ] 2. x86 mašinų System Firmware (BIOS) nustatymų prieiga iš OS:
+                - [ ] 1. Nustatymų skaitymas
+                - [ ] 2. Nustatymų keitimas
+                - [ ] 3. Pvz.: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios
+            - [ ] 3. `VT-x` BIOS nustatymų identifikavimas iš OS (nesikreipiant į BIOS):
+                - [ ] 1. Kaip tiksliai tai daro `vboxdrv`?
+                - [ ] 2. Kaip tiksliai tai daro `kvm`?
+                - [ ] 3. The Bootable image
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

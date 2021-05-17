@@ -76,6 +76,14 @@ Asmeninių tvarkymų medis.
                                     - [ ] 4. Sukurti Msys2 paketą (MinGW versiją)
                                 - [ ] X. Laiko žymėjimasis sutvarkytas
                             - [ ] X. Laikas ir užduotys žymimi
+                        - [ ] 2. IaC
+                              <a id="-VirtualBox--skriptinimas"></a>
+                            - [ ] 1. `VirtualBox` skriptinimas
+                                - [ ] 1. Dokumentacija:
+                                    - [x] 1. https://www.oracle.com/technical-resources/articles/it-infrastructure/admin-manage-vbox-cli.html
+                                - [ ] 2. Bandymai
+                                - [ ] X. Suskriptintas `VirtualBox` valdymas
+                            - [ ] X. Įgyvendinta IaC
                         - [ ] X. Bendrų dalykų žymėjimas sutvarkytas
                     - [ ] 2. Asmeniškai
                         - [ ] 1. Android įrankiai:
@@ -530,7 +538,8 @@ Asmeninių tvarkymų medis.
                                     - [x] XX. Baigtas 1LD aprašas
                                 - [x] 2LD:
                                 - [ ] X. Baigti visi LD aprašai
-                            - [ ] 5. Pasiruošti infrą
+                            - [ ] 5. `IMPL`: [`VirtualBox` skriptinimas](#-VirtualBox--skriptinimas)
+                            - [ ] 6. Pasiruošti infrą
                             - [ ] 6. Atlikti
                             - [ ] 7. Įrašyti į `asciinema`
                             - [ ] 8. Paruošti ataskaitą, jei pasirodys, kad reikia

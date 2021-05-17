@@ -990,6 +990,9 @@ Let's add some more RAM:
 ```
 
 OK, now we get the erorr message a lot faster! :D
+
 But otherwise it seems to be working:
+```
 username: osboxes
 password: osboxes.org
+```

@@ -614,9 +614,16 @@ Asmeninių tvarkymų medis.
                             - [ ] 8. Įrašyti į `asciinema`
                             - [ ] 9. Paruošti ataskaitą, jei pasirodys, kad reikia
                             - [ ] X. Pasibaigė IiSA LD
-                        - [ ] 3. Namų darbai
-                            - [ ] 1. Mini-referatas
-                            - [x] 2. ~~Skaidrės pristatymui~~ (2021-04-26 Failed)
+                        - [x] 3. Namų darbai
+                            - [x] 1. Tipas: mini-referatas
+                            - [x] 2. Tema: MPTCP protokolo saugumo klausimai
+                            - [x] 3. URL: http://www.tinklusaugumas.lt/Duomen%C5%B3%20saugos%20nam%C5%B3%20darb%C5%B3%20u%C5%BEduotys%20magistrantams%202021
+                            - [x] 4. Idėjos:
+                                - [x] 1. "some security issues in relation to the creation of sub flows":  \
+                                      https://github.com/multipath-tcp/mptcp/issues/169#issuecomment-325566650
+                                - [x] X. Pakaks idėjų
+                            - [x] 5. ~~Skaidrės pristatymui~~
+                            - [x] X. `2021-04-26` Failed
                         - [x] 4. Tarpinis egzaminas
                             - [x] 1. ~~Pasiruošimas~~
                             - [x] 2. 20 klausimų laikymas ekspromtu

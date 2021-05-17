@@ -39,10 +39,10 @@ Asmeninių tvarkymų medis.
         ---
     - [ ] 3. Skaitmeninėje aplinkoje
         - [ ] 1. Pirmos būtinybės poreikiai
-            - [ ] 1. Skaitmeninių savo veiksmų žymėjimasis
+            - [ ] 1. Skaitmeninių veiksmų žymėjimasis + versijavimas
                 - [x] 1. Pasirinktas formatas = ASCII
-                  <a id="Užduočių-ir-problemų-žymėjimasis---versijavimas"></a>
-                - [ ] 2. Užduočių ir problemų žymėjimasis + versijavimas
+                  <a id="Užduotys-ir-problemos"></a>
+                - [ ] 2. Užduotys ir problemos
                     - [x] 1. Sukūrimas iš akies, https://github.com/sskras/dalykai
                     - [x] 2. Pildymas
                     - [ ] 3. Struktūros keitimas
@@ -51,10 +51,10 @@ Asmeninių tvarkymų medis.
                     - [x] 4. Trūkumai
                         - [x] 1. Max. level of nesting = 10 (GitHube)
                     - [ ] X. Užduotys pilnai žymimos
-                - [ ] 3. Veiksmų žymėjimasis + detalių versijavimas
+                - [ ] 3. Veiksmai + smulkmenos
                     - [ ] 1. Bendrai
                         - [x] 1. Laiko ir darbų sekimas kartu, pirmieji bandymai:
-                            - [x] 1. Tekstinis failas (neversijuotas)
+                            - [x] 1. Tekstinis failas (neversijuotas `@mf.vu.lt`)
                             - [x] 2. `TrackingTime.co`
                         - [ ] 2. Darbų medis: `Task Warrior`
                             - [x] 1. Pradėjau naudoti ~2019 m.
@@ -66,7 +66,8 @@ Asmeninių tvarkymų medis.
                         - [ ] 3. Laiko žymėjimas: `TimeWarrior`
                             - [x] 1. Pradėjau naudoti ~2019 m.
                             - [ ] 2. `TODO` patobulinimai
-                                - [ ] 1. patogesni _Bash-wrapper_-iai
+                                - [ ] 1. patogesni _Bash-wrapper_-iai:
+                                    - [ ] 1. `timew_fronted.sh` perdarymas
                                 - [ ] 2. Atsinaujinti versiją
                                 - [ ] 3. Importuotis intervalus per RESTapi iš `TrackingTime.co`
                                 - [ ] 4. Sukurti Msys2 paketą (MinGW versiją)
@@ -74,8 +75,11 @@ Asmeninių tvarkymų medis.
                         - [ ] X. Bendrų dalykų žymėjimas sutvarkytas
                     - [ ] 2. Asmeniškai
                         - [ ] 1. Android įrankiai:
-                            - [ ] 1. Microsoft To Do: https://todo.microsoft.com/tasks/
-                            - [ ] 2. TickTick: https://ticktick.com/
+                            - [ ] 1. Microsoft To Do:  \
+                                  https://todo.microsoft.com/tasks/
+                            - [ ] 2. TickTick:  \
+                                  https://ticktick.com/
+                            - [ ] X. Paruošti Android įrankiai
                         - [ ] X. Sutvarkytas asmeniškų veiksmų žymėjimas
                     - [ ] 3. Darbui
                         - [ ] 1. Kuo didesnio sk. veiksmų perkėlimas KDV į tekstinę konsolę:
@@ -325,7 +329,7 @@ Asmeninių tvarkymų medis.
                     - [ ] 1. CI žymėjimas
                 - [ ] X. DC sutvarkytas
             - [ ] 2. Hierarchinis projekto/užduočių žymėjimas Excel
-                - [ ] 0. Maždaug kaip [Užduočių ir problemų žymėjimasis + versijavimas](#Užduočių-ir-problemų-žymėjimasis---versijavimas), tik su Excel.
+                - [ ] 0. Maždaug kaip [2. Užduotys ir problemos](#Užduotys-ir-problemos), tik su Excel.
                 - [ ] 1. Paieška:  
                       https://www.google.com/search?q=hierarchical+view+in+excel+cells&tbm=isch
                 - [ ] 2. Būdas su "Group Members":  

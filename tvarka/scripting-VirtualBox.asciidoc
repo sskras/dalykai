@@ -255,3 +255,147 @@ Waiting for VM "ping" to power on...
 VBoxManage: error: VT-x is disabled in the BIOS for all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)
 VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component ConsoleWrap, interface IConsole
 ```
+
+CPU itself supports:
+```
+[p@localhost ~]$ cat /proc/cpuinfo | awk '/flags/ {$1=$2=""; gsub(/ +/, "\n"); print}' | sort -u 
+
+acpi
+aes
+aperfmperf
+apic
+arat
+arch_perfmon
+avx
+bts
+clflush
+cmov
+constant_tsc
+cx16
+cx8
+de
+ds_cpl
+dtes64
+dtherm
+dts
+eagerfpu
+epb
+ept
+est
+flexpriority
+flush_l1d
+fpu
+fxsr
+ht
+ibpb
+ibrs
+ida
+intel_stibp
+lahf_lm
+lm
+mca
+mce
+md_clear
+mmx
+monitor
+msr
+mtrr
+nonstop_tsc
+nopl
+nx
+pae
+pat
+pbe
+pcid
+pclmulqdq
+pdcm
+pebs
+pge
+pln
+pni
+popcnt
+pse
+pse36
+pts
+rdtscp
+rep_good
+sep
+smx
+spec_ctrl
+ss
+ssbd
+sse
+sse2
+sse4_1
+sse4_2
+ssse3
+stibp
+syscall
+tm
+tm2
+tpr_shadow
+tsc
+tsc_deadline_timer
+vme
+vmx
+vnmi
+vpid
+x2apic
+xsave
+xsaveopt
+xtopology
+xtpr
+```
+
+Supported virtualization-related flags:
+```
+[p@localhost ~]$ egrep -wo 'vme|vmx|ept|vpid|npt|tpr_shadow|flexpriority|vnmi|lm|aes' /proc/cpuinfo | sort | uniq 
+aes
+ept
+flexpriority
+lm
+tpr_shadow
+vme
+vmx
+vnmi
+vpid
+```
+
+Flags adjusted by BIOS:
+```
+[p@localhost ~]$ sudo dmidecode -t processor | egrep "($(cat /proc/cpuinfo | awk '/flags/ {$1=$2=""; sub(/^ +/, ""); gsub(" ", "|"); print toupper($0); exit}')) "
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		CLFSH (CLFLUSH instruction supported)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+```
+
+Virtualization-related flags adjusted by BIOS:
+```
+[p@localhost 20210517_VBox-scripting]$ sudo dmidecode -t processor | egrep "'$(egrep -wo 'vme|vmx|ept|vpid|npt|tpr_shadow|flexpriority|vnmi|lm|aes' /proc/cpuinfo | sort | uniq | fmt | sed 's/ /|/g' | tr [a-z] [A-Z])'"
+		VME (Virtual mode extension)
+```
+
+Hence, the BIOS settings are in play (which doesn't affect the flags read from CPU directly).
+

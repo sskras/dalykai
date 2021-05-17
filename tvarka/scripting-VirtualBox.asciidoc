@@ -248,3 +248,10 @@ VBoxManage: error: Runtime error opening '/run/media/p/Maxtor/_BACKUPS/_VMs/GNS3
 VBoxManage: error: /builddir/build/BUILD/VirtualBox-6.1.18/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())
 VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component MachineWrap, interface IMachine
 ```
+
+```
+[p@localhost ~]$ VBoxManage startvm ping
+Waiting for VM "ping" to power on...
+VBoxManage: error: VT-x is disabled in the BIOS for all CPU modes (VERR_VMX_MSR_ALL_VMX_DISABLED)
+VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component ConsoleWrap, interface IConsole
+```

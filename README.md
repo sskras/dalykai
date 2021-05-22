@@ -394,6 +394,7 @@ Asmeninių tvarkymų medis.
                 - [ ] 3. TVMM,  \
                       http://www.yl.is.s.u-tokyo.ac.jp/~kaneda/tvmm/tvmm-2006-6-2.tar.gz  \
                       https://github.com/kkaneda/tvmm
+                - [ ] 4. IanOS, http://www.ijack.org.uk/Downloads/IanOS.tar.gz
             - [ ] X. Sutvarkytas paveldas
         - [ ] 3. Patobulinimai, nepatogumo mažinimas, automatizavimai
             - [ ] 1. DC tvarkymas

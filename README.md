@@ -19,6 +19,9 @@ Asmeninių tvarkymų medis.
                 - [ ] 4, pradėti kartojimą;
                 - [ ] 5, registruoti trukdžius;
             - [ ] X. Bute baigta
+        - [ ] 2. Popierinės medžiagos skaitmeninimas
+            - [ ] 1. `BLOCKER`: 
+            - [x] 2. VTU-ELF-1995, Kursinis projektas „Jonų intenstyvumo matuoklis“, Vaidas Sipavičius
         - [ ] X. Fizinėje aplinkoje baigta
         ---
     - [ ] 2. Su sveikata
@@ -379,6 +382,7 @@ Asmeninių tvarkymų medis.
                     - [ ] X. Block Device išdėstymas parinktas
                 - [ ] W. 
                 - [ ] X. USB-talpykla baigta.
+            - [ ] X. Sutvarkyti pirmos būtinybės poreikiai
         - [ ] 2. Skaitmeninio paveldo išsaugojimas
             - [ ] 1. site rehosting:
                 - [ ] 1. `led.ot.lt` perkėlimas
@@ -397,7 +401,7 @@ Asmeninių tvarkymų medis.
                     - [ ] `BLOCKER`: [DCIM + hardware asset management](#DCIM---hardware-asset-management) suderinimas
                     - [ ] 1. CI žymėjimas
                 - [ ] X. DC sutvarkytas
-            - [ ] 2. Hierarchinis projekto/užduočių žymėjimas Excel
+            - [ ] 2. Excel hierarchinis projekto/užduočių žymėjimas
                 - [ ] 0. Maždaug kaip [2. Užduotys ir problemos](#Užduotys-ir-problemos), tik su Excel.
                 - [ ] 1. Paieška:  
                       https://www.google.com/search?q=hierarchical+view+in+excel+cells&tbm=isch
@@ -409,8 +413,20 @@ Asmeninių tvarkymų medis.
                       https://en.wikipedia.org/wiki/Pivot_table#Mechanics  
                       https://www.mrexcel.com/excel-tips/creating-a-hierarchy-in-a-pivot-table/  
                       https://www.tutorialspoint.com/excel_power_pivot/excel_power_pivot_hierarchies.htm
-                - [ ] X. Baigta Excel hierarchija
-            - [ ] X. Patobulinimų pabaiga.
+                - [ ] X. Baigtas Excel hierarchiškumas
+            - [ ] 3. Popierinės medžiagos skaitmeninimas
+                - [x] 1. Skenerio pirkimas
+                    - [x] 1. Avision `FB2280E`
+                - [ ] 2. Programinės įrangos parinkimas
+                    - [x] 1. `NAPS2`
+                    - [x] 2. `2021-05-22` rastas trūkumas: `NAPS2` + `A4` nukerpa apie 20-25 mm. nuo nuožulniojo krašto.
+                    - [ ] 3. `TODO`: patikrinti, ar nukirpimas priklauso nuo:
+                        - [ ] 1. `NAPS2` nustatymų,
+                        - [ ] 2. nuo API (Twain vs WIA) ar gal 
+                        - [ ] 3. nuo skenavimo programos
+                    - [ ] X. Skenavimo programa veikia tinkamai
+                - [ ] X. Pasiruošta skaitmeninti popierinę medžiagą
+            - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 1. Hypervisors
                 - [ ] 1. Mokymaisi, tyrimai, dokumentavimas

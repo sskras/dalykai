@@ -414,7 +414,7 @@ Asmeninių tvarkymų medis.
                       https://www.mrexcel.com/excel-tips/creating-a-hierarchy-in-a-pivot-table/  
                       https://www.tutorialspoint.com/excel_power_pivot/excel_power_pivot_hierarchies.htm
                 - [ ] X. Baigtas Excel hierarchiškumas
-            - [ ] 3. Popierinės medžiagos skaitmeninimas
+            - [ ] 3. Įrankiai skaitmeninti popierinę medžiagą, ypač knygas
                 - [x] 1. Skenerio pirkimas
                     - [x] 1. Avision `FB2280E`
                 - [ ] 2. Programinės įrangos parinkimas

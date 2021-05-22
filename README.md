@@ -20,7 +20,7 @@ Asmeninių tvarkymų medis.
                 - [ ] 5, registruoti trukdžius;
             - [ ] X. Bute baigta
         - [ ] 2. Popierinės medžiagos skaitmeninimas
-            - [ ] 1. `BLOCKER`: 
+            - [ ] 1. `BLOCKER`: [Įrankiai skaitmeninti popierinei medžiagai](#Įrankiai-skaitmeninti-popierinei-medžiagai)
             - [x] 2. VTU-ELF-1995, Kursinis projektas „Jonų intenstyvumo matuoklis“, Vaidas Sipavičius
         - [ ] X. Fizinėje aplinkoje baigta
         ---
@@ -414,7 +414,8 @@ Asmeninių tvarkymų medis.
                       https://www.mrexcel.com/excel-tips/creating-a-hierarchy-in-a-pivot-table/  
                       https://www.tutorialspoint.com/excel_power_pivot/excel_power_pivot_hierarchies.htm
                 - [ ] X. Baigtas Excel hierarchiškumas
-            - [ ] 3. Įrankiai skaitmeninti popierinę medžiagą, ypač knygas
+              <a id="Įrankiai-skaitmeninti-popierinei-medžiagai"></a>
+            - [ ] 3. Įrankiai skaitmeninti popierinei medžiagai
                 - [x] 1. Skenerio pirkimas
                     - [x] 1. Avision `FB2280E`
                 - [ ] 2. Programinės įrangos parinkimas

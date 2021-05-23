@@ -410,6 +410,8 @@ Asmeninių tvarkymų medis.
                     - [x] 1. http://thegreyblog.blogspot.com/2010/10/some-reasons-why-solaris-is-great-java.html
                     - [x] 2. https://vermaden.wordpress.com/2021/05/10/valuable-news-2021-05-10/
                     - [ ] X. Surinkti `Solaris` OS gerbėjai
+                - [ ] 2. `Solaris` projektai:
+                    - [x] 1. https://www.pbdigital.org/post/2020-11-23-gitea-migrate-to-new-host/
                 - [ ] X. Suburta ar bent apžvelgta *nix bendruomenė
             - [ ] X. Sutvarkytas paveldas
         - [ ] 3. Patobulinimai, nepatogumo mažinimas, automatizavimai
@@ -453,6 +455,13 @@ Asmeninių tvarkymų medis.
                     - [x] 5. https://wiki.archlinux.org/title/Install_Arch_Linux_on_ZFS#Install_and_configure_the_bootloader
                     - [x] 6. https://pve.proxmox.com/wiki/ZFS:_Switch_Legacy-Boot_to_Proxmox_Boot_Tool#2._Check_which_bootloader_is_used
                 - [ ] X. Išstudijuotas `ZFS`
+            - [ ] 5. _Security_ studijos:
+                - [ ] 1. Konceptai:
+                    - [x] 1. https://en.wikipedia.org/wiki/Software_Defined_Perimeter
+                    - [x] 2. DARE: \
+                          https://en.wikipedia.org/wiki/Data_at_rest \
+                          https://www.ibm.com/docs/en/essm/10.1.1?topic=security-data-rest-encryption
+                    - [ ] X.
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 1. Hypervisors

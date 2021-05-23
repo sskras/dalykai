@@ -363,6 +363,12 @@ Asmeninių tvarkymų medis.
                             - [x] 07. https://forum.level1techs.com/t/ssd-for-all-ssd-freenas-pool/160302
                         - [x] 3. ~~SSD apžvalgos~~
                         - [x] X. Rekomendacijos rastos
+                    - [x] 4. Diskai įsigyti:
+                        - [x] 1. 1T, `2021-05-21`: T253X1960G0C101, Teamgroup GX1 960GB 2.5":
+                        - [x] 2. 1T, `2021-05-21`: CT1000MX500SSD1, Crucial MX500 SSD , 2.5", 1TB, SATA/600, 3D NAND:
+                        - [x] 3. 1T, `2021-05-21`: MZ-77E1T0B/EU, SAMSUNG SSD 870 EVO 1TB 2.5"
+                        - [x] 4. 2T, `2021-05-21`: CT2000MX500SSD1, CRUCIAL MX500 2TB SATA 3.0 TLC:
+                        - [x] 5. 2T, `2021-05-21`: MZ-77E2T0B/EU, SAMSUNG 870 EVO 2TB SATA 3.0 MLC:
                     - [x] X. RAID diskai rasti
                 - [ ] 5. Diskų bandymai
                     - [ ] 1. Pralaida:
@@ -435,7 +441,7 @@ Asmeninių tvarkymų medis.
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 1. Hypervisors
-                - [ ] 1. Mokymaisi, tyrimai, dokumentavimas
+                - [ ] 1. Mokymaisi, tyrimai
                     - [x] 01. About ACPI and DMA, IOMMU:  \
                           https://translate.google.com/translate?hl=en&sl=ja&u=https://zenn.dev/oshibori/scraps/478be45c3fae3e
                     - [x] 02. How to make a hypervisor-Virtualization technology to understand properly-The 16th PCI Passthrough Part 2 "Details of VT-d":  \
@@ -459,13 +465,34 @@ Asmeninių tvarkymų medis.
                     - [x] 11. rVMI; Hypervisor-Level Debugger Benefits & Challenges:  \
                           http://archive.hack.lu/2018/Hypervisor-Level%20Debugger%20Benefits%20&%20Challenges%20-%20Hack.lu%202018.pdf
                     - [ ] XX. Baigti hipervizorių tyrimai
-                - [ ] 2. Kūrimas:
+                - [ ] 2. Dokumentavimas
+                    - [ ] 1. https://github.com/Wenzel/awesome-virtualization
+                        - [ ] 1. PulseDBG: \
+                              https://github.com/honorarybot/PulseDbg \
+                              https://pulsedbg.com/
+                    - [ ] X. Sudokumentuota
+                - [ ] 3. Kūrimas:
                     - [ ] 1, ODD emuliacija (xordivm)
                     - [ ] 2, Remote-mgmt (iLO) emuliacija
                     - [ ] 3, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
                     - [ ] 4, iLO/MP/iBMC/DRAC emuliacija ryšiui per tinklą
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu
+                    - [ ] 6, `Valgrind/Memcheck`-like iškėlimas į VMM/Hipervizor lygį:
+                        - [ ] 1. Idėjos, prototipai:
+                            - [x] 1. https://xenproject.org/2013/01/18/using-valgrind-to-debug-xen-toolstacks/
+                            - [x] 2. https://twitter.com/richinseattle/status/1187231029892792320 \
+                                  error detection in ASAN is using byte level taint tracking (like valgrind) vs VMM page protections (relocating allocations to be adjacent to page boundary and allocating a noaccess/guard page via allocator api hooks) ala page heap/electric fence \
+                                  7:55 AM · Oct 24, 2019
+                            - [x] 3. https://www.riscosopen.org/forum/forums/2/topics/10149?page=1
+                                    "valgrind 'memcheck', for ROM"
+                            - [x] 4. https://github.com/Thalium/IceBox
+                            - [ ] 5. https://github.com/Wenzel/pyvmidbg
+                            - [ ] 6. https://github.com/Zentific/vmidbg
+                            - [ ] 7. https://github.com/gamozolabs/orange_slice
+                            - [ ] 8. https://github.com/HyperDbg/HyperDbg
+                            - [ ] X. Idėjų prisirinkta
+                        - [ ] X. `Valgrind` implementuotas VMM lygmeny
                     - [ ] X. Hipervizorių kūryba baigta
                 - [ ] X. Baigta su hypervizoriais
             - [ ] 2. x86 mašinų System Firmware (BIOS) nustatymų prieiga iš OS:

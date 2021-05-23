@@ -508,6 +508,12 @@ Asmeninių tvarkymų medis.
                     - [ ] X. Sudokumentuota
                 - [ ] 3. Kūrimas:
                     - [ ] 1, ODD emuliacija (xordivm)
+                        - [ ] 1. Test-cases, idėjos, tolimi titikmenys:
+                            - [x] 1. Ventoy: https://www.ventoy.net/en/doc_start.html
+                                - [x] Puikus `.iso` imedžų rinkinys `/issues`.
+                                - [x] Puikus pavyzdys, kiek sunku yra korektiškai aptikti/perimti _Boot-sequence_.
+                            - [ ] X. Surinktas panašių dalykų sąrašiukas
+                        - [ ] X. Sukurta ODD emuliacija VMM lygmeny.
                     - [ ] 2, Remote-mgmt (iLO) emuliacija
                     - [ ] 3, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
                     - [ ] 4, iLO/MP/iBMC/DRAC emuliacija ryšiui per tinklą

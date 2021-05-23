@@ -478,14 +478,34 @@ Asmeninių tvarkymų medis.
                 - [ ] 3. The Bootable image
             - [ ] 4. Cross-platform Storage eksperimentai
                 - [ ] 1. LVM on Windows:
-                    - [ ] 1. Poreikis:
+                    - [x] 1. Poreikis:
                         - [x] 1. https://superuser.com/questions/706521/lvm-dual-boot-windows
                         - [x] 2. https://askubuntu.com/questions/1140272/how-can-i-access-my-lvm-partition-from-windows-10
                         - [x] 3. http://www.chrysocome.net/virtualvolumes-usage
                         - [x] 4. https://superuser.com/questions/1492183/can-i-mount-an-lvm-under-windows
                         - [x] 5. https://superuser.com/questions/235776/booting-windows-any-version-from-an-lvm-volume
+                    - [ ] 2. `TOTEST`
                     - [ ] X. LVM on Windows jau veikia
                 - [ ] X. Baigti eksperimentai su Cross-platform Storage
+            - [ ] 5. Remote Linux desktop
+                - [ ] 1. Using plain X11:
+                    - [x] 01. Poreikis: https://twitter.com/JacksonSabey/status/1393325745292726276
+                    - [x] 02. https://www.google.com/search?q=full+screen+X11
+                    - [x] 03. https://www.google.com/search?q=full+screen+X11+forwarding
+                    - [x] 04. https://www.google.com/search?rlz=1CAZBMY_enLT939&q=bhyve+%22fullscreen%22+guest
+                    - [x] 05. https://www.google.com/search?q=bhyve+%22fullscreen%22+desktop
+                    - [x] 06. https://www.google.com/search?q=X11+Forwarding+for+Desktop+over+SSH
+                    - [x] 07. https://www.google.com/search?q=X11+making+a+window+root
+                    - [x] 08. https://www.google.com/search?q=remote+X11+desktop+as+root++window
+                    - [x] 09. https://www.google.com/search?q=remote+X11+window+manager
+                    - [x] 10. https://www.google.com/search?q=whole+remote+desktop+X11+window+manager
+                    - [x] 11. https://web.archive.org/web/20160318000143/http://xmodulo.com/remote-control-raspberry-pi.html#:~:text=Method%20#3:%20X11%20Forwarding%20for%20Desktop%20over%20SSH
+                    - [x] 12. https://blog.ssdnodes.com/blog/remote-linux-desktop-vps-ssh-vnc/#:~:text=Forwarding%20an%20entire%20remote%20Linux%20desktop
+                    - [x] 13. https://www.linuxjournal.com/content/remote-window-managers
+                    - [x] 14. `XDMCP !`: https://unix.stackexchange.com/questions/327532/how-to-remotely-log-in-with-full-graphical-desktop-over-x11/327535#327535
+                    - [ ] 15. `TOTEST` bent kai kuriuos būdus
+                    - [ ] XX. Išspręsti X11 Remote Desktop klausimai
+                - [ ] X. Išspręsti visi Remote Linux desktop klausimai
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

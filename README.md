@@ -76,7 +76,7 @@ Asmeninių tvarkymų medis.
                                         - [ ] 1. `timew_fronted.sh` perdarymas
                                     - [ ] 2. Atsinaujinti versiją
                                     - [ ] 3. Importuotis intervalus per RESTapi iš `TrackingTime.co`
-                                    - [ ] 4. Sukurti Msys2 paketą (MinGW versiją)
+                                    - [ ] 4. Sukurti   paketą (MinGW versiją)
                                 - [ ] X. Laiko žymėjimasis sutvarkytas
                             - [ ] X. Laikas ir užduotys žymimi
                         - [ ] 2. IaC
@@ -241,6 +241,10 @@ Asmeninių tvarkymų medis.
                     - [ ] 3. OpenZFS-on-Windows testavimas.
                     - [ ] `BLOCKER`: [MSYS2 + WDM draiveriai](#MSYS---WDM-draiveriai).
                     - [ ] 4. Bent vieno portinimas į MSYS2.
+                        - [x] 1. "Compilers used in the project #3" \
+                              https://github.com/openzfsonwindows/openzfs/issues/3
+                        - [ ] X. Portinimas į MSYS2 baigtas
+                    - [ ] X. OpenZFS jau veika on-Windows
                 - [ ] 3. Patikima 2.5" Dual-Bay SATA-USB lentynėlė.
                     - [x] 1. Lentynėlių sąrašas
                         - [x] 1. https://twitter.com/sskras/status/1376979608051060738

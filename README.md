@@ -476,6 +476,16 @@ Asmeninių tvarkymų medis.
                 - [ ] 1. Kaip tiksliai tai daro `vboxdrv`?
                 - [ ] 2. Kaip tiksliai tai daro `kvm`?
                 - [ ] 3. The Bootable image
+            - [ ] 4. Cross-platform Storage eksperimentai
+                - [ ] 1. LVM on Windows:
+                    - [ ] 1. Poreikis:
+                        - [x] 1. https://superuser.com/questions/706521/lvm-dual-boot-windows
+                        - [x] 2. https://askubuntu.com/questions/1140272/how-can-i-access-my-lvm-partition-from-windows-10
+                        - [x] 3. http://www.chrysocome.net/virtualvolumes-usage
+                        - [x] 4. https://superuser.com/questions/1492183/can-i-mount-an-lvm-under-windows
+                        - [x] 5. https://superuser.com/questions/235776/booting-windows-any-version-from-an-lvm-volume
+                    - [ ] X. LVM on Windows jau veikia
+                - [ ] X. Baigti eksperimentai su Cross-platform Storage
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

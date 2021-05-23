@@ -405,6 +405,12 @@ Asmeninių tvarkymų medis.
                       http://www.yl.is.s.u-tokyo.ac.jp/~kaneda/tvmm/tvmm-2006-6-2.tar.gz  \
                       https://github.com/kkaneda/tvmm
                 - [ ] 4. IanOS, http://www.ijack.org.uk/Downloads/IanOS.tar.gz
+            - [ ] 3. *nix bendruomenė
+                - [ ] 1. `Solaris` OS gerbėjai:
+                    - [x] 1. http://thegreyblog.blogspot.com/2010/10/some-reasons-why-solaris-is-great-java.html
+                    - [x] 2. https://vermaden.wordpress.com/2021/05/10/valuable-news-2021-05-10/
+                    - [ ] X. Surinkti `Solaris` OS gerbėjai
+                - [ ] X. Suburta ar bent apžvelgta *nix bendruomenė
             - [ ] X. Sutvarkytas paveldas
         - [ ] 3. Patobulinimai, nepatogumo mažinimas, automatizavimai
             - [ ] 1. DC tvarkymas
@@ -438,6 +444,15 @@ Asmeninių tvarkymų medis.
                         - [ ] 3. nuo skenavimo programos
                     - [ ] X. Skenavimo programa veikia tinkamai
                 - [ ] X. Pasiruošta skaitmeninti popierinę medžiagą
+            - [ ] 4. `ZFS` studijos
+                - [ ] 1. Bootloading:
+                    - [x] 1. https://wiki.freebsd.org/RootOnZFS/GPTZFSBoot
+                    - [x] 2. https://zfsbootmenu.org/
+                    - [x] 3. http://wiki.netbsd.org/projects/project/zfs_root/
+                    - [x] 4. https://www.funtoo.org/ZFS_as_Root_Filesystem#Configuring_the_Bootloader
+                    - [x] 5. https://wiki.archlinux.org/title/Install_Arch_Linux_on_ZFS#Install_and_configure_the_bootloader
+                    - [x] 6. https://pve.proxmox.com/wiki/ZFS:_Switch_Legacy-Boot_to_Proxmox_Boot_Tool#2._Check_which_bootloader_is_used
+                - [ ] X. Išstudijuotas `ZFS`
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 1. Hypervisors
@@ -464,12 +479,18 @@ Asmeninių tvarkymų medis.
                           https://www.usenix.org/system/files/raid20-palutke.pdf
                     - [x] 11. rVMI; Hypervisor-Level Debugger Benefits & Challenges:  \
                           http://archive.hack.lu/2018/Hypervisor-Level%20Debugger%20Benefits%20&%20Challenges%20-%20Hack.lu%202018.pdf
+                    - [x] 12. VMmark: A Scalable Benchmark for Virtualized Systems:  \
+                          https://www.vmware.com/pdf/vmmark_intro.pdf \
+                          https://en.wikipedia.org/wiki/VMmark
+                    - [x] 13. Chapter 30. Using virtualization: QEMU and NVMM:  \
+                          https://netbsd.org/docs/guide/en/chap-virt.html
                     - [ ] XX. Baigti hipervizorių tyrimai
                 - [ ] 2. Dokumentavimas
                     - [ ] 1. https://github.com/Wenzel/awesome-virtualization
                         - [ ] 1. PulseDBG: \
                               https://github.com/honorarybot/PulseDbg \
                               https://pulsedbg.com/
+                        - [ ] X. Papildytas `awesome-virtualization` sąrašas
                     - [ ] X. Sudokumentuota
                 - [ ] 3. Kūrimas:
                     - [ ] 1, ODD emuliacija (xordivm)
@@ -533,6 +554,10 @@ Asmeninių tvarkymų medis.
                     - [ ] 15. `TOTEST` bent kai kuriuos būdus
                     - [ ] XX. Išspręsti X11 Remote Desktop klausimai
                 - [ ] X. Išspręsti visi Remote Linux desktop klausimai
+            - [ ] 6. Microkernel OS apžvalgos
+                - [ ] 1. LibrettOS: A Dynamically Adaptable Multiserver-Library OS∗ \
+                      https://arxiv.org/pdf/2002.08928.pdf
+                - [ ] X. Apžvelgtos Microkernel OS
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

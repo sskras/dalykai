@@ -412,6 +412,11 @@ Asmeninių tvarkymų medis.
                     - [ ] X. Surinkti `Solaris` OS gerbėjai
                 - [ ] 2. `Solaris` projektai:
                     - [x] 1. https://www.pbdigital.org/post/2020-11-23-gitea-migrate-to-new-host/
+                    - [ ] X. Surinkti `Solaris` projektai
+                - [ ] 3. `Solaris` istorija:
+                    - [x] 1. Cassini Ethernet (ce): \
+                          https://docs.oracle.com/cd/E23823_01/html/816-5177/ce-7d.html
+                    - [ ] X. Surinkta `Solaris` istorija
                 - [ ] X. Suburta ar bent apžvelgta *nix bendruomenė
             - [ ] X. Sutvarkytas paveldas
         - [ ] 3. Patobulinimai, nepatogumo mažinimas, automatizavimai

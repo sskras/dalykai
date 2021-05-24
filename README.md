@@ -466,7 +466,11 @@ Asmeninių tvarkymų medis.
                     - [x] 2. DARE: \
                           https://en.wikipedia.org/wiki/Data_at_rest \
                           https://www.ibm.com/docs/en/essm/10.1.1?topic=security-data-rest-encryption
-                    - [ ] X.
+                    - [ ] X. Baigtas _Security_ konceptų sąrašas
+                - [ ] X. Baigtos _Security_ studijos
+            - [ ] 6. Hostinimo treniruotės
+                  <a id="GitHub-Pages-mokinimasis"></a>
+                - [ ] 1. GitHub Pages mokinimasis
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 1. Hypervisors
@@ -676,7 +680,11 @@ Asmeninių tvarkymų medis.
                         - [x] 1. https://github.com/astefanutti/decktape#examples
                         - [x] 2. https://web.marp.app/ (Print to "Save as PDF")
                     - [ ] 6. Pasirinkimas
-                    - [ ] 7. Bandymai
+                        - [ ] 1. `TODO` Šaunu užsimerkęs?
+                    - [ ] 7. Hostinimas
+                        - [ ] 1. `BLOCKER`: [GitHub Pages mokinimasis](#GitHub-Pages-mokinimasis)
+                    	- [ ] 2. GitHub pages?
+                    - [ ] 8. Bandymai
                     - [ ] X. Baigta
                 - [x] 5. Konspektams
                     - [x] 1. Talpykla = GitHub

@@ -858,18 +858,21 @@ Asmeninių tvarkymų medis.
                             - [ ] X. Baigtas kursinis darbas
                         - [ ] X. Baigtas PIPr kursas
                     - [ ] 3. ISAd: Informacinių sistemų administravimas
-                        - [ ] 1. Paskaitos
+                        - [x] 1. Paskaitos
                             - [x] 1. Prasidėjo
                             - [x] 2. Aiškūs įrankiai, pradžios laikas, trukmė
                                 - [x] 1. ~~`Teams`~~: NOK, lagina dėstytojui, antras įrankis magistrantams
                                 - [x] 2. `Zoom`: OK, nors ir tenka persijungti kas 45 min.
                             - [x] 3. Vyksta
-                            - [ ] 4. Konspekto sudarymas
-                            - [ ] 5. Paskaitų peržiūra
+                            - [x] 4. ~~Konspekto sudarymas~~ Failed
+                            - [x] 5. Paskaitų peržiūra
                               <a id="Paskaitu-perziura-ISAd"></a>
-                                - [ ] 1. `TODO` sąrašas
-                                - [ ] X. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
-                            - [ ] 6. Pasibaigė
+                                - [x] 1. ~~`TODO` sąrašas~~
+                                - [x] 2. Video sudėlioti
+                                - [x] 3. Maža dalis peržiūrėta
+                                - [x] 4. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
+                                - [x] X. Baigta TPKV įrašų peržiūra
+                            - [x] 6. Pasibaigė
                         - [x] 2. Namų darbai – Linux komandos/pasistemės pristatymas
                             - [x] 1. Parinkta tema: `/proc` FS
                             - [x] 2. Analizė
@@ -922,6 +925,9 @@ Asmeninių tvarkymų medis.
                                 - [x] 3. Maketavimas
                             - [x] 5. Treniruotė
                             - [x] 6. Pristatymas
+                        - [x] 3. Egzaminas
+                            - [x] 1. ~~Pasiruošimas~~ Failed
+                            - [ ] 2. Laikymas
                         - [ ] X. ISAd baigtas
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
             - [ ] 3. Jei nepatiks, pabandyti jį pakartoti.

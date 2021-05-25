@@ -11,7 +11,8 @@ Asmeninių tvarkymų medis.
                 - [ ] 0, optimalus rūšiavimas: būdai ir kriterijai:
                     - [ ] 1. Užklausos (ir diskusijos) soc. tinkluose
                         - [ ] 1. Twitter
-                            - [x] 1. Apie stiklainių metimą į laužą: https://twitter.com/sskras/status/1382649493406035971
+                            - [x] 1. Apie stiklainių metimą į laužą: https://twitter.com/sskras/status/1382649493406035971 \
+                                  https://bitbucket-archive.softwareheritage.org/projects/gr/GregorR/
                         - [ ] X. Aptarimai baigti
                     - [ ] X. Optimalus rūšiavimas rastas
                 - [ ] 2, išgabenti;

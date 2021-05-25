@@ -814,9 +814,9 @@ Asmeninių tvarkymų medis.
                                 - [ ] 1. `TODO` sąrašas
                                 - [ ] X. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
                             - [ ] 6. Pasibaigė
-                        - [ ] 2. Namų darbai – Linux komandos/pasistemės pristatymas
+                        - [x] 2. Namų darbai – Linux komandos/pasistemės pristatymas
                             - [x] 1. Parinkta tema: `/proc` FS
-                            - [ ] 2. Analizė
+                            - [x] 2. Analizė
                                 - [x] 1. Straipsnių/apžvalgų paieška
                                     - [x] 00. https://www.google.com/search?q=procfs+slides&tbm=isch
                                     - [x] 01. 2001-12-03, https://tldp.org/LDP/sag/html/proc-fs.html  
@@ -840,30 +840,32 @@ Asmeninių tvarkymų medis.
                                               LKM-2-USER: https://tldp.org/LDP/lkmpg/2.6/html/x710.html  
                                               USER-2-LKM: https://tldp.org/LDP/lkmpg/2.4/html/x770.html
                                     - [x] X. Straipsnių pakaks
-                                - [ ] 2. Išsirinkimas iš daugelio
-                                    - [ ] 1. Permetimas akimis
-                                    - [ ] 2. Struktūrų konspektas
-                                    - [ ] 3. Rinkimasis
-                                    - [ ] X. Straipsniai pasirinkti
-                                - [ ] 3. Parsirinktųjų skaitymas
-                                - [ ] 4. Reziume mintyse
-                            - [ ] 3. `BLOCKER`: [Skaidrių įrankis](#Skaidrėms)
-                            - [ ] 4. Skaidrės
-                                - [ ] 1. Reziume raštu
-                                - [ ] 2. Minčių struktūravimas
-                                    - [ ] 1. Privalumai
-                                    - [ ] 1a. Greičiau nei `sysctl`?
-                                    - [ ] 2. Trūkumai
-                                    - [ ] 2a. "No permissions needed to read any world readable file in ProcFS …"
-                                    - [ ] 3. "Viskas yra procesas" ?
-                                    - [ ] 4. Aktualumo scenarijai:
-                                    - [x] 4a. Must: LKM-2-USER komunikacijai, TCP stekui
-                                    - [x] 4b. Advanced user: kai lipdai kernelį iš gabalėlių (ir pvz. neveikia DEVPTS)
+                                - [x] 2. Išsirinkimas iš daugelio
+                                    - [x] 1. Permetimas akimis
+                                    - [x] 2. ~~Struktūrų konspektas~~ Failed
+                                    - [x] 3. ~~Rinkimasis~~ Failed
+                                    - [x] X. Straipsniai pasirinkti
+                                - [x] 3. Parsirinktųjų skaitymas
+                                    - [x] 1. Perskaityti tik tris-keturi iš visų
+                                - [x] 4. ~~Reziume mintyse~~
+                            - [x] 3. `BLOCKER`: ~~[Skaidrių įrankis](#Skaidrėms)~~ Failed
+                                - [x] 1. Worked around by using local Mardown-generated anchors + NBSPs
+                            - [x] 4. Skaidrės
+                                - [x] 1. Reziume raštu
+                                - [x] 2. Minčių struktūravimas
+                                    - [x] 1. Privalumai
+                                    - [x] 1a. Greičiau nei `sysctl`?
+                                    - [x] 2. Trūkumai
+                                    - [x] 2a. "No permissions needed to read any world readable file in ProcFS …"
+                                    - [x] 3. "Viskas yra procesas" ?
+                                    - [x] 4. Aktualumo scenarijai:
+                                    - [x] 4a. ~~Must: LKM-2-USER komunikacijai, TCP stekui~~ Failed to mention
+                                    - [x] 4b. ~~Advanced user: kai lipdai kernelį iš gabalėlių (ir pvz. neveikia DEVPTS)~~ Failed to mention
                                     - [x] 4c. Regular user: pasitikrinti kasdienius poreikius, pvz. CPU galimybes, dažnį, Core skaičių
-                                    - [ ] X. Mintys sustruktūruotos
-                                - [ ] 3. Maketavimas
-                            - [ ] 5. Treniruotė
-                            - [ ] 6. Pristatymas
+                                    - [x] X. Mintys sustruktūruotos
+                                - [x] 3. Maketavimas
+                            - [x] 5. Treniruotė
+                            - [x] 6. Pristatymas
                         - [ ] X. ISAd baigtas
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
             - [ ] 3. Jei nepatiks, pabandyti jį pakartoti.

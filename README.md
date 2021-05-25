@@ -927,6 +927,10 @@ Asmeninių tvarkymų medis.
                             - [x] 6. Pristatymas
                         - [x] 3. Egzaminas
                             - [x] 1. ~~Pasiruošimas~~ Failed
+                                - [x] 1. Konsultacija
+                                - [ ] 2. Knygos parsisiuntimas
+                                - [ ] 3. Klausimų paieška/peržiūra
+                                - [ ] 4. Knygos apibendrinimų peržiūra
                             - [ ] 2. Laikymas
                         - [ ] X. ISAd baigtas
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas

@@ -585,6 +585,54 @@ Asmeninių tvarkymų medis.
                 - [ ] 1. LibrettOS: A Dynamically Adaptable Multiserver-Library OS∗ \
                       https://arxiv.org/pdf/2002.08928.pdf
                 - [ ] X. Apžvelgtos Microkernel OS
+            - [ ] 7. Vieningas įrankis daryti Package Management
+                - [ ] 1. Kriterijai:
+                    - [ ] 1. Ability to install multiple versions of the same package:
+                        - [x] 01. pkgsrc, https://uwm.edu/hpc/software-management/
+                          > Pkgsrc readily supports installing multiple package collections (trees) on the same system under different prefixes.  No need for chroots, jails, virtual machines, or other containers.  Just set your PATH for a given tree, and you’re on your way.  Each collection is fully contained in its own directory, separate from the others and from software installed via Yum or other means.  This allows older software to remain in-place indefinitely for long-term studies, while newer software can be easily deployed under another prefix.
+                        - [x] 02. npm, https://medium.com/weekly-webtips/how-to-install-multiple-versions-of-the-same-package-in-npm-71c29b12e253
+                        - [x] 03. pip, https://discuss.python.org/t/installing-multiple-versions-of-a-package/4862
+                        - [x] 04. julia, https://discourse.julialang.org/t/is-any-way-to-install-multiple-versions-of-same-package/20898
+                        - [x] 05. installpkg, https://github.com/henri/installpkg
+                        - [x] 06. pkgutil, https://jacobrprice.github.io/2019/09/19/Installing-multiple-parallel-R-versions.html
+                        - [x] 07. rpm, https://rpm.org/user_doc/multiple_versions.html
+                        - [x] 08. Ubuntu, https://askubuntu.com/questions/758502/can-multiple-versions-of-the-same-package-co-exist-on-the-same-system
+                        - [x] 09. pacman, https://bbs.archlinux.org/viewtopic.php?id=158830
+                        - [x] 10. stow, https://www.gnu.org/software/stow/
+                        - [x] 11. CPAN, http://novosial.org/perl/life-with-cpan/depot/index.html
+                        - [x] 12. scoop, https://github.com/lukesampson/scoop/issues/3262 \
+                              https://github.com/lukesampson/scoop/wiki/Switching-Ruby,-Python-and-PHP-Versions
+                        - [x] 13. SDKman, https://dzone.com/articles/how-to-install-multiple-versions-of-java-on-the-sa
+                        - [x] 14. Arch Linux, https://unix.stackexchange.com/questions/152597/is-it-possible-to-use-multiple-branch-of-the-same-library-to-make-multiple-sofwa/152619#152619
+                        - [x] 15. FreeBSD, https://forums.freebsd.org/threads/pkgng-how-to-maintain-several-packages-of-the-same-port.42329/
+                        - [x] 16. staging, https://web.archive.org/web/20150905074202/http://blogs.freebsdish.org/portmgr/2013/10/03/staging/
+                        - [x] 17. quattor, https://www.quattor.org/documentation/2013/04/05/package-management.html#package-management#pkg_repl
+                          > If given the multi flag, versions already defined in the profile are preserved. This is useful if you need to declare multiple kernel versions, for instance.
+                        - [x] 18. apk, https://stackoverflow.com/questions/64005202/run-multiple-php-versions-in-alpine-linux
+                        - [x] 19. choco, https://superuser.com/questions/1437061/chocolatey-how-to-retain-certain-version-of-a-package-but-install-new-version-w \
+                              https://docs.chocolatey.org/en-us/choco/commands/install#examples \
+                              https://superuser.com/questions/1401661/does-chocolatey-allow-to-have-multiple-versions-of-same-packages-side-by-side/1401799#1401799
+                          > Install multiple versions of a package using -m (AllowMultiple versions)
+                        - [ ] XY. Išsiaiškintas Multiple-version palaikymas
+                    - [ ] 2. _Plugin_ architektūra emuliuoti kitų paketų veikimui
+                    	- [ ] 1. Apjungiamų (per pluginus) kandidatų sąrašas:
+                    	    - [x] 1. https://www.fatalerrors.org/a/count-the-number-of-code-lines.html
+                    	    - [ ] 2. winget, https://github.com/microsoft/winget-cli ?
+                    	    - [ ] X. Surasti kandidatai
+                        - [ ] X. Sutvarkyta _Plugin_ architektūra
+                    - [ ] 3. Krosplatformiškumas
+                        - [ ] 1. `pkgin`:
+                            - [x] 1. FreeBSD, https://forums.freebsd.org/threads/pkgin-ported-to-feebsd.11447/
+                            - [x] 2. `BINPKG_SITES`: https://www.perkin.org.uk/pages/pkgsrc-binary-packages-for-osx.html
+                            - [ ] X. Aptartas `pkgin` krosplatformiškumas
+                        - [ ] X. Sustrateguotas apskritai krosplaformiškumas
+                    - [ ] X. Parinkti reikalingi kriterijai
+                - [ ] 2. Apžvalgos:
+                    - [x] 1. https://eerielinux.wordpress.com/2017/08/15/the-history-of-nix-package-management/
+                    - [x] 2. https://github.com/jmmv/pkg_comp \
+                          ["pkg_comp auto" fails: pkg_add: A different version of ... is already installed | #19](https://github.com/jmmv/pkg_comp/issues/19)
+                    - [ ] X. Apžvelgti paketų valdymo įrankiai
+                - [ ] X. Vieningas paketų valdymo įrankis paruoštas
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

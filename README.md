@@ -618,6 +618,7 @@ Asmeninių tvarkymų medis.
                     	- [ ] 1. Apjungiamų (per pluginus) kandidatų sąrašas:
                     	    - [x] 1. https://www.fatalerrors.org/a/count-the-number-of-code-lines.html
                     	    - [ ] 2. winget, https://github.com/microsoft/winget-cli ?
+                    	    - [x] 3. https://www.reddit.com/r/windows/comments/8nq62b/freeopensource_package_managers_for_windows/
                     	    - [ ] X. Surasti kandidatai
                         - [ ] X. Sutvarkyta _Plugin_ architektūra
                     - [ ] 3. Krosplatformiškumas
@@ -631,6 +632,10 @@ Asmeninių tvarkymų medis.
                     - [x] 1. https://eerielinux.wordpress.com/2017/08/15/the-history-of-nix-package-management/
                     - [x] 2. https://github.com/jmmv/pkg_comp \
                           ["pkg_comp auto" fails: pkg_add: A different version of ... is already installed | #19](https://github.com/jmmv/pkg_comp/issues/19)
+                    - [x] 3. scoop, https://news.ycombinator.com/item?id=25535018
+                      > I wonder why the author recommend winget but not scoop. Scoop obviously has more community support and that's the most important part of a package manager (more packages, more frequent update, etc).
+                    - [x] 4. https://github.com/lukesampson/scoop/wiki/Chocolatey-Comparison
+                    - [x] 5. https://www.slant.co/options/24160/~just-install-review
                     - [ ] X. Apžvelgti paketų valdymo įrankiai
                 - [ ] X. Vieningas paketų valdymo įrankis paruoštas
             - [ ] X. Baigtos revoliucijos

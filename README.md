@@ -399,12 +399,14 @@ Asmeninių tvarkymų medis.
                 - [ ] 2. [`news.omnitel.net` perkėlimas](tvarka/news.omnitel.net-perkėlimas.md)
             - [ ] 2. FOSS mirroring/revival:
                 - [ ] 0. `TODO` GitHub repo for the mirroring
+                    - [x] 1. https://www.softwareheritage.org/
                 - [ ] 1. DataRecovery version 2.4.7, http://software.tokiwa.qcweb.jp/EN/dr.html
                 - [ ] 2. TinyVisor, https://osdn.net/projects/tinyvisor/downloads/66690/tinyvisor-1.8.tar.gz/
                 - [ ] 3. TVMM,  \
                       http://www.yl.is.s.u-tokyo.ac.jp/~kaneda/tvmm/tvmm-2006-6-2.tar.gz  \
                       https://github.com/kkaneda/tvmm
                 - [ ] 4. IanOS, http://www.ijack.org.uk/Downloads/IanOS.tar.gz
+                - [ ] 5. win-bash 1.14.2, https://sourceforge.net/p/win-bash/code/
             - [ ] 3. *nix bendruomenė
                 - [ ] 1. `Solaris` OS gerbėjai:
                     - [x] 1. http://thegreyblog.blogspot.com/2010/10/some-reasons-why-solaris-is-great-java.html

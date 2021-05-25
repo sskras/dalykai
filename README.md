@@ -883,6 +883,12 @@ Strigimų (jų priežąsčių ar net RCA) medis.
 
   <a id="MSYS----WDM-draiveriai"></a>
 - [ ] 1. MSYS2 + WDM draiveriai
+    - [ ] 1. Pavyzdžiai ir mintys:
+        - [x] 1. [Errors while using Zydis.lib in windows driver | #16](https://github.com/zyantific/zydis/issues/16#issuecomment-346680851)
+          
+          > However it has been possible to compile drivers with Clang/LLVM for quite some time :) (both Clang/C2 and the 'proper' LLVM toolchain.) It's not something I would recommend for production drivers, but Clang's static analysis is unparalleled so I make very frequent use of it. Unfortunately the clang-cl frontend does not recognise MSVC's `/kernel` switch, so you have to manually define `_KERNEL_MODE`. Naturally, doing this in an MSVC project results in a fatal error for defining a reserved macro.
+        - [ ] X. Surasta pakankamai pavyzdžių
+    - [ ] X. Jau WDM draiveriai kompiliuojami su atviru kompileriu
 
   <a id="DCIM---hardware-asset-management"></a>
 - [ ] 2. DCIM + hardware asset management suderinimas

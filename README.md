@@ -831,22 +831,39 @@ Asmeninių tvarkymų medis.
                             - [ ] 6. Pasibaigė
                         - [ ] 2. Laboratoriniai darbai ?
                         - [ ] 3. Namų darbai
-                            - [ ] 1. `RFC 813` analizė
+                            - [x] 1. `RFC 813` analizė
                                 - [x] 1. Dokumento performatavimas
-                                - [ ] 2. Skaitymas
+                                - [x] 2. Skaitymas
                                     - [x] 1. Pradžia
-                                    - [ ] 2. Tęsimas
-                                    - [ ] 3. Pabaiga
-                                - [ ] 3. Pastabų žymėjimasis
-                                - [ ] 4. Reziume
-                            - [ ] 2. Pristatymo ruošimas
-                                - [ ] 1. Formatas
-                                    - [ ] 1. Interactive HTML / Mouse Hovering?
-                                    - [ ] 2. Highlighting Overlay?
-                                    - [ ] 3. Skaidrės?
-                                - [ ] 2. Turinys
-                            - [ ] 3. Treniruotė
-                            - [ ] 4. Pristatymas
+                                    - [x] 2. Tęsimas
+                                    - [x] 3. ~~Pabaiga~~
+                                        - [x] 1. spėjau tik pirmus tris skyrelius išsiverst
+                                        - [x] 2. Žiauriai man sudėtingas stilius ir nepilno paveikslo aprašymas
+                                        - [x] 3. Failed: nuo vidurio iki pabaigos nebespėjau perskaityt
+                                    - [x] Failed
+                                - [x] 3. Pastabų žymėjimasis
+                                    - [x] 1. Tam naudoju Github + Markdown
+                                    - [x] 2. Viską skaidau į minisakinius
+                                    - [x] 3. Failed: nebespėjau susikonspektuot nuo ketvirto skyrelio (SWS) iki vidurio (kiek perskaičiau)
+                                - [x] 4. Reziume
+                                    - [x] 1. Improvizuotas mintyse
+                                - [x] X. `RFC 813` analizė baigta, dalinai Failed
+                            - [x] 2. Pristatymo ruošimas
+                                - [x] 1. Formatas
+                                    - [x] 1. Skipped: Interactive HTML / Mouse Hovering?
+                                    - [x] 2. Skipped: Highlighting Overlay?
+                                    - [x] 3. Skipped: Skaidrės?
+                                    - [x] 4. Pasirinkimas (dėl laiko stokos) pristatyti:
+                                        - [x] 1. surašytus minisakinius tiesiai iš GitHub;
+                                        - [x] 2. persikeltą tiesioginį RFC tekstą.
+                                    - [x] X. Pristatymo formatas improvizuotas
+                                - [x] 2. Turinys
+                            - [x] 3. ~~Treniruotė~~ Failed
+                            - [x] 4. Pristatymas
+                                - [x] 1. Improvizuotas (gana nekokybiškai)
+                                - [x] 2. Per daug šnekėjau apie nesuprastas vietas
+                                - [x] 3. Per daug reagavau kol dėstytojas bandė paaiškint nesuprastas vietas
+                            - [x] X. Dėl RFC atsiskaityta
                         - [ ] 4. Kursinis darbas
                             - [x] 1. Tema: Tinklo simuliacija panaudojant NS-2
                             - [ ] 2. NS-2 (įrankių) ruošimas
@@ -857,7 +874,7 @@ Asmeninių tvarkymų medis.
                             - [ ] 4. Rezultatų apiforminimas
                             - [ ] X. Baigtas kursinis darbas
                         - [ ] X. Baigtas PIPr kursas
-                    - [ ] 3. ISAd: Informacinių sistemų administravimas
+                    - [x] 3. ISAd: Informacinių sistemų administravimas
                         - [x] 1. Paskaitos
                             - [x] 1. Prasidėjo
                             - [x] 2. Aiškūs įrankiai, pradžios laikas, trukmė
@@ -922,17 +939,39 @@ Asmeninių tvarkymų medis.
                                     - [x] 4b. ~~Advanced user: kai lipdai kernelį iš gabalėlių (ir pvz. neveikia DEVPTS)~~ Failed to mention
                                     - [x] 4c. Regular user: pasitikrinti kasdienius poreikius, pvz. CPU galimybes, dažnį, Core skaičių
                                     - [x] X. Mintys sustruktūruotos
-                                - [x] 3. Maketavimas
+                                - [x] 3. Skaidrių emuliavimas ir maketavimas naudojantis .md-to-HTML
+                                    - [x] 1. Local anchors
+                                    - [x] 2. HTML-escaped NBSPs
+                                    - [x] 3. URL = [Semestras-2/3-.../Nam%C5%B3-darbas/Saulius-Krasuckas/README.md](https://github.com/VGTU-ELF/TETfm-20/blob/main/Semestras-2/3-Informacini%C5%B3-sistem%C5%B3-administravimas/Nam%C5%B3-darbas/Saulius-Krasuckas/README.md#1)
+                                - [x] X. Skaidrės paruoštos (nors ir nekokybiškai)
                             - [x] 5. Treniruotė
                             - [x] 6. Pristatymas
                         - [x] 3. Egzaminas
                             - [x] 1. ~~Pasiruošimas~~ Failed
                                 - [x] 1. Konsultacija
-                                - [ ] 2. Knygos parsisiuntimas
-                                - [ ] 3. Klausimų paieška/peržiūra
-                                - [ ] 4. Knygos apibendrinimų peržiūra
-                            - [ ] 2. Laikymas
-                        - [ ] X. ISAd baigtas
+                                - [x] 2. Knygos parsisiuntimas: \
+                                      "The Practice of System and Network Administration", 2017
+                                - [x] 3. ~~Klausimų paieška/peržiūra~~
+                                    - [x] 1. Papildžiau apie VDI
+                                    - [x] 2. Skipped
+                                - [x] 4. ~~Knygos apibendrinimų peržiūra~~ Failed
+                                - [x] 5. ~~Skaidrių peržiūra~~
+                                    - [x] 1. Kelios peržiūrėtos
+                                    - [x] 2. Failed
+                                - [x] X. Beveik nepasiruošta
+                            - [x] 2. Laikymas
+                                - [x] 0. Vaizdo įrašas
+                                - [x] 1. Spėliojimas
+                                - [x] 2. IT4IT verčių sričių ir aprašymų guglinimas
+                                - [x] 3. Nusižiūrėjimas
+                                - [ ] 4. Peržiūra su dėstytoju
+                                    - [x] 1. Su kai kuriais požiūriais apibrėžimais (pvz. konteinerių) nesutinku
+                                    - [x] 2. Su kai kuriais įvertinimais nesutinku (manau, kad savais žodžiais atsakiau tą patį, ko prašoma)
+                                    - [x] 3. Įvertis = 6
+                                - [x] X. ISAd laikymas baigtas
+                            - [x] 5. Galutinio įvertinimas laukimas, saukrs = 9*0.3 + 6*0.7 = 7
+                            - [x] X. ISAd egzaminas išlaikytas
+                        - [x] X. ISAd dalykas atsiskaitytas
                     - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
             - [ ] 3. Jei nepatiks, pabandyti jį pakartoti.
         - [ ] 2. Pasvarstyti apie kompiuterinę lingvistiką.

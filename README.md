@@ -908,8 +908,9 @@ Asmeninių tvarkymų medis.
                                   <a id="NS-2-ir-susijusių-RPM-paketų-kompiliavimas"></a>
                                 - [ ] 3. NS-2 ir susijusių RPM-paketų kompiliavimas
                                 - [ ] 4. Testavimas
-                            - [ ] 3. Tinklo simuliavimas
-                            - [ ] 4. Rezultatų apiforminimas
+                            - [ ] 3. Užduoties supratimas
+                            - [ ] 4. Tinklo simuliavimas
+                            - [ ] 5. Rezultatų apiforminimas
                             - [ ] X. Baigtas kursinis darbas
                         - [ ] X. Baigtas PIPr kursas
                     - [x] 3. ISAd: Informacinių sistemų administravimas

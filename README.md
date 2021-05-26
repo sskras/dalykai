@@ -904,7 +904,7 @@ Asmeninių tvarkymų medis.
                                         - [x] 3. https://gitlab.com/ThanosApostolou/fedora-specs/-/blob/master/SPECS/ns2.spec
                                         - [x] 4. https://copr-dist-git.fedorainfracloud.org/cgit/thanosapostolou/ns2-nam-xgraph/ns2.git/tree/
                                     - [x] X. Baigta NS-2 RPM paketų paieška
-                                - [x] 2. `BLOCKER`: [`.rpm` paketų kūrimas](-.rpm--paketų-kūrimas)
+                                - [x] 2. `BLOCKER`: [`.rpm` paketų kūrimas](#-.rpm--paketų-kūrimas)
                                   <a id="NS-2-ir-susijusių-RPM-paketų-kompiliavimas"></a>
                                 - [ ] 3. NS-2 ir susijusių RPM-paketų kompiliavimas
                                 - [ ] 4. Testavimas

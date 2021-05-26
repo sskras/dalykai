@@ -471,9 +471,34 @@ Asmeninių tvarkymų medis.
                           https://www.ibm.com/docs/en/essm/10.1.1?topic=security-data-rest-encryption
                     - [ ] X. Baigtas _Security_ konceptų sąrašas
                 - [ ] X. Baigtos _Security_ studijos
-            - [ ] 6. Hostinimo treniruotės
+            - [ ] 6. Web-hostinimo treniruotės
                   <a id="GitHub-Pages-mokinimasis"></a>
                 - [ ] 1. GitHub Pages mokinimasis
+                    - [x] 1. https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites
+                    - [x] 2. https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site
+                    - [ ] 3. Skaitymas
+                    - [ ] 4. Bandymai
+                - [ ] X. Web-hostingas pramoktas
+            - [ ] 7. Package Management tobulinimasis
+                - [ ] 1. `.rpm` paketai
+                      <a id="-.rpm--paketų-kūrimas"></a>
+                    - [x] 1. `.rpm` paketų kūrimas
+                        - [x] 1. Tyrimai:
+                            - [x] 1. Ar įmanoma sukurt paketą tik turint `.spec` failą?
+                                - [x] 1. https://www.google.com/search?q=build+rpm+from+.spec
+                                - [x] 2. https://www.thegeekstuff.com/2015/02/rpm-build-package-example/#:~:text=4.%20Create%20the%20SPEC%20File
+                                - [x] 3. https://developer.ibm.com/tutorials/l-rpm1/
+                                - [x] 4. https://oracle-base.com/articles/linux/linux-build-simple-rpm-packages
+                                - [x] 5. https://opensource.com/article/18/9/how-build-rpm-packages#:~:text=There%20is%20also%20a%20complete%20spec%20file,%20which%20you%20can%20use%20to%20build%20the%20rpm
+                                - [x] 6. https://tldp.org/HOWTO/RPM-HOWTO/build.html
+                                - [x] 7. http://ftp.rpm.org/max-rpm/s1-rpm-build-creating-spec-file.html
+                                - [x] 8. Taip!
+                            - [x] X. Baigti `.rpm` paketų kūrimo tyrimai
+                        - [ ] 2. Bandymai
+                            - [x] 1. Implementacija: [NS-2 ir susijusių RPM-paketų kompiliavimas](#NS-2-ir-susijusių-RPM-paketų-kompiliavimas)
+                        - [ ] X. Pramoktas `.rpm` paketų kūrimas
+                    - [ ] X. Išsiaiškinta su `.rpm` paketine sistema
+                - [ ] X. Jau pramokti aktualūs Package Management dalykai
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 1. Hypervisors
@@ -867,9 +892,22 @@ Asmeninių tvarkymų medis.
                         - [ ] 4. Kursinis darbas
                             - [x] 1. Tema: Tinklo simuliacija panaudojant NS-2
                             - [ ] 2. NS-2 (įrankių) ruošimas
-                                - [ ] 1. RPM-paketų paieška CentOS mašinai
-                                - [ ] 2. RPM-paketų kompiliavimas
-                                - [ ] 3. Testavimas
+                                - [ ] 1. NS-2 ir susijusių RPM-paketų paieška CentOS mašinai
+                                    - [x] 1. Pirmi šūviai
+                                        - [x] 1. https://repology.org/project/ns2/versions
+                                        - [x] 2. http://rpm.pbone.net/results_srodzaj_2_search_ns2-2.35-3.32.src.rpm.html
+                                        - [x] 3. https://www.rpmseek.com/rpm-pl/ns2.html?hl=com&cx=0:
+                                        - [x] 4. https://download.opensuse.org/repositories/home:/RedDwarf/openSUSE_Factory/src/ns2-2.35-3.32.src.rpm.mirrorlist
+                                    - [x] 2. Kokių yra `.spec` failų?
+                                        - [x] 1. https://github.com/ThanosApostolou/fedora-ns2-nam/tree/master/otcl/SPECS
+                                        - [x] 2. https://git-os.flux.utah.edu/moate/emulab-devel/-/blob/portal-css/install/rpms/otcl.spec
+                                        - [x] 3. https://gitlab.com/ThanosApostolou/fedora-specs/-/blob/master/SPECS/ns2.spec
+                                        - [x] 4. https://copr-dist-git.fedorainfracloud.org/cgit/thanosapostolou/ns2-nam-xgraph/ns2.git/tree/
+                                    - [x] X. Baigta NS-2 RPM paketų paieška
+                                - [x] 2. `BLOCKER`: [`.rpm` paketų kūrimas](-.rpm--paketų-kūrimas)
+                                  <a id="NS-2-ir-susijusių-RPM-paketų-kompiliavimas"></a>
+                                - [ ] 3. NS-2 ir susijusių RPM-paketų kompiliavimas
+                                - [ ] 4. Testavimas
                             - [ ] 3. Tinklo simuliavimas
                             - [ ] 4. Rezultatų apiforminimas
                             - [ ] X. Baigtas kursinis darbas

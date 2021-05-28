@@ -549,8 +549,17 @@ Asmeninių tvarkymų medis.
                     - [ ] 2, Remote-mgmt (iLO) emuliacija
                         - [ ] 1. Virtualus iLO/MP/iBMC/DRAC
                         - [ ] 2. Out-of-band ryšys emuliuojamas per In-Band tinklą
-                    - [ ] 3, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
-                    - [ ] 3, TODO `kexec` assistant
+                    - [ ] 3, `kexec`-assistant VMM:
+                        - [x] 1. The issue, https://en.wikipedia.org/wiki/Kexec
+                          > * Memory of the currently running kernel is overwritten by the new kernel, while the old one is still executing.
+                          > * The new kernel will usually expect all hardware devices to be in a well defined state, in which they are after a system reboot because the system firmware resets them to a "sane" state. Bypassing a real reboot may leave devices in an unknown state, and the new kernel will have to recover from that.
+                        - [ ] 2. Sprendimo idėjos:
+                            - [x] 1. Plonas VMM dalį fizinės atminties pasiima sau ir Guestui nebeatiduoda
+                            - [x] 2. Plonas VMM perima Reboot inicijavimą, jį patvirtina, bet viską padaro savaip.
+                            - [x] 3. Gal tiktų taip pavadinti _Hot-reboot_ papildant: \
+                                  https://en.wikipedia.org/wiki/Reboot#Cold_vs._warm_reboot
+                        - [ ] X. Baigti darbai su `kexec` VMM
+                    - [ ] 4, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu
                     - [ ] 6, `Valgrind/Memcheck`-like iškėlimas į VMM/Hipervizor lygį:

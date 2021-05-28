@@ -547,8 +547,10 @@ Asmeninių tvarkymų medis.
                             - [ ] X. Surinktas panašių dalykų sąrašiukas
                         - [ ] X. Sukurta ODD emuliacija VMM lygmeny.
                     - [ ] 2, Remote-mgmt (iLO) emuliacija
+                        - [ ] 1. Virtualus iLO/MP/iBMC/DRAC
+                        - [ ] 2. Out-of-band ryšys emuliuojamas per In-Band tinklą
                     - [ ] 3, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
-                    - [ ] 4, iLO/MP/iBMC/DRAC emuliacija ryšiui per tinklą
+                    - [ ] 3, TODO `kexec` assistant
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu
                     - [ ] 6, `Valgrind/Memcheck`-like iškėlimas į VMM/Hipervizor lygį:

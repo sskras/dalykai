@@ -518,6 +518,48 @@ Asmeninių tvarkymų medis.
                               > * The system update can now resume downloads in case it is interrupted.
                               > * Support for running a script on package uninstall
                               > * Performance improvements for package icons handling in HaikuDepot
+                              > 
+                            - [x] 2. https://www.netbsd.org/gallery/pkgsrc-interviews.html#:~:text=What%20do%20you%20plan%20for%20the%20future%20development%20of%20Zero%20Install?
+                              > Automatic support for mirrors. Peer-to-peer downloads, binary deltas, more sandboxing.
+                              > 
+                            - [x] 3. http://0install.net/roadmap.html#idm135
+                              > * Cross-compilation
+                              > * Support for multiple ABIs (for C++ on Windows)
+                              > * Alternatives for dependencies
+                              > * App support for XDG launchers
+                              > * HTTP connection pooling, pipelining and DNS caching
+                              > * More flexible <recipe\>s
+                              > * An app-store style interface
+                              > * Feed search
+                              > * Custom bug-report address
+                              > * Support for services
+                              > * Sandboxing
+                              > * Better desktop integration
+                              > * wxWidgets GUI for Mac and Windows
+                              > * Automatic cache cleaning
+                              > * Managing instances (configurations/profiles) of programs
+                              > * Lazy dependencies
+                              > * Plug-ins
+                              > * More meta-data
+                              > * Peer-to-peer downloads
+                              > * Binary patches
+                              > * Kiosk mode
+                              > * Third-party sign-off
+                              > 
+                            - [x] 4. https://wiki.netbsd.org/pkgsrc/hardening/
+                              > A number of mechanisms are available in pkgsrc to improve the security of the resulting system.
+                              > * PKGSRC_USE_FORTIFY
+                              > * PKGSRC_USE_SSP
+                              > * PKGSRC_MKPIE
+                              > * PKGSRC_MKREPRO
+                              > * PKGSRC_USE_RELRO
+                              > * PKGSRC_USE_STACK_CHECK
+                              > 
+                            - [x] 5. https://www.pkgsrc.org/#index3h1
+                              > For getting the latest package vulnerabilities database and checking your installed packages against it, use \
+                              > ... \
+                              > The vulnerabilities database and package EOL database are both signed with the pkgsrc-security GPG key. \
+                              > 
                             - [ ] X. Surinkti aktualūs kriterijai _Package Management_ įrankių palyginimo lentelei
                         - [ ] 2. Formatas
                             - [x] 1. Kaip [Pacman/Rosetta](#Pvz.-https-//wiki.archlinux.org/title/Pacman/Rosetta) ?

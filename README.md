@@ -497,36 +497,36 @@ Asmeninių tvarkymų medis.
                         - [ ] 2. Bandymai
                             - [x] 1. Implementacija: [NS-2 ir susijusių RPM-paketų kompiliavimas](#NS-2-ir-susijusių-RPM-paketų-kompiliavimas)
                         - [ ] X. Pramoktas `.rpm` paketų kūrimas
-                    - [ ] 2. Įrankių palyginimo matas
-                        - [ ] 1. Esamos lentelės (savybių grupavimas, galima hierarchija), pavyzdžiai
-                              <a id="Pvz.-https-//wiki.archlinux.org/title/Pacman/Rosetta"></a>
-                            - [x] 1. Pvz. https://wiki.archlinux.org/title/Pacman/Rosetta
-                                - [x] 1. Basic operations
-                                - [x] 2. Querying specific packages
-                                - [x] 3. Querying package lists
-                                - [x] 4. Querying package dependencies
-                                - [x] 5. Installation sources management
-                                - [x] 6. Overrides
-                                - [x] 7. Verification and repair
-                                - [x] 8. Using package files and building packages
-                                - [x] 9. Log file rotation
-                            - [ ] X. Baigtos grupuoti aktualios _Package Management_ sistemų savybės ir sudaryta jų hierarchija
-                        - [ ] 2. Naujos lentelės sudarymas
-                            - [ ] 1. Kriterijai:
-                                - [x] 1. https://dev.haiku-os.org/wiki/R1/Beta3/ReleaseNotes#Packagemanagement
-                                  > * The system update can now resume downloads in case it is interrupted.
-                                  > * Support for running a script on package uninstall
-                                  > * Performance improvements for package icons handling in HaikuDepot
-                                - [ ] X. Surinkti aktualūs kriterijai _Package Management_ įrankių palyginimo lentelei
-                            - [ ] 2. Formatas
-                                - [x] 1. Kaip [Pacman/Rosetta](#Pvz.-https-//wiki.archlinux.org/title/Pacman/Rosetta) ?
-                            - [ ] 3. Talpinimas
-                                - [x] 1. ? https://pkgin.net/
-                                - [x] 2. ? https://www.pkgsrc.org/
-                                - [x] 3. ? https://www.netbsd.org/gallery/pkgsrc-interviews.html
-                            - [ ] X. Sudaryta nauja _Package Management_ sistemų palyginimo lentelė
-                        - [ ] X. Sukurtas _Package Management_ sistemų palyginimo matas
                     - [ ] X. Išsiaiškinta su `.rpm` paketine sistema
+                - [ ] 2. Įrankių palyginimo matas
+                    - [ ] 1. Esamos lentelės (savybių grupavimas, galima hierarchija), pavyzdžiai
+                          <a id="Pvz.-https-//wiki.archlinux.org/title/Pacman/Rosetta"></a>
+                        - [x] 1. Pvz. https://wiki.archlinux.org/title/Pacman/Rosetta
+                            - [x] 1. Basic operations
+                            - [x] 2. Querying specific packages
+                            - [x] 3. Querying package lists
+                            - [x] 4. Querying package dependencies
+                            - [x] 5. Installation sources management
+                            - [x] 6. Overrides
+                            - [x] 7. Verification and repair
+                            - [x] 8. Using package files and building packages
+                            - [x] 9. Log file rotation
+                        - [ ] X. Baigtos grupuoti aktualios _Package Management_ sistemų savybės ir sudaryta jų hierarchija
+                    - [ ] 2. Naujos lentelės sudarymas
+                        - [ ] 1. Kriterijai:
+                            - [x] 1. https://dev.haiku-os.org/wiki/R1/Beta3/ReleaseNotes#Packagemanagement
+                              > * The system update can now resume downloads in case it is interrupted.
+                              > * Support for running a script on package uninstall
+                              > * Performance improvements for package icons handling in HaikuDepot
+                            - [ ] X. Surinkti aktualūs kriterijai _Package Management_ įrankių palyginimo lentelei
+                        - [ ] 2. Formatas
+                            - [x] 1. Kaip [Pacman/Rosetta](#Pvz.-https-//wiki.archlinux.org/title/Pacman/Rosetta) ?
+                        - [ ] 3. Talpinimas
+                            - [x] 1. ? https://pkgin.net/
+                            - [x] 2. ? https://www.pkgsrc.org/
+                            - [x] 3. ? https://www.netbsd.org/gallery/pkgsrc-interviews.html
+                        - [ ] X. Sudaryta nauja _Package Management_ sistemų palyginimo lentelė
+                    - [ ] X. Sukurtas _Package Management_ sistemų palyginimo matas
                 - [ ] X. Jau pramokti aktualūs Package Management dalykai
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos

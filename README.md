@@ -527,6 +527,13 @@ Asmeninių tvarkymų medis.
                             - [x] 3. ? https://www.netbsd.org/gallery/pkgsrc-interviews.html
                         - [ ] X. Sudaryta nauja _Package Management_ sistemų palyginimo lentelė
                     - [ ] X. Sukurtas _Package Management_ sistemų palyginimo matas
+                - [ ] 3. `pkgsrc` + `pkgin` analizė ir taikymai
+                    - [ ] 1. Vizijos
+                        - [x] 1. https://www.netbsd.org/gallery/pkgsrc-interviews.html
+                    - [ ] 2. Privalumai, pavyzdžiai
+                        - [x] 1. https://rubenerd.com/using-netbsds-pkgsrc-everywhere-i-can/
+                        - [x] 2. https://www.anserinae.net/setting-up-a-pkgsrc-repository.html#setting-up-a-pkgsrc-repository
+                    - [ ] X. Išanalizuoti `pkgsrc` + `pkgin` ir padirbėta ties jų taikymu
                 - [ ] X. Jau pramokti aktualūs Package Management dalykai
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos

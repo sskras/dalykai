@@ -182,6 +182,12 @@ Asmeninių tvarkymų medis.
             - [ ] 3. Pašto programos
             - [ ] 4. Desktopų CMDB
             - [ ] 5. UE Management (Sailfish OS)
+                - [x] 1. _Sailfish OS_ pasaulis
+                    - [x] 1. Naujienos
+                        - [x] 1. https://blog.jolla.com/kvarken-xperia-10-ii/
+                        - [ ] X. Apžvelgtos _Sailfish OS_ naujienos
+                    - [ ] X. Sukauptas įdirbis _Sailfish OS_ pasaulyje
+                - [ ] X. Sutvarkytas _User Equipment_ valdymas
             - [ ] 6. Tvarka darbe
                 - [ ] 1. KDV
                 - [ ] 2. Infrastruktūroje

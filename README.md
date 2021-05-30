@@ -479,7 +479,7 @@ Asmeninių tvarkymų medis.
                     - [ ] 3. Skaitymas
                     - [ ] 4. Bandymai
                 - [ ] X. Web-hostingas pramoktas
-            - [ ] 7. _Package Management_ tobulinimasis
+            - [ ] 7. _\ Management_ tobulinimasis
                 - [ ] 1. `.rpm` paketai
                       <a id="-.rpm--paketų-kūrimas"></a>
                     - [x] 1. `.rpm` paketų kūrimas
@@ -754,6 +754,9 @@ Asmeninių tvarkymų medis.
                     - [x] 4. https://github.com/lukesampson/scoop/wiki/Chocolatey-Comparison
                     - [x] 5. https://www.slant.co/options/24160/~just-install-review
                     - [ ] X. Apžvelgti paketų valdymo įrankiai
+                - [ ] 3. Panašūs sprendimai
+                    - [x] 1. upm: Universal Package Manager: https://github.com/epitron/upm
+                    - [x] X. Rasta alternatyvų
                 - [ ] X. Vieningas paketų valdymo įrankis paruoštas
             - [ ] 8. `illumos` tyrimai, tobulinimas, viešinimas
                 - [ ] 1. Trūkumai

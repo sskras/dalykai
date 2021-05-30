@@ -755,6 +755,12 @@ Asmeninių tvarkymų medis.
                     - [x] 5. https://www.slant.co/options/24160/~just-install-review
                     - [ ] X. Apžvelgti paketų valdymo įrankiai
                 - [ ] X. Vieningas paketų valdymo įrankis paruoštas
+            - [ ] 8. `illumos` tyrimai, tobulinimas, viešinimas
+                - [ ] 1. Trūkumai
+                    - [x] 1. https://www.phoronix.com/forums/forum/software/oracle-solaris/1254376-openindiana-hipster-2021-04-released-for-this-solaris-illumos-based-os
+                      > I have only tried it in a VM a few times. And it is a bit old fashioned, but it works ok.
+                      > 
+                - [ ] X. Surašyti `illumos` trūkumai
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

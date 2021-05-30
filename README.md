@@ -760,7 +760,18 @@ Asmeninių tvarkymų medis.
                     - [x] 1. https://www.phoronix.com/forums/forum/software/oracle-solaris/1254376-openindiana-hipster-2021-04-released-for-this-solaris-illumos-based-os
                       > I have only tried it in a VM a few times. And it is a bit old fashioned, but it works ok.
                       > 
-                - [ ] X. Surašyti `illumos` trūkumai
+                    - [x] 2. https://www.phoronix.com/forums/forum/software/oracle-solaris/1254376-openindiana-hipster-2021-04-released-for-this-solaris-illumos-based-os/page3
+                      > No. It's not working pretty well as you said. Unless, you run it on VirtualBox. On real hardware, it sucked hard.
+                      > https://illumos.topicbox.com/groups/discuss/Tf485390ebc9d5df2/there-is-something-inherently-wrong-with-this-system
+                      > 
+                    - [x] 3. Toxic/inert community: https://blahg.josefsipek.net/?p=591
+                      > * Note that this is well beyond the typical “please do due diligence” where the reviewers tend to help out with the reasoning or even testing. The approach the illumos community takes feels more like a malicious “let’s throw every imaginable thought at the contributor, maybe some of them stick.” Needless to say, this is a huge motivation killer that makes contributors leave—something that a small-to-begin-with community cannot afford.
+                      > * Elsewhere in the same thread, another person chimed in with his typical verbiage that could be summarized as “why don’t you do something productive with your time instead, and work on issues that I think are important.” While his list of projects was valid, being condescending to anyone willing to spend their free time to help out your project or telling them that they’re wasting their time unless they work on something that scratches your or your employer’s itch is…well…stupid. Yet, this has happened many times on the mailing list and on IRC over the years.
+                      > * For new contributors it is even worse as they have no idea if the feedback is coming from someone that has spent a lot of time developing the project (and should be taken seriously) or if it is coming from an obnoxiously loud user or even a troll (and should be ignored).
+                      > * All this combined results in a potent mix that drives contributors away. Over the years, I’ve seen people come, put in reasonable effort to attempt to contribute, hit this wall of insanity, and quietly leave.
+                      > 
+                    - [ ] X. Surašyti `illumos` trūkumai
+                - [ ] X. Baigtas `illumos` tobulinimas
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

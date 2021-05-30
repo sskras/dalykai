@@ -560,6 +560,9 @@ Asmeninių tvarkymų medis.
                               > ... \
                               > The vulnerabilities database and package EOL database are both signed with the pkgsrc-security GPG key. \
                               > 
+                            - [x] 6. https://twitter.com/hqqns/status/1385214741245698051
+                              > The scripting part of RPMs are quite good
+                              > 
                             - [ ] X. Surinkti aktualūs kriterijai _Package Management_ įrankių palyginimo lentelei
                         - [ ] 2. Formatas
                             - [x] 1. Kaip [Pacman/Rosetta](#Pvz.-https-//wiki.archlinux.org/title/Pacman/Rosetta) ?

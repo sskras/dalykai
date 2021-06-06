@@ -1104,6 +1104,9 @@ Asmeninių tvarkymų medis.
                                 - [ ] 4. NS-2 ir susijusių RPM-paketų kompiliavimas
                                 - [ ] 5. Testavimas
                             - [ ] 3. Užduoties supratimas
+                                - [ ] 1. Perrašymas `VGTU-ELF/TETfm-20` repozitorijoje
+                                    - [x]  1. Pasirenku `asciidoc` formatą
+                                - [ ]  X.
                             - [ ] 4. Tinklo simuliavimas
                             - [ ] 5. Rezultatų apiforminimas
                             - [ ] X. Baigtas kursinis darbas

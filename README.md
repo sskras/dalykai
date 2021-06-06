@@ -1121,7 +1121,7 @@ Asmeninių tvarkymų medis.
                                 - [x] 1. Spėliojimas
                                 - [x] 2. IT4IT verčių sričių ir aprašymų guglinimas
                                 - [x] 3. Nusižiūrėjimas
-                                - [ ] 4. Peržiūra su dėstytoju
+                                - [x] 4. Peržiūra su dėstytoju
                                     - [x] 1. Su kai kuriais požiūriais apibrėžimais (pvz. konteinerių) nesutinku
                                     - [x] 2. Su kai kuriais įvertinimais nesutinku (manau, kad savais žodžiais atsakiau tą patį, ko prašoma)
                                     - [x] 3. Įvertis = 6
@@ -1129,7 +1129,109 @@ Asmeninių tvarkymų medis.
                             - [x] 5. Galutinio įvertinimas laukimas, saukrs = 9*0.3 + 6*0.7 = 7
                             - [x] X. ISAd egzaminas išlaikytas
                         - [x] X. ISAd dalykas atsiskaitytas
-                    - [ ] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
+                    - [x] 4. TPKV: Telekomunikacijos ir paslaugų kokybės valdymas
+                        - [x] 1. Paskaitos
+                            - [ ] `TODO`
+                        - [x] 2. ~~Savarankiškos pratybos:~~ srauto analizė naudojant Wireshark
+                            - [x] 1. _Failed_ laiku atlikti
+                        - [x] 3. Egzaminas
+                            - [x] 1. Pasiruošimas
+                                - [x] 1. Konsultacija
+                                - [x] 2. Knygos parsisiuntimas: \
+                                      "QoS OVER HETEROGENEOUS NETWORKS", 2017
+                                - [x] 3. ~~Klausimų paieška/peržiūra~~
+                                    - [x] 1. Įveikta vien per `2021-05-31´
+                                    - [x] 2. Dalį klausimų pavyko peržiūrėt
+                                    - [x] 3. Saviškius du išankstinius klausimus irgi lyg spėjau supildyt
+                                    - [x] 4. Half-skipped
+                                - [x] 4. ~~Knygos apibendrinimų peržiūra~~
+                                    - [x] 1. Bet spėjau persižiūrėti kai kuriuos išankstinius klausimus
+                                - [x] 5. Skaidrių peržiūra
+                                    - [x] 1. Skaidres beveik iš visų 6 spėjau prabėgt
+                                    - [x] 2. Labai įtemptai, stiprus duomenų srautas
+                                - [x] X. Pusiau pasiruošta
+                            - [x] 2. Laikymas
+                                - [x] 1. Vaizdo įrašas
+                                - [x] 2. Klausimų perbėgimas akimis
+                                - [x] 3. Užtikrintai žinomų klausimų atsakinėjimas
+                                - [x] 4. Neužtikrintai žinomų klausimų apmastymas
+                                - [x] 5. Detalių apie pastaruosius prisiminimas ir improvizavimas
+                                - [x] 6. Peržiūra su dėstytoju
+                                    - [x] 1. Vertino sparčiau nei ISAd ir lyg atlaidžiau
+                                    - [x] 2. Įvertis = 8.5 ~= 9
+                                - [x] X. TPKV laikymas baigtas
+                            - [x] 3. Galutinio įvertinimas laukimas, saukrs = (p-5)*0.3 + 9*0.7 = pagal įsiskolintas pratybas
+                            - [x] 4. TPKV egzaminas išlaikytas (euforija ir pažadas paruošti pratybas rytojui, antradieniui)
+                            - [x] 5. Savarankiškų pratybų skola: **srauto analizė naudojant Wireshark**
+                                - [x] 1. Užduoties perrašymas
+                                - [x] 2. Grupioko ataskaitos peržiūra
+                                - [x] 3. Savo ataskaita
+                                    - [x] 1. Formato parinkimas
+                                        - [x] 1. MD (GFM)
+                                        - [x] 2. AsciiDoc (on Git)
+                                        - [x] X. Ataskaitos maketavimo formatas pasirinktas
+                                    - [x] 2. Pavertimas .pdf
+                                        - [x] 1. Paste into AsciiDocLive
+                                        - [x] 2. Export as HTML
+                                        - [x] 3. Open in Chrome
+                                        - [x] 4. `Ctrl`-`P`
+                                        - [x] 5. Tune settings
+                                        - [x] 6. Press `Print` and save as .pdf
+                                    - [x] 3. Maketavimas
+                                        - [x] 1. Formatavimo priemonių parinkimas
+                                            - [x] 1. Page-break
+                                            - [x] 2. Centravimas
+                                            - [x] 3. Centravimo _Scope_ tyrimas
+                                        - [x] 2. Šrifto dydžių parinkimas
+                                    - [x] 4. Turinys
+                                        - [x] 1. Titulinis puslapis
+                                        - [x] 2. Darbo tikslas (perkopijuotas iš bendros užduoties)
+                                        - [x] 3. _Capture_-failo statistika (iš capinfo)
+                                        - [x] 4. ~~Išsamūs rezultatai~~
+                                            - [x] 1. Šaltinio ir paskirties mazgų dumpas
+                                            - [x] 2. Mazgų sąrašas
+                                            - [x] 3. Mazgų grupavimo pagal srautus dumpas
+                                            - [x] 4. Daugiau nespėta
+                                        - [x] X. Ataskaitos turinys suformuotas
+                                    - [x] X. Baigta ataskaita
+                                - [x] 4. Įrankių pasirinkimas
+                                    - [x] 1. CentOS-default _Wireshark_ versija
+                                        - [x] 1. Per sena
+                                    - [x] 2. Naujesnių .rpm paieška
+                                    - [x] 3. Naujos (2021 m. pradžios) versijos .rpm paketas
+                                    	- [x] 1. Kompiliavimo HowTo suradimas
+                                    	- [x] 2. _root-FS_ (UFD) vietos laisvinimas
+                                        - [x] 3. Senos versijos išmetimas
+                                    	- [x] 4. `mock` įrankio diegimas
+                                    	- [x] 5. _root-FS_ (UFD) vietos papildomas laisvinimas
+                                    	- [x] 6. Per ilgai užsitęsusio bandymo stabdymas
+                                    	- [x] 7. HowTo autoriaus sukompiliuotų paketų parsisiuntimas ir įdiegimas (saugumo rizika)
+                                    - [x] 4. Naujesnio _Wireshark_ GUI pabandymas
+                                    - [x] 5. `tshark` ir kitų CLI įrankių pabandymas (gal pagal kažkurį HowTo)
+                                    - [x] X. _Wireshark-based_ įrankiai pasirinkti
+                                - [x] 5. Atsiskaitymas
+                                    - [x] 1. Pasikalbėjimas, kad beveik neatlikau pratybų
+                                        - [x] 1. Gal kiek per daug emocijų sakiau dėl ko, pvz. kad:
+                                            - [x] 1. Demotyvuoja seni neužbaigimai
+                                            - [x] 2. Daug iššūkių rašant turinį ASCII-based pavidalu (Markdown + GitHub)
+                                        - [x] X. Pasikalbėta apie prastą mano pratybų situaciją
+                                    - [x] 2. Pasitikslinimas: ar mazgai buvo reikalingi buvo pagal L2, ar pagal L3
+                                        - [x] 1. L2, nes L3 tas pats mazgas gali turėti daug IP adresų (OK...)
+                                    - [x] 3. Peržiūra kas gavosi su dėstytoju, ką spėjau (dar ir kreivai susiformatavo/susimaketavo)
+                                    - [x] 4. Dėstytojo reakcija
+                                        - [x] 1. Labai liūdna
+                                        - [x] 2. Kažkas parašyta
+                                        - [x] 3. Pažymys = 5
+                                        - [x] 4. Atsakymas į mano pasiūlymą, kad gal galėčiau ir pasigerinti, jei tikrai manau, kad verta
+                                    - [x] 5. Įkeliu į TECH Moodle
+                                    - [x] X. Atsiskaičiau (ir gėda, ir nepasitenkinimas jau antru semestru iš eilės)
+                                - [x] X. Atsiskaityta savarankiškų pratybų skola
+                            - [x] 5. Galutinis įvertinimas, saukrs = 2*(5-5)*0.3 + 9*0.7 = 6
+                        - [x] X. TPKV dalykas atsiskaitytas
+                    - [ ] 5. MTD2: `TODO
+                    - [ ] X. Užbaigtas s2
+                - [ ] 3. s3
+                - [ ] X. Užbaigtas 2020 m. kursas
             - [ ] 3. Jei nepatiks, pabandyti jį pakartoti.
         - [ ] 2. Pasvarstyti apie kompiuterinę lingvistiką.
         ---

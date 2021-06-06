@@ -899,12 +899,13 @@ Asmeninių tvarkymų medis.
                             - [x] 1. Prasidėjo
                             - [x] 2. Aiškūs įrankiai, pradžios laikas, trukmė
                             - [x] 3. Vyksta
-                            - [ ] 4. Konspekto sudarymas
-                            - [ ] 5. Paskaitų peržiūra
+                            - [x] 4. ~~Konspekto sudarymas~~
+                            - [x] 5. Paskaitų peržiūra
                               <a id="Paskaitu-perziura-IiSA"></a>
-                                - [ ] 1. `TODO` sąrašas, kurį 2021-04-26 pavyko peržiūrėti (~2/3)
-                                - [x] X. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
-                            - [ ] 6. Pasibaigė
+                                - [x] 1. ~~Sąrašas, kurį 2021-04-26 pavyko peržiūrėti (~2/3)~~
+                                - [x] 2. Peržiūrėjau tik apie VPN ir Windows OS saugumą
+                                - [x] X. ~~.mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas~~
+                            - [x] 6. Pasibaigė
                         - [ ] 2. Laboratoriniai darbai
                             - [x] 1. Prasidėjo
                             - [ ] 2. Aiški užduotis
@@ -922,7 +923,7 @@ Asmeninių tvarkymų medis.
                                     - [x] 5LD: Virtualaus privataus tinklo konfigūravimas
                                 - [ ] 4. `BLOCKER` [Peržiūrėti aptarimus paskaitų pradžioje](#Paskaitu-perziura-IiSA)
                                 - [ ] 5. Pristatymo forma:
-                            - [ ] 3. Aiški eiga žemiau: (iki "X. Pasibaigė ...")
+                            - [ ] 3. Aiški eiga žemiau: (iki "X. Baigti ...")
                             - [ ] 4. Pervesti užduotis į .md (ar kitą Markup kalbą grupės repozitorijoje)
                                 - [x] 1LD:
                                     - [x] 01. Užduotis
@@ -958,22 +959,50 @@ Asmeninių tvarkymų medis.
                         - [x] 4. Tarpinis egzaminas
                             - [x] 1. ~~Pasiruošimas~~
                             - [x] 2. 20 klausimų laikymas ekspromtu
-                            - [x] 3. Savęs įvertinimas = 8,5 (po patempimo)
+                            - [x] 3. Savęs įvertinimas = 8,5
                             - [x] 4. Dėstytojo vertinimas = 10 (po patempimo)
-                        - [ ] 5. Galutinis egzaminas
+                        - [x] 5. Galutinis egzaminas
+                            - [x] 1. Pasiruošimas
+                                - [x] 1. Dviejų video peržiūra
+                                    - [x] 1. Apie VPN
+                                    - [x] 2. Apie Windows
+                                    - [x] 3. ~~Apie ActiveDirectory~~
+                                - [x] X. Prastai, bet dalinai pasiruošta
+                            - [x] 2. Dviejų atvirų klausimų atsakymas
+                                - [x] 1. Klausimų perskaitymas
+                                - [x] 2. Breinstorminimas su grupiokais
+                                - [x] 3. Neaiškumų apibrėžimas
+                                - [x] 4. Pasirinkimas pateikti po du atsakymus kiekvienam klausimui:
+                                    - [x] 1. Kokį pasiūlytumėte VPN sprendimą keliaujančiam darbuotojui?
+                                        - [x] 1. Spartus, naujoviškas, 3rd Party: Wireguard
+                                        - [x] 2. Integruotas į w10: ~~L2TP~~
+                                    - [x] 2. Kokios trys Windows priemonės mažai koproracijai labiausiai padidina saugumą?
+                                        - [x] 1. Built-in (Updates, Firewwall, Defender) + su kokiu tikslu.
+                                        - [x] 2. Kitų šalių (NAT-router/firewall [nusišnekėjau], Office365 + Cloud Exchange, 3rd party Anvirus + Antimalware)
+                                    - [x] X. Parinkta atsakymo struktūra
+                                - [x] 5. Atsakymų teksto rašymas ir taisymas atskirame redaktoriuje
+                                - [x] 6. Laiško išsiuntimas
+                                - [x] 7. Galvos poilsis
+                                - [x] 8. Atsakymo peržiūra
+                                - [x] 9. Patikslinimas, kad norėjau įvardinti ne `L2TP`, o kitą protokolą, kuris paprastas ir šifruotas be jokių IPsec, t.y.  `SSTP` (bet realiai pradinį rašydamas atsakymą ir guglindamas nebuvau įsitikinęs, kad būtent SSTP tinkamiausias)...
+                                - [x] X. Egzamino klausimai atsakyti
+                            - [x] 3. Savęs įvertinimas = 8
+                            - [x] 4. Dėstytojo vertinimas = 
+                        - [ ] X. Baigtas ISAd kursas
                     - [ ] 2. PIPr: Pažangūs interneto protokolai
                         - [ ] 1. Paskaitos
                             - [x] 1. Prasidėjo
                             - [x] 2. Aiškūs įrankiai (Zoom), pradžios laikas, trukmė
                             - [x] 3. Vyksta
-                            - [ ] 4. Konspekto sudarymas
+                            - [x] 4. ~~Konspekto sudarymas~~
                             - [ ] 5. Paskaitų peržiūra
                               <a id="Paskaitu-perziura-PIPr"></a>
                                 - [ ] 1. `TODO` sąrašas
                                 - [ ] X. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
                             - [ ] 6. Pasibaigė
-                        - [ ] 2. Laboratoriniai darbai ?
-                        - [ ] 3. Namų darbai
+                        - [x] 2. Laboratoriniai darbai
+                            - [x] 1. Tokių nebuvo
+                        - [x] 3. Namų darbai
                             - [x] 1. `RFC 813` analizė
                                 - [x] 1. Dokumento performatavimas
                                 - [x] 2. Skaitymas

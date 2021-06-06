@@ -1102,6 +1102,8 @@ Asmeninių tvarkymų medis.
                                 - [x] 3. `BLOCKER`: [CentOS root-FS vietos praplėtimas](#CentOS-root-FS-vietos-praplėtimas)
                                   <a id="NS-2-ir-susijusių-RPM-paketų-kompiliavimas"></a>
                                 - [ ] 4. NS-2 ir susijusių RPM-paketų kompiliavimas
+                                    - [x] 1. URL = https://github.com/VGTU-ELF/TETfm-20/blob/main/Semestras-2/2-Pa%C5%BEang%C5%ABs-interneto-protokolai/kursinis-darbas/tools/NS-2/
+                                    - [ ] 2. 
                                 - [ ] 5. Testavimas
                             - [ ] 3. Užduoties supratimas
                                 - [ ] 1. Perrašymas `VGTU-ELF/TETfm-20` repozitorijoje

@@ -416,6 +416,17 @@ Asmeninių tvarkymų medis.
                     - [x] 2. Pvz. NTFS
                 - [x] 4. CentOS įdiegimas
                 - [x] 5. CentOS paruošimas darbui
+                  <a id="CentOS-root-FS-vietos-praplėtimas"></a>
+                - [ ] 6. CentOS root-FS vietos praplėtimas
+                    - [ ] 1. Planas
+                        - [ ] 1. Migruoti į ZFS
+                        - [ ] X. Sudarytas ilgaamžis CentOS root-FS plėtimo planas
+                    - [x] 2. Laikinas sprendimas
+                        - [x] 1. Sutraukti NTFS skirsnį `sdb1`
+                        - [x] 2. Atlaisvintoje vietoje sukurti naują `sdb4`
+                        - [x] 3. `sdb4` panaudoti kaip naują `PV` ir prijungti prie `VG="centos"`
+                        - [x] 4. Praplėsti `LV=root`
+                    - [ ] x. Praplėsta 
                 - [x] X. Pasiruoštas _Portable Desktop-on-UFD_
             - [ ] X. Sutvarkyti pirmos būtinybės poreikiai
         - [ ] 2. Skaitmeninio paveldo išsaugojimas
@@ -1073,8 +1084,10 @@ Asmeninių tvarkymų medis.
                                     - [x] X. Baigta NS-2 RPM paketų paieška
                                 - [x] 2. `BLOCKER`: [`.rpm` paketų kūrimas](#-.rpm--paketų-kūrimas)
                                   <a id="NS-2-ir-susijusių-RPM-paketų-kompiliavimas"></a>
-                                - [ ] 3. NS-2 ir susijusių RPM-paketų kompiliavimas
-                                - [ ] 4. Testavimas
+                                - [ ] 3. `BLOCKER`: [CentOS root-FS vietos praplėtimas](#CentOS-root-FS-vietos-praplėtimas)
+                                  <a id="NS-2-ir-susijusių-RPM-paketų-kompiliavimas"></a>
+                                - [ ] 4. NS-2 ir susijusių RPM-paketų kompiliavimas
+                                - [ ] 5. Testavimas
                             - [ ] 3. Užduoties supratimas
                             - [ ] 4. Tinklo simuliavimas
                             - [ ] 5. Rezultatų apiforminimas

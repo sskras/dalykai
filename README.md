@@ -984,10 +984,10 @@ Asmeninių tvarkymų medis.
                                 - [x] 6. Laiško išsiuntimas
                                 - [x] 7. Galvos poilsis
                                 - [x] 8. Atsakymo peržiūra
-                                - [x] 9. Patikslinimas, kad norėjau įvardinti ne `L2TP`, o kitą protokolą, kuris paprastas ir šifruotas be jokių IPsec, t.y.  `SSTP` (bet realiai pradinį rašydamas atsakymą ir guglindamas nebuvau įsitikinęs, kad būtent SSTP tinkamiausias)...
+                                - [x] 9. Patikslinimas, kad norėjau įvardinti ne `L2TP`, o kitą protokolą, kuris paprastas ir šifruotas be jokių IPsec, t.y.  `SSTP` (bet realiai pradinį rašydamas atsakymą ir guglindamas neįsitikinau, koks protokolas yra toks / kad būtent SSTP tinkamiausias)...
                                 - [x] X. Egzamino klausimai atsakyti
                             - [x] 3. Savęs įvertinimas = 8
-                            - [x] 4. Dėstytojo vertinimas = 
+                            - [ ] 4. Dėstytojo vertinimas = 
                         - [ ] X. Baigtas ISAd kursas
                     - [ ] 2. PIPr: Pažangūs interneto protokolai
                         - [ ] 1. Paskaitos

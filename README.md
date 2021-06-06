@@ -399,6 +399,24 @@ Asmeninių tvarkymų medis.
                     - [ ] X. Block Device išdėstymas parinktas
                 - [ ] W. 
                 - [ ] X. USB-talpykla baigta.
+            - [ ] 9. Portable Desktop-on-UFD
+                - [x] 1. Spartaus UFD susiradimas
+                    - [x] 1. SanDisk Ultra Fit 32 GB:
+                        - [x] 1. SDCZ43-064G-G46 ?
+                        - [x] 2. SDCZ43-032G-GAM46 ?
+                        - [x] 3. `TODO`: kurį tiksliai dabar naudoju
+                    - [x] X. Surastas spartus UFD (jau gal iki `2018-11-29`)
+                - [x] 2. Linux OS distribucijos išsirinkimas
+                    - [x] 1. CentOS, nes:
+                        - [x] 1. Naudoju darbe
+                        - [x] 2. Desktop apžvalgos labai teigiamos
+                    - [x] X. Pasirinkta reikiama distribucija
+                - [x] 3. Skirsnių susiplanavimas
+                    - [x] 1. Cross-platform failų keitimuisi
+                    - [x] 2. Pvz. NTFS
+                - [x] 4. CentOS įdiegimas
+                - [x] 5. CentOS paruošimas darbui
+                - [x] X. Pasiruoštas _Portable Desktop-on-UFD_
             - [ ] X. Sutvarkyti pirmos būtinybės poreikiai
         - [ ] 2. Skaitmeninio paveldo išsaugojimas
             - [ ] 1. site rehosting:
@@ -888,6 +906,8 @@ Asmeninių tvarkymų medis.
                 - [x] 5. Konspektams
                     - [x] 1. Talpykla = GitHub
                     - [x] 2. Formatas = Github Flavoured Markdown
+                - [x] 6. Mašina su Linux OS
+                    - [x] 1. Asmeninio UFD panaudojimas
                 - [ ] X. Baigta
             - [ ] 2. Susitvarkyti 2020 m. kursą
                 - [x] 1. s1

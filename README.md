@@ -423,9 +423,24 @@ Asmeninių tvarkymų medis.
                         - [ ] X. Sudarytas ilgaamžis CentOS root-FS plėtimo planas
                     - [x] 2. Laikinas sprendimas
                         - [x] 1. Sutraukti NTFS skirsnį `sdb1`
+                            - [x] 1. Patikrinti maksimalias galimybes su `ntfsresize`: `freeing 1346 MB`
+                            - [x] 2. Peržiūrėti FS failų turinį
+                            - [x] 3. Iškelti jau kadaise laikinai įkeltus root-FS failus išvis lauk į išorinę laikmeną
+                                - [x] 1. Iškėliau pasinaudodamas `rsync` ir `rash`.
+                            - [x] 4. Laisvos vietos `8.3G`, `Used=236M`
+                            - [x] 5. Patikrinti maksimalias galimybes su `ntfsresise`: `Needed relocations : 4990 (21 MB)`
+                            - [x] 6. Sutraukti FS
+                            - [x] 7. Sutraukti skirsnį (`sfdisk` + `vim`)
+                            - [x] X. Portable UFD NTFS skirsnis sutrauktas
                         - [x] 2. Atlaisvintoje vietoje sukurti naują `sdb4`
-                        - [x] 3. `sdb4` panaudoti kaip naują `PV` ir prijungti prie `VG="centos"`
-                        - [x] 4. Praplėsti `LV=root`
+                        - [x] 3. `sdb4` panaudoti kaip naują `PV`
+                            - [x] `pvcreate -v /dev/sdb4`
+                        - [x] 4. Prijungti prie `VG="centos"`
+                            - [x] `vgextend centos /dev/sdb4`
+                        - [x] 5. Praplėsti `LV=root`
+                            - [x] `lvextend -t -r -l +100%FREE`
+                        - [x] X. Įvykdytas laikinas sprendimas
+                    - [ ] 3. Kitas žingsnis po pirmo LVM plėtimo ?
                     - [ ] x. Praplėsta 
                 - [x] X. Pasiruoštas _Portable Desktop-on-UFD_
             - [ ] X. Sutvarkyti pirmos būtinybės poreikiai

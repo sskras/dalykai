@@ -417,7 +417,7 @@ Asmeninių tvarkymų medis.
                 - [x] 4. CentOS įdiegimas
                 - [x] 5. CentOS paruošimas darbui
                   <a id="CentOS-root-FS-vietos-praplėtimas"></a>
-                - [ ] 6. CentOS root-FS vietos praplėtimas
+                - [x] 6. CentOS root-FS vietos praplėtimas
                     - [ ] 1. Planas
                         - [ ] 1. Migruoti į ZFS
                         - [ ] X. Sudarytas ilgaamžis CentOS root-FS plėtimo planas
@@ -441,7 +441,7 @@ Asmeninių tvarkymų medis.
                             - [x] `lvextend -t -r -l +100%FREE`
                         - [x] X. Įvykdytas laikinas sprendimas
                     - [ ] 3. Kitas žingsnis po pirmo LVM plėtimo ?
-                    - [ ] x. Praplėsta 
+                    - [x] x. Praplėsta 
                 - [x] X. Pasiruoštas _Portable Desktop-on-UFD_
             - [ ] X. Sutvarkyti pirmos būtinybės poreikiai
         - [ ] 2. Skaitmeninio paveldo išsaugojimas
@@ -1099,7 +1099,7 @@ Asmeninių tvarkymų medis.
                                     - [x] X. Baigta NS-2 RPM paketų paieška
                                 - [x] 2. `BLOCKER`: [`.rpm` paketų kūrimas](#-.rpm--paketų-kūrimas)
                                   <a id="NS-2-ir-susijusių-RPM-paketų-kompiliavimas"></a>
-                                - [ ] 3. `BLOCKER`: [CentOS root-FS vietos praplėtimas](#CentOS-root-FS-vietos-praplėtimas)
+                                - [x] 3. `BLOCKER`: [CentOS root-FS vietos praplėtimas](#CentOS-root-FS-vietos-praplėtimas)
                                   <a id="NS-2-ir-susijusių-RPM-paketų-kompiliavimas"></a>
                                 - [ ] 4. NS-2 ir susijusių RPM-paketų kompiliavimas
                                 - [ ] 5. Testavimas

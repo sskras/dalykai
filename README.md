@@ -544,7 +544,7 @@ Asmeninių tvarkymų medis.
                                 - [x] 7. http://ftp.rpm.org/max-rpm/s1-rpm-build-creating-spec-file.html
                                 - [x] 8. Taip!
                             - [x] X. Baigti `.rpm` paketų kūrimo tyrimai
-                        - [ ] 2. Bandymai
+                        - [x] 2. Bandymai
                             - [x] 1. Implementacija: [NS-2 ir susijusių RPM-paketų kompiliavimas](#NS-2-ir-susijusių-RPM-paketų-kompiliavimas)
                         - [ ] X. Pramoktas `.rpm` paketų kūrimas
                     - [ ] X. Išsiaiškinta su `.rpm` paketine sistema
@@ -1085,7 +1085,7 @@ Asmeninių tvarkymų medis.
                         - [ ] 4. Kursinis darbas
                             - [x] 1. Tema: Tinklo simuliacija panaudojant NS-2
                             - [ ] 2. NS-2 (įrankių) ruošimas
-                                - [ ] 1. NS-2 ir susijusių RPM-paketų paieška CentOS mašinai
+                                - [x] 1. NS-2 ir susijusių RPM-paketų paieška CentOS mašinai
                                     - [x] 1. Pirmi šūviai
                                         - [x] 1. https://repology.org/project/ns2/versions
                                         - [x] 2. http://rpm.pbone.net/results_srodzaj_2_search_ns2-2.35-3.32.src.rpm.html
@@ -1101,14 +1101,16 @@ Asmeninių tvarkymų medis.
                                   <a id="NS-2-ir-susijusių-RPM-paketų-kompiliavimas"></a>
                                 - [x] 3. `BLOCKER`: [CentOS root-FS vietos praplėtimas](#CentOS-root-FS-vietos-praplėtimas)
                                   <a id="NS-2-ir-susijusių-RPM-paketų-kompiliavimas"></a>
-                                - [ ] 4. NS-2 ir susijusių RPM-paketų kompiliavimas
-                                    - [x] 1. URL = https://github.com/VGTU-ELF/TETfm-20/blob/main/Semestras-2/2-Pa%C5%BEang%C5%ABs-interneto-protokolai/kursinis-darbas/tools/NS-2/
-                                    - [ ] 2. 
-                                - [ ] 5. Testavimas
-                            - [ ] 3. Užduoties supratimas
-                                - [ ] 1. Perrašymas `VGTU-ELF/TETfm-20` repozitorijoje
+                                - [x] 4. NS-2 ir susijusių RPM-paketų kompiliavimas
+                                    - [x] URL = https://github.com/VGTU-ELF/TETfm-20/blob/main/Semestras-2/2-Pa%C5%BEang%C5%ABs-interneto-protokolai/kursinis-darbas/tools/NS-2/
+                                - [x] 5. Testavimas: 
+                                    - [x] 1. TCL testas: https://www.absingh.com/ns2/#check-your-installation
+                                    - [ ] 2. NS testas: https://www.absingh.com/ns2/#running-a-simple-simulation
+                                - [ ] X. Paruošti NS-2 įrankiai
+                            - [x] 3. Užduoties supratimas
+                                - [x] 1. Perrašymas `VGTU-ELF/TETfm-20` repozitorijoje
                                     - [x]  1. Pasirenku `asciidoc` formatą
-                                - [ ]  X.
+                                - [x]  X.
                             - [ ] 4. Tinklo simuliavimas
                             - [ ] 5. Rezultatų apiforminimas
                             - [ ] X. Baigtas kursinis darbas

@@ -1114,13 +1114,17 @@ Asmeninių tvarkymų medis.
                                 - [x] X. Suprasta užduotis
                             - [ ] 4. `NS-2` valdymo perpratimas
                                 - [x] 1. Testinės simuliacijos skripto perskaitymas
-                                - [ ] 2. Testinės simuliacijos komandų analizė
+                                - [x] 2. Testinės simuliacijos komandų analizė
                                     - [x] 1. http://nile.wpi.edu/NS/simple_ns.html
                                 - [ ] 3. Dokumentacijos skaitymas
                                     - [ ] 1. https://www.isi.edu/nsnam/ns/doc/node2.html
                                 - [ ] 4. `NS-2` Komandų sistemos perpratimas
-                                - [ ] X. Perprastas `NS-2` įrankio valdymas
+                                    - [x] 1. Teorinis pagrindas jau atsirado (ačiū `simple_ns.html`)
+                                    - [ ] 2. `simple.tcl` struktūros perrašymas savu stilium ir savais (aiškesniais vardais)
+                                    - [x] 3. Konsultacijos video (Aretos demo) peržiūrėjimas ir konspektavimas
+                                - [x] X. Perprastas `NS-2` įrankio valdymas
                             - [ ] 5. Teorinės dalies aprašymas
+                                - [ ] 1. HSTCP
                             - [ ] 6. Tinklo simuliavimas
                                 - [x] 1. Ar prisikopijuojant krūvas `.tcl` failų, ar suskriptinant viską į vieną?
                                 - [ ] X. Susimuliuotas tinklo veikimas

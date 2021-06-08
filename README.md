@@ -1120,11 +1120,13 @@ Asmeninių tvarkymų medis.
                                     - [ ] 1. https://www.isi.edu/nsnam/ns/doc/node2.html
                                 - [ ] 4. `NS-2` Komandų sistemos perpratimas
                                     - [x] 1. Teorinis pagrindas jau atsirado (ačiū `simple_ns.html`)
-                                    - [ ] 2. `simple.tcl` struktūros perrašymas savu stilium ir savais (aiškesniais vardais)
-                                    - [x] 3. Konsultacijos video (Aretos demo) peržiūrėjimas ir konspektavimas
+                                    - [x] 2. Konsultacijos video (Aretos demo) peržiūrėjimas ir konspektavimas
+                                    - [ ] 3. `simple.tcl` pataisymas: `.tr` Trace failo įjungimas šalia jau generuojamo `.nam` failo
+                                    - [ ] 4. `simple.tcl` struktūros perrašymas savu stilium ir savais (aiškesniais vardais)
                                 - [x] X. Perprastas `NS-2` įrankio valdymas
-                            - [ ] 5. Teorinės dalies aprašymas
-                                - [ ] 1. HSTCP
+                            - [x] 5. Teorinės dalies aprašymas
+                                - [x] 1. HSTCP
+                                - [x] 2. TCP-BIC
                             - [ ] 6. Tinklo simuliavimas
                                 - [x] 1. Ar prisikopijuojant krūvas `.tcl` failų, ar suskriptinant viską į vieną?
                                 - [ ] X. Susimuliuotas tinklo veikimas

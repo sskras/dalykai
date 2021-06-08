@@ -1110,11 +1110,61 @@ Asmeninių tvarkymų medis.
                             - [x] 3. Užduoties supratimas
                                 - [x] 1. Perrašymas `VGTU-ELF/TETfm-20` repozitorijoje
                                     - [x]  1. Pasirenku `asciidoc` formatą
-                                - [ ] 2. Perskaitymas iš naujo.
-                                - [ ] X. Suprasta užduotis
-                            - [ ] 4. Tinklo simuliavimas
-                            - [ ] 5. Rezultatų apiforminimas
+                                - [x] 2. Perskaitymas iš naujo
+                                - [x] X. Suprasta užduotis
+                            - [ ] 4. `NS-2` valdymo perpratimas
+                                - [x] 1. Testinės simuliacijos skripto perskaitymas
+                                - [ ] 2. Testinės simuliacijos komandų analizė
+                                    - [x] 1. http://nile.wpi.edu/NS/simple_ns.html
+                                - [ ] 3. Dokumentacijos skaitymas
+                                    - [ ] 1. https://www.isi.edu/nsnam/ns/doc/node2.html
+                                - [ ] 4. `NS-2` Komandų sistemos perpratimas
+                                - [ ] X. Perprastas `NS-2` įrankio valdymas
+                            - [ ] 5. Teorinės dalies aprašymas
+                            - [ ] 6. Tinklo simuliavimas
+                                - [x] 1. Ar prisikopijuojant krūvas `.tcl` failų, ar suskriptinant viską į vieną?
+                                - [ ] X. Susimuliuotas tinklo veikimas
+                            - [ ] 7. Rezultatų apiforminimas
                             - [ ] X. Baigtas kursinis darbas
+                        - [x] 5. Galutinis egzaminas
+                            - [x] 1. Pasiruošimas
+                                - [x] 1. Keleto video peržiūra
+                                    - [x] 1. Apie BGP
+                                    - [x] 2. Apie SPB + TRILL (dalinai)
+                                    - [x] 3. Konsultacijos pabaiga (dalinai), apie Docker
+                                - [x] 2. Išankstinių klausimų atsakinėjamas
+                                	- [x] #15: Kur naudotinas OSPF ir kur BGP?
+                                	- [x] #16: Kokius maršrutizavimo protokolus žinote, kuo jie skiriasi?
+                                - [x] 3. Išankstinių klausimų papildymas ir patikslinimas
+                                	- [x] #18: Ugniasienės, jų tipai, kokias žinote?
+                                	- [x] #20: Kur verta naudoti Docker (konteinerių) sistemas?
+                                - [x] 4. Atsakymų į likusius klausimus skaitymas
+                                - [x] 5. Išankstinių klausimų guglinimas:
+                                	- [x] #01: TCP sesijos užmezgimo procesas (Three-way Handshake)
+                                	- [x] #02: TCP sesijos nutraukimo procesas
+                                	- [x] #03: TCP sesijos Sekos numeris: paskirtis, veikimas
+                                	- [x] #04: TCP sesijos Patvirtinamos sekos numeris: ką jis nurodo
+                                	- [x] #05: TCP lango dydis: paskirtis ir veikimas
+                                	- [x] #07: TCP perkrovos valdymo algoritmai
+                                	- [x] #10: VRRP protokolas ir paskirtis
+                                - [x] X. Vidutiniškai pasiruošta
+                            - [x] 2. FB-Heartbeat su grupiokais
+                                - [x] 1. Atsakymai, kuriuos papildžiau
+                                - [x] 2. Kiek klausimų gaunate?
+                                - [x] 3. Kokius gaunate?
+                                - [x] 4. Ar sunku?
+                                - [x] 5. Kaip bandote suprasti kursinį?
+                            - [x] 3. Gyvas atsakinėjimas
+                                - [x] 1. Dėstytojo plano išklausymas + užuomina, kad kursinį atidedu perlaikymui, + diskusija, kad be perlaikymų
+                                - [x] 2. #15: Kur naudotinas OSPF ir kur BGP?
+                                - [x] 3. #01: TCP sesijos užmezgimo procesas (Three-way Handshake)
+                                - [x] 4. #20: Kur verta naudoti Docker (konteinerių) sistemas?
+                                - [x] 5. #09: Kas yra HTTP, veikimo principas, esminiai trūkumai
+                                - [x] 6. #07: TCP perkrovos valdymo algoritmai
+                                - [x] 7. Įvertinimas žodžiu: egzaminas tikrai išlaikytas
+                                - [x] 8. Patarimai supaprastinti kursinio užduotį
+                                - [x] 9. Susitarimas priduoti kursinį iki 2021-06-08 pietų (ar net 15:00)
+                            - [x] 4. Savęs įvertinimas = 8,5
                         - [ ] X. Baigtas PIPr kursas
                     - [x] 3. ISAd: Informacinių sistemų administravimas
                         - [x] 1. Paskaitos

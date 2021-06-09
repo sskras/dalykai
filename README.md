@@ -1147,13 +1147,29 @@ Asmeninių tvarkymų medis.
                                 - [x] 2. TCP-BIC
                             - [ ] 6. Tinklo simuliavimas
                                 - [x] 1. Ar prisikopijuojant krūvas `.tcl` failų, ar suskriptinant viską į vieną?
-                                - [x] 2. `kursinis-saukrs.tcl`: pradėtas
+                                - [x] 2. `kursinis-saukrs.tcl` pradėtas
                                     - [x] 1. Sukurtas pagal `simple.tcl` struktūrą
                                     - [x] 2. Panaudoti savi, suprantami kitamųjų/objektų vardai
                                     - [x] 3. "trace-all" rezultatas identiškas `simple.tcl` atvejui
-                                - [x] 3. `kursinis-saukrs.tcl`: tęsiamas
-                                    - [ ] 1. Vizualizacija įdėjimas
-                                    - [ ] X. Suformuota `kursinis-saukrs.tcl` struktūra
+                                - [x] 3. `kursinis-saukrs.tcl` tęsiamas
+                                    - [x] 01. Vizualizacijos įdėjimas
+                                    - [x] 02. antrojo TCP šaltinio pridėjimas;
+                                    - [x] 03. UDP šaltinio ir imtuvo išmetimas;
+                                    - [x] 04. antrojo maršruto parinktyvo pridėjimas;
+                                    - [x] 05. praradimų mechanizmo įtraukimas;
+                                    - [x] 06. svarbių konstantų agregavimas į skripto kintamuosius;
+                                    - [x] 07. vėlinimo ir paradimo parametrų nuskaitymas iš komandinės eilutės;
+                                    - [x] 08. duotųjų TCP grūsties valdymo algoritmų (HSTCP ir BIC) priskyrimas abiems TCP srauto siuntėjams;
+                                    - [x] 09. patikrinimas, ar tiriamojoje linijoje dažnai pasiekiami 100 Mbps – ne, yra kažkokių kliūčių;
+                                    - [x] 10. teorinė priežasčių analizė ir praktinė parametrų paieška literatūroje bei keitimai skripte:
+                                        - [x] 0x. kanalo buferių Queue Size;
+                                        - [x] 0x. maks. Congestion Window dydžio;
+                                        - [x] 0x. MSS;
+                                    - [x] 11. MSS padidinimas nuo `1000 B` iki `1448 B` ir priartėjimas prie 100 Mbps tiriamojoje linijoje.
+                                    - [ ] XX. Suformuota `kursinis-saukrs.tcl` struktūra
+                                - [ ] 4. Supaprastintų užduoties sąlygų suskriptinimas
+                                - [ ] 5. Reikiamų duomenų ištraukimas
+                                - [ ] 6. Diagramų braižymas
                                 - [ ] X. Susimuliuotas tinklo veikimas
                             - [ ] 7. Rezultatų apiforminimas
                             - [ ] X. Baigtas kursinis darbas

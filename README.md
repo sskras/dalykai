@@ -1118,17 +1118,24 @@ Asmeninių tvarkymų medis.
                                     - [x] 1. http://nile.wpi.edu/NS/simple_ns.html
                                 - [ ] 3. Dokumentacijos skaitymas
                                     - [ ] 1. https://www.isi.edu/nsnam/ns/doc/node2.html
-                                - [ ] 4. `NS-2` Komandų sistemos perpratimas
+                                - [x] 4. `NS-2` Komandų sistemos perpratimas
                                     - [x] 1. Teorinis pagrindas jau atsirado (ačiū `simple_ns.html`)
                                     - [x] 2. Konsultacijos video (Aretos demo) peržiūrėjimas ir konspektavimas
-                                    - [ ] 3. `simple.tcl` pataisymas: `.tr` Trace failo įjungimas šalia jau generuojamo `.nam` failo
-                                    - [ ] 4. `simple.tcl` struktūros perrašymas savu stilium ir savais (aiškesniais vardais)
+                                    - [x] 3. `simple.tcl` pataisymas: `.tr` Trace failo įjungimas šalia jau generuojamo `.nam` failo
+                                    - [x] 4. `simple.tcl` struktūros perrašymas savu stilium ir savais (aiškesniais vardais)
                                 - [x] X. Perprastas `NS-2` įrankio valdymas
                             - [x] 5. Teorinės dalies aprašymas
                                 - [x] 1. HSTCP
                                 - [x] 2. TCP-BIC
                             - [ ] 6. Tinklo simuliavimas
                                 - [x] 1. Ar prisikopijuojant krūvas `.tcl` failų, ar suskriptinant viską į vieną?
+                                - [x] 2. `kursinis-saukrs.tcl`: pradėtas
+                                    - [x] 1. Sukurtas pagal `simple.tcl` struktūrą
+                                    - [x] 2. Panaudoti savi, suprantami kitamųjų/objektų vardai
+                                    - [x] 3. "trace-all" rezultatas identiškas `simple.tcl` atvejui
+                                - [x] 3. `kursinis-saukrs.tcl`: tęsiamas
+                                    - [ ] 1. Vizualizacija įdėjimas
+                                    - [ ] X. Suformuota `kursinis-saukrs.tcl` struktūra
                                 - [ ] X. Susimuliuotas tinklo veikimas
                             - [ ] 7. Rezultatų apiforminimas
                             - [ ] X. Baigtas kursinis darbas

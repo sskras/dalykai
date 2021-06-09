@@ -251,7 +251,7 @@ Asmeninių tvarkymų medis.
                         - [x] 1. "Compilers used in the project #3" \
                               https://github.com/openzfsonwindows/openzfs/issues/3
                         - [ ] X. Portinimas į MSYS2 baigtas
-                    - [ ] X. OpenZFS jau veika on-Windows
+                    - [ ] X. OpenZFS jau veikia on-Windows
                 - [ ] 3. Patikima 2.5" Dual-Bay SATA-USB lentynėlė.
                     - [x] 1. Lentynėlių sąrašas
                         - [x] 1. https://twitter.com/sskras/status/1376979608051060738
@@ -512,6 +512,24 @@ Asmeninių tvarkymų medis.
                     - [x] 4. https://www.funtoo.org/ZFS_as_Root_Filesystem#Configuring_the_Bootloader
                     - [x] 5. https://wiki.archlinux.org/title/Install_Arch_Linux_on_ZFS#Install_and_configure_the_bootloader
                     - [x] 6. https://pve.proxmox.com/wiki/ZFS:_Switch_Legacy-Boot_to_Proxmox_Boot_Tool#2._Check_which_bootloader_is_used
+                    - [ ] 7. Unroll: https://twitter.com/sskras/status/1340725781027311619
+                - [ ] 2. Pažeidžiamiausiųjų (vis dar neatsparių Memory klaidoms) `ZFS` mechanizmų tobulinimas
+                    - [ ] 1. Analizė:
+                        - [ ] 1. [End-to-end Data Integrity for File Systems: A ZFS Case Study](https://www.usenix.org/legacy/event/fast10/tech/full_papers/zhang.pdf)
+                    - [ ] 2. Planavimas patobulinti
+                    - [ ] X. Baigti tobulinti pažeidžiamiausi `ZFS` mechanizmai
+                - [ ] 3. Gerųjų `Reiser5` savybių perėmimo tyrimas
+                    - [ ] 1. Susipažinimas su `Reiser5` savybėmis
+                        - [x] 1. [Второе интервью с разработчиком Reiser4 Эдуардом Шишкиным](https://habr.com/ru/post/559014/)
+                        - [ ] 2. Gal koks Wiki ar LWN.net straipsnis?
+                    - [ ] 2. Palyginimas su ZFS
+                    - [ ] 3. Planavimas, ką būtų įmanoma perimti
+                        - [x] 1. Low-level VDEV management vs High-level volume management:
+                            - [x] 1. "низкоуровневый менеджер томов тут не помогает, а только мешает. Дело в том, что с таким менеджером ваша ФС будет хранить карту свободных блоков только одного девайса - виртуального. Соответственно, дефрагментировать вы сможете только виртуальный девайс."
+                            - [x] 2. "Но сделать это можно, лишь обладая высокоуровневым менеджером логических томов. Локальных ФС с такими менеджерами ранее не существовало (по крайней мере, я о них не знаю). Такими менеджерами обладали только сетевые ФС (например GlusterFS)."
+                            - [x] 3. "ZFS в этом плане безнадёжна: своими виртуальными девайсами ребята перекрыли себе и будущим поколениям кислород для дальнейших разработок. ZFS - это вчерашний день."
+                        - [x] X. Baigtas planas perimti architektūrines `Reiser4` savybes
+                    - [ ] X. Baigtas `Reiser4` savybių perėmimas
                 - [ ] X. Išstudijuotas `ZFS`
             - [ ] 5. _Security_ studijos:
                 - [ ] 1. Konceptai:

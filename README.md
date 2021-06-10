@@ -843,6 +843,16 @@ Asmeninių tvarkymų medis.
                       > 
                     - [ ] X. Surašyti `illumos` trūkumai
                 - [ ] X. Baigtas `illumos` tobulinimas
+            - [ ] 09. Nepopuliarių OS kolekcija:
+                - [ ] 01. Rust-based
+                - [ ] 02. Zig-based
+                - [ ] 03. 64-bit only
+                - [ ] XX. Surinkta nepopuliarių OS kolekcija
+            - [ ] 10. OS Bootloaders tyrimai
+                - [ ] 01. Device emulation
+                    - [ ] 1. PLOP Boot Manager
+                - [ ] 02. 64-bit only
+                - [ ] XX. Baigti tirto Bootloaders
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

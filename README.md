@@ -1440,6 +1440,11 @@ Asmeninių tvarkymų medis.
                           > Pardalos, S. Rajasekaran, and J. Rolim,  
                           > editors, **Handbook of Randomized Computing**,  
                           > pages 255 {312. 2001 
+                        - [ ] 2. Handbook of Randomized Computing  
+                        	  Volume I/II  
+                              Editors: Rajasekaran, S., Pardalos, P., Reif, J.H., Rolim, J. (Eds.)  
+                              https://www.springer.com/gp/book/9780792369592  
+                              ISBN 978-0-7923-6959-2
                     - [ ] X. Atsiskaityta su Ričardu V. Pociumi
                 - [ ] 3. „Mikrobangų ir optinės elektronikos įtaisai“ (ELESM01001) Stanislovui Štarui
                     - [ ] 1. Referatas apie „Elektromagnetinio lauko modeliavimo įrankius“

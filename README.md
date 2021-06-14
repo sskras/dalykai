@@ -1425,6 +1425,16 @@ Asmeninių tvarkymų medis.
                 - [ ] 3. s3
                 - [ ] X. Užbaigtas 2020 m. kursas
             - [ ] 3. Jei nepatiks, pabandyti jį pakartoti.
+            - [ ] 4. Grąžinti senas Magistrantūros bandymų skolas:
+                - [ ] 1. „Signalai ir jų apdorojimas“ (ELREM01002) Romanui Martavičiui
+                    - [ ] 1. Referatas „Signalų suspaudimas“
+                    - [ ] X. Atsiskaityta su Romanu Martavičiumi
+                - [ ] 2. „Stochastiniai procesai elektronikoje“ (ELTLM02004) Ričardui V. Pociui
+                    - [ ] 1. Referatas „Stochastiniai procesai kompiuterių geležyje ir programinėje įrangoje“
+                        - [ ] Network Architecture R 02 IP Multipath Path SelectionCC
+                    - [ ] X. Atsiskaityta su Ričardu V. Pociumi
+                - [ ] X. Grąžintos senos Magistrantūros bandymų skolos
+            - [ ] X. Užbaigta VGTU ELF magistrantūra
         - [ ] 2. Pasvarstyti apie kompiuterinę lingvistiką.
         ---
     - [ ] 5. `TODO` kitus punktus

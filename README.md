@@ -1431,8 +1431,21 @@ Asmeninių tvarkymų medis.
                     - [ ] X. Atsiskaityta su Romanu Martavičiumi
                 - [ ] 2. „Stochastiniai procesai elektronikoje“ (ELTLM02004) Ričardui V. Pociui
                     - [ ] 1. Referatas „Stochastiniai procesai kompiuterių geležyje ir programinėje įrangoje“
-                        - [ ] Network Architecture R 02 IP Multipath Path SelectionCC
+                        - [x] 1. Network Architecture (R02) | IP Multipath – Path Selection&CC  
+                              Jon Crowcroft  
+                              https://www.cl.cam.ac.uk/teaching/1213/R02/slides/r02-mpath.ppt#page=5
+                          > See M. Mitzenmacher, A. Richa, and R.  
+                          > Sitaraman. The power of two random choices:  
+                          > A survey of the techniques and results. In P.  
+                          > Pardalos, S. Rajasekaran, and J. Rolim,  
+                          > editors, **Handbook of Randomized Computing**,  
+                          > pages 255 {312. 2001 
                     - [ ] X. Atsiskaityta su Ričardu V. Pociumi
+                - [ ] 3. „Mikrobangų ir optinės elektronikos įtaisai“ (ELESM01001) Stanislovui Štarui
+                    - [ ] 1. Referatas apie „Elektromagnetinio lauko modeliavimo įrankius“
+                        - [x] 1. Maždaug apie "Microwave Office" ir pan. modeliavimo programas
+                        - [x] 2. Galbūt apie FEM metodo panaudojimą ELM modeliavime
+                    - [ ] X. Atsiskaityta su Stanislovu Štaru
                 - [ ] X. Grąžintos senos Magistrantūros bandymų skolos
             - [ ] X. Užbaigta VGTU ELF magistrantūra
         - [ ] 2. Pasvarstyti apie kompiuterinę lingvistiką.

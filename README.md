@@ -845,14 +845,38 @@ Asmeninių tvarkymų medis.
                 - [ ] X. Baigtas `illumos` tobulinimas
             - [ ] 09. Nepopuliarių OS kolekcija:
                 - [ ] 01. Rust-based
+                    - [ ] 01. Blog-OS: https://os.phil-opp.com/
+                    - [ ] 
                 - [ ] 02. Zig-based
+                    - [ ] 1. https://github.com/jzck/kernel-zig
+                        - [ ] 1. https://news.ycombinator.com/item?id=21967668
+                    - [ ] 2. https://github.com/AndreaOrru/zen
                 - [ ] 03. 64-bit only
+                    - [ ] 01. https://github.com/vlang/vinix
+                    - [ ] 02. https://github.com/Ryanel/CanidaeOS
+                        - [ ] 1. African Wild Dog (awd): A shim bootloader for x86_64, to go from a multiboot to a pure 64-bit environment.
+                        - [ ] 2. Lobo: A 64-bit hybrid kernel.
+                    - [ ] 03. https://github.com/beevik/MonkOS
+                    - [ ] 04. https://github.com/TomatOrg/TomatBoot
+                    - [ ] 05. https://github.com/Blackend/Cyjon
+                - [ ] WW. Kitos, sunkiai kategorizuojamos
                 - [ ] XX. Surinkta nepopuliarių OS kolekcija
             - [ ] 10. OS Bootloaders tyrimai
                 - [ ] 01. Device emulation
-                    - [ ] 1. PLOP Boot Manager
+                    - [x] 1. PLOP Boot Manager  
+                          https://www.plop.at/en/bootmanagers.html
+                    - [ ] X. Ištirta 
                 - [ ] 02. 64-bit only
+                    - [ ] 01. UEFI-based:
+                        - [ ] 1. https://github.com/limine-bootloader/limine
+                        - [ ] 2. https://github.com/TomatOrg/TomatBoot
+                    - [ ] 02. Kiti:
+                        - [ ] 1. https://lkml.org/lkml/2005/9/10/24
+                        - [ ] 2. https://github.com/ReturnInfinity/Pure64
+                    - [ ] XX. Surinkta grynų 64-bitų Bootloaders kolekcija
                 - [ ] XX. Baigti tirto Bootloaders
+            - [ ] 11. OS kūrimas ir tyrimas:
+                - [ ] 01. https://wiki.osdev.org/Brendan%27s_Multi-tasking_Tutorial
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

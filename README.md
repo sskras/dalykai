@@ -828,10 +828,12 @@ Asmeninių tvarkymų medis.
                 - [ ] X. Vieningas paketų valdymo įrankis paruoštas
             - [ ] 8. `illumos` tyrimai, tobulinimas, viešinimas
                 - [ ] 1. Trūkumai
-                    - [x] 1. https://www.phoronix.com/forums/forum/software/oracle-solaris/1254376-openindiana-hipster-2021-04-released-for-this-solaris-illumos-based-os
+                    - [x] 1. Old-fashioned (as a desktop/GUI, or the CLI too?)  
+                          https://www.phoronix.com/forums/forum/software/oracle-solaris/1254376-openindiana-hipster-2021-04-released-for-this-solaris-illumos-based-os
                       > I have only tried it in a VM a few times. And it is a bit old fashioned, but it works ok.
                       > 
-                    - [x] 2. https://www.phoronix.com/forums/forum/software/oracle-solaris/1254376-openindiana-hipster-2021-04-released-for-this-solaris-illumos-based-os/page3
+                    - [x] 2. Poor hardware compatibility:  
+                    	  https://www.phoronix.com/forums/forum/software/oracle-solaris/1254376-openindiana-hipster-2021-04-released-for-this-solaris-illumos-based-os/page3
                       > No. It's not working pretty well as you said. Unless, you run it on VirtualBox. On real hardware, it sucked hard.
                       > https://illumos.topicbox.com/groups/discuss/Tf485390ebc9d5df2/there-is-something-inherently-wrong-with-this-system
                       > 
@@ -841,6 +843,29 @@ Asmeninių tvarkymų medis.
                       > * For new contributors it is even worse as they have no idea if the feedback is coming from someone that has spent a lot of time developing the project (and should be taken seriously) or if it is coming from an obnoxiously loud user or even a troll (and should be ignored).
                       > * All this combined results in a potent mix that drives contributors away. Over the years, I’ve seen people come, put in reasonable effort to attempt to contribute, hit this wall of insanity, and quietly leave.
                       > 
+                    - [ ] 4. Being slow:
+                        - [x] 1. [OpenIndiana Hipster , illumos is stil alive !](https://www.youtube.com/watch?v=33e5oN_S5Fk)  
+                              102 views • Streamed live on 8 Jun 2021
+                          >
+                          > Comfortably Numb
+                          > ​ Still alive but very much Slowaris 😂😂
+                          >
+                          > The Linux & BSD Cult T.V
+                          > ​ virtualization has some problems too on openindiana
+                          >
+                          > The Linux & BSD Cult T.V
+                          > ​ OpenBSD seems to be fast as a panther compared to this
+                          >
+                          > Comfortably Numb
+                          > ​ yes
+                          >
+                          > Comfortably Numb
+                          > ​ It's dog slow even on real hardware
+                          >
+                          > Comfortably Numb
+                          > ​ and the hardware support is also terrible
+                          >
+                        - [x] X. Baigtas `@illumos` lėtumo atvejų sąrašas
                     - [ ] X. Surašyti `illumos` trūkumai
                 - [ ] X. Baigtas `illumos` tobulinimas
             - [ ] 09. Nepopuliarių OS kolekcija:
@@ -1356,9 +1381,8 @@ Asmeninių tvarkymų medis.
                                 - [x] 2. Knygos parsisiuntimas: \
                                       "QoS OVER HETEROGENEOUS NETWORKS", 2017
                                 - [x] 3. ~~Klausimų paieška/peržiūra~~
-                                    - [x] 1. Įveikta vien per `2021-05-31´
+                                    - [x] 1. Įveikta vien per `2021-05-31`
                                     - [x] 2. Dalį klausimų pavyko peržiūrėt
-                                    - [x] 3. Saviškius du išankstinius klausimus irgi lyg spėjau supildyt
                                     - [x] 4. Half-skipped
                                 - [x] 4. ~~Knygos apibendrinimų peržiūra~~
                                     - [x] 1. Bet spėjau persižiūrėti kai kuriuos išankstinius klausimus
@@ -1444,7 +1468,7 @@ Asmeninių tvarkymų medis.
                                 - [x] X. Atsiskaityta savarankiškų pratybų skola
                             - [x] 5. Galutinis įvertinimas, saukrs = 2*(5-5)*0.3 + 9*0.7 = 6
                         - [x] X. TPKV dalykas atsiskaitytas
-                    - [ ] 5. MTD2: `TODO
+                    - [ ] 5. MTD2: `TODO`
                     - [ ] X. Užbaigtas s2
                 - [ ] 3. s3
                 - [ ] X. Užbaigtas 2020 m. kursas

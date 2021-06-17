@@ -448,16 +448,33 @@ Asmeninių tvarkymų medis.
             - [ ] 1. site rehosting:
                 - [ ] 1. `led.ot.lt` perkėlimas
                 - [ ] 2. [`news.omnitel.net` perkėlimas](tvarka/news.omnitel.net-perkėlimas.md)
-            - [ ] 2. FOSS mirroring/revival:
+            - [ ] 2. FOSS mirroring/revival/preservation:
                 - [ ] 0. `TODO` GitHub repo for the mirroring
-                    - [x] 1. https://www.softwareheritage.org/
+                    - [x] 01. https://www.softwareheritage.org/
+                    - [x] 02. https://github.com/vurdalakov/abandoned
+                    - [x] 03. https://github.com/pickhardt/maintainers-wanted
+                    - [x] 04. https://www.codeshelter.co/
+                    - [x] 05. https://github.com/rejuvenate/rejuvenate
+                    - [x] 06. https://github.com/rejuvenate
+                    - [x] 07. [Dead repositories revived by the community #756](https://github.com/isaacs/github/issues/756)
                 - [ ] 1. DataRecovery version 2.4.7, http://software.tokiwa.qcweb.jp/EN/dr.html
                 - [ ] 2. TinyVisor, https://osdn.net/projects/tinyvisor/downloads/66690/tinyvisor-1.8.tar.gz/
-                - [ ] 3. TVMM,  \
+                - [ ] 3. TVMM 2006-6-2,  \
                       http://www.yl.is.s.u-tokyo.ac.jp/~kaneda/tvmm/tvmm-2006-6-2.tar.gz  \
                       https://github.com/kkaneda/tvmm
                 - [ ] 4. IanOS, http://www.ijack.org.uk/Downloads/IanOS.tar.gz
                 - [ ] 5. win-bash 1.14.2, https://sourceforge.net/p/win-bash/code/
+                - [ ] 06. windows-get 1.01, https://sourceforge.net/p/windows-get/code/
+                - [ ] 07. winapt 0.5rc1, https://sourceforge.net/projects/winapt/files/winapt/  \
+                      https://web.archive.org/web/20110701200752/http://toby.richards.net/
+                - [ ] 08. win-get 0.1.2, https://sourceforge.net/projects/win-get/files/win-get/
+                - [ ] WW. Strategijos / teorija:
+                    - [ ] 1. [Software Heritage: Why and How to Preserve Software Source Code](https://hal.archives-ouvertes.fr/hal-01590958/document)
+                    - [ ] 2. [Feature: Claim Abandoned Projects #1385](https://github.com/isaacs/github/issues/1385)
+                    - [ ] 3. [On the abandonment and survival of open source projects: An empirical investigation](https://arxiv.org/abs/1906.08058)
+                    - [ ] 4. https://openteq.wordpress.com/2020/06/03/reviving-abandoned-open-source-projects/
+                    - [ ] 5. https://openteq.wordpress.com/2019/04/25/open-source-invites-abandonment-culture/
+                - [ ] XX. Baigtas mano F/LOSS išsaugojimas
             - [ ] 3. *nix bendruomenė
                 - [ ] 1. `Solaris` OS gerbėjai:
                     - [x] 1. http://thegreyblog.blogspot.com/2010/10/some-reasons-why-solaris-is-great-java.html
@@ -547,7 +564,7 @@ Asmeninių tvarkymų medis.
                     - [ ] 3. Skaitymas
                     - [ ] 4. Bandymai
                 - [ ] X. Web-hostingas pramoktas
-            - [ ] 7. _\ Management_ tobulinimasis
+            - [ ] 7. _Package Management_ tobulinimasis
                 - [ ] 1. `.rpm` paketai
                       <a id="-.rpm--paketų-kūrimas"></a>
                     - [x] 1. `.rpm` paketų kūrimas
@@ -647,6 +664,53 @@ Asmeninių tvarkymų medis.
                         - [x] 1. https://rubenerd.com/using-netbsds-pkgsrc-everywhere-i-can/
                         - [x] 2. https://www.anserinae.net/setting-up-a-pkgsrc-repository.html#setting-up-a-pkgsrc-repository
                     - [ ] X. Išanalizuoti `pkgsrc` + `pkgin` ir padirbėta ties jų taikymu
+                - [ ] 4. `Windows` paketų sistema
+                    - [ ] 1. Diskusijos apie `ReactOS` paketų valdymą:
+                        - [x] 1. [Proposal for a package management system for ReactOS](https://reactos.org/forum/viewtopic.php?t=19755)
+                            - [ ] 1. `TODO` pakomentuoti
+                                - [ ] 1. Naudojimas to, kas jau sukurta (pkgin, pacman, winget)
+                                - [ ] 2. Runtime Frameworks vengimas (eg. .NET, PSh, gal net ir Go); eg. C/C++ app naudojimas
+                                    - [x] 1. `just-install` netinka dėl Go
+                                    - [x] 2. `choco` netinka dėl .NET
+                                    - [x] 3. `scoop` netinka dėl PSh
+                                    - [x] 4. `appget` netinka dėl .NET
+                                    - [x] 5. `wapt`, `winapt` netinka dėl Py
+                                    - [x] 6. `0install` netinka dėl .NET
+                                - [ ] 3. Jei pagr. įrankiui reikalingas GUI, tai jo Core būtinai tegu turi ir CLI (automatizavimui)
+                                    - [x] 1. Vis dėlto tvarkinga būtų GUI padaryt kaip Frontend (FE) tam Core/Backend (BE)
+                                    - [x] 2. Pvz. _pkgin_ + _Rapps_
+                                - [ ] 4. Gal verta atskirti F/LOSS programas nuo Binary pakuočių į du pasaulius / įrankius?
+                                    - [x] 1. Pvz. _pkgin_ + _winget_
+                                - [ ] X. Pakomentavau šioje `ReactOS` diskusijų gijoje apie paketų valdymą
+                            - [ ] X. Surastos diskusijos ir baigtos diskusijos apie `ReactOS` paketų valdymą
+                        - [ ] X. Baigti `Windows` paketų valdymo tyrimai ir tobulinimai
+                    - [ ] 2. Kandidatai
+                        - [x] 1. _pkgin_ (kaip FE)
+                            - [x] 1. _pkgsrc_ gal irgi tiktų, bet tik dalinai, nes norisi ir Binary programas įsidiegt, kaip kad su RApps.
+                        - [x] 2. winget
+                            - [x] 1. Privalumas: [Add a possibility to overrule/force an upgrade with different installer type #1094](https://github.com/microsoft/winget-cli/issues/1094)
+                            - [x] 2. Trūkumas: skirtumai dėl PATH, [The *.appxbundle installer does not automatically add the installation directory for winget.exe to the PATH environment variable in Windows 10 #210](https://github.com/microsoft/winget-cli/issues/210)
+                            - [x] 3. Trūkumas: .appx* w10-only formatas (Windows 7 cannot install appx #295)[https://github.com/trufflesuite/ganache/issues/295]
+                        - [x] 3. _npackd_
+                            - [x] 1. CLI: https://github.com/npackd/npackd/wiki/CommandLine
+                        - [ ] W. Kiti kandidatų sąrašai
+                            - [x] 1. [Windows package managers #658](https://github.com/repology/repology-updater/issues/658)
+                                - [x] 1. Zero Install
+                                - [x] 2. Ketarin
+                                - [x] 3. Npackd
+                                - [x] 4. win-get (http://windows-get.sourceforge.net/)
+                                - [x] 5. WAPT
+                                - [x] 6. OneGet / NuGet
+                                - [x] 7. WPKG
+                                - [x] 8. CoApp
+                                - [x] 9. Silent Install Helper
+                            - [x] 2. Mano rasti:
+                                - [x] 1. http://win-get.sourceforge.net/
+                                - [x] 2. http://winapt.sourceforge.net/
+                                - [x] 3. https://github.com/tranquilit/WAPT
+                            - [ ] X. Baigtas kaupti kandidatų į `Windows` paketines sistemas sąrašas
+                        - [ ] X. Surinkti tinkami Windows OS paketinių sistemų kandidatai
+                    - [ ] X.
                 - [ ] X. Jau pramokti aktualūs Package Management dalykai
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos

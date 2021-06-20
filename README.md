@@ -449,7 +449,7 @@ Asmeninių tvarkymų medis.
                 - [ ] 1. `led.ot.lt` perkėlimas
                 - [ ] 2. [`news.omnitel.net` perkėlimas](tvarka/news.omnitel.net-perkėlimas.md)
             - [ ] 2. FOSS mirroring/revival/preservation:
-                - [ ] 0. `TODO` GitHub repo for the mirroring
+                - [ ] 00. `TODO` GitHub repo for the mirroring
                     - [x] 01. https://www.softwareheritage.org/
                     - [x] 02. https://github.com/vurdalakov/abandoned
                     - [x] 03. https://github.com/pickhardt/maintainers-wanted
@@ -458,11 +458,11 @@ Asmeninių tvarkymų medis.
                     - [x] 06. https://github.com/rejuvenate
                     - [x] 07. [Dead repositories revived by the community #756](https://github.com/isaacs/github/issues/756)
                 - [ ] 01. DataRecovery version 2.4.7, http://software.tokiwa.qcweb.jp/EN/dr.html
-                - [ ] 2. TinyVisor, https://osdn.net/projects/tinyvisor/downloads/66690/tinyvisor-1.8.tar.gz/
+                - [ ] 02. TinyVisor, https://osdn.net/projects/tinyvisor/downloads/66690/tinyvisor-1.8.tar.gz/
                 - [ ] 03. TVMM 2006-6-2,  \
                       http://www.yl.is.s.u-tokyo.ac.jp/~kaneda/tvmm/tvmm-2006-6-2.tar.gz  \
                       https://github.com/kkaneda/tvmm
-                - [ ] 4. IanOS, http://www.ijack.org.uk/Downloads/IanOS.tar.gz
+                - [ ] 04. IanOS, http://www.ijack.org.uk/Downloads/IanOS.tar.gz
                 - [ ] 05. win-bash 1.14.2, https://sourceforge.net/p/win-bash/code/
                 - [ ] 06. windows-get 1.01, https://sourceforge.net/p/windows-get/code/
                 - [ ] 07. winapt 0.5rc1, https://sourceforge.net/projects/winapt/files/winapt/  \
@@ -835,10 +835,8 @@ Asmeninių tvarkymų medis.
                     - [ ] 15. `TOTEST` bent kai kuriuos būdus
                     - [ ] XX. Išspręsti X11 Remote Desktop klausimai
                 - [ ] X. Išspręsti visi Remote Linux desktop klausimai
-            - [ ] 06. Microkernel OS apžvalgos
-                - [ ] 1. LibrettOS: A Dynamically Adaptable Multiserver-Library OS∗ \
-                      https://arxiv.org/pdf/2002.08928.pdf
-                - [ ] X. Apžvelgtos Microkernel OS
+            - [ ] 06. `TODO`
+                  ---
             - [ ] 07. Vieningas įrankis daryti Package Management
                 - [ ] 1. Kriterijai:
                     - [ ] 1. Ability to install multiple versions of the same package:
@@ -940,7 +938,7 @@ Asmeninių tvarkymų medis.
             - [ ] 09. Nepopuliarių OS kolekcija:
                 - [ ] 01. Rust-based
                     - [ ] 01. Blog-OS: https://os.phil-opp.com/
-                    - [ ] 
+                    - [ ] XX. Baigti rinkti Rust-based OSai
                 - [ ] 02. Zig-based
                     - [ ] 1. https://github.com/jzck/kernel-zig
                         - [ ] 1. https://news.ycombinator.com/item?id=21967668
@@ -953,6 +951,10 @@ Asmeninių tvarkymų medis.
                     - [ ] 03. https://github.com/beevik/MonkOS
                     - [ ] 04. https://github.com/TomatOrg/TomatBoot
                     - [ ] 05. https://github.com/Blackend/Cyjon
+                - [ ] 04. Microkernel OS
+                    - [ ] 1. LibrettOS: A Dynamically Adaptable Multiserver-Library OS∗ \
+                          https://arxiv.org/pdf/2002.08928.pdf
+                    - [ ] X. Apžvelgtos Microkernel OS
                 - [ ] WW. Kitos, sunkiai kategorizuojamos
                 - [ ] XX. Surinkta nepopuliarių OS kolekcija
             - [ ] 10. OS Bootloaders tyrimai
@@ -968,7 +970,7 @@ Asmeninių tvarkymų medis.
                         - [ ] 1. https://lkml.org/lkml/2005/9/10/24
                         - [ ] 2. https://github.com/ReturnInfinity/Pure64
                     - [ ] XX. Surinkta grynų 64-bitų Bootloaders kolekcija
-                - [ ] XX. Baigti tirto Bootloaders
+                - [ ] XX. Baigti tirti Bootloaders
             - [ ] 11. OS kūrimas ir tyrimas:
                 - [ ] 01. https://wiki.osdev.org/Brendan%27s_Multi-tasking_Tutorial
             - [ ] 12. `Wine` + `ReactOS` vystymas
@@ -978,7 +980,7 @@ Asmeninių tvarkymų medis.
                     - [ ] 2. Išoriniai diskai
                     - [ ] X. Baigtas `Wine` + `ReactOS` testų sąrašas
                 - [ ] X. Baigtas `Wine` + `ReactOS` vystymas
-            - [ ] X. Baigtos revoliucijos
+            - [ ] XX. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---
       <a id="Studijose"></a>

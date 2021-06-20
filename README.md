@@ -719,7 +719,7 @@ Asmeninių tvarkymų medis.
                 - [ ] X. Jau pramokti aktualūs Package Management dalykai
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
-            - [ ] 1. Hypervisors
+            - [ ] 01. Hypervisors
                 - [ ] 1. Mokymaisi, tyrimai
                     - [x] 01. About ACPI and DMA, IOMMU:  \
                           https://translate.google.com/translate?hl=en&sl=ja&u=https://zenn.dev/oshibori/scraps/478be45c3fae3e
@@ -797,15 +797,15 @@ Asmeninių tvarkymų medis.
                         - [ ] X. `Valgrind` implementuotas VMM lygmeny
                     - [ ] X. Hipervizorių kūryba baigta
                 - [ ] X. Baigta su hypervizoriais
-            - [ ] 2. x86 mašinų System Firmware (BIOS) nustatymų prieiga iš OS:
+            - [ ] 02. x86 mašinų System Firmware (BIOS) nustatymų prieiga iš OS:
                 - [ ] 1. Nustatymų skaitymas
                 - [ ] 2. Nustatymų keitimas
                 - [ ] 3. Pvz.: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/sect-troubleshooting-enabling_intel_vt_x_and_amd_v_virtualization_hardware_extensions_in_bios
-            - [ ] 3. `VT-x` BIOS nustatymų identifikavimas iš OS (nesikreipiant į BIOS):
+            - [ ] 03. `VT-x` BIOS nustatymų identifikavimas iš OS (nesikreipiant į BIOS):
                 - [ ] 1. Kaip tiksliai tai daro `vboxdrv`?
                 - [ ] 2. Kaip tiksliai tai daro `kvm`?
                 - [ ] 3. The Bootable image
-            - [ ] 4. Cross-platform Storage eksperimentai
+            - [ ] 04. Cross-platform Storage eksperimentai
                 - [ ] 1. LVM on Windows:
                     - [x] 1. Poreikis:
                         - [x] 1. https://superuser.com/questions/706521/lvm-dual-boot-windows
@@ -816,7 +816,7 @@ Asmeninių tvarkymų medis.
                     - [ ] 2. `TOTEST`
                     - [ ] X. LVM on Windows jau veikia
                 - [ ] X. Baigti eksperimentai su Cross-platform Storage
-            - [ ] 5. Remote Linux desktop
+            - [ ] 05. Remote Linux desktop
                 - [ ] 1. Using plain X11:
                     - [x] 01. Poreikis: https://twitter.com/JacksonSabey/status/1393325745292726276
                     - [x] 02. https://www.google.com/search?q=full+screen+X11
@@ -835,11 +835,11 @@ Asmeninių tvarkymų medis.
                     - [ ] 15. `TOTEST` bent kai kuriuos būdus
                     - [ ] XX. Išspręsti X11 Remote Desktop klausimai
                 - [ ] X. Išspręsti visi Remote Linux desktop klausimai
-            - [ ] 6. Microkernel OS apžvalgos
+            - [ ] 06. Microkernel OS apžvalgos
                 - [ ] 1. LibrettOS: A Dynamically Adaptable Multiserver-Library OS∗ \
                       https://arxiv.org/pdf/2002.08928.pdf
                 - [ ] X. Apžvelgtos Microkernel OS
-            - [ ] 7. Vieningas įrankis daryti Package Management
+            - [ ] 07. Vieningas įrankis daryti Package Management
                 - [ ] 1. Kriterijai:
                     - [ ] 1. Ability to install multiple versions of the same package:
                         - [x] 01. pkgsrc, https://uwm.edu/hpc/software-management/
@@ -895,7 +895,7 @@ Asmeninių tvarkymų medis.
                     - [x] 1. upm: Universal Package Manager: https://github.com/epitron/upm
                     - [x] X. Rasta alternatyvų
                 - [ ] X. Vieningas paketų valdymo įrankis paruoštas
-            - [ ] 8. `illumos` tyrimai, tobulinimas, viešinimas
+            - [ ] 08. `illumos` tyrimai, tobulinimas, viešinimas
                 - [ ] 1. Trūkumai
                     - [x] 1. Old-fashioned (as a desktop/GUI, or the CLI too?)  
                           https://www.phoronix.com/forums/forum/software/oracle-solaris/1254376-openindiana-hipster-2021-04-released-for-this-solaris-illumos-based-os
@@ -971,6 +971,13 @@ Asmeninių tvarkymų medis.
                 - [ ] XX. Baigti tirto Bootloaders
             - [ ] 11. OS kūrimas ir tyrimas:
                 - [ ] 01. https://wiki.osdev.org/Brendan%27s_Multi-tasking_Tutorial
+            - [ ] 12. `Wine` + `ReactOS` vystymas
+                - [ ] 1. `TOTEST` atvejai
+                    - [ ] 1. Programos
+                        - [x] 01. ClonyXXL 2.0.1.5, https://www.softpedia.com/get/CD-DVD-Tools/CD-DVD-Images-Utils/ClonyXXL.shtml
+                    - [ ] 2. Išoriniai diskai
+                    - [ ] X. Baigtas `Wine` + `ReactOS` testų sąrašas
+                - [ ] X. Baigtas `Wine` + `ReactOS` vystymas
             - [ ] X. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

@@ -8,18 +8,24 @@ Asmeninių tvarkymų medis.
     - [ ] 1. Fizinėje aplinkoje
         - [ ] 1. Bute
             - [ ] 1. Pakuotės, perdirbamos atliekos:
-                - [ ] 0, optimalus rūšiavimas: būdai ir kriterijai:
+                - [ ] 1, optimalus rūšiavimas: būdai ir kriterijai:
                     - [ ] 1. Užklausos (ir diskusijos) soc. tinkluose
                         - [ ] 1. Twitter
                             - [x] 1. Apie stiklainių metimą į laužą: https://twitter.com/sskras/status/1382649493406035971 \
                                   https://bitbucket-archive.softwareheritage.org/projects/gr/GregorR/
                         - [ ] X. Aptarimai baigti
+                    - [ ] 2. Straipsniai:
+                        - [ ] 1. Apie stiklą:
+                            - [x] 1. https://www.15min.lt/naujiena/aktualu/zalias/dangteliai-stiklo-pakuociu-rusiavimo-konteineryje-ne-problema-beda-keramika-ir-kitoks-stiklas-1007-1521964
+                        - [ ] 2. Apie plastiką:
+                            - [x] 1. https://www.15min.lt/naujiena/aktualu/zalias/kodel-i-pakuotems-skirtus-konteinerius-nedera-mesti-indu-ar-dantu-sepeteliu-1007-1459800
+                        - [ ] X. Surinkti straipsniai apie perdirbamų atliekų rūšiavimą
                     - [ ] X. Optimalus rūšiavimas rastas
                 - [ ] 2, išgabenti;
                 - [ ] 3, dokumentuoti procesą;
                 - [ ] 4, pradėti kartojimą;
                 - [ ] 5, registruoti trukdžius;
-            - [ ] X. Bute baigta
+            - [ ] X. Buto tvarkymas baigtas
         - [ ] 2. Popierinės medžiagos skaitmeninimas
             - [ ] 1. `BLOCKER`: [Įrankiai skaitmeninti popierinei medžiagai](#Įrankiai-skaitmeninti-popierinei-medžiagai)
             - [x] 2. VTU-ELF-1995, Kursinis projektas „Jonų intenstyvumo matuoklis“, Vaidas Sipavičius

@@ -252,7 +252,29 @@ Asmeninių tvarkymų medis.
                             - [ ] 2. Dublikatų tvarkymas.
                             - [ ] 3. Padarytųjų uždarymas.
                         - [ ] X. Sutvarkyti įrankiai laiko sekimui
-                    - [ ] X. Pasiekta tvarka veiksmų organizavime
+                    - [ ] 3. Patogūs įrankiai (įskiepiai) Confluence:
+                        - [ ] 1. Įrankio kūrimo apžvalga:
+                            - [ ] 1. https://developer.atlassian.com/server/confluence/writing-confluence-plugins/
+                            - [ ] 2. https://developer.atlassian.com/server/confluence/confluence-plugin-guide/
+                            - [ ] 3. https://developer.atlassian.com/developer-guide/cloud-server-and-data-center-for-developers/
+                            - [ ] 4. https://developer.atlassian.com/cloud/jira/platform/build-a-jira-app-using-a-framework/
+                            - [ ] 5. https://developer.atlassian.com/developer-guide/start-building-with-atlassian/
+                            - [ ] 6. https://bitbucket.org/atlassian/confluence-helloworld-addon/src/master/
+                        - [ ] 2. Nustatyti Confluence-`Draw.io` įrankio tipą:
+                            - [x] 1. URL: https://marketplace.atlassian.com/apps/1210933/draw-io-diagrams-for-confluence?hosting=cloud&tab=overview
+                                - [x] 1. Add-on?
+                                - [x] 2. Plugin?
+                            - [x] 2. Pagal https://confluence.atlassian.com/conf59/managing-add-ons-or-plugins-792499478.html
+                                - [x] 1. There are two main types of add-ons:
+                                    - [x] 1. System add-ons - these are bundled with Confluence and provide core functionality 
+                                    - [x] 2. User installed add-ons - these are usually downloaded from The Marketplace and may have been created by Atlassian or by a third party developer.
+                                - [x] 2. Šūvis: "User installed add-on"
+                            - [x] X. Nustačiau `Draw.io` įrankio tipą
+                        - [ ] 2. Įrankis DRAKON diagramoms piešti
+                            - [x] 1. Panašus į `Draw.io`, bet skirtas DRAKON diagramoms
+                            - [ ] X. Sukurtas DRAKON diagramų piešimo įrankis
+                        - [ ] X. Atsirado patogumas naudotis Confluence
+                    - [ ] X. Pasiekta tvarka darbo veiksmų organizavime
                 - [ ] X. Pasiekta tvarka apskritai darbe
             - [ ] 7. Debesinė saugykla
             - [ ] 8. Patikima nešiojama USB-talpykla.

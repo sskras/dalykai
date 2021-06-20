@@ -835,8 +835,57 @@ Asmeninių tvarkymų medis.
                     - [ ] 15. `TOTEST` bent kai kuriuos būdus
                     - [ ] XX. Išspręsti X11 Remote Desktop klausimai
                 - [ ] X. Išspręsti visi Remote Linux desktop klausimai
-            - [ ] 06. `TODO`
-                  ---
+            - [ ] 06. _ODD_ emuliavimas
+                - [x] 1. Teorija
+                    - [x] 1. КРИС КАСПЕРСКИ, [Техника защиты компакт-дисков от копирования](http://213.230.96.51:8090/files/ebooks/dasturlash/Tekhnika%20zashchity%20kompakt-diskov%20ot%20kopirovaniya%203642660.pdf)
+                    - [x] 2. Мешков Владимир, [Программирование CD/DVD-приводов в LINUX](https://www.opennet.ru/soft/cd_book/cd.pdf)
+                - [ ] 2. _Test-cases_
+                      <a id="_ODD_-Emuliatoriai"></a>
+                    - [ ] 1. _ODD_ Emuliatoriai
+                        - [x] 1. Read-only:
+                            - [x] 01. cdemu, https://github.com/cdemu/cdemu
+                            - [x] 02. WinCDemu, https://github.com/sysprogs/WinCDEmu
+                            - [x] 03. gBurner Virtual Drive v5.0, http://www.gburner.com/online-help/virtual-drive.htm
+                            - [x] 04. Virtual CloneDrive,  https://www.elby.ch/en/products/vcd.html
+                            - [x] 05. Alcohol 120%, http://shop.alcohol-soft.com/en/about_120.php
+                            - [x] 06. OtivTech Virtual Disc 1, http://www.softpicks.net/software/Utilities/System-Tools/OtivTech-Virtual-Disc-147594.htm  \
+                                  http://fileserver1.softwaredownloadupdates.com/f5/253825-vcdmsi.zip
+                            - [x] 07. DVDFab Virtual Drive 12, https://www.dvdfab.cn/virtual-drive.htm
+                            - [x] 08. MagicDisc Virtual CD/DVD-ROM 2.7, http://www.magiciso.com/tutorials/miso-magicdisc-overview.htm  \
+                                  https://www.softpedia.com/get/CD-DVD-Tools/Virtual-CD-DVD-Rom/MagicDisc-Virtual-DVD-CD-ROM.shtml
+                            - [x] 09. M4P Converter for windows	Noteburner M4P Audio Converter for Windows 2.3.5, 
+                                  https://web.archive.org/web/20120716024508/http://www.noteburner.com/overview.html#:~:text=Virtual%20CD-RW%20drive%20is%20the%20answer  \
+                                  https://web.archive.org/web/20120606173930/http://www.noteburner.com/noteburner-audio-converter.html  \
+                                  https://web.archive.org/web/20120510092924/http://noteburner.com/noteburner.exe
+                            - [x] 10. UltraISO 9.7.6.3812, https://www.ultraiso.com/main.html#:~:text=Virtual%20CD/DVD-ROM%20drive
+                            - [x] WW. Kiti sąrašai:
+                                - [x] 1. https://dvdcreator.wondershare.com/cd-burner/best-virtual-cd-burner.html
+                                - [x] 2. https://www.raymond.cc/blog/10-free-software-to-mount-cd-or-dvd-iso-image-file-as-virtual-drives/
+                            - [x] XX. Surašyti _Read-only_ _ODD_ emuliatoriai
+                        - [x] 2. Read-Write:
+                            - [x] 01. TotalMounter, https://www.kernsafe.com/product/totalmounter.aspx
+                            - [x] 02. Phantom Burner 2.0, https://web.archive.org/web/20140103143410/http://www.phantombility.com/en/prod/phantomburner/  \
+                                  https://web.archive.org/web/20141006015904/http://download.phantombility.com/phantomburner_setup.exe
+                            - [x] 03. Phantom Drive 1.0.0.5, https://www.phantom-drive.com/en/download/demoversion.cfm
+                            - [x] 04. Virtual CD 10, https://www.virtualcd-online.com/vcd/apps/overview/features.cfm?lg=0
+                            - [x] 05. Daemon Tools Pro 8, https://www.daemon-tools.cc/products/dtproAdv
+                            - [x] 06. Original CD Emulator Personal Edition 2.40, https://web.archive.org/web/20161014220028/http://www.ztekware.com/  \
+                                  https://web.archive.org/web/20160911023606/http://www.ztekware.com/download/ocdesetup.exe
+                            - [x] WW. Forumai:
+                                - [x] 1. https://superuser.com/questions/183865/is-there-a-free-program-to-emulate-a-dvd-writer
+                                - [x] 2. https://softwarerecs.stackexchange.com/questions/735/virtual-dvd-cd-writer-to-emulate-a-physical-writer-and-writable-disk
+                                - [x] 3. https://superuser.com/questions/126571/i-would-like-to-burn-a-file-to-a-virtual-dvd
+                            - [x] XX. Surašyti _R-W_ _ODD_ emuliatoriai
+                        - [ ] 3. Hardware / _in-silico_:
+                            - [x] 1. http://www.digitalfaq.com/forum/news/8405-hardware-dvd-burner.html
+                        - [ ] X. Baigtas ODD emuliatorių sąrašas
+                    - [ ] 2. Optiniai diskai
+                        - [ ] 1. Sąrašas tyrimams aktualių optinių diskų, kuriuos turiu
+                        - [ ] 2. Įrankiai kurti diskams
+                            - [x] 1. SecureCD Creator, https://www.kernsafe.com/download/securecd-creator.aspx
+                        - [ ] X. Baigtas optinių diskų sąrašas
+                    - [ ] X. Baigtas ODD _Test-case_ sąrašas
+                - [ ] X. Baigtas tirti ODD emuliavimas
             - [ ] 07. Vieningas įrankis daryti Package Management
                 - [ ] 1. Kriterijai:
                     - [ ] 1. Ability to install multiple versions of the same package:
@@ -974,12 +1023,24 @@ Asmeninių tvarkymų medis.
             - [ ] 11. OS kūrimas ir tyrimas:
                 - [ ] 01. https://wiki.osdev.org/Brendan%27s_Multi-tasking_Tutorial
             - [ ] 12. `Wine` + `ReactOS` vystymas
-                - [ ] 1. `TOTEST` atvejai
-                    - [ ] 1. Programos
-                        - [x] 01. ClonyXXL 2.0.1.5, https://www.softpedia.com/get/CD-DVD-Tools/CD-DVD-Images-Utils/ClonyXXL.shtml
+                - [ ] 1. _Win32_-`TOTEST` atvejai
+                    - [x] 1. Programos
+                        - [x] 01. ODD įrankiai
+                            - [x] 01. ClonyXXL 2.0.1.5, https://www.softpedia.com/get/CD-DVD-Tools/CD-DVD-Images-Utils/ClonyXXL.shtml
+                        - [x] 02. [_ODD_ Emuliatoriai](#_ODD_-Emuliatoriai)
+                            - [x] 1. Kam: [Bug 51284 - shell32:shellpath fails on Windows when there is more than on CD drive](https://bugs.winehq.org/show_bug.cgi?id=51284)
+                        - [ ] XX. Surinkti _Win32_ testavimo atvejai
                     - [ ] 2. Išoriniai diskai
+                        - [ ] 1. `TODO` su unikaliais, specializuotais Win32 softais, ypač Kernel-mode draiveriaisi
                     - [ ] X. Baigtas `Wine` + `ReactOS` testų sąrašas
                 - [ ] X. Baigtas `Wine` + `ReactOS` vystymas
+            - [ ] 13. _Audio_ kortos emuliavimas
+                - [x] 1. Total Recorder, http://www.totalrecorder.com/faq_tr.htm
+                - [x] 2. Dante Virtual Soundcard, https://www.audinate.com/products/software/dante-virtual-soundcard
+                - [x] 3. e2eSoft Virtual Sound Card, https://www.e2esoft.com/vsc/
+                - [x] 4. RƎLAY VSC Virtual Sound Card, https://lawo.com/r3lay-vsc/
+                - [x] 5. VB-CABLE Virtual Audio Device, https://vb-audio.com/Cable/
+                - [x] 6. Virtual Audio Cable (VAC), https://vac.muzychenko.net/en/
             - [ ] XX. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

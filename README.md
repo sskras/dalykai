@@ -908,12 +908,18 @@ Asmeninių tvarkymų medis.
                             - [x] XX. Surašyti _R-W_ _ODD_ emuliatoriai
                         - [ ] 3. Hardware / _in-silico_:
                             - [x] 1. http://www.digitalfaq.com/forum/news/8405-hardware-dvd-burner.html
+                            - [x] 2. CD-berry, https://github.com/frank1119/CD-berry | https://frank1119.github.io/CD-berry/
                         - [ ] X. Baigtas ODD emuliatorių sąrašas
                     - [ ] 2. Optiniai diskai
                         - [ ] 1. Sąrašas tyrimams aktualių optinių diskų, kuriuos turiu
                         - [ ] 2. Įrankiai kurti diskams
                             - [x] 1. SecureCD Creator, https://www.kernsafe.com/download/securecd-creator.aspx
                         - [ ] X. Baigtas optinių diskų sąrašas
+                    - [ ] 3. F/LOSS integravimai
+                        - [ ] 1. [libmirage](https://github.com/cdemu/cdemu/tree/master/libmirage) + `WinCDemu`
+                            - [ ] 1. Pasiūlymas pakeisti bibliotekos `GPL` licenciją į `LGPL`
+                            - [ ] 2. Plugin-API sulyginimas tarp abiejų emuliatorių
+                        - [ ] X. Baigti F/LOSS CD-emuliatorių integravimai
                     - [ ] X. Baigtas ODD _Test-case_ sąrašas
                 - [ ] X. Baigtas tirti ODD emuliavimas
             - [ ] 07. Vieningas įrankis daryti Package Management
@@ -1062,9 +1068,11 @@ Asmeninių tvarkymų medis.
                         - [ ] 03. Naršyklės
                             - [x] 1. Basilisk XP, https://retrosystemsrevival.blogspot.com/2019/08/basilisk-xp.html
                             - [x] 2. Firefox v45 - No SSE2 Edition, http://retrosystemsrevival.blogspot.com/2019/05/firefox-no-sse2-edition.html
+                        - [ ] 04. Debugeriai
+                            - [ ] 1. VisualGDB, https://visualgdb.com/
                         - [ ] XX. Surinkti _Win32_ testavimo atvejai
                     - [ ] 2. Išoriniai diskai
-                        - [ ] 1. `TODO` su unikaliais, specializuotais Win32 softais, ypač Kernel-mode draiveriaisi
+                        - [ ] 1. `TODO` su unikaliais, specializuotais Win32 softais, ypač Kernel-mode draiveriais
                     - [ ] X. Baigtas `Wine` + `ReactOS` testų sąrašas
                 - [ ] X. Baigtas `Wine` + `ReactOS` vystymas
             - [ ] 13. _Audio_ kortos emuliavimas
@@ -1076,6 +1084,12 @@ Asmeninių tvarkymų medis.
                 - [x] 6. Virtual Audio Cable (VAC), https://vac.muzychenko.net/en/
             - [ ] 14. `Win9x` tyrimai
                 - [x] 1. KernelEx testavimas, https://retrosystemsrevival.blogspot.com/2018/05/kernelex-45201617-updates.html
+            - [ ] 15. _Windows_ skriptinimas
+                - [ ] 01. Tips
+                    - [ ] 01. RAM-disk panaudojimas (PSh), https://github.com/mjebrahimi/RamDisk
+                    - [ ] 02. https://github.com/martysama0134/how-to-general/tree/master/windows-tips
+                - [ ] 02. WSH žinių bazė
+                - [ ] XX. Išsiaiškintas _Windows_ skriptinimas
             - [ ] XX. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

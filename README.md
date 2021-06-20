@@ -198,7 +198,7 @@ Asmeninių tvarkymų medis.
                 - [ ] 2. Infrastruktūroje
                     - [ ] 0. Skriptų ir kodo versijavimas
                         - [ ] 1. Kaip dalintis visai komandai?
-                            - [x] 1. _On-login_ skripas? Pvz.:
+                            - [x] 1. _On-login_ skriptas? Pvz.:
                                 - [x] 1. automatinis `git pull` synkas
                                 - [x] 2. į `~/bin` direktoriją
                                 - [x] 3. tarkime, iš `.bashrc`

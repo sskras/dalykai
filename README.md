@@ -198,20 +198,28 @@ Asmeninių tvarkymų medis.
                 - [ ] 2. Infrastruktūroje
                     - [ ] 0. Skriptų ir kodo versijavimas
                         - [ ] 1. `TODO` kaip dalintis visai komandai?
+                        - [ ] 2. Vieningas tekstų taisymo versijavimas
+                            - [ ] 2. RnD su `vim` + `gite.sh`
+                                - [ ] 1. `TODO` kaip dirbant failų medyje apjungti į vieną repozitoriją / nesuskaldyti jos į keletą mažų `.di3fs`?
+                                - [ ] 2. `TODO` kaip atjungti/vėl įjungti versijavimą vienu paspaudimu? (turbūt per `.vimrc`)
+                            - [ ] X. Taisomi tekstiniai failai versijuojami vieningai
+                        - [ ] X. Sutvarkytas komandos skriptų ir kodo versijavimas
                     - [ ] 1. omniukis-CMDB tobulinimas
-                        - [ ] 1. In-place redagavimas
+                        - [ ] 1. _In-place_ redagavimas
                             - [ ] 1. Pavyzdžių paieška
                             - [ ] 2. `TODO` HTML5 + CSS3 mokinimasis
                             - [ ] 3. Testai
                             - [ ] 4. Taisymas
+                        - [ ] X. Baigta tobulinti `omniukis`-CMDB
                     - [ ] 2. Anomalijų tvarkymas
                         - [ ] 1. Pastebėjimas
                         - [ ] 2. Rankinis sužymėjimas
                             - [ ] 1. `TODO` Kur? Jei Confluence, tada:
                                 - [ ] a, `TODO` Confluence versijavimas
+                            - [ ] X. Išspręstas rankinis anomalijų žymėjimas
                         - [ ] 3. Probo sukūrimas
                         - [ ] 4. Probo automatizavimas
-                        - [ ] 5. Integravimas į omniuki ar pan.
+                        - [ ] 5. Integravimas į `omniukis` ar pan.
                     - [ ] 3. Ansible
                         - [ ] 1. Pramokimas, pageidautina Under the Hood + KISS + Hands-on
                             - [ ] 1. RH Ansible + SAP Automation kurso pabaigimas
@@ -219,11 +227,9 @@ Asmeninių tvarkymų medis.
                             - [ ] 1. `TODO` kur naudojame `raw`
                             - [ ] 2. `TODO` kur naudojame `shell`
                             - [ ] 3. `TODO` kur liko, naudojame `Py-based`
-                - [ ] 3. Organizacijoje
-                    - [ ] 0. Vieningas tekstų taisymo versijavimas
-                        - [ ] 1. RnD su `vim` + `gite.sh`
-                            - [ ] 1. `TODO` kaip dirbant failų medyje apjungti į vieną repozitoriją / nesuskaldyti jos į keletą mažų `.di3fs`?
-                            - [ ] 2. `TODO` kaip atjungti/vėl įjungti versijavimą vienu paspaudimu? (turbūt per `.vimrc`)
+                        - [ ] X. Pramoktas  automatizavimas naudojant `Ansible`
+                    - [ ] X. Baigta tvarka infrastruktūroje
+                - [ ] 3. Veiksmų organizavime
                     - [ ] 1. Laiku deklaruojamas laikas
                     - [ ] 2. Įrankiai laiko sekimui
                         - [ ] 1. `tit` ir `tw` Bash-skriptų apjungimas.
@@ -238,6 +244,9 @@ Asmeninių tvarkymų medis.
                             - [ ] 1. Pavadinimų taisymas.
                             - [ ] 2. Dublikatų tvarkymas.
                             - [ ] 3. Padarytųjų uždarymas.
+                        - [ ] X. Sutvarkyti įrankiai laiko sekimui
+                    - [ ] X. Pasiekta tvarka veiksmų organizavime
+                - [ ] X. Pasiekta tvarka apskritai darbe
             - [ ] 7. Debesinė saugykla
             - [ ] 8. Patikima nešiojama USB-talpykla.
                 - [ ] 1. OpenZFS pramokimas.

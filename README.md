@@ -496,6 +496,13 @@ Asmeninių tvarkymų medis.
                       Via: http://web.archive.org/web/20040416030240/http://www.cdfreaks.com/news/9502  \
                       Via: https://github.com/sysprogs/WinCDEmu/issues/13#issue-161310046  \
                       Oth: https://www.softpedia.com/get/CD-DVD-Tools/CD-DVD-Rip-Other-Tools/Alcoholer.shtml
+                - [ ] 10. KerneEx 
+                    - [ ] 1. Import v4.5.2, https://sourceforge.net/p/kernelex/code/HEAD/tree/trunk/
+                    - [ ] 2. Merge/cherry-pick v4.6.0 Beta 1, https://github.com/metaxor/KernelEx
+                    - [ ] 3. Investigate updates from `jumper`, https://msfn.org/board/topic/157173-kext-diy-kernelex-extensions/
+                        - [ ] 1. https://mega.nz/file/X9BBTKjI#lYuFgXZe57ccoX_YQJo9UkP2XCvMEPC6ad9klVGPdZY
+                        - [ ] 2. https://web.archive.org/web/20170318223937/https://msfn.org/board/topic/173302-kernelex-auxiliary-dll-updates/
+                        - [ ] 3. https://web.archive.org/web/20201124234149/https://msfn.org/board/topic/157173-kext-diy-kernelex-extensions/
                 - [ ] WW. Strategijos / teorija:
                     - [ ] 1. [Software Heritage: Why and How to Preserve Software Source Code](https://hal.archives-ouvertes.fr/hal-01590958/document)
                     - [ ] 2. [Feature: Claim Abandoned Projects #1385](https://github.com/isaacs/github/issues/1385)
@@ -1052,6 +1059,9 @@ Asmeninių tvarkymų medis.
                             - [x] 01. ClonyXXL 2.0.1.5, https://www.softpedia.com/get/CD-DVD-Tools/CD-DVD-Images-Utils/ClonyXXL.shtml
                         - [x] 02. [_ODD_ Emuliatoriai](#_ODD_-Emuliatoriai)
                             - [x] 1. Kam: [Bug 51284 - shell32:shellpath fails on Windows when there is more than on CD drive](https://bugs.winehq.org/show_bug.cgi?id=51284)
+                        - [ ] 03. Naršyklės
+                            - [x] 1. Basilisk XP, https://retrosystemsrevival.blogspot.com/2019/08/basilisk-xp.html
+                            - [x] 2. Firefox v45 - No SSE2 Edition, http://retrosystemsrevival.blogspot.com/2019/05/firefox-no-sse2-edition.html
                         - [ ] XX. Surinkti _Win32_ testavimo atvejai
                     - [ ] 2. Išoriniai diskai
                         - [ ] 1. `TODO` su unikaliais, specializuotais Win32 softais, ypač Kernel-mode draiveriaisi
@@ -1064,6 +1074,8 @@ Asmeninių tvarkymų medis.
                 - [x] 4. RƎLAY VSC Virtual Sound Card, https://lawo.com/r3lay-vsc/
                 - [x] 5. VB-CABLE Virtual Audio Device, https://vb-audio.com/Cable/
                 - [x] 6. Virtual Audio Cable (VAC), https://vac.muzychenko.net/en/
+            - [ ] 14. `Win9x` tyrimai
+                - [x] 1. KernelEx testavimas, https://retrosystemsrevival.blogspot.com/2018/05/kernelex-45201617-updates.html
             - [ ] XX. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

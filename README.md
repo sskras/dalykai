@@ -457,17 +457,22 @@ Asmeninių tvarkymų medis.
                     - [x] 05. https://github.com/rejuvenate/rejuvenate
                     - [x] 06. https://github.com/rejuvenate
                     - [x] 07. [Dead repositories revived by the community #756](https://github.com/isaacs/github/issues/756)
-                - [ ] 1. DataRecovery version 2.4.7, http://software.tokiwa.qcweb.jp/EN/dr.html
+                - [ ] 01. DataRecovery version 2.4.7, http://software.tokiwa.qcweb.jp/EN/dr.html
                 - [ ] 2. TinyVisor, https://osdn.net/projects/tinyvisor/downloads/66690/tinyvisor-1.8.tar.gz/
-                - [ ] 3. TVMM 2006-6-2,  \
+                - [ ] 03. TVMM 2006-6-2,  \
                       http://www.yl.is.s.u-tokyo.ac.jp/~kaneda/tvmm/tvmm-2006-6-2.tar.gz  \
                       https://github.com/kkaneda/tvmm
                 - [ ] 4. IanOS, http://www.ijack.org.uk/Downloads/IanOS.tar.gz
-                - [ ] 5. win-bash 1.14.2, https://sourceforge.net/p/win-bash/code/
+                - [ ] 05. win-bash 1.14.2, https://sourceforge.net/p/win-bash/code/
                 - [ ] 06. windows-get 1.01, https://sourceforge.net/p/windows-get/code/
                 - [ ] 07. winapt 0.5rc1, https://sourceforge.net/projects/winapt/files/winapt/  \
                       https://web.archive.org/web/20110701200752/http://toby.richards.net/
                 - [ ] 08. win-get 0.1.2, https://sourceforge.net/projects/win-get/files/win-get/
+                - [ ] 09. Alcoholer 4.2 beta, http://web.archive.org/web/20040606132806/http://download.copybase.ch/araysoft/Alcoholerb.rar  \
+                      Via: http://web.archive.org/web/20040622062329/http://club.cdfreaks.com/showthread.php?s=&threadid=92973  \
+                      Via: http://web.archive.org/web/20040416030240/http://www.cdfreaks.com/news/9502  \
+                      Via: https://github.com/sysprogs/WinCDEmu/issues/13#issue-161310046  \
+                      Oth: https://www.softpedia.com/get/CD-DVD-Tools/CD-DVD-Rip-Other-Tools/Alcoholer.shtml
                 - [ ] WW. Strategijos / teorija:
                     - [ ] 1. [Software Heritage: Why and How to Preserve Software Source Code](https://hal.archives-ouvertes.fr/hal-01590958/document)
                     - [ ] 2. [Feature: Claim Abandoned Projects #1385](https://github.com/isaacs/github/issues/1385)

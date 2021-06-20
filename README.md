@@ -197,7 +197,14 @@ Asmeninių tvarkymų medis.
                 - [ ] 1. KDV
                 - [ ] 2. Infrastruktūroje
                     - [ ] 0. Skriptų ir kodo versijavimas
-                        - [ ] 1. `TODO` kaip dalintis visai komandai?
+                        - [ ] 1. Kaip dalintis visai komandai?
+                            - [x] 1. _On-login_ skripas? Pvz.:
+                                - [x] 1. automatinis `git pull` synkas
+                                - [x] 2. į `~/bin` direktoriją
+                                - [x] 3. tarkime, iš `.bashrc`
+                            - [ ] 2. Arba _On-demand_ skriptas?
+                                - [x] 1. Pvz. `~/bin/up.sh`
+                            - [ ] X. Sutvarkytas skriptų pasidalinimas tarp komandos narių
                         - [ ] 2. Vieningas tekstų taisymo versijavimas
                             - [ ] 2. RnD su `vim` + `gite.sh`
                                 - [ ] 1. `TODO` kaip dirbant failų medyje apjungti į vieną repozitoriją / nesuskaldyti jos į keletą mažų `.di3fs`?

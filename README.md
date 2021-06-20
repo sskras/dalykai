@@ -11,8 +11,7 @@ Asmeninių tvarkymų medis.
                 - [ ] 1, optimalus rūšiavimas: būdai ir kriterijai:
                     - [ ] 1. Užklausos (ir diskusijos) soc. tinkluose
                         - [ ] 1. Twitter
-                            - [x] 1. Apie stiklainių metimą į laužą: https://twitter.com/sskras/status/1382649493406035971 \
-                                  https://bitbucket-archive.softwareheritage.org/projects/gr/GregorR/
+                            - [x] 1. Apie stiklainių metimą į laužą: https://twitter.com/sskras/status/1382649493406035971
                         - [ ] X. Aptarimai baigti
                     - [ ] 2. Straipsniai:
                         - [ ] 1. Apie stiklą:
@@ -457,6 +456,8 @@ Asmeninių tvarkymų medis.
             - [ ] 2. FOSS mirroring/revival/preservation:
                 - [ ] 00. `TODO` GitHub repo for the mirroring
                     - [x] 01. https://www.softwareheritage.org/
+                        - [x] 1. https://octobus.net/blog/2020-04-23-heptapod-and-swh.html
+                        - [x] 2. https://bitbucket-archive.softwareheritage.org/projects/gr/GregorR/
                     - [x] 02. https://github.com/vurdalakov/abandoned
                     - [x] 03. https://github.com/pickhardt/maintainers-wanted
                     - [x] 04. https://www.codeshelter.co/

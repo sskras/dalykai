@@ -1047,9 +1047,12 @@ Asmeninių tvarkymų medis.
                     - [ ] 01. Blog-OS: https://os.phil-opp.com/
                     - [ ] XX. Baigti rinkti Rust-based OSai
                 - [ ] 02. Zig-based
-                    - [ ] 1. https://github.com/jzck/kernel-zig
+                    - [x] 01. https://github.com/jzck/kernel-zig
                         - [ ] 1. https://news.ycombinator.com/item?id=21967668
                     - [ ] 2. https://github.com/AndreaOrru/zen
+                    - [ ] WW. Sąrašai
+                        - [x] 1. https://github.com/nrdmn/awesome-zig#bootables
+                    - [ ] XX. Surinktos _Zig-based_ OS
                 - [ ] 03. 64-bit only
                     - [ ] 01. https://github.com/vlang/vinix
                     - [ ] 02. https://github.com/Ryanel/CanidaeOS

@@ -1438,10 +1438,26 @@ Asmeninių tvarkymų medis.
                                         - [x] 0x. maks. Congestion Window dydžio;
                                         - [x] 0x. MSS;
                                     - [x] 11. MSS padidinimas nuo `1000 B` iki `1448 B` ir priartėjimas prie 100 Mbps tiriamojoje linijoje.
-                                    - [ ] XX. Suformuota `kursinis-saukrs.tcl` struktūra
+                                    - [x] XX. Suformuota `kursinis-saukrs.tcl` struktūra
                                 - [ ] 4. Supaprastintų užduoties sąlygų suskriptinimas
+                                    - [x] 1. Dedikuotas _Bash_-skriptas: `kursinis-saukrs-run.sh`
+                                    - [x] 2. `kursinis-saukrs.tcl` adaptavimas parametrų pasiėmimui per `argv`
+                                    - [ ] 3. Supaprastintos sąlygos:
+                                        - [ ] 1. Atsisakome _Congestion Window_ kitimo laikinių diagramų;
+                                        - [ ] 2. Braižome tik pralaidumą;
+                                        - [ ] 3. Atsisakome kintančio siųstuvų skaičiaus, naudojame du;
+                                        - [ ] 4. Vietoj siųstuvų skaičiaus kitimo modeliuojame pralaidą tokioms konfigūracijoms:
+                                            - [x] 1. Tik `HSTCP`
+                                            - [x] 2. Tik `BIC`
+                                            - [x] 3. Jei dalyvauja tik vienas algoritmas, ar pakanka, kad srautas keliaus tik iš vieno šaltinio? Ar reikia abiejų?
+                                            - [x] 4. Saveikauja abu: Tiek `HSTCP`, tiek `BIC`
+                                        - [ ] X. Aprašiau supaprastintas kursinio darbo sąlygas
+                                    - [ ] X. Supaprastintos kursinio sąlygos suskriptintos
                                 - [ ] 5. Reikiamų duomenų ištraukimas
                                 - [ ] 6. Diagramų braižymas
+                                    - [x] 1. `GnuPlot` įdiegimas ir pramokimas
+                                    - [ ] 2. Keleto duomenų rinkinių sutalpinimas į vieną diagramą
+                                    - [ ] X. Nubraižytos kursinio diagramos
                                 - [ ] X. Susimuliuotas tinklo veikimas
                             - [ ] 7. Rezultatų apiforminimas
                             - [ ] X. Baigtas kursinis darbas

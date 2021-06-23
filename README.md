@@ -1443,17 +1443,20 @@ Asmeninių tvarkymų medis.
                                     - [x] 1. Dedikuotas _Bash_-skriptas: `kursinis-saukrs-run.sh`
                                     - [x] 2. `kursinis-saukrs.tcl` adaptavimas parametrų pasiėmimui per `argv`
                                     - [ ] 3. Supaprastintos sąlygos:
-                                        - [ ] 1. Atsisakome _Congestion Window_ kitimo laikinių diagramų;
-                                        - [ ] 2. Braižome tik pralaidumą;
-                                        - [ ] 3. Atsisakome kintančio siųstuvų skaičiaus, naudojame du;
-                                        - [ ] 4. Vietoj siųstuvų skaičiaus kitimo modeliuojame pralaidą tokioms konfigūracijoms:
+                                        - [x] 1. Atsisakome _Congestion Window_ kitimo laikinių diagramų;
+                                        - [x] 2. Braižome tik pralaidumą;
+                                        - [x] 3. Atsisakome kintančio siųstuvų skaičiaus, naudojame du;
+                                        - [x] 4. Vietoj siųstuvų skaičiaus kitimo modeliuojame pralaidą tokioms konfigūracijoms:
                                             - [x] 1. Tik `HSTCP`
                                             - [x] 2. Tik `BIC`
                                             - [x] 3. Jei dalyvauja tik vienas algoritmas, ar pakanka, kad srautas keliaus tik iš vieno šaltinio? Ar reikia abiejų?
                                             - [x] 4. Saveikauja abu: Tiek `HSTCP`, tiek `BIC`
-                                        - [ ] X. Aprašiau supaprastintas kursinio darbo sąlygas
+                                        - [x] X. Aprašiau supaprastintas kursinio darbo sąlygas
+                                    - [x] 4. `2021-06-22` suskriptinau pralaidumo skaičiavimą cikle pagal tris vėlinimus (kai praradimai = 0%)
+                                    - [ ] 5. `TODO-TO-DO` pralaidumo skaičiavimas pagal tris skirtingas praradimų vertes (kai vėlinimas = 2ms)
                                     - [ ] X. Supaprastintos kursinio sąlygos suskriptintos
-                                - [ ] 5. Reikiamų duomenų ištraukimas
+                                - [x] 5. Reikiamų duomenų ištraukimas
+                                    - [x] 1. Reikiami duomenys ištraukti pataisant `Throughput.awk` ir perdavimui skripte panaudojant STDOUT ir STDERR kanalus
                                 - [ ] 6. Diagramų braižymas
                                     - [x] 1. `GnuPlot` įdiegimas ir pramokimas
                                     - [ ] 2. Keleto duomenų rinkinių sutalpinimas į vieną diagramą

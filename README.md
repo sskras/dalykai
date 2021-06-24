@@ -1402,12 +1402,13 @@ Asmeninių tvarkymų medis.
                                     - [x]  1. Pasirenku `asciidoc` formatą
                                 - [x] 2. Perskaitymas iš naujo
                                 - [x] X. Suprasta užduotis
-                            - [ ] 4. `NS-2` valdymo perpratimas
+                            - [x] 4. `NS-2` valdymo perpratimas
                                 - [x] 1. Testinės simuliacijos skripto perskaitymas
                                 - [x] 2. Testinės simuliacijos komandų analizė
                                     - [x] 1. http://nile.wpi.edu/NS/simple_ns.html
-                                - [ ] 3. Dokumentacijos skaitymas
-                                    - [ ] 1. https://www.isi.edu/nsnam/ns/doc/node2.html
+                                - [x] 3. Dokumentacijos skaitymas
+                                    - [x] 1. https://www.isi.edu/nsnam/ns/doc/node2.html
+                                    - [ ] 2. Dar krūva, galbūt `TODO`
                                 - [x] 4. `NS-2` Komandų sistemos perpratimas
                                     - [x] 1. Teorinis pagrindas jau atsirado (ačiū `simple_ns.html`)
                                     - [x] 2. Konsultacijos video (Aretos demo) peržiūrėjimas ir konspektavimas
@@ -1417,7 +1418,7 @@ Asmeninių tvarkymų medis.
                             - [x] 5. Teorinės dalies aprašymas
                                 - [x] 1. HSTCP
                                 - [x] 2. TCP-BIC
-                            - [ ] 6. Tinklo simuliavimas
+                            - [x] 6. Tinklo simuliavimas
                                 - [x] 1. Ar prisikopijuojant krūvas `.tcl` failų, ar suskriptinant viską į vieną?
                                 - [x] 2. `kursinis-saukrs.tcl` pradėtas
                                     - [x] 1. Sukurtas pagal `simple.tcl` struktūrą
@@ -1439,10 +1440,10 @@ Asmeninių tvarkymų medis.
                                         - [x] 0x. MSS;
                                     - [x] 11. MSS padidinimas nuo `1000 B` iki `1448 B` ir priartėjimas prie 100 Mbps tiriamojoje linijoje.
                                     - [x] XX. Suformuota `kursinis-saukrs.tcl` struktūra
-                                - [ ] 4. Supaprastintų užduoties sąlygų suskriptinimas
+                                - [x] 4. Supaprastintų užduoties sąlygų suskriptinimas
                                     - [x] 1. Dedikuotas _Bash_-skriptas: `kursinis-saukrs-run.sh`
                                     - [x] 2. `kursinis-saukrs.tcl` adaptavimas parametrų pasiėmimui per `argv`
-                                    - [ ] 3. Supaprastintos sąlygos:
+                                    - [x] 3. Supaprastintos sąlygos:
                                         - [x] 1. Atsisakome _Congestion Window_ kitimo laikinių diagramų;
                                         - [x] 2. Braižome tik pralaidumą;
                                         - [x] 3. Atsisakome kintančio siųstuvų skaičiaus, naudojame du;
@@ -1453,16 +1454,39 @@ Asmeninių tvarkymų medis.
                                             - [x] 4. Saveikauja abu: Tiek `HSTCP`, tiek `BIC`
                                         - [x] X. Aprašiau supaprastintas kursinio darbo sąlygas
                                     - [x] 4. `2021-06-22` suskriptinau pralaidumo skaičiavimą cikle pagal tris vėlinimus (kai praradimai = 0%)
-                                    - [ ] 5. `TODO-TO-DO` pralaidumo skaičiavimas pagal tris skirtingas praradimų vertes (kai vėlinimas = 2ms)
-                                    - [ ] X. Supaprastintos kursinio sąlygos suskriptintos
+                                    - [x] 05. `2021-06-23` pramokau GnuPlot ir suskriptinau pradinį diagramos braižymą + automatinį pav. atvėrimą per desktop GUI
+                                    - [x] 06. `2021-06-23` pravaliau ir refaktorinau _Bash_-skriptą, kad integruotųsi su GnuPlot
+                                    - [x] 07. `2021-06-23` Throughput-failus padariau atskirus ir kartu su simuliacijos logu įtraukiau į repozitoriją
+                                    - [x] 08. `2021-06-23` simuliatoriaus tvarkaraštį iškėliau į atskirą kintamąjį (`eval` FTW!)
+                                    - [x] 09. `2021-06-23` simuliavimo ciklą išvynioju iki pasikartojančios kompozitinės eilutės
+                                    - [x] 10. `2021-06-24` lentelių vardus ir kt. pavadinimus GnuPlot perduodu per CLI
+                                    - [x] 11. `2021-06-24` pralaidumų skaičiavimas ir braižymas pagal tris skirtingas praradimų vertes (kai vėlinimas = 2ms)
+                                    - [x] 12. `2021-06-24` pralaidumo skaičiavimas pagal tris skirtingas _Cg-Control_ konfigūracijas (kai vėlinimas = 2ms, praradimai = 0%)
+                                    - [x] 13. `2021-06-24` įtraukiau sugeneruotas GnuPlot diagramas į repozitoriją
+                                    - [x] 14. `2021-06-24` atskirai veikiančių HSTCP ir BIC srautų modeliavimas + braižymas (keista, BIC pralaidumas prastas, ~16 Mbps)
+                                    - [x] 15. `2021-06-24` skriptų valymas ir BIC srauto menko pralaidumo priežasčių paieška
+                                    - [x] 16. `2021-06-24` atrastas `CWND_MAX`, kurį mažinant stabilizuojasi pavienio BIC veikimas ir ima sutapti su HSTCP
+                                    - [x] 17. `2021-06-24` dar trijų diagramų generavimas su `CWND_MAX=20` (greta esamų su `CWND_MAX=256000`
+                                    - [x] X. Supaprastintos kursinio sąlygos suskriptintos
                                 - [x] 5. Reikiamų duomenų ištraukimas
                                     - [x] 1. Reikiami duomenys ištraukti pataisant `Throughput.awk` ir perdavimui skripte panaudojant STDOUT ir STDERR kanalus
-                                - [ ] 6. Diagramų braižymas
+                                    - [x] 2. Perdaryta _Bash_ ir _GnuPlot_ skriptų struktūra, kad kone viskas būtų keičiama naudojant minimalius pakeitimus
+                                - [x] 6. Diagramų braižymas
                                     - [x] 1. `GnuPlot` įdiegimas ir pramokimas
-                                    - [ ] 2. Keleto duomenų rinkinių sutalpinimas į vieną diagramą
-                                    - [ ] X. Nubraižytos kursinio diagramos
-                                - [ ] X. Susimuliuotas tinklo veikimas
+                                    - [x] 2. Keleto duomenų rinkinių sutalpinimas į vieną diagramą
+                                    - [x] X. Nubraižytos kursinio diagramos
+                                - [x] X. Susimuliuotas tinklo veikimas
                             - [ ] 7. Rezultatų apiforminimas
+                                - [x] 1. _AsciiDoc_ dokumento pradžia: bendros užduoties kopija + individualūs patikslinimai
+                                - [x] 2. Teorinio TCP protokolo valdymo algoritmų palyginimas
+                                - [ ] 3. Modeliavimo eiga
+                                    - [x] 1. Įrankių pasiruošimas
+                                    - [x] 2. Susipažinimas su dėstytojo pateiktais skriptais
+                                    - [x] 3. Simuliacijos skripto perrašymas Reverse-engineering būdu
+                                    - [x] 4. Skripto `kursinis-saukrs.tcl` taisymas pagal pateiktą užduotį ir duotus pavyzdžius
+                                    - [x] 5. Skripto `kursinis-saukrs.sh` kūrimas: integravimas su AWK-skriptu ir GnuPlot-skriptu, struktūros optimizavimas 
+                                - [ ] 4. Modeliavimo rezultatai
+                                - [ ] 5. Išvados
                             - [ ] X. Baigtas kursinis darbas
                         - [x] 5. Galutinis egzaminas
                             - [x] 1. Pasiruošimas

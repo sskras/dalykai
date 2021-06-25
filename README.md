@@ -1325,17 +1325,17 @@ Asmeninių tvarkymų medis.
                             - [x] 3. Savęs įvertinimas = 8
                             - [ ] 4. Dėstytojo vertinimas = 
                         - [ ] X. Baigtas ISAd kursas
-                    - [ ] 2. PIPr: Pažangūs interneto protokolai
-                        - [ ] 1. Paskaitos
+                    - [x] 2. PIPr: Pažangūs interneto protokolai
+                        - [x] 1. Paskaitos
                             - [x] 1. Prasidėjo
                             - [x] 2. Aiškūs įrankiai (Zoom), pradžios laikas, trukmė
                             - [x] 3. Vyksta
                             - [x] 4. ~~Konspekto sudarymas~~
-                            - [ ] 5. Paskaitų peržiūra
+                            - [x] 5. ~~Paskaitų peržiūra~~
                               <a id="Paskaitu-perziura-PIPr"></a>
-                                - [ ] 1. `TODO` sąrašas
-                                - [ ] X. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
-                            - [ ] 6. Pasibaigė
+                                - [x] 1. ~~`TODO` sąrašas~~
+                                - [x] X. ~~.mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas~~
+                            - [x] 6. Pasibaigė
                         - [x] 2. Laboratoriniai darbai
                             - [x] 1. Tokių nebuvo
                         - [x] 3. Namų darbai
@@ -1372,7 +1372,7 @@ Asmeninių tvarkymų medis.
                                 - [x] 2. Per daug šnekėjau apie nesuprastas vietas
                                 - [x] 3. Per daug reagavau kol dėstytojas bandė paaiškint nesuprastas vietas
                             - [x] X. Dėl RFC atsiskaityta
-                        - [ ] 4. Kursinis darbas
+                        - [x] 4. Kursinis darbas
                             - [x] 1. Tema: Tinklo simuliacija panaudojant NS-2
                             - [x] 2. NS-2 (įrankių) ruošimas
                                 - [x] 1. NS-2 ir susijusių RPM-paketų paieška CentOS mašinai
@@ -1476,18 +1476,18 @@ Asmeninių tvarkymų medis.
                                     - [x] 2. Keleto duomenų rinkinių sutalpinimas į vieną diagramą
                                     - [x] X. Nubraižytos kursinio diagramos
                                 - [x] X. Susimuliuotas tinklo veikimas
-                            - [ ] 7. Rezultatų apiforminimas
+                            - [x] 7. Rezultatų apiforminimas
                                 - [x] 1. _AsciiDoc_ dokumento pradžia: bendros užduoties kopija + individualūs patikslinimai
                                 - [x] 2. Teorinio TCP protokolo valdymo algoritmų palyginimas
-                                - [ ] 3. Modeliavimo eiga
+                                - [x] 3. Modeliavimo eiga
                                     - [x] 1. Įrankių pasiruošimas
                                     - [x] 2. Susipažinimas su dėstytojo pateiktais skriptais
                                     - [x] 3. Simuliacijos skripto perrašymas Reverse-engineering būdu
                                     - [x] 4. Skripto `kursinis-saukrs.tcl` taisymas pagal pateiktą užduotį ir duotus pavyzdžius
                                     - [x] 5. Skripto `kursinis-saukrs.sh` kūrimas: integravimas su AWK-skriptu ir GnuPlot-skriptu, struktūros optimizavimas 
-                                - [ ] 4. Modeliavimo rezultatai
-                                - [ ] 5. Išvados
-                            - [ ] X. Baigtas kursinis darbas
+                                - [x] 4. Modeliavimo rezultatai
+                                - [x] 5. Išvados
+                            - [x] X. Baigtas kursinis darbas
                         - [x] 5. Galutinis egzaminas
                             - [x] 1. Pasiruošimas
                                 - [x] 1. Keleto video peržiūra
@@ -1527,7 +1527,7 @@ Asmeninių tvarkymų medis.
                                 - [x] 8. Patarimai supaprastinti kursinio užduotį
                                 - [x] 9. Susitarimas priduoti kursinį iki 2021-06-08 pietų (ar net 15:00)
                             - [x] 4. Savęs įvertinimas = 8,5
-                        - [ ] X. Baigtas PIPr kursas
+                        - [x] X. Baigtas PIPr kursas (išankstinis balas = 7, esant nepriduotam kursiniam projektui)
                     - [x] 3. ISAd: Informacinių sistemų administravimas
                         - [x] 1. Paskaitos
                             - [x] 1. Prasidėjo

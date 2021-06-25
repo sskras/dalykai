@@ -1324,7 +1324,7 @@ Asmeninių tvarkymų medis.
                                 - [x] X. Egzamino klausimai atsakyti
                             - [x] 3. Savęs įvertinimas = 8
                             - [ ] 4. Dėstytojo vertinimas = 
-                        - [ ] X. Baigtas ISAd kursas
+                        - [ ] X. Baigtas IiSA kursas
                     - [x] 2. PIPr: Pažangūs interneto protokolai
                         - [x] 1. Paskaitos
                             - [x] 1. Prasidėjo

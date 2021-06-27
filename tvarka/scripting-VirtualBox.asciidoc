@@ -494,7 +494,12 @@ total 52005
 -rwxr-xr-x. 1 p p 31481145 Jan  6 16:01 SEAMCAT-5.4.1.jar
 ```
 
-Creating new VM:
+=== The real start
+
+Creating new VM:  +
+```
+$ VBoxManage createvm --name 2021-VGTU-IiSA-LDVM1 --ostype Ubuntu_64 --basefolder /rpool/VGTU-studijos/VMs --register
+```
 ```
 [p@localhost ~]$ mkdir /rpool/VGTU-studijos/VMs
 
@@ -553,7 +558,11 @@ total 2
 </VirtualBox>
 ```
 
-Checking the result from inside of VMM:
+Checking the result from inside of VMM:  +
+```
+$ VBoxManage list vms
+$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1
+```
 ```
 [p@localhost ~]$ VBoxManage showvminfo 
 Usage:
@@ -679,6 +688,7 @@ Configured memory balloon size: 0MB
 ```
 
 Getting the preinstalled image:
+
 ```
 [p@localhost ~]$ pushd /rpool/VGTU-studijos/VMs/
 /rpool/VGTU-studijos/VMs ~/debug/20210517_VBox-scripting
@@ -822,7 +832,9 @@ Method = LZMA2:96m
 Solid = -
 Blocks = 1
 
+  ...
  11% 1 - 64bit/Ubuntu 21.04 (64bit).vdi
+  ...
  39% 1 - 64bit/Ubuntu 21.04 (64bit).vdi
   ...
 Everything is Ok                       
@@ -843,7 +855,11 @@ total 7934491
 -rw-rw-r--. 1 p p 8120172544 Apr 25 00:15 Ubuntu 21.04 (64bit).vdi
 ```
 
-Try importing the `.vdi`:
+Try importing the `.vdi`:  +
+```
+$ VBoxManage storagectl 2021-VGTU-IiSA-LDVM1 --name "SATA Controller" --add sata --bootable on
+$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1 | grep -i storage
+```
 ```
 [p@localhost VMs]$ mv -v "64bit/Ubuntu 21.04 (64bit).vdi" 2021-VGTU-IiSA-LDVM1/2021-VGTU-IiSA-LDVM1.vdi
 ‘64bit/Ubuntu 21.04 (64bit).vdi’ -> ‘2021-VGTU-IiSA-LDVM1/2021-VGTU-IiSA-LDVM1.vdi’
@@ -853,7 +869,7 @@ Try importing the `.vdi`:
 
 [p@localhost ~]$ VBoxManage storagectl 2021-VGTU-IiSA-LDVM1 --name "SATA Controller" --add sata --bootable on
 
-[p@localhost 20210517_VBox-scripting]$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1 | grep -i storage
+[p@localhost ~]$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1 | grep -i storage
 Storage Controller Name (0):            SATA Controller
 Storage Controller Type (0):            IntelAhci
 Storage Controller Instance Number (0): 0
@@ -861,7 +877,7 @@ Storage Controller Max Port Count (0):  30
 Storage Controller Port Count (0):      30
 Storage Controller Bootable (0):        on
 
-[p@localhost 20210517_VBox-scripting]$ diff -u VM_2021-VGTU-IiSA-LDVM1_0{5,6}_config.txt | colordiff
+[p@localhost ~]$ diff -u VM_2021-VGTU-IiSA-LDVM1_0{5,6}_config.txt | colordiff
 --- VM_2021-VGTU-IiSA-LDVM1_05_config.txt	2021-05-17 23:20:39.531386278 +0300
 +++ VM_2021-VGTU-IiSA-LDVM1_06_config.txt	2021-05-17 23:10:04.739405034 +0300
 @@ -40,7 +40,7 @@
@@ -919,7 +935,11 @@ Received failure:
  error: out of memory.
  Press any key to continue...
 ```
-Padidinkim pagal `Server Edition`: https://ubuntu.com/server/docs/installation
+
+Increase RAM according to the `Server Edition`: https://ubuntu.com/server/docs/installation  +
+```
+$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --cpus 2 --memory 1024
+```
 ```
 [p@localhost ~]$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --cpus 2 --memory 1024
 [p@localhost ~]$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1
@@ -963,6 +983,8 @@ A problem has occurred and the system can't recover. Please contact a system adm
 ```
 
 Let's add some more RAM:
+`$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --memory 2048`
+
 ```
 [p@localhost ~]$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --memory 2048
 

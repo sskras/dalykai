@@ -16,9 +16,15 @@ Asmeninių tvarkymų medis.
                     - [ ] 2. Straipsniai:
                         - [ ] 1. Apie stiklą:
                             - [x] 1. https://www.15min.lt/naujiena/aktualu/zalias/dangteliai-stiklo-pakuociu-rusiavimo-konteineryje-ne-problema-beda-keramika-ir-kitoks-stiklas-1007-1521964
+                            - [x] 2. [Lašas po lašo verdantis stiklas virsta į butelius](https://laikrastis.vz.lt/index.php?act=mprasa&sub=article&id=61288)
                         - [ ] 2. Apie plastiką:
                             - [x] 1. https://www.15min.lt/naujiena/aktualu/zalias/kodel-i-pakuotems-skirtus-konteinerius-nedera-mesti-indu-ar-dantu-sepeteliu-1007-1459800
+                        - [x] 3. Apie tarą bendrai:
+                            - [x] 1. https://www.lrt.lt/naujienos/verslas/4/1080814/taros-supirkimas-kaimuose-apsunkintas-darbas-ir-akivaizdzios-higienos-problemos
                         - [ ] X. Surinkti straipsniai apie perdirbamų atliekų rūšiavimą
+                    - [ ] 3. Įmonių puslapiai:
+                        - [x] 1. http://www.ekoterra.lt/lt/stiklo-surinkimas (langinis stiklas)
+                        - [x] 2. https://www.atradau.lt/imone/1093558/nijora-r-rutkeviciaus-personaline-imone (Raktažodžiai: stiklo taros supirkimas)
                     - [ ] X. Optimalus rūšiavimas rastas
                 - [ ] 2, išgabenti;
                 - [ ] 3, dokumentuoti procesą;

@@ -397,7 +397,7 @@ Virtualization-related flags adjusted by BIOS:
 		VME (Virtual mode extension)
 ```
 
-Hence, the guest that the BIOS settings are in play (which doesn't affect the flags read from CPU directly).
+Hence, the guess is that the BIOS settings are in play (which doesn't affect the flags read from CPU directly).
 
 After enabling `VT-x` and `VT-d` in the BIOS setup this change occurs in the `dmidecode` output:
 ```

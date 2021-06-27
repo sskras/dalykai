@@ -859,6 +859,9 @@ Try importing the `.vdi`:  +
 ```
 $ VBoxManage storagectl 2021-VGTU-IiSA-LDVM1 --name "SATA Controller" --add sata --bootable on
 $ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1 | grep -i storage
+
+$ VBoxManage storageattach 2021-VGTU-IiSA-LDVM1 --storagectl "SATA Controller" --port 0 --device 0 --type hdd --medium /rpool/VGTU-studijos/VMs/2021-VGTU-IiSA-LDVM1/2021-VGTU-IiSA-LDVM1.vdi
+$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1 | grep -i vdi
 ```
 ```
 [p@localhost VMs]$ mv -v "64bit/Ubuntu 21.04 (64bit).vdi" 2021-VGTU-IiSA-LDVM1/2021-VGTU-IiSA-LDVM1.vdi
@@ -939,6 +942,7 @@ Received failure:
 Increase RAM according to the `Server Edition`: https://ubuntu.com/server/docs/installation  +
 ```
 $ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --cpus 2 --memory 1024
+$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1
 ```
 ```
 [p@localhost ~]$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --cpus 2 --memory 1024
@@ -983,8 +987,9 @@ A problem has occurred and the system can't recover. Please contact a system adm
 ```
 
 Let's add some more RAM:
-`$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --memory 2048`
-
+```
+$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --memory 2048
+```
 ```
 [p@localhost ~]$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --memory 2048
 

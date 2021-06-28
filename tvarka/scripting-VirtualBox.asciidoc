@@ -944,6 +944,7 @@ Increase RAM according to the `Server Edition`: https://ubuntu.com/server/docs/i
 $ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --cpus 2 --memory 1024
 $ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1
 ```
+Or more, if `Desktop Edition` is chosen: https://help.ubuntu.com/community/Installation/SystemRequirements +
 ```
 [p@localhost ~]$ VBoxManage modifyvm 2021-VGTU-IiSA-LDVM1 --cpus 2 --memory 1024
 [p@localhost ~]$ VBoxManage showvminfo 2021-VGTU-IiSA-LDVM1

@@ -128,7 +128,7 @@ So far I have managed to implement my ideas by about 10%. However, I have succee
 
 At least, it passed when I was preparing the last release.
 
-- Is it possible in principle to make Reiser4 a network (cluster) FS with the help of plugins?
+**– Is it possible in principle to make Reiser4 a network (cluster) FS with the help of plugins?**
 
 It is possible, and even necessary! If you create network FS on the basis of correctly designed local one, the result will be very impressive! What I don't like about modern network FS is that they have a backend storage layer, which can be implemented with any local FS. The existence of this layer is completely unjustified. Network FS should directly interact with block layer, and not ask local FS to create some other service files there! In general, the division of file systems into local and network is a fallacy. It arose from the imperfection of the algorithms that were used thirty years ago, instead of which nothing has been proposed so far. This is also the reason for the appearance of masses of unnecessary software components (various services, etc.). Ideally, there should be only one FS in the form of a kernel module and a set of user utilities to be installed on each machine, the cluster node. This FS is both local and network. Nothing extra!
 

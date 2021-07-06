@@ -1205,6 +1205,10 @@ Asmeninių tvarkymų medis.
                     - [ ] 02. https://github.com/martysama0134/how-to-general/tree/master/windows-tips
                 - [ ] 02. WSH žinių bazė
                 - [ ] XX. Išsiaiškintas _Windows_ skriptinimas
+            - [ ] 16. Minimalių OS diegimas
+                - [x] 01. Ubuntu 18.04 Server:
+                    - [x] 1. https://blogging.dragon.org.uk/ubuntu-18-04-minimal-server-install/
+                - [ ] XX. Surinkti / išbandyti minimalių OS diegimai
             - [ ] XX. Baigtos revoliucijos
         - [ ] X. Baigta tvarka skaitmeninėje erdvėje
         ---

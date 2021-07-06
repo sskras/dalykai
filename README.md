@@ -820,6 +820,24 @@ Asmeninių tvarkymų medis.
                             - [x] 1. Ventoy: https://www.ventoy.net/en/doc_start.html
                                 - [x] Puikus `.iso` imedžų rinkinys `/issues`.
                                 - [x] Puikus pavyzdys, kiek sunku yra korektiškai aptikti/perimti _Boot-sequence_.
+                            - [x] 2. VirtualBox DVD attach/detach emulation:
+                                - [x] 1. https://web.archive.org/web/20160420070036/http://www.kernelhardware.org/virtualbox-controlling-headless-vm/
+                                  ```
+                                  vmadmin$ VBoxManage controlvm <vmname> dvdattach <filename>
+                                  vmadmin$ VBoxManage controlvm <vmname> dvdattach none
+                                  ```
+                                - [x] 2. Galbūt `dvdattach` pasikeitė į `storageattach`: 
+                                      [DVD-image not available if attached via command line](https://www.virtualbox.org/ticket/5809#comment:5)
+
+                                  > Changed 11 years ago by frank | 2010-01-08T16:26:53Z in Timeline
+                                  > 
+                                  > Note that the syntax of attaching/detaching a medium to/from a VM has changed.
+                                  > As now we support more than one CD/DVD device, one must specify the exact
+                                  > controller / port / device, see the user manual section 8.15.2. The old commands
+                                  > dvdattach/dvddetach are still there but apparently are broken now
+                                  > (though they don't appear in the help anymore).
+
+                                - [x] X. Užfiksuota VirtualBox DVD prijungimo/atjungimo galimybė
                             - [ ] X. Surinktas panašių dalykų sąrašiukas
                         - [ ] X. Sukurta ODD emuliacija VMM lygmeny.
                     - [ ] 2, Remote-mgmt (iLO) emuliacija
@@ -898,6 +916,11 @@ Asmeninių tvarkymų medis.
                                           > However, auto-stop is not supported in the 4.2 release. 
                                           > In addition, the presence of auto-stop properties in vboxmanage is currently (05-2013) considered a “bug”.
                                     - [ ] X. Aišku dėl `--autostop-type`
+                                - [ ] 4. Bugreportai:
+                                    - [x] 1. https://www.google.com/search?q=virtualbox+save+state+on+host+shutdown
+                                    - [x] 2. [Guests won't go in Save States on Host shutdown with Ubuntu 16.04](https://www.virtualbox.org/ticket/15980)
+                                    - [ ] 3. Host=Windows:
+                                          [Force VBox to shutdown/save state on system kill signal](https://forums.virtualbox.org/viewtopic.php?f=6&t=47702)
                                 - [ ] X. Sutvarkytas automatinis VM suspendavimas išsijungiant Host OS.
                             - [ ] 04. Gal verta naudoti ir `--autostart-enabled on` ?
                                 - [x] 1. Gaunu klaidą:
@@ -935,6 +958,8 @@ Asmeninių tvarkymų medis.
                                 - [ ] 5. `TODO` testai su kitais VMM
                             - [ ] 07. Ar pilnai veikia VBox 6.1.xx su CentOS 7.9 ir įjungtu SeLinux?
                                 - [x] 1. Teigiama, kad su Fedora neveikia: https://rpmfusion.org/Howto/VirtualBox#Selinux_and_VirtualBox
+                            - [ ] 08. `VBoxManage` patarimai:
+                                - [x] 1. https://web.archive.org/web/20160420070036/http://www.kernelhardware.org/virtualbox-controlling-headless-vm/
                             - [ ] XX. Sutvarkyti iššūkiai su `VirtualBox`
                         - [ ] X. Baigti reikalai su `VirtualBox`
                     - [ ] X. Baigtas paplitusių VM platformų mokinimasis

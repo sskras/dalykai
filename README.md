@@ -854,6 +854,90 @@ Asmeninių tvarkymų medis.
                             - [ ] X. Idėjų prisirinkta
                         - [ ] X. `Valgrind` implementuotas VMM lygmeny
                     - [ ] X. Hipervizorių kūryba baigta
+                - [ ] 4. Paplitusių virtualizacijos platformų mokinimaisi, automatizavimas
+                    - [ ] 1. `VirtualBox`
+                        - [x] 1. [`VirtualBox` skriptinimas](#-VirtualBox--skriptinimas)
+                        - [ ] 2. Iššūkiai
+                            - [ ] 01. Persijungimas tarp _Headless_ ir _GUI_ režimų:
+                                - [x] 1. GUI įrankis tai moka
+                                - [x] 2. CLI irgi praverstų. Rasta:
+                                    - [ ] 1. Įvykdant `savestate`:
+                                        - [ ] 1. `VBoxManage controlvm <ID> savestate`
+                                        - [ ] 2. `VBoxManage startvm <ID> --type headless`
+                                        - [ ] 3. 
+                                    - [ ] X.
+                                - [ ] X. Sutvarkytas persijungimas tarp _Headless_ ir _GUI_ per _CLI_
+                            - [ ] 02. Skirtingos išvestys apie klaidą įjungiant dingusį VMą taip:
+                                - [x] 1. `VBoxManage startvm <Name>`:
+                                    - [x] 1. `00:54:27.170183 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'VGTU-2021-IiSA-saukrs-LDVM2'}, preserve=false aResultDetail=0`
+                                    - [x] 2. Nesimato priežasties.
+                                - [x] 2. `VBoxManage startvm <UUID>`:
+                                    - [x] 1. `00:57:02.592200 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/p/src/TETfm-20/Semestras-2/1-Informacijos-ir-sistemų-apsauga/laboratoriniai-darbai/Saulius-Krasuckas/VMs/VGTU-2021-IiSA-saukrs-LDVM1/VGTU-2021-IiSA-saukrs-LDVM1.vbox' for reading: -102 (File not found.).
+                                    - [x] 2. Matosi priežastis`
+                                - [ ] 3. Kodėl skiriasi?
+                                    - [x] 1. Gal užuomina konfigų parsinimo logikoje?
+                                    - [x] 2. Sprendžiu pagal `"<inaccessible>"` čia:
+                                          ```
+                                          [p@localhost ~]$ VBoxManage list vms
+                                          "ReOS CORE-11440 test" {981e5981-7416-437e-ad44-382f0b28f3d2}
+                                          "<inaccessible>" {0953c108-02fa-434f-b550-79d3af0c9a91}
+                                          "ping" {6d7ca61d-6bc0-46ff-a119-8eea7a7d517e}
+                                          "<inaccessible>" {47439c22-9367-434b-b88e-a15226f841df}
+                                          "<inaccessible>" {fd8d1b03-f4bc-4ac1-8cdb-bb6485fc0709}
+                                          ```
+                                    - [ ] X. Atrastas `startvm <Name>` vs `<UUID>` kelių skirtumas.
+                                - [ ] 4. Ar čia viskas gerai? Gal reikia pataisyt?
+                            - [ ] 03. Išjungiant Host OS (CentOS 7.9), Guest OS lūžta:
+                                - [ ] 1. VMai sustabdomi su `poweroff` vietoje `acpishutdown` ?
+                                - [ ] 2. VMai tiesiog nespėja sureaguot į `acpishutdown` ?
+                                - [ ] 3. Ar verta naudoti `--autostop-type` ?
+                                    - [x] 1. [Best way to backup an autorstarted VM](https://forums.virtualbox.org/viewtopic.php?f=7&t=101578)
+                                    - [x] 2. https://wdmbr.wordpress.com/2018/12/14/how-to-set-your-virtualbox-vm-to-automatically-startup/
+                                    - [x] 3. Gal nebeveikia (`VBoxManage modifyvm | grep -i stop` neranda) ?
+                                    - [x] 4. [How To Set Your VirtualBox 4.2 VM to Automatically Startup](https://web.archive.org/web/20210506212843/http://lifeofageekadmin.%E2%80%8Bcom/how-to-set-your-virtualbox-vm-to-automatically-startup/)
+                                          > However, auto-stop is not supported in the 4.2 release. 
+                                          > In addition, the presence of auto-stop properties in vboxmanage is currently (05-2013) considered a “bug”.
+                                    - [ ] X. Aišku dėl `--autostop-type`
+                                - [ ] X. Sutvarkytas automatinis VM suspendavimas išsijungiant Host OS.
+                            - [ ] 04. Gal verta naudoti ir `--autostart-enabled on` ?
+                                - [x] 1. Gaunu klaidą:
+                                      ```
+                                      [p@localhost ~]$ VBoxManage modifyvm VGTU-2021-IiSA-saukrs-LDVM2 --autostart-enabled on
+                                      VBoxManage: error: The path to the autostart database is not set
+                                      VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component SessionMachine, interface IMachine, callee nsISupports
+                                      VBoxManage: error: Context: "COMSETTER(AutostartEnabled)(ValueUnion.f)" at line 3150 of file VBoxManageModifyVM.cpp
+                                      ```
+                                - [x] 2. ["path to the autostart database is not set" error](https://forums.virtualbox.org/viewtopic.php?f=7&t=51548)
+                                      > After struggling with this for ages, I found an article 
+                                      > ( lifeofageekadmin dot com how-to-set-your-virtualbox-vm-to-automatically-startup ) 
+                                      > which says that the following is needed
+                                      > 
+                                      > `VBoxManage setproperty autostartdbpath /etc/vbox`
+                                      > 
+                                      > I did this, and it worked.
+                                - [ ] X. Ištirtas `--autostart-enabled` naudojimas
+                            - [ ] 05. Kitos automatinės integracijos su SystemD:
+                                - [ ] 01. https://roamingthings.de/posts/vboxautostart-service/
+                                - [ ] 02. https://medium.com/@bharatman/how-to-autostart-and-autostop-your-headless-virtualbox-guest-vm-on-a-debian-host-3ca7ede2380b
+                                - [ ] 03. https://serverfault.com/questions/971931/why-dont-my-virtualbox-guests-auto-restart-after-boot
+                                - [ ] 04. https://pgaskin.net/linux-tips/configuring-virtualbox-autostart/
+                                - [ ] 05. https://web.archive.org/web/20190226155556/http://nathangiesbrecht.com/centos-7-virtualbox-vboxautostart-service-setup
+                                - [ ] 06. https://blogging.dragon.org.uk/start-stop-virtualbox-with-systemd/
+                                - [ ] 07. https://gist.github.com/SamMousa/8d4a538f088dd24c9180c6929203a005
+                                - [ ] 08. https://github.com/Jetchisel/VBoxAutostart
+                                - [ ] 09. https://www.paulligocki.com/make-virtual-box-vm-autostart/
+                                - [ ] 10. https://kifarunix.com/autostart-virtualbox-vms-on-system-boot-on-linux/
+                            - [ ] 06. Serial porto emuliavimas per TCP
+                                - [x] 1. "Ubuntu 20.04.2" gaunu papildomą _echo_, netgi vedant _passwd_
+                                - [x] 2. GRUB2 promptas išvis nereaguoja į klavišų paspaudimus, kol papildomai nenuspaudžiu `Ctrl-D` po kiekvieno klavišo
+                                - [ ] 3. `TODO` bugreportų paieška
+                                - [ ] 4. `TODO` testai su kitomis Guest OS
+                                - [ ] 5. `TODO` testai su kitais VMM
+                            - [ ] 07. Ar pilnai veikia VBox 6.1.xx su CentOS 7.9 ir įjungtu SeLinux?
+                                - [x] 1. Teigiama, kad su Fedora neveikia: https://rpmfusion.org/Howto/VirtualBox#Selinux_and_VirtualBox
+                            - [ ] XX. Sutvarkyti iššūkiai su `VirtualBox`
+                        - [ ] X. Baigti reikalai su `VirtualBox`
+                    - [ ] X. Baigtas paplitusių VM platformų mokinimasis
                 - [ ] X. Baigta su hypervizoriais
             - [ ] 02. x86 mašinų System Firmware (BIOS) nustatymų prieiga iš OS:
                 - [ ] 1. Nustatymų skaitymas

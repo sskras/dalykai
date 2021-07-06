@@ -826,7 +826,7 @@ Asmeninių tvarkymų medis.
                                   vmadmin$ VBoxManage controlvm <vmname> dvdattach <filename>
                                   vmadmin$ VBoxManage controlvm <vmname> dvdattach none
                                   ```
-                                - [x] 2. Galbūt `dvdattach` pasikeitė į `storageattach`: 
+                                - [x] 2. Galbūt `dvdattach` pasikeitė į `storageattach`:  \
                                       [DVD-image not available if attached via command line](https://www.virtualbox.org/ticket/5809#comment:5)
 
                                   > Changed 11 years ago by frank | 2010-01-08T16:26:53Z in Timeline
@@ -879,30 +879,36 @@ Asmeninių tvarkymų medis.
                             - [ ] 01. Persijungimas tarp _Headless_ ir _GUI_ režimų:
                                 - [x] 1. GUI įrankis tai moka
                                 - [x] 2. CLI irgi praverstų. Rasta:
-                                    - [ ] 1. Įvykdant `savestate`:
-                                        - [ ] 1. `VBoxManage controlvm <ID> savestate`
-                                        - [ ] 2. `VBoxManage startvm <ID> --type headless`
-                                        - [ ] 3. 
-                                    - [ ] X.
-                                - [ ] X. Sutvarkytas persijungimas tarp _Headless_ ir _GUI_ per _CLI_
+                                    - [x] 1. Įvykdant `savestate`:
+                                        - [x] 1. `VBoxManage controlvm <ID> savestate`
+                                        - [x] 2. `VBoxManage startvm <ID> --type headless`
+                                        - [x] 3. URL: [A way to switch between headless mode and normal mode](https://forums.virtualbox.org/viewtopic.php?f=9&t=29618#p185973)
+                                    - [ ] 2. Forumai:
+                                        - [ ] 1. [Switching to a headless configuration on Windows host](https://forums.virtualbox.org/viewtopic.php?f=6&t=27574)
+                                    - [x] X. Surasti galimi būdai persijungti tarp _Headless_ ir _GUI_ naudojant _CLI_.
+                                - [ ] 3. `Trūksta` mažo skriptuko
+                                    - [x] 1. Pvz.: `vm <ID> headless`, `vm <ID> gui`
+                                - [x] 4. gal šitą moka `virt-manager` ?
+                                    - [ ] 1. `BLOCKER` [`virt-manager` pramokimas](#_virt-manager_-pramokimas)
+                                - [x] X. Sutvarkytas persijungimas tarp _Headless_ ir _GUI_ per _CLI_
                             - [ ] 02. Skirtingos išvestys apie klaidą įjungiant dingusį VMą taip:
                                 - [x] 1. `VBoxManage startvm <Name>`:
                                     - [x] 1. `00:54:27.170183 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Could not find a registered machine named 'VGTU-2021-IiSA-saukrs-LDVM2'}, preserve=false aResultDetail=0`
                                     - [x] 2. Nesimato priežasties.
                                 - [x] 2. `VBoxManage startvm <UUID>`:
-                                    - [x] 1. `00:57:02.592200 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/p/src/TETfm-20/Semestras-2/1-Informacijos-ir-sistemų-apsauga/laboratoriniai-darbai/Saulius-Krasuckas/VMs/VGTU-2021-IiSA-saukrs-LDVM1/VGTU-2021-IiSA-saukrs-LDVM1.vbox' for reading: -102 (File not found.).
-                                    - [x] 2. Matosi priežastis`
+                                    - [x] 1. `00:57:02.592200 nspr-5   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/p/src/TETfm-20/Semestras-2/1-Informacijos-ir-sistemų-apsauga/laboratoriniai-darbai/Saulius-Krasuckas/VMs/VGTU-2021-IiSA-saukrs-LDVM1/VGTU-2021-IiSA-saukrs-LDVM1.vbox' for reading: -102 (File not found.).`
+                                    - [x] 2. Matosi priežastis
                                 - [ ] 3. Kodėl skiriasi?
                                     - [x] 1. Gal užuomina konfigų parsinimo logikoje?
                                     - [x] 2. Sprendžiu pagal `"<inaccessible>"` čia:
-                                          ```
-                                          [p@localhost ~]$ VBoxManage list vms
-                                          "ReOS CORE-11440 test" {981e5981-7416-437e-ad44-382f0b28f3d2}
-                                          "<inaccessible>" {0953c108-02fa-434f-b550-79d3af0c9a91}
-                                          "ping" {6d7ca61d-6bc0-46ff-a119-8eea7a7d517e}
-                                          "<inaccessible>" {47439c22-9367-434b-b88e-a15226f841df}
-                                          "<inaccessible>" {fd8d1b03-f4bc-4ac1-8cdb-bb6485fc0709}
-                                          ```
+                                      ```
+                                      [p@localhost ~]$ VBoxManage list vms
+                                      "ReOS CORE-11440 test" {981e5981-7416-437e-ad44-382f0b28f3d2}
+                                      "<inaccessible>" {0953c108-02fa-434f-b550-79d3af0c9a91}
+                                      "ping" {6d7ca61d-6bc0-46ff-a119-8eea7a7d517e}
+                                      "<inaccessible>" {47439c22-9367-434b-b88e-a15226f841df}
+                                      "<inaccessible>" {fd8d1b03-f4bc-4ac1-8cdb-bb6485fc0709}
+                                      ```
                                     - [ ] X. Atrastas `startvm <Name>` vs `<UUID>` kelių skirtumas.
                                 - [ ] 4. Ar čia viskas gerai? Gal reikia pataisyt?
                             - [ ] 03. Išjungiant Host OS (CentOS 7.9), Guest OS lūžta:
@@ -962,7 +968,17 @@ Asmeninių tvarkymų medis.
                                 - [x] 1. https://web.archive.org/web/20160420070036/http://www.kernelhardware.org/virtualbox-controlling-headless-vm/
                             - [ ] XX. Sutvarkyti iššūkiai su `VirtualBox`
                         - [ ] X. Baigti reikalai su `VirtualBox`
+                      <a id="_virt-manager_-pramokimas"></a>
+                    - [ ] 2. `virt-manager` pramokimas
+                        - [x] 01. Klausimai:
+                            - [x] 1. Ar į jį integruojasi `VirtualBox`?
+                            - [x] 2. Ar jis portinamas į _WinAPI_ (ypač MSYS2)?
+                        - [ ] 0X. Pramokau valdyti `virt-manager`
                     - [ ] X. Baigtas paplitusių VM platformų mokinimasis
+                - [ ] 5. _Linux Guest_ integracijos su _Win32_ OS;
+                    - [ ] 1. `coLinux`
+                        - [ ] `TODO`: dauuug punktų (ir minčių)
+                    - [ ] x. Ištirtos _Linux Guest_ integravimo galimybės
                 - [ ] X. Baigta su hypervizoriais
             - [ ] 02. x86 mašinų System Firmware (BIOS) nustatymų prieiga iš OS:
                 - [ ] 1. Nustatymų skaitymas

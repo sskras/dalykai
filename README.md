@@ -66,8 +66,8 @@ Asmeninių tvarkymų medis.
                     - [x] 4. Trūkumai
                         - [x] 1. Max. level of nesting = 10 (GitHube)
                     - [ ] X. Užduotys pilnai žymimos
-                - [ ] 3. Veiksmai + smulkmenos
-                    - [ ] 1. Bendrai
+                - [ ] 3. Veiksmų + smulkmenų žymėjimas
+                    - [ ] 1. Bendrai (asmeniniam naudojimui, darbui, studijoms)
                         - [ ] 1. Laikas ir užduotys
                             - [x] 1. Laiko ir darbų sekimas kartu, pirmieji bandymai:
                                 - [x] 1. Tekstinis failas (neversijuotas `@mf.vu.lt`)
@@ -778,7 +778,7 @@ Asmeninių tvarkymų medis.
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 01. Hypervisors
-                - [ ] 1. Mokymaisi, tyrimai
+                - [ ] 1. Tyrinėjimai
                     - [x] 01. About ACPI and DMA, IOMMU:  \
                           https://translate.google.com/translate?hl=en&sl=ja&u=https://zenn.dev/oshibori/scraps/478be45c3fae3e
                     - [x] 02. How to make a hypervisor-Virtualization technology to understand properly-The 16th PCI Passthrough Part 2 "Details of VT-d":  \
@@ -1281,20 +1281,43 @@ Asmeninių tvarkymų medis.
                                     - [x] XX. Baigtas 1LD aprašas
                                 - [x] 2LD:
                                 - [ ] X. Baigti visi LD aprašai
-                            - [ ] 5. `BLOCKER`: [`VirtualBox` skriptinimas](#-VirtualBox--skriptinimas)
+                            - [x] 5. `BLOCKER`: [`VirtualBox` skriptinimas](#-VirtualBox--skriptinimas)
                               <a id="Pasiruošti-infrą"></a>
-                            - [ ] 6. Pasiruošti infrą
+                            - [x] 6. Pasiruošti infrą
                             - [ ] 7. Atlikti
+                                - [x] ~~1LD:~~ praleidau su mintimi, kad `0LD-infra.sh` pakankamas įrodymas, jog 1LD atlikti sugebu
+                                - [x] 2LD: `2021-06-30` atliktas (žiauriai ilgas ir su daug sunkumų bei aprašo netikslumais)
+                                - [x] 3LD: `2021-07-05` atliktas (irgi ilgas, daug neatitikimų dėl SystemD)
+                                - [ ] 4LD: `TODO`
+                                - [ ] 5LD: `TODO`
                             - [ ] 8. Įrašyti į `asciinema`
                             - [ ] 9. Paruošti ataskaitą, jei pasirodys, kad reikia
                             - [ ] X. Pasibaigė IiSA LD
+                                - [x] ~~1LD:~~
+                                - [x] 2LD: `2021-06-30` atliktas (žiauriai ilgas ir su daug sunkumų bei aprašo netikslumais)
+                                - [x] 3LD: `2021-07-05` atliktas (irgi ilgas, daug neatitikimų dėl SystemD)
+                                - [ ] 4LD: `TODO`
+                                - [ ] 5LD: `TODO`
                         - [x] 3. Namų darbai
                             - [x] 1. Tipas: mini-referatas
                             - [x] 2. Tema: MPTCP protokolo saugumo klausimai
                             - [x] 3. URL: http://www.tinklusaugumas.lt/Duomen%C5%B3%20saugos%20nam%C5%B3%20darb%C5%B3%20u%C5%BEduotys%20magistrantams%202021
-                            - [x] 4. Idėjos:
+                            - [ ] 4. Šaltiniai:
                                 - [x] 1. "some security issues in relation to the creation of sub flows":  \
                                       https://github.com/multipath-tcp/mptcp/issues/169#issuecomment-325566650
+                                - [x] 2. "Why does MPTCP have to make things so complicated?": cross-path NIDS evasion and countermeasures  \
+                                      https://core.ac.uk/download/pdf/81222342.pdf
+                                - [x] 3. "Multi-path TCP: Practical Approaches for Securing your Enterprise Network - A Masters Degree Candidate Webcast"
+                                    - [x] 1. .pdf:  \
+                                          https://web.archive.org/web/20170801051021/https://www.sans.org/reading-room/whitepapers/intrusion/practical-approaches-mtcp-security-36287  \
+                                          https://webcache.googleusercontent.com/search?q=cache:aTDk8s2Dc_sJ:https://www.sans.org/reading-room/whitepapers/intrusion/practical-approaches-mtcp-security-36287+&cd=2&hl=en&ct=clnk&gl=lt
+                                      
+                                    - [x] 2. web:  \
+                                          https://www.sans.org/webcasts/multi-path-tcp-practical-approaches-securing-enterprise-network-masters-degree-candidate-webcast-106550/
+                                          https://archive.is/m7Q6J (Archived from Google-cache: 2021-04-28)
+                                - [x] 4. "Security for multipath TCP: a constructive approach"  \
+                                      https://www.researchgate.net/publication/220526807_Security_for_multipath_TCP_a_constructive_approach
+                                - [ ] W. `TODO` keli punktai iš MTD2 skyrelio apie MPTCP saugumą
                                 - [x] X. Pakaks idėjų
                             - [x] 5. ~~Skaidrės pristatymui~~
                             - [x] X. `2021-04-26` Failed

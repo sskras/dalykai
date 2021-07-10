@@ -91,8 +91,6 @@ Asmeninių tvarkymų medis.
                                     - [ ] 4. Sukurti   paketą (MinGW versiją)
                                 - [ ] X. Laiko žymėjimasis sutvarkytas
                             - [ ] X. Laikas ir užduotys žymimi
-
-[Automatinis teksto failų versijavimas](Automatinis-teksto-failų-versijavimas)
                           <a id="Automatinis-teksto-failų-versijavimas"></a>
                         - [ ] 2. Automatinis teksto failų versijavimas
                             - [ ] 1. Paieškos ir idėjos
@@ -195,9 +193,10 @@ Asmeninių tvarkymų medis.
                                             - [ ] X. Ištirti įprastų VCS tinkamumai
                                         - [ ] X. Ištirti įprastų VCS tinkamumai
                                     - [ ] 2. (Per-FS) _OpenVMS_-like file copies (\*;VER-NUM)
-                                    - [ ] 3. (Per-FS) 
+                                    - [ ] 3. (Per-FS) some quick DB ?
                                 - [ ] X. Surinktos idėjos kaip versijuoti, baigtos paieškos
                             - [ ] 2. Prototipai:
+                                  <a id="-gite.sh-:-Write-hook-skriptas,-tinka--vim-"></a>
                                 - [ ] 1. `gite.sh`: Write-hook skriptas, tinka `vim`.
                                 	- [ ] 1. Bendra repozitorija
                                 	- [ ] 2. Bugų registravimas (senų ir naujų)
@@ -213,7 +212,6 @@ Asmeninių tvarkymų medis.
                                 - [ ] 2. Kiti (gitfs, svnfs?)
                                 - [ ] X. Išnagrinėti reikiami prototipai
                             - [ ] X. Sukurtas automatinis tekstinių failų versijavimas
-
                         - [ ] 3. IaC
                               <a id="-VirtualBox--skriptinimas"></a>
                             - [ ] 1. `VirtualBox` skriptinimas
@@ -333,7 +331,7 @@ Asmeninių tvarkymų medis.
                                 - [x] 1. Pvz. `~/bin/up.sh`
                             - [ ] X. Sutvarkytas skriptų pasidalinimas tarp komandos narių
                         - [ ] 2. Vieningas tekstų versijavimas
-                            - [ ] 2. RnD su `vim` + `gite.sh`
+                            - [ ] 1. [`gite.sh`: Write-hook skriptas, tinka `vim`](-gite.sh-:-Write-hook-skriptas,-tinka--vim-)
                                 - [ ] 1. `TODO` kaip dirbant failų medyje apjungti į vieną repozitoriją / nesuskaldyti jos į keletą mažų `.di3fs`?
                                 - [ ] 2. `TODO` kaip atjungti/vėl įjungti versijavimą vienu paspaudimu? (turbūt per `.vimrc`)
                             - [ ] X. Taisomi tekstiniai failai versijuojami vieningai

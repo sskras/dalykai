@@ -91,6 +91,129 @@ Asmeninių tvarkymų medis.
                                     - [ ] 4. Sukurti   paketą (MinGW versiją)
                                 - [ ] X. Laiko žymėjimasis sutvarkytas
                             - [ ] X. Laikas ir užduotys žymimi
+
+[Automatinis teksto failų versijavimas](Automatinis-teksto-failų-versijavimas)
+                          <a id="Automatinis-teksto-failų-versijavimas"></a>
+                        - [ ] 2. Automatinis teksto failų versijavimas
+                            - [ ] 1. Paieškos ir idėjos
+                                - [ ] 1. `TODO` mano paieškų istorija (pradedant nuo `wine-devel@` ML 2005 m.)
+                                - [ ] 2. `TODO` kelios _SO_ temos, įsk. `wrapfs`
+                                - [ ] 3. File event interception:
+                                    - [ ] 1. `FUSE` panaudojimas
+                                        - [ ] 1. `TODO` buvo bent du pvz.
+                                    - [ ] 2. `LD_PRELOAD` bibliotekos panaudojimas:
+                                        - [ ] 1. pvz.: `FL-COW`  \
+                                              http://xmailserver.org/flcow.html  \
+                                              http://freshmeat.sourceforge.net/projects/fl-cow
+                                          > (FL-COW) library is an LD_PRELOAD based library that automatically breaks 
+                                          > file system hard links. It is injected between the applications and libc, 
+                                          > intercepts open(2) file calls, and break hard links (if present).
+                                          \
+                                    - [ ] X. Parinktas būdas perimti failų įvykiams
+                                - [ ] 4. Storage models
+                                    - [ ] 1. (Per-dir) Commodity VCS (Git, Hg)
+                                        - [ ] 1. Git
+                                            - [ ] 1. Trūkumai:
+                                                - [x] 1. [cyp | November 13, 2018 at 9:35 am](ps://biz30.timedoctor.com/git-mecurial-and-cvs-comparison-of-svn-software/#comment-899225)
+                                                  > Git often fails at doing simple merge or branch switch due to many
+                                                  > branches is extremely sliw and occupies lot of space and its over
+                                                  > complicated procedures make you often lose an entire day for an
+                                                  > operation that should be done in 15 min. Is awful. Even VSS is better.
+                                                  \
+                                                - [ ] X. Surašyti Git trūkumai
+                                            - [ ] X. Ištirtas Git tinkamumas
+                                        - [ ] 2. Hg
+                                            - [ ] 1. Trūkumai:
+                                                - [x] 1. [Git vs. Mercurial
+](https://backlog.com/blog/git-vs-svn-version-control-system/#:~:text=has%20an%20issue.-,Git%20vs.%20Mercurial,-Git%20and%20Mercurial)
+                                                  > Unlike Git, however, Mercurial permanently stores each branch into
+                                                  > commits, making it impossible to remove or edit past work, making
+                                                  > it more likely for the trunk to fail if bugs are pushed to production.
+                                                  \
+                                                - [ ] X. Surašyti Hg trūkumai
+                                            - [ ] X. Ištirtas Hg tinkamumas
+                                        - [ ] 3. Fossil SCM ?
+                                            - [x] 1. Isn't it slow? (given it's DB based)
+                                            - [x] 2. https://news.ycombinator.com/item?id=16806114#16808178
+                                              > We moved from SVN to Fossil and it has worked out great for us. 
+                                              > The other option was Mercurial but it required Python.
+                                              /
+                                        - [ ] 4. Plastic SCM ?
+                                            - [x] 1. https://medium.com/@psluaces/plasticscm-vs-git-c17934fad7ed
+                                        - [ ] W. Palyginimai
+                                            - [x] 1. https://content.intland.com/blog/sdlc/why-is-git-better-than-mercurial
+                                              > * Both Git and Mercurial's way of handling history is essentially just a
+                                              > directed acyclic graph. However, Mercurial provides you with a simple
+                                              > linear history that can cause confusion. Git, on the other hand,
+                                              > enables you to follow the history backwards
+                                              \
+                                              > * Hg, [...] that promises high performance and scalability for distributed teams.
+                                              > As per user reviews, Mercurial is considered a monolithic system that's not as
+                                              > flexible as Git. On the upside, it is easy to use, and doesn't let developers
+                                              > edit previous commits. That's a handy lack of capability in areas such as
+                                              > safety-critical product delivery, where strict regulatory requirements
+                                              > necessitate transparency and full change control. 
+                                              \
+                                            - [x] 2. [Why SQLite Does Not Use Git](https://news.ycombinator.com/item?id=16806114#16808956)
+                                              > * mercurial sucked at performance with many commits at the time, and was extra slow when merging.
+                                              > [...]
+                                              > It has improved but git is still noticeably more efficient with large repositories. 
+                                              > (Almost straight comparison is any operation on Firefox repository vs its git port.)
+                                              \
+                                              > * Git main target is Linux. Obviously. Performance on the truly secondary 
+                                              > platform was not relevant and it is mostly caused by slow lstat call.
+                                              >
+                                              > Instead Mercurial uses additional cache file which instead is slower 
+                                              > on Linux with big repos. But happens to be faster in Windows.
+                                              \
+                                            - [x] 3. https://felipec.wordpress.com/2011/01/16/mercurial-vs-git-its-all-in-the-branches/#comment-6172
+                                              > Git is simply storing full copies and no deltas and it gives better and
+                                              > completely linear performance and less code to maintain with less risk
+                                              > for corruption of your data. Git run into a space problem here that is
+                                              > dealt with with by repacking, which also give a better performance for
+                                              > subsequent accesses as the number of open files are reduced.
+                                              \
+                                              > For me, and I’m not alone, the storage model is by far the most 
+                                              > important thing. If the storage model is not right, it is very difficult
+                                              > to get the rest right. And even if you do, you are still having a less
+                                              > safe and less performing platform. If you care about you data, you use Git.
+                                              \
+                                            - [x] 4. [Fossil vs Git | Chyzwar on Jan 26, 2019](https://news.ycombinator.com/item?id=19006036#19006606)
+                                              > > It has nothing to do with the Windows filesystem; Git simply cannot 
+                                              > > support a 5 GB working tree on any filesystem.
+                                              >
+                                              > Can you provide a reference? I was searching a bit and only things I
+                                              > found was bugs in windows[1] for git lfs.
+                                              >
+                                              > > You can call this "pathological" but this throws a lot of shade on monorepos
+                                              > without much critical examination of how or when they might be useful.
+                                              >
+                                              > Windows codebase has 3.5 million files and its repo is 300GB in size. 
+                                              > It is not normal. This is google or MS type of problem and not average
+                                              > git user. MS instead changing workflow decided to create GVFS[2]
+                                              \
+                                            - [ ] X. Ištirti įprastų VCS tinkamumai
+                                        - [ ] X. Ištirti įprastų VCS tinkamumai
+                                    - [ ] 2. (Per-FS) _OpenVMS_-like file copies (\*;VER-NUM)
+                                    - [ ] 3. (Per-FS) 
+                                - [ ] X. Surinktos idėjos kaip versijuoti, baigtos paieškos
+                            - [ ] 2. Prototipai:
+                                - [ ] 1. `gite.sh`: Write-hook skriptas, tinka `vim`.
+                                	- [ ] 1. Bendra repozitorija
+                                	- [ ] 2. Bugų registravimas (senų ir naujų)
+                                	- [ ] 3. Senų kodo `git commit` surinkimtas iš skirtingų taškų:
+                                	    - [ ] 1. VUMF darbinio UFD repo
+                                	    - [ ] 2. Telia w10 laptopo repo
+                                	    - [ ] 3. CentOS UFD galima repo
+                                	- [ ] 4. Architektūros tobulinimas
+                                	    - [x] 1. FS independency
+                                	    - [x] 2. Editor independency
+                                	    - [x] 3. OS independency?
+                                    - [ ] X. Baigtas `gite.sh` tobulinimas
+                                - [ ] 2. Kiti (gitfs, svnfs?)
+                                - [ ] X. Išnagrinėti reikiami prototipai
+                            - [ ] X. Sukurtas automatinis tekstinių failų versijavimas
+
                         - [ ] 3. IaC
                               <a id="-VirtualBox--skriptinimas"></a>
                             - [ ] 1. `VirtualBox` skriptinimas
@@ -529,11 +652,12 @@ Asmeninių tvarkymų medis.
                         - [ ] 1. https://mega.nz/file/X9BBTKjI#lYuFgXZe57ccoX_YQJo9UkP2XCvMEPC6ad9klVGPdZY
                         - [ ] 2. https://web.archive.org/web/20170318223937/https://msfn.org/board/topic/173302-kernelex-auxiliary-dll-updates/
                         - [ ] 3. https://web.archive.org/web/20201124234149/https://msfn.org/board/topic/157173-kext-diy-kernelex-extensions/
+                    - [ ] X. Sukaupta KernelEx kolekcija
                 - [ ] 11. Davide Libenzi software set, http://xmailserver.org/davide.html
                     - [ ] 01. Ras2Vec 1.2, http://xmailserver.org/ras2vec.zip
                     - [ ] ??, `TODO` visą sąrašą
                     - [ ] WW. iPhoneTools 0.3, http://xmailserver.org/iphone-tools.html
-                    - [ ] XX.
+                    - [ ] XX. Surinkta visa Davide Libenzi programų kolekcija
                 - [ ] WW. Strategijos / teorija:
                     - [ ] 1. [Software Heritage: Why and How to Preserve Software Source Code](https://hal.archives-ouvertes.fr/hal-01590958/document)
                     - [ ] 2. [Feature: Claim Abandoned Projects #1385](https://github.com/isaacs/github/issues/1385)

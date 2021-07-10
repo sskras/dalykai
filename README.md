@@ -91,7 +91,7 @@ Asmeninių tvarkymų medis.
                                     - [ ] 4. Sukurti   paketą (MinGW versiją)
                                 - [ ] X. Laiko žymėjimasis sutvarkytas
                             - [ ] X. Laikas ir užduotys žymimi
-                        - [ ] 2. IaC
+                        - [ ] 3. IaC
                               <a id="-VirtualBox--skriptinimas"></a>
                             - [ ] 1. `VirtualBox` skriptinimas
                                 - [ ] 1. Dokumentacija:
@@ -159,10 +159,8 @@ Asmeninių tvarkymų medis.
                         - [ ] X. Bendrų dalykų žymėjimas sutvarkytas
                     - [ ] 2. Asmeniškai
                         - [ ] 1. Android įrankiai:
-                            - [ ] 1. Microsoft To Do:  \
-                                  https://todo.microsoft.com/tasks/
-                            - [ ] 2. TickTick:  \
-                                  https://ticktick.com/
+                            - [ ] 1. Microsoft To Do: https://todo.microsoft.com/tasks/
+                            - [ ] 2. TickTick: https://ticktick.com/
                             - [ ] X. Paruošti Android įrankiai
                         - [ ] X. Sutvarkytas asmeniškų veiksmų žymėjimas
                     - [ ] 3. Darbui
@@ -211,7 +209,7 @@ Asmeninių tvarkymų medis.
                             - [ ] 2. Arba _On-demand_ skriptas?
                                 - [x] 1. Pvz. `~/bin/up.sh`
                             - [ ] X. Sutvarkytas skriptų pasidalinimas tarp komandos narių
-                        - [ ] 2. Vieningas tekstų taisymo versijavimas
+                        - [ ] 2. Vieningas tekstų versijavimas
                             - [ ] 2. RnD su `vim` + `gite.sh`
                                 - [ ] 1. `TODO` kaip dirbant failų medyje apjungti į vieną repozitoriją / nesuskaldyti jos į keletą mažų `.di3fs`?
                                 - [ ] 2. `TODO` kaip atjungti/vėl įjungti versijavimą vienu paspaudimu? (turbūt per `.vimrc`)
@@ -531,6 +529,11 @@ Asmeninių tvarkymų medis.
                         - [ ] 1. https://mega.nz/file/X9BBTKjI#lYuFgXZe57ccoX_YQJo9UkP2XCvMEPC6ad9klVGPdZY
                         - [ ] 2. https://web.archive.org/web/20170318223937/https://msfn.org/board/topic/173302-kernelex-auxiliary-dll-updates/
                         - [ ] 3. https://web.archive.org/web/20201124234149/https://msfn.org/board/topic/157173-kext-diy-kernelex-extensions/
+                - [ ] 11. Davide Libenzi software set, http://xmailserver.org/davide.html
+                    - [ ] 01. Ras2Vec 1.2, http://xmailserver.org/ras2vec.zip
+                    - [ ] ??, `TODO` visą sąrašą
+                    - [ ] WW. iPhoneTools 0.3, http://xmailserver.org/iphone-tools.html
+                    - [ ] XX.
                 - [ ] WW. Strategijos / teorija:
                     - [ ] 1. [Software Heritage: Why and How to Preserve Software Source Code](https://hal.archives-ouvertes.fr/hal-01590958/document)
                     - [ ] 2. [Feature: Claim Abandoned Projects #1385](https://github.com/isaacs/github/issues/1385)

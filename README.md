@@ -1411,16 +1411,27 @@ Asmeninių tvarkymų medis.
                     - [x] 1. Talpykla = GitHub
                     - [ ] 2. ASCII-based formato parinkimas:
                         - [x] 1. Github Falvored Markdown (GFM)
-                        - [ ] 2. AsciiDoc
-                        - [ ] 3. ReStructured Text
+                        - [x] 2. AsciiDoc
+                        - [x] 3. ~~ReStructured Text~~
                     - [ ] 3. Web redaktorius:
                         - [x] 1. http://jbt.github.io/markdown-editor/
-                        - [ ] 2. `TODO`-kitas
+                        - [x] 2. https://asciidoclive.com/
+                        - [ ] X. Rasti optimalūs Web redaktoriai
                     - [x] 4. Redaktoriaus ir talpyklos integracija
                         - [ ] 1. `TODO`-kitas
                     - [x] 5. Vertimas į `.pdf`
                         - [x] 1. `jbt`
-                    - [ ] X. Baigta
+                        - [x] 2. `asciidocLIVE`
+                            - [x] 1. Export as HTML
+                            - [x] 2. Open the HTML file in browser
+                            - [x] 3. Print, "Save as PDF"
+                            - [x] 4. Open the PDF file in browser
+                        - [x] 3. `pandoc`
+                            - [ ] 1. `TODO` pavyzdžių skaitymas
+                            - [ ] 2. `TODO` instaliavimas CentOSe
+                            - [ ] 3. `TODO` LaTeX ir kitų `.pdf` rendererių palyginimas
+                        - [ ] X. Vertimas į `.pdf` failą jau veikia
+                    - [ ] X. Paruošti dokumentų įrankiai
                 - [ ] 4. Skaidrėms
                   <a id="Skaidrėms"></a>
                     - [x] 1. Talpykla = GitHub

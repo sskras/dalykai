@@ -313,6 +313,12 @@ Asmeninių tvarkymų medis.
                             - [x] 3. https://github.com/rclone/rclone
                             - [x] 4. https://github.com/anthonyyangdev/gdrive-cli
                             - [x] 5. https://github.com/google/skicka
+                            - [x] 6. https://github.com/prahladyeri/tuxdrive
+                            - [x] 7. https://github.com/astrada/google-drive-ocamlfuse
+                            - [x] 8. https://github.com/vitalif/grive2
+                            - [x] 9. GUI / sąrašai:
+                                - [ ] 1. https://vitux.com/how-to-schedule-file-backups-to-google-drive-on-ubuntu/
+                                - [ ] 2. https://www.ubuntupit.com/best-google-drive-linux-client-software/
                             - [x] X. Surasta pakankamai įrankių
                         - [ ] 2. Receptai:
                             - [ ] 1. `gdrive`: https://timothy-quinn.com/backing-up-files-to-google-drive-via-the-cli/
@@ -321,6 +327,8 @@ Asmeninių tvarkymų medis.
                             - [ ] 4. `drive`: https://medium.com/the-sysadmin/back-up-your-google-drive-files-from-linux-fcb68b234607
                             - [ ] 5. `drive`: https://shouts.dev/install-google-drive-and-schedule-backup-to-gdrive-on-centos-7
                             - [ ] 6. `rclone`: https://www.howtogeek.com/451262/how-to-use-rclone-to-back-up-to-google-drive-on-linux/
+                            - [ ] 7. `rclone`+: https://csc.cnsi.ucsb.edu/docs/copying-files-google-google-drive
+                            - [ ] 8. `rclone`: https://www.techrepublic.com/article/how-to-use-rclone-to-automatically-back-up-google-drive-to-your-local-storage/
                             - [ ] X. Surasta pakankamai receptų
                         - [ ] 3. Bandymai
                             - [ ] `TODO`

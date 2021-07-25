@@ -239,8 +239,8 @@ Asmeninių tvarkymų medis.
                                         - [x] 6. https://sites.google.com/site/jacnoteslinux/home/virtualization/misc/find-out-if-cpu-support-intel-vt-and-amd-v-virtualization-support
                                         - [x] 7. VT-x option not available:  \
                                               https://forums.virtualbox.org/viewtopic.php?f=7&t=98184
-                                        - [x] 8. `[ 2143.441510] kvm: disabled by bios`  \
-                                            - [x] 1. http://www.linux-kvm.org/page/FAQ#.22KVM:_disabled_by_BIOS.22_error  \
+                                        - [x] 8. `[ 2143.441510] kvm: disabled by bios`
+                                            - [x] 1. http://www.linux-kvm.org/page/FAQ#.22KVM:_disabled_by_BIOS.22_error_
                                             - [x] 2. https://unix.stackexchange.com/questions/27174/how-to-check-if-vt-x-is-enabled-in-bios/27177#27177
                                             - [x] 3. Hint => `dmidecode`!
                                         - [x] X. Peržvelgti forumai
@@ -307,6 +307,24 @@ Asmeninių tvarkymų medis.
                 - [ ] 3. Į ją perkelti visus savo randamas failų ar diskų Image-kopijas
                 - [ ] 4. Pašto bekupai
                     - [ ] 1. Gmail.com
+                        - [ ] 1. Įrankiai:
+                            - [x] 1. https://github.com/odeke-em/drive
+                            - [x] 2. https://github.com/prasmussen/gdrive
+                            - [x] 3. https://github.com/rclone/rclone
+                            - [x] 4. https://github.com/anthonyyangdev/gdrive-cli
+                            - [x] 5. https://github.com/google/skicka
+                            - [x] X. Surasta pakankamai įrankių
+                        - [ ] 2. Receptai:
+                            - [ ] 1. `gdrive`: https://timothy-quinn.com/backing-up-files-to-google-drive-via-the-cli/
+                            - [ ] 2. `gdrive`: https://blog.ruanbekker.com/blog/2020/05/08/server-backups-to-google-drive-using-the-drive-cli-tool/
+                            - [ ] 3. `gdrive`: https://olivermarshall.net/how-to-upload-a-file-to-google-drive-from-the-command-line/
+                            - [ ] 4. `drive`: https://medium.com/the-sysadmin/back-up-your-google-drive-files-from-linux-fcb68b234607
+                            - [ ] 5. `drive`: https://shouts.dev/install-google-drive-and-schedule-backup-to-gdrive-on-centos-7
+                            - [ ] 6. `rclone`: https://www.howtogeek.com/451262/how-to-use-rclone-to-back-up-to-google-drive-on-linux/
+                            - [ ] X. Surasta pakankamai receptų
+                        - [ ] 3. Bandymai
+                            - [ ] `TODO`
+                        - [ ] X. Sukurtas Gmail.com bekupavimas
                     - [ ] 2. `ar`?`fi.lt`
                     - [ ] X. Subekupuoti visi laiškai
             - [ ] 3. Pašto programos

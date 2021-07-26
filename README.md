@@ -308,27 +308,31 @@ Asmeninių tvarkymų medis.
                 - [ ] 4. Pašto bekupai
                     - [ ] 1. Gmail.com
                         - [ ] 1. Įrankiai:
-                            - [x] 1. https://github.com/odeke-em/drive
+                            - [x] 01. https://github.com/odeke-em/drive
                             - [x] 2. https://github.com/prasmussen/gdrive
-                            - [x] 3. https://github.com/rclone/rclone
+                            - [x] 03. https://github.com/rclone/rclone
                             - [x] 4. https://github.com/anthonyyangdev/gdrive-cli
-                            - [x] 5. https://github.com/google/skicka
+                            - [x] 05. https://github.com/google/skicka
                             - [x] 6. https://github.com/prahladyeri/tuxdrive
-                            - [x] 7. https://github.com/astrada/google-drive-ocamlfuse
+                            - [x] 07. https://github.com/astrada/google-drive-ocamlfuse
                             - [x] 8. https://github.com/vitalif/grive2
-                            - [x] 9. GUI / sąrašai:
+                            - [x] 09. https://github.com/harababurel/gcsf (Rust)
+                            - [x] 10. GUI / sąrašai:
                                 - [ ] 1. https://vitux.com/how-to-schedule-file-backups-to-google-drive-on-ubuntu/
                                 - [ ] 2. https://www.ubuntupit.com/best-google-drive-linux-client-software/
                             - [x] X. Surasta pakankamai įrankių
                         - [ ] 2. Receptai:
+                            - [ ] 00. `gdrive`: https://shouts.dev/mount-google-drive-using-gdrive-on-linux-server-with-own-oauth-credentials
                             - [ ] 1. `gdrive`: https://timothy-quinn.com/backing-up-files-to-google-drive-via-the-cli/
-                            - [ ] 2. `gdrive`: https://blog.ruanbekker.com/blog/2020/05/08/server-backups-to-google-drive-using-the-drive-cli-tool/
+                            - [ ] 02. `gdrive`: https://blog.ruanbekker.com/blog/2020/05/08/server-backups-to-google-drive-using-the-drive-cli-tool/
                             - [ ] 3. `gdrive`: https://olivermarshall.net/how-to-upload-a-file-to-google-drive-from-the-command-line/
-                            - [ ] 4. `drive`: https://medium.com/the-sysadmin/back-up-your-google-drive-files-from-linux-fcb68b234607
+                            - [ ] 04. `drive`: https://medium.com/the-sysadmin/back-up-your-google-drive-files-from-linux-fcb68b234607
                             - [ ] 5. `drive`: https://shouts.dev/install-google-drive-and-schedule-backup-to-gdrive-on-centos-7
-                            - [ ] 6. `rclone`: https://www.howtogeek.com/451262/how-to-use-rclone-to-back-up-to-google-drive-on-linux/
+                            - [ ] 06. `rclone`: https://www.howtogeek.com/451262/how-to-use-rclone-to-back-up-to-google-drive-on-linux/
                             - [ ] 7. `rclone`+: https://csc.cnsi.ucsb.edu/docs/copying-files-google-google-drive
-                            - [ ] 8. `rclone`: https://www.techrepublic.com/article/how-to-use-rclone-to-automatically-back-up-google-drive-to-your-local-storage/
+                            - [ ] 08. `rclone`: https://www.techrepublic.com/article/how-to-use-rclone-to-automatically-back-up-google-drive-to-your-local-storage/
+                            - [ ] 09. `ocamlfuse`: https://web.archive.org/web/20190908210032/https://github.com/kimduho/linux/wiki/CentOS-7-Google-Drive-mount
+                            - [ ] 10. `gcsf`: https://ostechnix.com/how-to-mount-google-drive-locally-as-virtual-file-system-in-linux/
                             - [ ] X. Surasta pakankamai receptų
                         - [ ] 3. Bandymai
                             - [ ] `TODO`

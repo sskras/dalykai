@@ -963,13 +963,17 @@ Asmeninių tvarkymų medis.
                         - [ ] X. Surinkti tinkami Windows OS paketinių sistemų kandidatai
                     - [ ] X. Baigtas `Windows` paketų sistemos tyrimas
                 - [ ] X. Jau pramokti aktualūs Package Management dalykai
-            - [x] 8. \*nix tvarka
-                - [x] 1. Linux tvarka
+            - [x] 8. \*nix studijos
+                - [x] 1. Linux studijos
                     - [x] 1. RHEL/CentOS ir Fedora versijų lentelė:
                         - [x] 1. https://docs.fedoraproject.org/en-US/quick-docs/fedora-and-red-hat-enterprise-linux/index.html#_history_of_red_hat_enterprise_linux_and_fedora_
                         - [x] 2. https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux#Relationship_with_Fedora
                         - [x] 3. https://access.redhat.com/articles/3078#RHEL7
                     - [x] X. Įvesta Linux tvarka 
+                - [x] 2. Servisų studijos
+                    - [ ] 1. Kompleksiniai sprendimai
+                        - [x] 1. https://adminbook.click/nastrojka-otkazoustojchivogo-klastera-virtualizacii-na-baze-opennebula-ceph-mariadb-galera-open-vswi/
+                    - [ ] X. Baigtos \*nix servisų studijos
                 - [x] X. Įvesta \*nix tvarka
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos

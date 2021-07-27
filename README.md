@@ -912,6 +912,8 @@ Asmeninių tvarkymų medis.
                     - [ ] 2. Privalumai, pavyzdžiai
                         - [x] 1. https://rubenerd.com/using-netbsds-pkgsrc-everywhere-i-can/
                         - [x] 2. https://www.anserinae.net/setting-up-a-pkgsrc-repository.html#setting-up-a-pkgsrc-repository
+                    - [ ] 3. Potencialūs portai
+                        - [ ] 001. https://github.com/odeke-em/drive
                     - [ ] X. Išanalizuoti `pkgsrc` + `pkgin` ir padirbėta ties jų taikymu
                 - [ ] 4. `Windows` paketų sistema
                     - [ ] 1. Diskusijos apie `ReactOS` paketų valdymą:
@@ -1022,7 +1024,6 @@ Asmeninių tvarkymų medis.
                                   ```
                                 - [x] 2. Galbūt `dvdattach` pasikeitė į `storageattach`:  \
                                       [DVD-image not available if attached via command line](https://www.virtualbox.org/ticket/5809#comment:5)
-
                                   > Changed 11 years ago by frank | 2010-01-08T16:26:53Z in Timeline
                                   > 
                                   > Note that the syntax of attaching/detaching a medium to/from a VM has changed.
@@ -1030,7 +1031,7 @@ Asmeninių tvarkymų medis.
                                   > controller / port / device, see the user manual section 8.15.2. The old commands
                                   > dvdattach/dvddetach are still there but apparently are broken now
                                   > (though they don't appear in the help anymore).
-
+                                  >
                                 - [x] X. Užfiksuota VirtualBox DVD prijungimo/atjungimo galimybė
                             - [ ] X. Surinktas panašių dalykų sąrašiukas
                         - [ ] X. Sukurta ODD emuliacija VMM lygmeny.

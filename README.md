@@ -350,7 +350,9 @@ Asmeninių tvarkymų medis.
                                 - [x] 3. Nemoka parsiųsti failų, kurį Google pažymi kaip _SPAM_ ar _Malware_
                                     - [x] 1. Yra apėjimas pradžiai parsisiunčiant rankiniu būd
                                 - [x] 4. Neturi `.rpm` paketo
-                                    - [x] 1. Yra `.spec` failas Fedoroms
+                                    - [x] 1. Yra `.spec` failas Fedoroms:
+                                    - [x] 2. https://copr.fedorainfracloud.org/coprs/vaughan/drive-google/package/drive-google/
+                                    - [x] 3. https://github.com/agrez/drive-google/blob/master/drive-google.spec
                                 - [x] 5. Buildui reikalauja daug diskinės vietos (1.7G) ir parsiuntimo apimčių
                                 - [x] X. Baigtas `drive` testas (šauniai)
                             - [ ] 4. `google-drive-ocamlfuse`
@@ -363,7 +365,7 @@ Asmeninių tvarkymų medis.
                                 - [ ] X. Baigtas `google-drive-ocamlfuse` testas
                             - [ ] X. Baigti Gmail bekupų įrankio testai
                         - [ ] `BLOCKER`: [Debesinė saugykla](#Debesinė-saugykla)
-                        - [ ] 4. Lokalios vietos paruošimas
+                        - [ ] 4. Saugyklos vietos paruošimas
                         - [ ] X. Sukurtas Gmail.com bekupavimas
                     - [ ] 2. `ar`?`fi.lt`
                     - [ ] X. Subekupuoti visi laiškai

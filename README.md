@@ -308,14 +308,14 @@ Asmeninių tvarkymų medis.
                 - [ ] 4. Pašto bekupai
                     - [ ] 1. Gmail.com
                         - [ ] 1. Įrankiai:
-                            - [x] 01. https://github.com/odeke-em/drive
-                            - [x] 02. https://github.com/prasmussen/gdrive
-                            - [x] 03. https://github.com/rclone/rclone
-                            - [x] 04. https://github.com/anthonyyangdev/gdrive-cli
-                            - [x] 05. https://github.com/google/skicka
-                            - [x] 06. https://github.com/prahladyeri/tuxdrive
-                            - [x] 07. https://github.com/astrada/google-drive-ocamlfuse
-                            - [x] 08. https://github.com/vitalif/grive2
+                            - [x] 01. https://github.com/odeke-em/drive (Go)
+                            - [x] 02. https://github.com/prasmussen/gdrive (Go)
+                            - [x] 03. https://github.com/rclone/rclone (Go)
+                            - [x] 04. https://github.com/google/skicka (Go)
+                            - [x] 05. https://github.com/anthonyyangdev/gdrive-cli (Python)
+                            - [x] 06. https://github.com/prahladyeri/tuxdrive (Python)
+                            - [x] 07. https://github.com/astrada/google-drive-ocamlfuse (OCAML)
+                            - [x] 08. https://github.com/vitalif/grive2 (C++)
                             - [x] 09. https://github.com/harababurel/gcsf (Rust)
                             - [x] 10. GUI / sąrašai:
                                 - [ ] 1. https://vitux.com/how-to-schedule-file-backups-to-google-drive-on-ubuntu/
@@ -341,7 +341,10 @@ Asmeninių tvarkymų medis.
                                 - [x] 3. Lokaliai neišsaugo pradinės (nuotolinės) failo datos
                                 - [x] 4. Lokaliai neišsaugo pradinės (nuotolinės) failo direktorijos
                                 - [x] X. Baigtas Built-in `gdrive` testas (labai prastai)
-                            - [x] 2. `drive v0.3.9.1`
+                            - [x] 2. ~~`grive2 v0.5.0`~~
+                                - [x] 1. Buvo CentOS 7 repozitorijose
+                                - [x] 2. Skirtas tik viso Drive sinchronizavimui, bet ne darbui su pavieniais failais
+                            - [x] 3. `drive v0.3.9.1`
                                 - [x] 1. Ankstesnieji trūkumai nepasireiškia
                                 - [x] 2. Lokaliai neišsaugo pradinės (nuotolinės) direltorijos datos
                                 - [x] 3. Nemoka parsiųsti failų, kurį Google pažymi kaip _SPAM_ ar _Malware_
@@ -350,14 +353,15 @@ Asmeninių tvarkymų medis.
                                     - [x] 1. Yra `.spec` failas Fedoroms
                                 - [x] 5. Buildui reikalauja daug diskinės vietos (1.7G) ir parsiuntimo apimčių
                                 - [x] X. Baigtas `drive` testas (šauniai)
-                            - [ ] 3. `google-drive-ocamlfuse`
+                            - [ ] 4. `google-drive-ocamlfuse`
                                 - [x] 1. Prielaidos
                                     - [x] 1. Turbūt duos teisingas direktorijų datas
                                     - [x] 2. Turbūt veiks su įprastais \*nix įrankiais (`rsync` ir kt.)
                                 - [ ] 2. Kiek užims `OCAML` Runtime + Libs?
                                 - [ ] X. Baigtas `google-drive-ocamlfuse` testas
                             - [ ] X. Baigti Gmail bekupų įrankio testai
-                        - [ ] 4. `BLOCKER`: [Debesinė saugykla](#Debesinė-saugykla)
+                        - [ ] `BLOCKER`: [Debesinė saugykla](#Debesinė-saugykla)
+                        - [ ] 4. Lokalios vietos paruošimas
                         - [ ] X. Sukurtas Gmail.com bekupavimas
                     - [ ] 2. `ar`?`fi.lt`
                     - [ ] X. Subekupuoti visi laiškai

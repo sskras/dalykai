@@ -4,7 +4,7 @@
 
 Asmeninių tvarkymų medis.
 
-- [ ] 1. **Tvarka:**ail.com
+- [ ] 1. **Tvarka:**
     - [ ] 1. Fizinėje aplinkoje
         - [ ] 1. Bute
             - [ ] 1. Pakuotės, perdirbamos atliekos:

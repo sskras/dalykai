@@ -357,7 +357,7 @@ Asmeninių tvarkymų medis.
                                 - [ ] 2. Kiek užims `OCAML` Runtime + Libs?
                                 - [ ] X. Baigtas `google-drive-ocamlfuse` testas
                             - [ ] X. Baigti Gmail bekupų įrankio testai
-                        - [ ] 4. `BLOCKER`: [Debesinė saugykla](Debesinė-saugykla)
+                        - [ ] 4. `BLOCKER`: [Debesinė saugykla](#Debesinė-saugykla)
                         - [ ] X. Sukurtas Gmail.com bekupavimas
                     - [ ] 2. `ar`?`fi.lt`
                     - [ ] X. Subekupuoti visi laiškai

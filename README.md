@@ -4,7 +4,7 @@
 
 Asmeninių tvarkymų medis.
 
-- [ ] 1. **Tvarka:**
+- [ ] 1. **Tvarka:**ail.com
     - [ ] 1. Fizinėje aplinkoje
         - [ ] 1. Bute
             - [ ] 1. Pakuotės, perdirbamos atliekos:
@@ -309,33 +309,55 @@ Asmeninių tvarkymų medis.
                     - [ ] 1. Gmail.com
                         - [ ] 1. Įrankiai:
                             - [x] 01. https://github.com/odeke-em/drive
-                            - [x] 2. https://github.com/prasmussen/gdrive
+                            - [x] 02. https://github.com/prasmussen/gdrive
                             - [x] 03. https://github.com/rclone/rclone
-                            - [x] 4. https://github.com/anthonyyangdev/gdrive-cli
+                            - [x] 04. https://github.com/anthonyyangdev/gdrive-cli
                             - [x] 05. https://github.com/google/skicka
-                            - [x] 6. https://github.com/prahladyeri/tuxdrive
+                            - [x] 06. https://github.com/prahladyeri/tuxdrive
                             - [x] 07. https://github.com/astrada/google-drive-ocamlfuse
-                            - [x] 8. https://github.com/vitalif/grive2
+                            - [x] 08. https://github.com/vitalif/grive2
                             - [x] 09. https://github.com/harababurel/gcsf (Rust)
                             - [x] 10. GUI / sąrašai:
                                 - [ ] 1. https://vitux.com/how-to-schedule-file-backups-to-google-drive-on-ubuntu/
                                 - [ ] 2. https://www.ubuntupit.com/best-google-drive-linux-client-software/
-                            - [x] X. Surasta pakankamai įrankių
+                            - [x] XX. Surasta pakankamai įrankių
                         - [ ] 2. Receptai:
                             - [ ] 00. `gdrive`: https://shouts.dev/mount-google-drive-using-gdrive-on-linux-server-with-own-oauth-credentials
-                            - [ ] 1. `gdrive`: https://timothy-quinn.com/backing-up-files-to-google-drive-via-the-cli/
+                            - [ ] 01. `gdrive`: https://timothy-quinn.com/backing-up-files-to-google-drive-via-the-cli/
                             - [ ] 02. `gdrive`: https://blog.ruanbekker.com/blog/2020/05/08/server-backups-to-google-drive-using-the-drive-cli-tool/
-                            - [ ] 3. `gdrive`: https://olivermarshall.net/how-to-upload-a-file-to-google-drive-from-the-command-line/
+                            - [ ] 03. `gdrive`: https://olivermarshall.net/how-to-upload-a-file-to-google-drive-from-the-command-line/
                             - [ ] 04. `drive`: https://medium.com/the-sysadmin/back-up-your-google-drive-files-from-linux-fcb68b234607
-                            - [ ] 5. `drive`: https://shouts.dev/install-google-drive-and-schedule-backup-to-gdrive-on-centos-7
+                            - [ ] 05. `drive`: https://shouts.dev/install-google-drive-and-schedule-backup-to-gdrive-on-centos-7
                             - [ ] 06. `rclone`: https://www.howtogeek.com/451262/how-to-use-rclone-to-back-up-to-google-drive-on-linux/
-                            - [ ] 7. `rclone`+: https://csc.cnsi.ucsb.edu/docs/copying-files-google-google-drive
+                            - [ ] 07. `rclone`+: https://csc.cnsi.ucsb.edu/docs/copying-files-google-google-drive
                             - [ ] 08. `rclone`: https://www.techrepublic.com/article/how-to-use-rclone-to-automatically-back-up-google-drive-to-your-local-storage/
                             - [ ] 09. `ocamlfuse`: https://web.archive.org/web/20190908210032/https://github.com/kimduho/linux/wiki/CentOS-7-Google-Drive-mount
                             - [ ] 10. `gcsf`: https://ostechnix.com/how-to-mount-google-drive-locally-as-virtual-file-system-in-linux/
-                            - [ ] X. Surasta pakankamai receptų
+                            - [ ] XX. Surasta pakankamai receptų
                         - [ ] 3. Bandymai
-                            - [ ] `TODO`
+                            - [x] 1. ~~`gdrive v1.8.0`~~ (Built-in `drive-linux-amd64`)
+                                - [x] 1. Ne visus failus išlistina
+                                - [x] 2. Parsiunčia failą tik pagal `FileID`
+                                - [x] 3. Lokaliai neišsaugo pradinės (nuotolinės) failo datos
+                                - [x] 4. Lokaliai neišsaugo pradinės (nuotolinės) failo direktorijos
+                                - [x] X. Baigtas Built-in `gdrive` testas (labai prastai)
+                            - [x] 2. `drive v0.3.9.1`
+                                - [x] 1. Ankstesnieji trūkumai nepasireiškia
+                                - [x] 2. Lokaliai neišsaugo pradinės (nuotolinės) direltorijos datos
+                                - [x] 3. Nemoka parsiųsti failų, kurį Google pažymi kaip _SPAM_ ar _Malware_
+                                    - [x] 1. Yra apėjimas pradžiai parsisiunčiant rankiniu būd
+                                - [x] 4. Neturi `.rpm` paketo
+                                    - [x] 1. Yra `.spec` failas Fedoroms
+                                - [x] 5. Buildui reikalauja daug diskinės vietos (1.7G) ir parsiuntimo apimčių
+                                - [x] X. Baigtas `drive` testas (šauniai)
+                            - [ ] 3. `google-drive-ocamlfuse`
+                                - [x] 1. Prielaidos
+                                    - [x] 1. Turbūt duos teisingas direktorijų datas
+                                    - [x] 2. Turbūt veiks su įprastais \*nix įrankiais (`rsync` ir kt.)
+                                - [ ] 2. Kiek užims `OCAML` Runtime + Libs?
+                                - [ ] X. Baigtas `google-drive-ocamlfuse` testas
+                            - [ ] X. Baigti Gmail bekupų įrankio testai
+                        - [ ] 4. `BLOCKER`: [Debesinė saugykla](Debesinė-saugykla)
                         - [ ] X. Sukurtas Gmail.com bekupavimas
                     - [ ] 2. `ar`?`fi.lt`
                     - [ ] X. Subekupuoti visi laiškai
@@ -431,6 +453,7 @@ Asmeninių tvarkymų medis.
                         - [ ] X. Atsirado patogumas naudotis Confluence
                     - [ ] X. Pasiekta tvarka darbo veiksmų organizavime
                 - [ ] X. Pasiekta tvarka apskritai darbe
+              <a id="Debesinė-saugykla"></a>
             - [ ] 7. Debesinė saugykla
             - [ ] 8. Patikima nešiojama USB-talpykla.
                 - [ ] 1. OpenZFS pramokimas.

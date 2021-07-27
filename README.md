@@ -326,8 +326,8 @@ Asmeninių tvarkymų medis.
                             - [ ] 01. `gdrive`: https://timothy-quinn.com/backing-up-files-to-google-drive-via-the-cli/
                             - [ ] 02. `gdrive`: https://blog.ruanbekker.com/blog/2020/05/08/server-backups-to-google-drive-using-the-drive-cli-tool/
                             - [ ] 03. `gdrive`: https://olivermarshall.net/how-to-upload-a-file-to-google-drive-from-the-command-line/
-                            - [ ] 04. `drive`: https://medium.com/the-sysadmin/back-up-your-google-drive-files-from-linux-fcb68b234607
-                            - [ ] 05. `drive`: https://shouts.dev/install-google-drive-and-schedule-backup-to-gdrive-on-centos-7
+                            - [x] 04. `gdrive`: ~~https://shouts.dev/install-google-drive-and-schedule-backup-to-gdrive-on-centos-7~~ (Google Built-in)
+                            - [x] 05. `drive`: https://medium.com/the-sysadmin/back-up-your-google-drive-files-from-linux-fcb68b234607
                             - [ ] 06. `rclone`: https://www.howtogeek.com/451262/how-to-use-rclone-to-back-up-to-google-drive-on-linux/
                             - [ ] 07. `rclone`+: https://csc.cnsi.ucsb.edu/docs/copying-files-google-google-drive
                             - [ ] 08. `rclone`: https://www.techrepublic.com/article/how-to-use-rclone-to-automatically-back-up-google-drive-to-your-local-storage/
@@ -358,6 +358,8 @@ Asmeninių tvarkymų medis.
                                     - [x] 1. Turbūt duos teisingas direktorijų datas
                                     - [x] 2. Turbūt veiks su įprastais \*nix įrankiais (`rsync` ir kt.)
                                 - [ ] 2. Kiek užims `OCAML` Runtime + Libs?
+                                - [ ] 3. Kurį autorizacijos būdą renkuosi?
+                                    - [x] 1. https://github.com/astrada/google-drive-ocamlfuse/wiki/Authorization
                                 - [ ] X. Baigtas `google-drive-ocamlfuse` testas
                             - [ ] X. Baigti Gmail bekupų įrankio testai
                         - [ ] `BLOCKER`: [Debesinė saugykla](#Debesinė-saugykla)
@@ -955,8 +957,16 @@ Asmeninių tvarkymų medis.
                                 - [x] 3. https://github.com/tranquilit/WAPT
                             - [ ] X. Baigtas kaupti kandidatų į `Windows` paketines sistemas sąrašas
                         - [ ] X. Surinkti tinkami Windows OS paketinių sistemų kandidatai
-                    - [ ] X.
+                    - [ ] X. Baigtas `Windows` paketų sistemos tyrimas
                 - [ ] X. Jau pramokti aktualūs Package Management dalykai
+            - [x] 8. \*nix tvarka
+                - [x] 1. Linux tvarka
+                    - [x] 1. RHEL/CentOS ir Fedora versijų lentelė:
+                        - [x] 1. https://docs.fedoraproject.org/en-US/quick-docs/fedora-and-red-hat-enterprise-linux/index.html#_history_of_red_hat_enterprise_linux_and_fedora_
+                        - [x] 2. https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux#Relationship_with_Fedora
+                        - [x] 3. https://access.redhat.com/articles/3078#RHEL7
+                    - [x] X. Įvesta Linux tvarka 
+                - [x] X. Įvesta \*nix tvarka
             - [ ] X. Baigti visi patobulinimai
         - [ ] 4. Sunkūs atvejai, iššūkiai, RnD, revoliucijos
             - [ ] 01. Hypervisors

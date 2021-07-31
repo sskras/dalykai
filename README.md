@@ -677,6 +677,7 @@ Asmeninių tvarkymų medis.
             - [ ] 1. site rehosting:
                 - [ ] 1. `led.ot.lt` perkėlimas
                 - [ ] 2. [`news.omnitel.net` perkėlimas](tvarka/news.omnitel.net-perkėlimas.md)
+              <a id="FOSS-mirroring-revival-preservation"></a>
             - [ ] 2. FOSS mirroring/revival/preservation:
                 - [ ] 00. `TODO` GitHub repo for the mirroring
                     - [x] 01. https://www.softwareheritage.org/

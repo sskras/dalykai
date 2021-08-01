@@ -1380,7 +1380,7 @@ Asmeninių tvarkymų medis.
                 - [ ] 02. Zig-based
                     - [x] 01. https://github.com/jzck/kernel-zig
                         - [ ] 1. https://news.ycombinator.com/item?id=21967668
-                    - [ ] 2. https://github.com/AndreaOrru/zen
+                    - [ ] 02. https://github.com/AndreaOrru/zen
                     - [ ] WW. Sąrašai
                         - [x] 1. https://github.com/nrdmn/awesome-zig#bootables
                     - [ ] XX. Surinktos _Zig-based_ OS
@@ -1397,6 +1397,8 @@ Asmeninių tvarkymų medis.
                           https://arxiv.org/pdf/2002.08928.pdf
                     - [ ] X. Apžvelgtos Microkernel OS
                 - [ ] WW. Kitos, sunkiai kategorizuojamos
+                    - [ ] 1. Sąrašas: https://github.com/topics/bochs
+                    - [ ] 2. `TODO`: https://github.com/doug65536/dgos
                 - [ ] XX. Surinkta nepopuliarių OS kolekcija
             - [ ] 10. OS Bootloaders tyrimai
                 - [ ] 01. Device emulation

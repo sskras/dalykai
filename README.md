@@ -1,7 +1,7 @@
 ### Dalykų buferis:
 
 - [ ] 1. Papildyti dalykų buferį.
-- [ ] 2. Skirstyti juos į prioritetų sąrašus.
+- [ ] 2. Skirstyti juos pagal prioritetus.
 - [ ] X.
 
 ### P1 dalykai:

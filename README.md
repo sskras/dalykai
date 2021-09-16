@@ -5,6 +5,15 @@
 - [ ] 3. Svarbiausiems rasti vietą medyje.
 - [ ] 4. Studijos: AutoCAD licencijos aktyvavimas.
 - [ ] 5. Studijos: AutoCAD implementacijos parinkimas ir testai.
+- [ ] 6. Studijos: STUDIJŲ SUTARTIES PRIEDO pasirašymas:
+    - [ ] 1. Pokalbis su Dekanato administratore Daiva R. ir pasirašymo būdo derinimas;
+    - [ ] 2. Pasirinkau el. parašą;
+    - [ ] 3. `2021-09-15` El. parašo bandymas w10 + naršyklėje ir nesėkmė (sertifikatas galioja iki 2016 m.);
+    - [ ] 4. Pasitarimas su D. administratore Daiva R.;
+    - [ ] 5. `2021-09-16` Tapatybės kortelės sertikatų atnaujinimas Migracijos departamente;
+    - [ ] 6. `.pdf` dokumento pasirašymas naršyklėje;
+    - [ ] 7. Dokumento išsiuntimas Dekanatui;
+    - [ ] 8. Susitikslinimas, ar dokumentas gautas (ir info apie tolimesnę eigą: dar laukiama Dekano pasirašymo).
 - [ ] X.
 
 #### P1 dalykai:

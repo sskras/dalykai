@@ -3,6 +3,8 @@
 - [ ] 1. Papildyti dalykų buferį.
 - [ ] 2. Skirstyti dalykus pagal prioritetus.
 - [ ] 3. Svarbiausiems rasti vietą medyje.
+- [ ] 4. Studijos: AutoCAD licencijos aktyvavimas.
+- [ ] 5. Studijos: AutoCAD implementacijos parinkimas ir testai.
 - [ ] X.
 
 #### P1 dalykai:

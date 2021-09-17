@@ -4,8 +4,23 @@
 - [ ] 2. Skirstyti dalykus pagal prioritetus.
 - [ ] 3. Svarbiausiems rasti vietą medyje.
 - [ ] 4. Studijos: AutoCAD licencijos aktyvavimas.
+    - [x] 1. VGTU instrukcijų AutoCAD diegimui peržiūra;
+    - [x] 2. Tinkamo AutoDesk puslapio atsivėrimas;
+    - [x] 3. AutoDesk instrukcijų video peržiūra;
+    - [x] 4. Paskyros registracija, duomenų suvedimas;
+    - [x] 5. Trūkstamų paskyros (IDentifikacijos) duomenų peržiūra;
+    - [x] 6. Laiško su LSP kortele patikrinimas (vis dar nėra);
+    - [x] 7. Pasitarimas su dėstytoja Daiva Makutėniene;
+    - [x] 8. Sprendimas laikinai naudoti AutoCAD _Trial_ versiją.
+        - [x] 1. _Online_ diegiklio parsisiuntimas;
+        - [ ] 2. _Offline_ diegiklio parsisiuntimas;
+        - [ ] 3. Išsisaugojimas archyve ateičiai;
+        - [ ] 4. Tikrinimas naudojant w10;
+        - [ ] 5. `BLOCKER:` CentOS rootfs išplėtimas;
+        - [ ] 6. Tikrinimas naudojant Wine + Linux;
+    - [ ] X. `BLOCKER:` [`LSP` iš `lsp.lt` gavimas](#-LSP--iš--lsp.lt--gavimas)
 - [ ] 5. Studijos: AutoCAD implementacijos parinkimas ir testai.
-- [ ] 6. Studijos: STUDIJŲ SUTARTIES PRIEDO pasirašymas:
+- [x] 6. Studijos: STUDIJŲ SUTARTIES PRIEDO pasirašymas:
     - [x] 1. Pokalbis su Dekanato administratore Daiva R. ir pasirašymo būdo derinimas;
     - [x] 2. Pasirinkau el. parašą;
     - [x] 3. `2021-09-15` El. parašo bandymas w10 + naršyklėje ir nesėkmė (sertifikatas galioja iki 2016 m.);
@@ -14,6 +29,14 @@
     - [x] 6. `.pdf` dokumento pasirašymas naršyklėje;
     - [x] 7. Dokumento išsiuntimas Dekanatui;
     - [x] 8. Susitikslinimas, ar dokumentas gautas (ir info apie tolimesnę eigą: dar laukiama Dekano pasirašymo).
+    - [x] 9. `2021-09-16` Dokumentas gautas;
+    - [x] X. Studijų s1-s2 semestrų kompensacija gauta.
+  <a id="-LSP--iš--lsp.lt--gavimas"></a>
+- [ ] 7. `LSP` iš `lsp.lt` gavimas;
+    - [ ] A. Praeiti veiksmai (įsk. registraciją);
+    - [ ] B. Praeiti laukimai (du skambučiai, daug http-prisijungimų);
+    - [ ] C. Būsimi tikrinimai;
+    - [ ] X. LSP gautas.
 - [ ] X.
 
 #### P1 dalykai:

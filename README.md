@@ -3,6 +3,7 @@
 #### Nauji:
 
 - [ ] 1. Kasdien.
+- [ ] 2. Papildyti dalykų buferį.
 
 #### P1:
 
@@ -13,7 +14,6 @@
 
 #### Susikaupė:
 
-- [ ] 1. Papildyti dalykų buferį.
 - [ ] 2. Skirstyti dalykus pagal prioritetus.
 - [ ] 3. Svarbiausiems rasti vietą medyje.
 - [ ] 4. Studijos: AutoCAD licencijos aktyvavimas.

@@ -4,11 +4,11 @@
 
 - [ ] 1. Kasdien.
 - [ ] 2. Keisti, tobulinti buferio struktūrą.
-    - [ ] `2021-09-26 12:10` pradėjau keisti struktūrą:
+    - [ ] `2021-09-26 12:07` pradėjau keisti struktūrą:
         - [x] [f7f0992](https://github.com/sskras/dalykai/commit/f7f09929734572498dcf5bc10e43e55343ed03d2),
               `P1` iškėliau į viršų;
         - [ ] .
-    - [ ] .
+    - [ ] – Kada nusistovės buferio struktūra?
 - [ ] X.
 
 #### P1:
@@ -17,11 +17,11 @@
     - [x] 1. Padrikam/nehierarchizuotam dalykų registravimui
     - [ ] 2. Gyvenimo palengvinimui 
 - [ ] 2. Papildyti dalykų buferį:
-    - [ ] `2021-09-26 12:10` bandau grįžti prie pildymo:
+    - [ ] `2021-09-26 12:07` bandau grįžti prie pildymo:
         - [x] [f7f0992](https://github.com/sskras/dalykai/commit/f7f09929734572498dcf5bc10e43e55343ed03d2),
               papildoma buferio sekcija `Nauji`;
         - [ ] .
-    - [ ] .
+    - [ ] – Kada baigsis buferio pildymas?
 - [ ] X.
 
 #### Susikaupė:

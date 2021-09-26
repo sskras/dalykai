@@ -1,4 +1,17 @@
-### Dalykų buferis:
+### Dalykų buferis
+
+#### Nauji:
+
+- [ ] 1. Kasdien.
+
+#### P1:
+
+- [x] 1. Sukurti dalykų buferį.
+    - [x] 1. Padrikam/nehierarchizuotam dalykų registravimui
+    - [ ] 2. Gyvenimo palengvinimui 
+- [ ] X.
+
+#### Susikaupė:
 
 - [ ] 1. Papildyti dalykų buferį.
 - [ ] 2. Skirstyti dalykus pagal prioritetus.
@@ -37,13 +50,6 @@
     - [ ] B. Praeiti laukimai (du skambučiai, daug http-prisijungimų);
     - [ ] C. Būsimi tikrinimai;
     - [ ] X. LSP gautas.
-- [ ] X.
-
-#### P1 dalykai:
-
-- [x] 1. Sukurti dalykų buferį.
-    - [x] 1. Padrikam/nehierarchizuotam dalykų registravimui
-    - [ ] 2. Gyvenimo palengvinimui
 - [ ] X.
 
 ## Siekiai

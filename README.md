@@ -5,9 +5,11 @@
 - [ ] 1. Kasdien.
 - [ ] 2. Keisti, tobulinti buferio struktūrą.
       <details><summary><strong>Sąrašas:</strong></summary>
-    - [ ] `2021-09-26 12:07` pradėjau keisti struktūrą:
+    - [ ] `2021-09-26` pradėjau keisti struktūrą:
         - [x] [f7f0992](https://github.com/sskras/dalykai/commit/f7f09929734572498dcf5bc10e43e55343ed03d2),
               `P1` sąrašą iškėliau į viršų;
+        - [x] [88fb6aa](https://github.com/sskras/dalykai/commit/88fb6aa9351737d190c23d1f461f5c502faeae1c),
+              padariau detalių sąrašų suskleidimą;
         - [ ] .
     - [ ] – Kada nusistovės buferio struktūra?
      </details>
@@ -20,7 +22,7 @@
     - [ ] 2. Gyvenimo palengvinimui 
 - [ ] 2. _Papildyti dalykų buferį._
       <details><summary><strong>Sąrašas:</strong></summary>
-    - [ ] `2021-09-26 12:07` bandau grįžti prie pildymo:
+    - [ ] `2021-09-26` bandau grįžti prie pildymo:
         - [x] [f7f0992](https://github.com/sskras/dalykai/commit/f7f09929734572498dcf5bc10e43e55343ed03d2),
               papildoma buferio sekcija `Nauji`;
         - [ ] .
@@ -32,7 +34,7 @@
 
 - [ ] 2. Skirstyti dalykus pagal prioritetus.
       <details><summary><strong>Sąrašas:</strong></summary>
-    - [ ] `2021-09-26 12:08` bandau pradėti prioritetizuoti:
+    - [ ] `2021-09-26` bandau pradėti prioritetizavimą:
         - [x] [91bae39](https://github.com/sskras/dalykai/commit/91bae39622dc1b7e250466d5385ed76c1c7d72a9),
               perkeliu iš `Nauji` į `P1`;
         - [ ] .

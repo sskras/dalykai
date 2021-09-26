@@ -13,6 +13,8 @@
         - [ ] .
     - [ ] – Kada nusistovės buferio struktūra?
      </details>
+- [ ] 3. Pasiruošti laptopą studijoms.
+- [ ] 4. Atstatyti komunalinių paslaugų skenavimą/siuntimą.
 - [ ] X.
 
 #### P1:

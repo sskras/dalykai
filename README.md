@@ -7,7 +7,7 @@
       <details><summary><strong>Sąrašas:</strong></summary>
     - [ ] `2021-09-26 12:07` pradėjau keisti struktūrą:
         - [x] [f7f0992](https://github.com/sskras/dalykai/commit/f7f09929734572498dcf5bc10e43e55343ed03d2),
-              `P1` iškėliau į viršų;
+              `P1` sąrašą iškėliau į viršų;
         - [ ] .
     - [ ] – Kada nusistovės buferio struktūra?
      </details>
@@ -18,7 +18,7 @@
 - [x] 1. Sukurti dalykų buferį.
     - [x] 1. Padrikam/nehierarchizuotam dalykų registravimui
     - [ ] 2. Gyvenimo palengvinimui 
-- [ ] 2. Papildyti dalykų buferį:
+- [ ] 2. _Papildyti dalykų buferį._
       <details><summary><strong>Sąrašas:</strong></summary>
     - [ ] `2021-09-26 12:07` bandau grįžti prie pildymo:
         - [x] [f7f0992](https://github.com/sskras/dalykai/commit/f7f09929734572498dcf5bc10e43e55343ed03d2),
@@ -31,6 +31,13 @@
 #### Susikaupė:
 
 - [ ] 2. Skirstyti dalykus pagal prioritetus.
+      <details><summary><strong>Sąrašas:</strong></summary>
+    - [ ] `2021-09-26 12:08` bandau pradėti prioritetizuoti:
+        - [x] [91bae39](https://github.com/sskras/dalykai/commit/91bae39622dc1b7e250466d5385ed76c1c7d72a9),
+              perkeliu iš `Nauji` į `P1`;
+        - [ ] .
+    - [ ] – Kada baigsis buferio pildymas?
+     </details>
 - [ ] 3. Svarbiausiems rasti vietą medyje.
 - [ ] 4. Studijos: AutoCAD licencijos aktyvavimas.
     - [x] 1. VGTU instrukcijų AutoCAD diegimui peržiūra;

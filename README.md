@@ -3,13 +3,14 @@
 #### Nauji:
 
 - [ ] 1. Kasdien.
-- [ ] 2. Papildyti dalykų buferį.
 
 #### P1:
 
 - [x] 1. Sukurti dalykų buferį.
     - [x] 1. Padrikam/nehierarchizuotam dalykų registravimui
     - [ ] 2. Gyvenimo palengvinimui 
+- [ ] 2. Papildyti dalykų buferį:
+    - [ ] `2021-09-26 12:10` bandau sugrįžti prie pildymo (ir struktūros keitimo);
 - [ ] X.
 
 #### Susikaupė:

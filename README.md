@@ -5,12 +5,12 @@
 - [ ] 1. Kasdien.
 - [ ] 2. Keisti, tobulinti buferio struktūrą.
       <details><summary><strong>Sąrašas:</strong></summary>
-    - [ ] `2021-09-26` pradėjau keisti struktūrą:
+    - [x] `2021-09-26` pradėjau keisti struktūrą:
         - [x] [f7f0992](https://github.com/sskras/dalykai/commit/f7f09929734572498dcf5bc10e43e55343ed03d2),
               `P1` sąrašą iškėliau į viršų;
         - [x] [88fb6aa](https://github.com/sskras/dalykai/commit/88fb6aa9351737d190c23d1f461f5c502faeae1c),
               padariau detalių sąrašų suskleidimą;
-        - [ ] .
+        - [x] .
     - [ ] – Kada nusistovės buferio struktūra?
      </details>
 - [ ] 3. Pasiruošti laptopą studijoms.
@@ -25,10 +25,12 @@
     - [ ] 2. Gyvenimo palengvinimui 
 - [ ] 2. _Papildyti dalykų buferį._
       <details><summary><strong>Sąrašas:</strong></summary>
-    - [ ] `2021-09-26` bandau grįžti prie pildymo:
+    - [x] `2021-09-26` bandau grįžti prie pildymo:
         - [x] [f7f0992](https://github.com/sskras/dalykai/commit/f7f09929734572498dcf5bc10e43e55343ed03d2),
               papildoma buferio sekcija `Nauji`;
-        - [ ] .
+        - [x] [5050dc4](https://github.com/sskras/dalykai/commit/5050dc434fbb97c76f59e607405b03dcc7338ff3),
+              papildžiau laptopo tvarkymu + paslaugų skenavimi;
+        - [x] .
     - [ ] – Kada baigsis buferio pildymas?
      </details>
 - [ ] X.

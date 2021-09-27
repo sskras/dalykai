@@ -14,21 +14,21 @@
     - [ ] – Kada nusistovės buferio struktūra?
      </details>
 - [ ] 3. Pasiruošti laptopą studijoms.
-      - [ ] 1. Kiek _System_ diskų naudosiu vieną ar du?
-      - [ ] 2. Jei du (SATA SSD + NVME), kuriame verta laikyti w10 Pro, o kuriame w10 Ent?
-      - [x] 3. Diskų spartos:
-            - [ ] TODO įkopinti abi rastas.
-      - [ ] 4. Kokia tyrimo strategija?
-            - [x] . Naudokim minimalius pokyčius.
-            - [ ] . Laptopui prijunkim SATA diską.
-            - [ ] . Perkelkim w10 Pro iš NVME į SATA diską.
-            - [ ] . Atjunkim SATA diską.
-            - [ ] . Į NVME atstatykime w10 Ent (ex-darbinį) iš _Raw image_.
-            - [ ] . Jei kils iššūkių su Bitlocker, debuginkim.
-            - [ ] . Jei kils iššūkių su aktyvacija, nežinia ką daryt.
-            - [ ] . Jei w10 Ent aktyvuosis, grąžinkim w10 Pro diską.
-            - [ ] . Jei abi distros veiks, instaliuokim kokį \*nix šalia (ar net kelis: CentOS, Adelie Linux, NetBSD, OmniOS, OpenIndiana, FreeBSD).
-      - [ ] .
+- [ ] 1. Kiek _System_ diskų naudosiu vieną ar du?
+    - [ ] 2. Jei du (SATA SSD + NVME), kuriame verta laikyti w10 Pro, o kuriame w10 Ent?
+    - [x] 3. Diskų spartos:
+        - [ ] TODO įkopinti abi rastas.
+    - [ ] 4. Kokia tyrimo strategija?
+        - [x] . Naudokim minimalius pokyčius.
+        - [ ] . Laptopui prijunkim SATA diską.
+        - [ ] . Perkelkim w10 Pro iš NVME į SATA diską.
+        - [ ] . Atjunkim SATA diską.
+        - [ ] . Į NVME atstatykime w10 Ent (ex-darbinį) iš _Raw image_.
+        - [ ] . Jei kils iššūkių su Bitlocker, debuginkim.
+        - [ ] . Jei kils iššūkių su aktyvacija, nežinia ką daryt.
+        - [ ] . Jei w10 Ent aktyvuosis, grąžinkim w10 Pro diską.
+        - [ ] . Jei abi distros veiks, instaliuokim kokį \*nix šalia (ar net kelis: CentOS, Adelie Linux, NetBSD, OmniOS, OpenIndiana, FreeBSD).
+    - [ ] .
 - [ ] 4. Atstatyti komunalinių paslaugų skenavimą/siuntimą.
 - [ ] 5. Baigti aiškintis/klonuoti/iškelti [`MyPal` repozitoriją](https://github.com/Feodor2/Mypal/issues/22).
 - [ ] X.

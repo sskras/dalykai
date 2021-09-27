@@ -15,6 +15,7 @@
      </details>
 - [ ] 3. Pasiruošti laptopą studijoms.
 - [ ] 4. Atstatyti komunalinių paslaugų skenavimą/siuntimą.
+- [ ] 5. Baigti aiškintis/klonuoti/iškelti [`MyPal` repozitoriją](https://github.com/Feodor2/Mypal/issues/22).
 - [ ] X.
 
 #### P1:

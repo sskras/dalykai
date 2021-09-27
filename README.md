@@ -39,10 +39,12 @@
 
 - [ ] 2. Skirstyti dalykus pagal prioritetus.
       <details><summary><strong>Sąrašas:</strong></summary>
-    - [ ] `2021-09-26` bandau pradėti prioritetizavimą:
+    - [x] `2021-09-26` bandau pradėti prioritetizavimą:
+        - [x] [121a84a](https://github.com/sskras/dalykai/commit/121a84a8888f4ed9b4fddf4f991a27066f1711dc),
+              buferio pildymą keliu iš `Susikaupė` į `Nauji`;
         - [x] [91bae39](https://github.com/sskras/dalykai/commit/91bae39622dc1b7e250466d5385ed76c1c7d72a9),
               perkeliu iš `Nauji` į `P1`;
-        - [ ] .
+        - [x] .
     - [ ] – Kada baigsis buferio pildymas?
      </details>
 - [ ] 3. Svarbiausiems rasti vietą medyje.

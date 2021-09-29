@@ -1645,7 +1645,7 @@ Asmeninių tvarkymų medis.
                               https://github.com/webslides/webslides/
                             - [x] 1. https://webslides.tv/demos/keynote
                         - [x] X. Baigta
-                      <a id="Markdown-sintaksės-varikliai-"></a>
+                      <a id="Markdown-sintaksės-varikliai"></a>
                     - [x] 4. Markdown sintaksės varikliai:
                         - [x] 1. remark:  
                               https://remarkjs.com/

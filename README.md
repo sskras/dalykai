@@ -1590,6 +1590,7 @@ Asmeninių tvarkymų medis.
                         - [x] 1. Github Falvored Markdown (GFM)
                         - [x] 2. AsciiDoc
                         - [x] 3. ~~ReStructured Text~~
+                      <a id="Web-redaktorius"></a>
                     - [ ] 3. Web redaktorius:
                         - [x] 1. http://jbt.github.io/markdown-editor/
                         - [x] 2. https://asciidoclive.com/

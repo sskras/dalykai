@@ -2195,7 +2195,7 @@ Asmeninių tvarkymų medis.
                                     - [x] 5. Įkeliu į TECH Moodle
                                     - [x] X. Atsiskaičiau (ir gėda, ir nepasitenkinimas jau antru semestru iš eilės)
                                 - [x] X. Atsiskaityta savarankiškų pratybų skola
-                            - [x] 5. Galutinis įvertinimas, saukrs = 2*(5-5)*0.3 + 9*0.7 = 6
+                            - [x] 5. Galutinis įvertinimas, saukrs = 2\*(5-5)\*0.3 + 9\*0.7 = 6
                         - [x] X. TPKV dalykas atsiskaitytas
                     - [ ] 5. MTD2: `TODO`
                     - [ ] X. Užbaigtas s2

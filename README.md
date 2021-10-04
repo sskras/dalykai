@@ -65,6 +65,9 @@
         - [x] [cf43d9b](https://github.com/sskras/dalykai/commit/cf43d9b7f59422714bca4751750c9ad4c84061f6), papildžiau SSD diskų pasirinkimu;
         - [x] [f8b64ce](https://github.com/sskras/dalykai/commit/f8b64cefbc0c47f1fde8abb6654503ad77f3d9a0), papildžiau laukiamu bekupavimu;
         - [x] .
+    - [x] `2021-09-30` tęsiu:
+        - [x] [d00efd3](https://github.com/sskras/dalykai/commit/d00efd3c322fbe1bacd50a51a0d7b740a91fbb20), papildžiau Liteon ir Crucial M.2 SSD testų rezultatais;
+        - [x] .
     - [ ] – Kada baigsis buferio pildymas?
      </details>
 - [ ] X.

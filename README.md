@@ -60,7 +60,15 @@
         - [x] [f7f0992](https://github.com/sskras/dalykai/commit/f7f09929734572498dcf5bc10e43e55343ed03d2),
               papildoma buferio sekcija `Nauji`;
         - [x] [5050dc4](https://github.com/sskras/dalykai/commit/5050dc434fbb97c76f59e607405b03dcc7338ff3),
-              papildžiau laptopo tvarkymu + paslaugų skenavimi;
+              papildžiau laptopo tvarkymu + paslaugų skenavimu;
+        - [x] .
+    - [x] `2021-09-27` tęsiu:
+        - [x] [8e61f1a](https://github.com/sskras/dalykai/commit/8e61f1ac9b9eb04dffccc02e516d21b55eba2827),
+              papildžiau `MyPal` gelbėjimu;
+        - [x] [cf43d9b](https://github.com/sskras/dalykai/commit/cf43d9b7f59422714bca4751750c9ad4c84061f6),
+              papildžiau SSD diskų pasirinkimu;
+        - [x] [f8b64ce](https://github.com/sskras/dalykai/commit/f8b64cefbc0c47f1fde8abb6654503ad77f3d9a0),
+              papildžiau laukiamu bekupavimu;
         - [x] .
     - [ ] – Kada baigsis buferio pildymas?
      </details>

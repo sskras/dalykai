@@ -9,6 +9,10 @@
         - [x] [f7f0992](https://github.com/sskras/dalykai/commit/f7f09929734572498dcf5bc10e43e55343ed03d2), `P1` sąrašą iškėliau į viršų;
         - [x] [88fb6aa](https://github.com/sskras/dalykai/commit/88fb6aa9351737d190c23d1f461f5c502faeae1c), padariau detalių sąrašų suskleidimą;
         - [x] .
+    - [x] `2021-10-04` pradėjau keisti Source kodo stilių:
+        - [x] [dd9b27b](https://github.com/sskras/dalykai/commit/dd9b27b9b11719c31719f3c953fe3aa1d6bf5c97), atskiro pakeitimo įrašui skiriu vieną eilutę (apjungiu 2 į 1);
+        - [x] [c89225d](https://github.com/sskras/dalykai/commit/c89225d1c2bf0afbaf38506f8e2835fd8a7b4bea), atskiro pakeitimo įrašui skiriu vieną eilutę (apjungiu 2 į 1);
+        - [x] .
     - [ ] – Kada nusistovės buferio struktūra?
      </details>
 - [ ] 3. Pasiruošti laptopą studijoms.

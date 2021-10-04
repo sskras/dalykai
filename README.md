@@ -14,7 +14,7 @@
     - [ ] – Kada nusistovės buferio struktūra?
      </details>
 - [ ] 3. Pasiruošti laptopą studijoms.
-- [ ] 1. Kiek _System_ diskų naudosiu vieną ar du?
+    - [ ] 1. Kiek _System_ diskų naudosiu vieną ar du?
     - [ ] 2. Jei du (SATA SSD + NVME), kuriame verta laikyti w10 Pro, o kuriame w10 Ent?
     - [x] 3. Diskų spartos:
         - [x] 1. Liteon L8H-256V2G M.2:

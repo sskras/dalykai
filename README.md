@@ -3,38 +3,6 @@
 #### Nauji:
 
 - [ ] 1. Kasdien.
-- [ ] 3. Pasiruošti laptopą studijoms.
-    - [ ] 1. Kiek _System_ diskų naudosiu vieną ar du?
-    - [ ] 2. Jei du (SATA SSD + NVME), kuriame verta laikyti w10 Pro, o kuriame w10 Ent?
-    - [x] 3. Diskų spartos:
-        - [x] 1. Liteon L8H-256V2G M.2:
-              <details><summary><strong>Testai</strong></summary>
-            - [x] Iš interneto:
-                  http://www.notebookreview.com/notebookreview/dell-latitude-e5570-review/crystaldiskmark-liteon-l8h-256v2g-11/  \
-                  \
-                  ![Liteon L8H-256V2G M.2 iš interneto](https://lh3.googleusercontent.com/proxy/FfHKk29hpioGlgHT7Y7zRJg-FT3NAfUZSVM42jEswp0S2opn4cmT_IJwhyhFjKzr63FzHs5JDsTWIkwmyS0_-xLxs6F6JkVtdoLoFOitIdg0fLa-IuqxL2dFE68atntD-oKdACJvH6f13YkqVygyTua5H8zxo2wDKQ)
-            - [x] Mano asmeninis:  \
-                  ![Liteon L8H-256V2G M.2 mano asmeninis](https://user-images.githubusercontent.com/7887758/135439841-920ad4d1-62e0-43de-a6f3-eb32ace11bf5.png)
-             </details>
-        - [x] 2. Crucial MX500 1TB M.2:
-              <details><summary><strong>Testai</strong></summary>
-            - [x] Iš interneto: https://www.guru3d.com/articles-pages/crucial-mx500-1tb-m-2-ssd-review,16.html  \
-                  \
-                  ![Crucial MX500 1TB M.2 iš interneto](https://www.guru3d.com/index.php?ct=articles&action=file&id=26894)
-             </details>
-        - [ ] X. Diskų spartos nustatytos.
-    - [ ] 4. Kokia tyrimo strategija?
-        - [x] Naudokim minimalius pokyčius.
-        - [ ] Laptopui prijunkim SATA diską.
-        - [ ] Perkelkim w10 Pro iš NVME į SATA diską.
-        - [ ] Atjunkim SATA diską.
-        - [ ] Į NVME atstatykime w10 Ent (ex-darbinį) iš _Raw image_.
-        - [ ] Jei kils iššūkių su Bitlocker, debuginkim.
-        - [ ] Jei kils iššūkių su aktyvacija, nežinia ką daryt.
-        - [ ] Jei w10 Ent aktyvuosis, grąžinkim w10 Pro diską.
-        - [ ] Jei abi distros veiks, instaliuokim kokį \*nix šalia (ar net kelis: CentOS, Adelie Linux, NetBSD, OmniOS, OpenIndiana, FreeBSD).
-        - [ ] Pasidarykim diskų bekupą.
-    - [ ] .
 - [ ] 4. Atstatyti komunalinių paslaugų skenavimą/siuntimą.
 - [ ] 5. Baigti aiškintis/klonuoti/iškelti [`MyPal` repozitoriją](https://github.com/Feodor2/Mypal/issues/22).
 - [ ] X.
@@ -119,6 +87,38 @@
         - [x] .
     - [ ] – Kada nusistovės buferio struktūra?
      </details>
+- [ ] 9. Pasiruošti laptopą studijoms.
+    - [ ] 1. Kiek _System_ diskų naudosiu vieną ar du?
+    - [ ] 2. Jei du (SATA SSD + NVME), kuriame verta laikyti w10 Pro, o kuriame w10 Ent?
+    - [x] 3. Diskų spartos:
+        - [x] 1. Liteon L8H-256V2G M.2:
+              <details><summary><strong>Testai</strong></summary>
+            - [x] Iš interneto:
+                  http://www.notebookreview.com/notebookreview/dell-latitude-e5570-review/crystaldiskmark-liteon-l8h-256v2g-11/  \
+                  \
+                  ![Liteon L8H-256V2G M.2 iš interneto](https://lh3.googleusercontent.com/proxy/FfHKk29hpioGlgHT7Y7zRJg-FT3NAfUZSVM42jEswp0S2opn4cmT_IJwhyhFjKzr63FzHs5JDsTWIkwmyS0_-xLxs6F6JkVtdoLoFOitIdg0fLa-IuqxL2dFE68atntD-oKdACJvH6f13YkqVygyTua5H8zxo2wDKQ)
+            - [x] Mano asmeninis:  \
+                  ![Liteon L8H-256V2G M.2 mano asmeninis](https://user-images.githubusercontent.com/7887758/135439841-920ad4d1-62e0-43de-a6f3-eb32ace11bf5.png)
+             </details>
+        - [x] 2. Crucial MX500 1TB M.2:
+              <details><summary><strong>Testai</strong></summary>
+            - [x] Iš interneto: https://www.guru3d.com/articles-pages/crucial-mx500-1tb-m-2-ssd-review,16.html  \
+                  \
+                  ![Crucial MX500 1TB M.2 iš interneto](https://www.guru3d.com/index.php?ct=articles&action=file&id=26894)
+             </details>
+        - [ ] X. Diskų spartos nustatytos.
+    - [ ] 4. Kokia tyrimo strategija?
+        - [x] Naudokim minimalius pokyčius.
+        - [ ] Laptopui prijunkim SATA diską.
+        - [ ] Perkelkim w10 Pro iš NVME į SATA diską.
+        - [ ] Atjunkim SATA diską.
+        - [ ] Į NVME atstatykime w10 Ent (ex-darbinį) iš _Raw image_.
+        - [ ] Jei kils iššūkių su Bitlocker, debuginkim.
+        - [ ] Jei kils iššūkių su aktyvacija, nežinia ką daryt.
+        - [ ] Jei w10 Ent aktyvuosis, grąžinkim w10 Pro diską.
+        - [ ] Jei abi distros veiks, instaliuokim kokį \*nix šalia (ar net kelis: CentOS, Adelie Linux, NetBSD, OmniOS, OpenIndiana, FreeBSD).
+        - [ ] Pasidarykim diskų bekupą.
+    - [ ] .
 - [ ] X.
 
 ## Siekiai

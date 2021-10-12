@@ -3,8 +3,6 @@
 #### Nauji:
 
 - [ ] 1. Kasdien.
-- [ ] 4. Atstatyti komunalinių paslaugų skenavimą/siuntimą.
-- [ ] 5. Baigti aiškintis/klonuoti/iškelti [`MyPal` repozitoriją](https://github.com/Feodor2/Mypal/issues/22).
 - [ ] X.
 
 #### P1:
@@ -119,6 +117,8 @@
         - [ ] Jei abi distros veiks, instaliuokim kokį \*nix šalia (ar net kelis: CentOS, Adelie Linux, NetBSD, OmniOS, OpenIndiana, FreeBSD).
         - [ ] Pasidarykim diskų bekupą.
     - [ ] .
+- [ ] 10. Atstatyti komunalinių paslaugų skenavimą/siuntimą.
+- [ ] 11. Baigti aiškintis/klonuoti/iškelti [`MyPal` repozitoriją](https://github.com/Feodor2/Mypal/issues/22).
 - [ ] X.
 
 ## Siekiai

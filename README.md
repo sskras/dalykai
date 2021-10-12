@@ -35,8 +35,12 @@
     - [x] `2021-09-26` bandau pradėti prioritetizavimą:
         - [x] [121a84a](https://github.com/sskras/dalykai/commit/121a84a8888f4ed9b4fddf4f991a27066f1711dc), buferio pildymą keliu iš `Susikaupė` į `Nauji`;
         - [x] [91bae39](https://github.com/sskras/dalykai/commit/91bae39622dc1b7e250466d5385ed76c1c7d72a9), perkeliu iš `Nauji` į `P1`;
+    - [x] `2021-10-12` bandau tęsti prioritetizavimą:
+        - [x] [6aadebb](https://github.com/sskras/dalykai/commit/6aadebb82d18cb9c9140fe7cb0fad94baccf3318), perkeliu 1 dalyką iš `Nauji` į `Susikaupė`;
+        - [x] [1f826b3](https://github.com/sskras/dalykai/commit/1f826b3953f51e7a7fb1aad136ddfec3167fd9d3), perkeliu 1 dalyką iš `Nauji` į `Susikaupė`;
+        - [x] [63565d8](https://github.com/sskras/dalykai/commit/63565d8821e1f047d1419e120498144fcadbe9dd), perkeliu 2 dalykus iš `Nauji` į `Susikaupė`;
         - [x] .
-    - [ ] – Kada baigsis buferio pildymas?
+    - [ ] – Kada baigsis dalykų skirstymas?
      </details>
 - [ ] 3. Svarbiausiems rasti vietą medyje.
 - [ ] 4. Studijos: AutoCAD licencijos aktyvavimas.

@@ -3,12 +3,6 @@
 #### Nauji:
 
 - [ ] 1. Kasdien.
-- [ ] 2. Илья Муромец
-    - [x] 1. Restored film of 1956:
-        - [x] [Ilya Muromets (4K, fantasy, dir. Alexander Ptushko, 1956)](https://www.youtube.com/watch?v=uopfqauEz64)
-    - [ ] 2. Илья Муромец | Илья Моровлянин ?
-        - [x] https://rtvi.com/stories/pochemu-rossiya-i-ukraina-sporyat-o-proiskhozhdenii-geroya-bylin/
-    - [ ] . Išsiaiškinta apie Илья Муромец
 - [ ] X.
 
 #### P1:
@@ -128,6 +122,12 @@
     - [ ] .
 - [ ] 10. Atstatyti komunalinių paslaugų skenavimą/siuntimą.
 - [ ] 11. Baigti aiškintis/klonuoti/iškelti [`MyPal` repozitoriją](https://github.com/Feodor2/Mypal/issues/22).
+- [ ] 12. Илья Муромец
+    - [x] 1. Restored film of 1956:
+        - [x] [Ilya Muromets (4K, fantasy, dir. Alexander Ptushko, 1956)](https://www.youtube.com/watch?v=uopfqauEz64)
+    - [ ] 2. Илья Муромец | Илья Моровлянин ?
+        - [x] https://rtvi.com/stories/pochemu-rossiya-i-ukraina-sporyat-o-proiskhozhdenii-geroya-bylin/
+    - [ ] . Išsiaiškinta apie Илья Муромец
 - [ ] X.
 
 ## Siekiai

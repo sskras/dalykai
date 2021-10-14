@@ -23,6 +23,7 @@
         - [x] [d00efd3](https://github.com/sskras/dalykai/commit/d00efd3c322fbe1bacd50a51a0d7b740a91fbb20), papildžiau Liteon ir Crucial M.2 SSD testų rezultatais;
     - [x] `2021-10-14` tęsiu:
         - [x] [db2bb97](https://github.com/sskras/dalykai/commit/db2bb97c0418664458e3a39750e9278311ba4835), papildžiau Iljos Muromco filmu ir kilmės dviprasmiškumu;
+        - [x] [2756d14](https://github.com/sskras/dalykai/commit/2756d14c3d835f4f24eb3c7553abf5b7cb2f6ed0), papildžiau lietuvių įspūdžiais apie SE tvarkymasi su "pandemija";
     - [ ] – Kada baigsis buferio pildymas?
      </details>
 - [ ] X.

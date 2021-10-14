@@ -1084,6 +1084,8 @@ Asmeninių tvarkymų medis.
                         - [x] 2. https://www.anserinae.net/setting-up-a-pkgsrc-repository.html#setting-up-a-pkgsrc-repository
                     - [ ] 3. Potencialūs portai
                         - [ ] 001. https://github.com/odeke-em/drive
+                    - [ ] 4. Naudojamas Linux distribucijose ir šiose kitose OS:
+                        - [x] 1. https://github.com/Aalbus-linux/Aalbus
                     - [ ] X. Išanalizuoti `pkgsrc` + `pkgin` ir padirbėta ties jų taikymu
                 - [ ] 4. `Windows` paketų sistema
                     - [ ] 1. Diskusijos apie `ReactOS` paketų valdymą:

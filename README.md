@@ -128,6 +128,10 @@
     - [ ] 2. Илья Муромец | Илья Моровлянин ?
         - [x] https://rtvi.com/stories/pochemu-rossiya-i-ukraina-sporyat-o-proiskhozhdenii-geroya-bylin/
     - [ ] . Išsiaiškinta apie Илья Муромец
+- [ ] 13. Tvarkymasis su SARS-CoV-2:
+    - [x] 1. "Ir iš viso švedai, kiek man pasakojo mama, tai sako, yra nemandagu netgi klausti: -- Ar tu esi priėmęs tą, ar nesi?"  \
+          [Švedijoje "laisvė", tačiau visi ruošiami nelaimei...](https://www.youtube.com/watch?v=z49CFEf4uoQ&t=20m55s)
+    - [ ] .
 - [ ] X.
 
 ## Siekiai

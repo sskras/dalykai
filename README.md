@@ -133,6 +133,39 @@
     - [x] 1. "Ir iš viso švedai, kiek man pasakojo mama, tai sako, yra nemandagu netgi klausti: -- Ar tu esi priėmęs tą, ar nesi?"  \
           [Švedijoje "laisvė", tačiau visi ruošiami nelaimei...](https://www.youtube.com/watch?v=z49CFEf4uoQ&t=20m55s)
     - [ ] .
+- [x] 14. `007` reikalai
+    - [x] 1. Pasiūlymas iš _Viaplay_:  \
+        - [x] [Džeimsas Bondas sugrįžta: pamatykite visus bondiados filmus tik per „Viaplay“](https://www.lrytas.lt/zmones/tv-antena/2021/09/30/news/dzeimsas-bondas-sugrizta-pamatykite-visus-bondiados-filmus-tik-per-viaplay--20906941#:~:text=Visus%2024,per%20%E2%80%9EViaplay%E2%80%9C.)
+          > Visus 24 Džeimso Bondo filmus, o taip pat neoficialų „Niekada nesakyk niekada“, 
+          > kuriame vaidina Šonas Koneris, jau nuo 2021 m. spalio 1 d. galėsite pamatyti 
+          > per „Viaplay“.
+        - [x] Reklaminis pav.: https://media.lrytas.lt/images/2021/09/29/073527155-7c179f68-2e86-4605-8380-6741591f21d7.jpg?gen=1632901070486&type=.jpg
+        - [x] Kaina: https://viaplay.lt/#:~:text=3%20u%C5%BE%201
+          > **Viaplay Total**
+          > ---
+          > - [x] **Sportas**  \
+          >   Visi sporto pasiūlymai
+          > - [x] **Serialai**  \
+          >   Visi serialų pasiūlymai
+          > - [x] **Filmai**  \
+          >   Daugybė filmų
+          > - [x] **Vaikams**  \
+          >   Visi pasiūlymai vaikams
+          > ---
+          > 
+          > **3 už 1**
+          > 
+          > 3,33 €/mėnesį. Po to 9,99 €/mėnesį. Galite atšaukti po pirmo mėnesio.
+          >
+          > **`[ 3 mėnesiai už 1 mėnesio kainą ]`**
+        - [x] Registracija: https://checkout.viaplay.lt/register/2479676
+    - [x] 2. _Viaplay_ strymo įrašymas:
+        - [x] [Downlaod from a norwegian streaming /tv provider site](https://www.reddit.com/r/youtubedl/comments/m66ct2/downlaod_from_a_norwegian_streaming_tv_provider/#t1_gr452ww)
+          > werid · 7m
+          > 
+          > impossible to tell for sure unless you say which.
+          > i know tv2 sumo and viaplay uses widevine DRM which youtube-dl does not support.
+    - [x] . Baigta aiškintis su `007` stryminimu.
 - [ ] X.
 
 ## Siekiai

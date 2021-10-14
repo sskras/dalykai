@@ -4,7 +4,7 @@
 
 - [ ] 1. Kasdien.
 - [ ] 2. Илья Муромец
-    - [ ] 1. Restored film of 1956:
+    - [x] 1. Restored film of 1956:
         - [x] [Ilya Muromets (4K, fantasy, dir. Alexander Ptushko, 1956)](https://www.youtube.com/watch?v=uopfqauEz64)
     - [ ] 2. Илья Муромец | Илья Моровлянин ?
         - [x] https://rtvi.com/stories/pochemu-rossiya-i-ukraina-sporyat-o-proiskhozhdenii-geroya-bylin/

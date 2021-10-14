@@ -24,6 +24,7 @@
     - [x] `2021-10-14` tęsiu:
         - [x] [db2bb97](https://github.com/sskras/dalykai/commit/db2bb97c0418664458e3a39750e9278311ba4835), papildžiau Iljos Muromco filmu ir kilmės dviprasmiškumu;
         - [x] [2756d14](https://github.com/sskras/dalykai/commit/2756d14c3d835f4f24eb3c7553abf5b7cb2f6ed0), papildžiau lietuvių įspūdžiais apie SE tvarkymasi su "pandemija";
+        - [x] [e0d1d5c](https://github.com/sskras/dalykai/commit/e0d1d5c7f98117cccb8fcb233548afad03a9b13a), papildžiau `007` stryminimo per _Viaplay_ galimybėmis;
     - [ ] – Kada baigsis buferio pildymas?
      </details>
 - [ ] X.

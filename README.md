@@ -3,6 +3,19 @@
 #### Nauji:
 
 - [ ] 1. Kasdien.
+- [ ] 2. Tunelių tyrimai
+    - [ ] 1. `Wireguard`:
+        - [x] Trūkumų URL:
+            - [x] 1. [Setting up a home VPN server with WireGuard (hoegh.org)](https://news.ycombinator.com/item?id=21421365#21440132)
+              > labawi on Nov 4, 2019 [–]
+              > 
+              >  Things you can't do with wireguard (unless you use workarounds like iptables, etc):
+              > * bind a tunnel to a certain interface/ip
+              > * use same port for different tunnels (with same ip or separate iface/ip)
+              > * specify a fixed peer ip/port (or network, interface to use)
+              > * use tunnel in tunnel (with kernel implementation, unless you get creative)
+            - [x] . Surašyti trūkumų URLai
+        - [ ] . Baigtas aptarti `Wireguard`
 - [ ] X.
 
 #### P1:

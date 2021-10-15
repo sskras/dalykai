@@ -15,6 +15,24 @@
               > * specify a fixed peer ip/port (or network, interface to use)
               > * use tunnel in tunnel (with kernel implementation, unless you get creative)
             - [x] . Surašyti trūkumų URLai
+        - [ ] Trūkumai:
+            - [ ] . Išrinkti ir surašyti Wireguard trūkumai
+        - [x] Saugumo URL:
+            - [x] 1. [Palyginimas su `IPsec`](https://news.ycombinator.com/item?id=21421365#21425074):
+              > Avamander on Nov 2, 2019 [–]
+              > 
+              > IPSec is just usually an abysmal inane thing to set up, with defaults from 
+              > the 90s and an extra bonus of error messages and documentation that just make 
+              > you cuss. I don't recommend anyone IPSec, whatever it offers, after you spend 
+              > all the time making sure your configuration is good, is really not worth it 
+              > if you can do Wireguard or even OpenVPN. Ugh, I'm annoyed just thinking about 
+              > it again.
+              ---
+              > eeZah7Ux on Nov 2, 2019 [–]
+              > 
+              > Complexity is the n.1 enemy of security and IPsec is horribly complex.  \
+              > Wireguard is very lean and simple.
+            - [x] .
         - [ ] . Baigtas aptarti `Wireguard`
 - [ ] X.
 

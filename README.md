@@ -34,6 +34,15 @@
               > Wireguard is very lean and simple.
             - [x] .
         - [ ] . Baigtas aptarti `Wireguard`
+- [x] 3. _Samsung FIT Plus USB 3.1_ flash drive sparta:
+      <details open><summary><strong>Testai</strong></summary>
+    - [x] Iš interneto:
+          https://www.windowscentral.com/samsung-fit-plus-usb-flash-drive-review  \
+          \
+          ![Samsung FIT Plus iš interneto](https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2021/04/samsung-fit-plus-speed-tests.jpg)
+    - [x] Mano asmeninis:  \
+          ![**TODO** _Samsung FIT Plus_ asmeninis](https://TODO)
+     </details>
 - [ ] X.
 
 #### P1:

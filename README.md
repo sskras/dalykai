@@ -130,7 +130,7 @@
             - [x] Iš interneto:
                   http://www.notebookreview.com/notebookreview/dell-latitude-e5570-review/crystaldiskmark-liteon-l8h-256v2g-11/  \
                   \
-                  ![Liteon L8H-256V2G M.2 iš interneto](https://lh3.googleusercontent.com/proxy/FfHKk29hpioGlgHT7Y7zRJg-FT3NAfUZSVM42jEswp0S2opn4cmT_IJwhyhFjKzr63FzHs5JDsTWIkwmyS0_-xLxs6F6JkVtdoLoFOitIdg0fLa-IuqxL2dFE68atntD-oKdACJvH6f13YkqVygyTua5H8zxo2wDKQ)
+                  ![Liteon L8H-256V2G M.2 iš interneto](http://www.notebookreview.com/wp-content/uploads/sites/2/CrystalDiskMark-Liteon-L8H-256V2G-11.jpg)
             - [x] Mano asmeninis:  \
                   ![Liteon L8H-256V2G M.2 mano asmeninis](https://user-images.githubusercontent.com/7887758/135439841-920ad4d1-62e0-43de-a6f3-eb32ace11bf5.png)
              </details>

@@ -1281,6 +1281,13 @@ Asmeninių tvarkymų medis.
                               > so see which application is using the framebuffer via nvdia-smi, nvidia-smi is
                               > querying the silicon not the VM.
                               >
+                            - [x] 3. https://docs.nvidia.com/grid/10.0/grid-vgpu-user-guide/index.html#architecture-grid-vgpu
+                              > Each NVIDIA vGPU is analogous to a conventional GPU, having a fixed amount of
+                              > GPU framebuffer, and one or more virtual display outputs or “heads”. The vGPU’s
+                              > framebuffer is allocated out of the physical GPU’s framebuffer at the time the
+                              > vGPU is created, and the vGPU retains exclusive use of that framebuffer until
+                              > it is destroyed.
+                              >
                             - [ ] . Surinkti `TODO`
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu

@@ -1288,6 +1288,20 @@ Asmeninių tvarkymų medis.
                               > vGPU is created, and the vGPU retains exclusive use of that framebuffer until
                               > it is destroyed.
                               >
+                            - [x] 4. https://on-demand.gputechconf.com/gtc/2013/presentations/S3543-Accelerating-Cloud-Graphics.pdf#page=25
+                              > * NvFBC / NvIFR
+                              >   - Frame Buffer Capture (NvFBC)
+                              >   - Simple onboarding, low CCU
+                              >   - A display remote display
+                              >   - 1 OS = 1 user = 1 GPU = 1 virtual display = 1 stream
+                              >   - Orthogonal to the rest of everything that puts pixels on the screen
+                              >   - Supports multiple heads
+                              > * Inband Frame Readback (NvIFR)
+                              >   - Complex onboarding, high CCU for small games
+                              >   - Injected into apps API calls or modified apps
+                              >   - 1 OS = n users = n apps = n streams
+                              >   - Can use several GPUs mapped into OS with Dx/OpenGL affinity
+                              >
                             - [ ] . Surinkti `TODO`
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu

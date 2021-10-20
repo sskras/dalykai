@@ -1366,6 +1366,39 @@ Asmeninių tvarkymų medis.
                               > > #### Abstract
                               > > [...] The generic video option ROM notifies a generic video SMM driver of the request for video services. Such notification may be performed using a software system management interrupt (SMI). Upon notification, the generic video SMM driver notifies a third party UEFI video driver of the request for video services. The third party video driver provides the requested video services to the operating system. In this way, a third party UEFI graphics driver may support a wide variety of operating systems, even those that do not natively support the UEFI display protocols.
                               > 
+                            - [x] 9. https://01.org/igvt-g/blogs/wangbo85/2018/sharing-guest-framebuffer-host
+                              > 
+                              > ### SHARING GUEST FRAMEBUFFER WITH HOST
+                              > #### BY HONGBO WANG ON FEB 09, 2018
+                              > Author: Tina Zhang (tina.zhang@intel.com); Terrence Xu (terrence.xu@intel.com)
+                              > 
+                              > ### INTRODUCTION
+                              > Intel® GVT-g has enabled a new mechanism to directly share guest framebuffer with the host side. With this feature, host user space can directly access guest framebuffers through dma-buf interface.
+                              > 
+                              > This post aims to introduce the idea behind this feature as well as the sample usages, to help users better understand this mechanism and use it well for their projects and fancy innovations.
+                              > 
+                              > ### RENDERING GUEST FRAMEBUFFER IN HOST
+                              > 
+                            - [x] 10. https://projectacrn.github.io/1.6.1/developer-guides/hld/hld-APL_GVT-g.html
+                              >
+                              > ## GVT-g high-level design
+                              > ### Introduction
+                              > #### Purpose of this Document
+                              > This high-level design (HLD) document describes the usage requirements and high level design for Intel® Graphics Virtualization Technology for shared virtual GPU technology (GVT-g) on Apollo Lake-I SoCs.
+                              > 
+                              > [...]
+                              > 
+                              > ### Background
+                              > Intel GVT-g is an enabling technology in emerging graphics virtualization scenarios. It adopts a full GPU virtualization approach based on mediated pass-through technology, to achieve good performance, scalability and secure isolation among Virtual Machines (VMs). A virtual GPU (vGPU), with full GPU features, is presented to each VM so that a native graphics driver can run directly inside a VM.
+                              > 
+                              > Intel GVT-g technology for Apollo Lake (APL) has been implemented in open source hypervisors or Virtual Machine Monitors (VMMs):
+                              > 
+                              > * Intel GVT-g for ACRN, also known as, “AcrnGT”
+                              > * Intel GVT-g for KVM, also known as, “KVMGT”
+                              > * Intel GVT-g for Xen, also known as, “XenGT”
+                              > 
+                              > The core vGPU device model is released under BSD/MIT dual license, so it can be reused in other proprietary hypervisors.
+                              > 
                             - [ ] . Surinkti `TODO` skirti Split-screen emuliavimui sukurti.
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu

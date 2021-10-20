@@ -1399,6 +1399,16 @@ Asmeninių tvarkymų medis.
                               > 
                               > The core vGPU device model is released under BSD/MIT dual license, so it can be reused in other proprietary hypervisors.
                               > 
+                            - [x] 11. https://forums.developer.nvidia.com/t/access-current-framebuffer-from-kernel/16250/5
+                              > 
+                              > cbuchner1
+                              > Top Contributor
+                              > Apr 26 '10
+                              > 
+                              > > Actually, I want to access the framebuffer of the whole screen, and not of an object. Is that possible??
+                              > 
+                              > Well then capture the screen, send it to CUDA. There should be examples how to do this (not part of the CUDA SDK) on the Internet.
+                              > 
                             - [ ] . Surinkti `TODO` skirti Split-screen emuliavimui sukurti.
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu

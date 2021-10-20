@@ -1302,6 +1302,42 @@ Asmeninių tvarkymų medis.
                               >   - 1 OS = n users = n apps = n streams
                               >   - Can use several GPUs mapped into OS with Dx/OpenGL affinity
                               >
+                            - [x] 5. https://on-demand.gputechconf.com/gtc/2013/presentations/S3543-Accelerating-Cloud-Graphics.pdf#page=32
+                              > * If Windows is great…
+                              >   * DirectX and OpenGL games run great on our GPUs
+                              > * It can’t do more than one game fullscreen at once
+                              > * So to run several games on the same baremetal OS
+                              >   * So games they must be injected/hooked to prevent them
+                              >   
+                              > * from taking ownership of the display and preventing other
+                              >   
+                              > * games from launching/rendering
+                              >
+                            - [x] 6. https://steamcommunity.com/groups/homestream/discussions/0/451850849186356998/
+                              > 
+                              > george 15 Jan, 2016 @ 10:30pm 
+                              > 
+                              > **Explanation: NvFBC, NvIFR, NvENC**
+                              > 
+                              > Hello, I have a few questions.
+                              > 
+                              > I would like to know the difference between the NvFBC and NvIFR capture method. Is it correct that NvFBC captures the whole desktop whereas NvIFR copies the frame back buffer. How does the "Game polled" software encoder work? And why is NvENC particularly good? Isn't it just a H.264 encoder? Thank you :)
+
+                              > Kaldaieℵ₀ 17 Jan, 2016 @ 3:26am  
+                              > 
+                              > I have not licensed the appropriate NvAPI nonsense to have access to the documentation for this stuff, so this is all to the best of my understanding. Someone from VALVE can probably step-in and correct anything that I have not properly explained.
+                              > 
+                              > Your general understanding is correct. The NV* paths are low-latency capture paths to grab finished frames as soon as they become available and if all is working right pass the data off to the GPU's on-board video encoder.
+                              > 
+                              > ### NVIDIA driver-level capture paths
+                              > 
+                              > * **NVFBC**
+                              >   
+                              >   Captures the framebuffer (front buffer) without any involvement from OpenGL or Direct3D.
+                              >   
+                              >   Effectively a direct copy of the framebuffer irrespective of which application(s) drew it.
+                              >   
+                              >   It generally only works sensibly in fullscreen mode. If you render in windowed mode and use NVFBC, it is going to capture the entire screen including your desktop and other unrelated windows.
                             - [ ] . Surinkti `TODO`
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu

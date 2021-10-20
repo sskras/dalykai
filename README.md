@@ -1265,6 +1265,13 @@ Asmeninių tvarkymų medis.
                                   https://en.wikipedia.org/wiki/Reboot#Cold_vs._warm_reboot
                         - [ ] X. Baigti darbai su `kexec` VMM
                     - [ ] 4, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
+                        - [ ] `TODO`:
+                            - [x] 1. https://www.seas.upenn.edu/~cis565/LECTURES/Lecture3.pdf
+                              > **GPU Memory Model Overview GPU Memory Model Overview**
+                              > 5/27/09
+                              > 
+                              > Note: These slides do not include the NVIDIA 8-series memory model
+                            - [ ] . Surinkti `TODO`
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu
                     - [ ] 6, `Valgrind/Memcheck`-like iškėlimas į VMM/Hipervizor lygį:

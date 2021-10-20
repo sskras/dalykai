@@ -1338,7 +1338,24 @@ Asmeninių tvarkymų medis.
                               >   Effectively a direct copy of the framebuffer irrespective of which application(s) drew it.
                               >   
                               >   It generally only works sensibly in fullscreen mode. If you render in windowed mode and use NVFBC, it is going to capture the entire screen including your desktop and other unrelated windows.
-                            - [ ] . Surinkti `TODO`
+                            - [x] 7. https://dl.gi.de/bitstream/handle/20.500.12116/35786/Paper03.pdf?sequence=1&isAllowed=y
+                              > ### Developing Bare-Metal GPGPU Drivers From Scratch
+                              > ##### What prevents scientists from developing own GPGPU drivers?
+                              > 
+                              > #### 7 SUMMARY AND OUTLOOK
+                              > 
+                              > To sum up, the main cause for the lack of GPU driver developement in the scientific community is related to the
+                              > fast development of GPUs. Because of the mostly poor
+                              > documentation and the hardware complexity it takes a
+                              > lot of time and effort to develop even a special purpose
+                              > driver. Integrated Intel GPUs age not as fast as dedicated GPUs from AMD or Nvidia. Furthermore, Intels
+                              > documentation is the most useful and the GPU itself is
+                              > not as complex as a dedicated one. Therefore a driver
+                              > for Intel GPUs is feasible and may be also extendable
+                              > for newer generations. Dedicated GPUs, on the other
+                              > hand, age very fast. Even if we could develop a working
+                              > driver, it is likely to be outdated as soon as it is finshed.
+                            - [ ] . Surinkti `TODO` skirti Split-screen emuliavimui sukurti.
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu
                     - [ ] 6, `Valgrind/Memcheck`-like iškėlimas į VMM/Hipervizor lygį:

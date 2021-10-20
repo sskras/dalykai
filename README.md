@@ -1261,8 +1261,8 @@ Asmeninių tvarkymų medis.
                         - [ ] 2. Sprendimo idėjos:
                             - [x] 1. Plonas VMM dalį fizinės atminties pasiima sau ir Guestui nebeatiduoda
                             - [x] 2. Plonas VMM perima Reboot inicijavimą, jį patvirtina, bet viską padaro savaip.
-                            - [x] 3. Gal tiktų taip pavadinti _Hot-reboot_ papildant: \
-                                  https://en.wikipedia.org/wiki/Reboot#Cold_vs._warm_reboot
+                            - [x] 3. Gal tiktų taip pavadinti _Hot-reboot_ papildant
+                                  [Wiki](https://en.wikipedia.org/wiki/Reboot#Cold_vs._warm_reboot)
                         - [ ] X. Baigti darbai su `kexec` VMM
                     - [ ] 4, Split-screen emuliacija (debuginimo paraštės ekrane, VGA-para-passthrough)
                         - [ ] `TODO`:
@@ -1271,6 +1271,16 @@ Asmeninių tvarkymų medis.
                               > 5/27/09
                               > 
                               > Note: These slides do not include the NVIDIA 8-series memory model
+                              >
+                            - [x] 2. https://nvidia.custhelp.com/app/answers/detail/a_id/4108/~/monitoring-the-framebuffer-for-nvidia-grid-vgpu-and-gpu-passthrough
+                              > Using Nvidia System Management Interface (nvsmi) It is possible to monitor the 
+                              > whole physical GPU via the nvidia-smi utility within the hypervisor. However it
+                              > should be noted that nvidia-smi only lets you access metrics for the whole
+                              > physical GPU and if there are multiple VMs sharing the GPU, the results pertain
+                              > to the whole GPU and not resources used by a particular VM. It is not possible
+                              > so see which application is using the framebuffer via nvdia-smi, nvidia-smi is
+                              > querying the silicon not the VM.
+                              >
                             - [ ] . Surinkti `TODO`
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu

@@ -1355,6 +1355,17 @@ Asmeninių tvarkymų medis.
                               > for newer generations. Dedicated GPUs, on the other
                               > hand, age very fast. Even if we could develop a working
                               > driver, it is likely to be outdated as soon as it is finshed.
+                              >
+                            - [x] 8. [Does modern PC video hardware support VGA text mode in HW, or does the BIOS emulate it (with System Management Mode)?](https://stackoverflow.com/questions/61521819/does-modern-pc-video-hardware-support-vga-text-mode-in-hw-or-does-the-bios-emul)
+                              > 
+                              > What really happens on modern PC hardware booted in 16-bit legacy BIOS MBR mode when you store a byte such as '1' (0x31) into the VGA text (mode 03) framebuffer at physical linear address B8000? How slow is a mov [es:di], eax store with the MTRR for that region set to UC? (Experimental testing on one Kaby Lake iGPU laptop indicates that clflushopt on WC was roughly the same speed as UC for VGA memory. But without clflushopt, mov stores to WC memory never leave the CPU and don't update the screen at all, running super fast.)
+                              > 
+                              > [...]
+                              > 
+                              > I found Phoenix BIOS's patent US20120159520 from 2011, Emulating legacy video using uefi. Instead of requiring video hardware vendors to supply both UEFI and native 16-bit real mode option-ROM drivers, they propose a real-mode VGA driver (int 10h functions and so on) that calls a vendor-supplied UEFI video driver via SMM hooks.
+                              > > #### Abstract
+                              > > [...] The generic video option ROM notifies a generic video SMM driver of the request for video services. Such notification may be performed using a software system management interrupt (SMI). Upon notification, the generic video SMM driver notifies a third party UEFI video driver of the request for video services. The third party video driver provides the requested video services to the operating system. In this way, a third party UEFI graphics driver may support a wide variety of operating systems, even those that do not natively support the UEFI display protocols.
+                              > 
                             - [ ] . Surinkti `TODO` skirti Split-screen emuliavimui sukurti.
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu

@@ -1409,6 +1409,19 @@ Asmeninių tvarkymų medis.
                               > 
                               > Well then capture the screen, send it to CUDA. There should be examples how to do this (not part of the CUDA SDK) on the Internet.
                               > 
+                            - [x] 12. https://web.archive.org/web/20140506024658/http://www.cis.upenn.edu:80/~suvenkat/700/
+                              > 
+                              > ### CIS 700/010 (Special Topics) - GPU Programming and Architecture
+                              > Towne Heilmeier (100) TR 1:30 - 3:00 pm  \
+                              > Instructor: Suresh Venkatasubramanian  \
+                              > TA: Paul Kanyuk  \
+                              > 
+                              > This course will examine the architecture and capabilities of modern GPUs (graphics processing unit). The GPU has grown in power over recent years, to the point where many computations can be performed faster on the GPU than on a traditional CPU. GPUs have also become programmable, allowing them to be used for a diverse set of applications far removed from traditional graphics settings.
+                              > 
+                              > Topics covered will include architectural aspects of modern GPUs, with a special focus on their streaming parallel nature, writing programs on the GPU using high level languages like Cg and BrookGPU, and using the GPU for graphics and general purpose applications in the area of geometry modelling, physical simulation, scientific computing and games.
+                              > 
+                              > The course will be hands-on; there will be regular programming assignments, and students will also be expected to work on a project (most likely a larger programming endeavour, though more theoretical options will be considered). Students will be expected to have a basic understanding of computer architecture, graphics, and OpenGL.
+                              > 
                             - [ ] . Surinkti `TODO` skirti Split-screen emuliavimui sukurti.
                     - [ ] 5, `VT-x` identifikavimas (CPU palaikymas, BIOS nustatymai)
                         - [ ] 1. Galbūt integracija su egzistuojančiu kažkokius Bootable CPUID įrankiu

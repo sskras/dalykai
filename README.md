@@ -1914,7 +1914,7 @@ Asmeninių tvarkymų medis.
                         - [x] 5. WebSlides
                             - [x] 0. Homepage: https://github.com/webslides/webslides/
                             - [x] 1. https://webslides.tv/demos/keynote
-                        - [x] X. Baigta
+                        - [x] X. Baigti rinkti HTML/CSS sintaksės varikliai.
                       <a id="Markdown-sintaksės-varikliai"></a>
                     - [x] 4. Markdown sintaksės varikliai:
                         - [x] 1. remark
@@ -1931,7 +1931,7 @@ Asmeninių tvarkymų medis.
                             - [x] 0. Homepage: https://casual-effects.com/markdeep/
                             - [x] 1. https://casual-effects.com/markdeep/slides.md.html (_Paragraph Alignment_ šiaip sau)
                             - [x] 2. https://doersino.github.io/markdeep-slides/demo.md.html
-                        - [x] X. Baigta
+                        - [x] X. Baigti rinkti Markdown sintaksės varikliai
                     - [x] 5. Eksportas į `.pdf`
                         - [x] 1. https://github.com/astefanutti/decktape#examples
                         - [x] 2. https://web.marp.app/ (Print to "Save as PDF")
@@ -1941,7 +1941,7 @@ Asmeninių tvarkymų medis.
                         - [ ] 1. `BLOCKER`: [GitHub Pages mokinimasis](#GitHub-Pages-mokinimasis)
                     	- [ ] 2. GitHub pages?
                     - [ ] 8. Bandymai
-                    - [ ] X. Baigta
+                    - [ ] X. Baigtas skaidrių įrankių tvarkymas.
                 - [x] 5. Konspektams
                     - [x] 1. Talpykla = GitHub
                     - [x] 2. Formatas = Github Flavoured Markdown

@@ -1899,32 +1899,36 @@ Asmeninių tvarkymų medis.
                         - [ ] • Slidy
                         - [x] • WebSlides
                     - [x] 3. HTML/CSS sintaksės varikliai:
-                        - [x] 1. Pure CSS slides:  
-                              https://chenhuijing.com/blog/html-slides-without-frameworks/
-                        - [x] 2. W3.CSS Slideshow:
+                        - [x] 1. Pure CSS slides
+                            - [x] 0. Homepage: https://chenhuijing.com/blog/html-slides-without-frameworks/
+                        - [x] 2. W3.CSS Slideshow
                             - [x] 1. https://www.w3schools.com/w3css/w3css_slideshow.asp  
                             - [x] 2. https://www.w3schools.com/howto/howto_js_slideshow.asp
-                        - [x] 3. reveal.js:  
-                              https://revealjs.com/
+                        - [x] 3. reveal.js
+                            - [x] 0. Homepage: https://revealjs.com/
                             - [x] 1. https://huijing.github.io/slides/06-git-bomb/
                             - [x] 2. https://huijing.github.io/slides/10-tl-workshop-2/
-                        - [x] 4. Talk.CSS:  
-                              https://github.com/SingaporeCSS/talk.css
+                        - [x] 4. Talk.CSS
+                            - [x] 0. Homepage: https://github.com/SingaporeCSS/talk.css
                             - [x] 1. https://singaporecss.github.io/talk.css/
-                        - [x] 5. WebSlides:  
-                              https://github.com/webslides/webslides/
+                        - [x] 5. WebSlides
+                            - [x] 0. Homepage: https://github.com/webslides/webslides/
                             - [x] 1. https://webslides.tv/demos/keynote
                         - [x] X. Baigta
                       <a id="Markdown-sintaksės-varikliai"></a>
                     - [x] 4. Markdown sintaksės varikliai:
-                        - [x] 1. [remark](https://remarkjs.com/):
+                        - [x] 1. remark
+                            - [x] 0. Homepage: https://remarkjs.com/
                             - [x] 1. https://joshbode.github.io/remark/ansi.html
-                        - [x] 2. [marp](https://github.com/marp-team/marp):
+                        - [x] 2. marp
+                            - [x] 0. Homepage: https://github.com/marp-team/marp
                             - [x] 1. https://speakerdeck.com/yhatt/marp-basic-example
                             - [x] 2. https://marpit.marp.app/?id=how-to-use
-                        - [x] 3. [spectacle](https://formidable.com/open-source/spectacle/docs/basic-concepts/):
+                        - [x] 3. spectacle
+                            - [x] 0. Homepage: https://formidable.com/open-source/spectacle/docs/basic-concepts/
                             - [x] 1. https://raw.githack.com/FormidableLabs/spectacle/main/examples/one-page.html
-                        - [x] 4. [mark-deep](https://casual-effects.com/markdeep/):
+                        - [x] 4. mark-deep
+                            - [x] 0. Homepage: https://casual-effects.com/markdeep/
                             - [x] 1. https://casual-effects.com/markdeep/slides.md.html (_Paragraph Alignment_ šiaip sau)
                             - [x] 2. https://doersino.github.io/markdeep-slides/demo.md.html
                         - [x] X. Baigta

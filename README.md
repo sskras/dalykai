@@ -1917,15 +1917,12 @@ Asmeninių tvarkymų medis.
                         - [x] X. Baigta
                       <a id="Markdown-sintaksės-varikliai"></a>
                     - [x] 4. Markdown sintaksės varikliai:
-                        - [x] 1. remark:  
-                              https://remarkjs.com/
+                        - [x] 1. [remark](https://remarkjs.com/):
                             - [x] 1. https://joshbode.github.io/remark/ansi.html
-                        - [x] 2. marp:  
-                              https://github.com/marp-team/marp
+                        - [x] 2. [marp](https://github.com/marp-team/marp):
                             - [x] 1. https://speakerdeck.com/yhatt/marp-basic-example
                             - [x] 2. https://marpit.marp.app/?id=how-to-use
-                        - [x] 3. spectacle:  
-                              https://formidable.com/open-source/spectacle/docs/basic-concepts/
+                        - [x] 3. [spectacle](https://formidable.com/open-source/spectacle/docs/basic-concepts/):
                             - [x] 1. https://raw.githack.com/FormidableLabs/spectacle/main/examples/one-page.html
                         - [x] 4. [mark-deep](https://casual-effects.com/markdeep/):
                             - [x] 1. https://casual-effects.com/markdeep/slides.md.html (_Paragraph Alignment_ šiaip sau)

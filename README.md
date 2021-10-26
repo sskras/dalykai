@@ -1927,6 +1927,9 @@ Asmeninių tvarkymų medis.
                         - [x] 3. spectacle:  
                               https://formidable.com/open-source/spectacle/docs/basic-concepts/
                             - [x] 1. https://raw.githack.com/FormidableLabs/spectacle/main/examples/one-page.html
+                        - [x] 4. [mark-deep](https://casual-effects.com/markdeep/):
+                            - [x] 1. https://casual-effects.com/markdeep/slides.md.html (_Paragraph Alignment_ šiaip sau)
+                            - [x] 2. https://doersino.github.io/markdeep-slides/demo.md.html
                         - [x] X. Baigta
                     - [x] 5. Eksportas į `.pdf`
                         - [x] 1. https://github.com/astefanutti/decktape#examples

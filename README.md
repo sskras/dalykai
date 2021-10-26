@@ -40,8 +40,8 @@
           https://www.windowscentral.com/samsung-fit-plus-usb-flash-drive-review  \
           \
           ![Samsung FIT Plus iš interneto](https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2021/04/samsung-fit-plus-speed-tests.jpg)
-    - [x] Mano asmeninis:  \
-          ![**TODO** _Samsung FIT Plus_ asmeninis](https://user-images.githubusercontent.com/7887758/135439841-920ad4d1-62e0-43de-a6f3-eb32ace11bf5.png)
+    - [x] Tiesiogiai išmatuotas (neturiu, bet pirko `andstn`):  \
+          **TODO** (dar neišmatuotas) ![_Samsung FIT Plus_ asmeninis](https://TODO)
      </details>
 - [ ] X.
 

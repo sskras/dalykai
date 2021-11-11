@@ -101,6 +101,21 @@
         - [ ] 6. Tikrinimas naudojant Wine + Linux;
     - [ ] X. `BLOCKER:` [`LSP` iš `lsp.lt` gavimas](#-LSP--iš--lsp.lt--gavimas)
 - [ ] 5. Studijos: AutoCAD implementacijos parinkimas ir testai.
+    - [ ] 1. Kuo skiriasi versijos?
+        - [ ] TODO: sąrašėlis, kiek spėjau susirast ir peržiūrėt
+        - [ ] TODO: nuo 2021 perpaišymo f-jos jau naudoja CMT (multicore)
+        - [ ] TODO: nuo 2017(?) visos versijos puikiai veikia w10 OSe
+    - [ ] 2. Pradedu nuo naujausios, testuosiu iki seniausios:
+        - [x] 1. Naujausia versija: AutoCAD 2022
+            - [x] 1. Parsisiųsta: `09/23/2021  12:38 AM     1,845,389,944 AutoCAD_2022_English_Win_64bit_dlm.sfx.exe`
+            - [x] 2. Įdiegta `2021-11-11`
+        - [ ] 2. Senesnė oficiali: AutoCAD 2021
+        - [ ] 3. Senesnė oficiali: AutoCAD 2020
+        - [ ] 4. Seniausia oficiali: AutoCAD 2109 
+        - [ ] 5. Senesnė neoficiali: AutoCAD 2018
+            - [x] 1. Parsisiųsta iš piratų
+        - [ ] 6. Senesnė neoficiali: AutoCAD 2017
+    - [ ] X. Ištestuotos AutoCAD implementacijos (versijos) ir pasirinkta tinkamiausia.
 - [x] 6. Studijos: STUDIJŲ SUTARTIES PRIEDO pasirašymas:
     - [x] 1. Pokalbis su Dekanato administratore Daiva R. ir pasirašymo būdo derinimas;
     - [x] 2. Pasirinkau el. parašą;

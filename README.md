@@ -942,10 +942,39 @@ Asmeninių tvarkymų medis.
                     - [ ] ??, `TODO` visą sąrašą
                     - [ ] WW. iPhoneTools 0.3, http://xmailserver.org/iphone-tools.html
                     - [ ] XX. Surinkta visa Davide Libenzi programų kolekcija
+                - [ ] 12. D-ITG, Distributed Internet Traffic Generator: http://traffic.comics.unina.it/software/ITG/download.php
+                    - [x] 1. Versija D-ITG-2.3-Familiar (seniausia randama): http://traffic.comics.unina.it/software/ITG/codice/D-ITG-2.3-Familiar.zip
+                    - [x] 2. Versija D-ITG-2.8.1-r1023 (naujausia randama): http://traffic.comics.unina.it/software/ITG/codice/D-ITG-2.8.1-r1023-src.zip
+                    - [x] 3. Versija D-ITG-2.8.1-r1023-4 (alternatyvus src): https://packages.debian.org/unstable/d-itg
+                    - [x] 4. Versija D-ITG-2.7.0-Beta2 (neveikia): https://web.archive.org/web/20110403085033/http://www.grid.unina.it/software/ITG/codice/D-ITG-2.7.0-Beta2.zip
+                    - [x] 5. Versija D-ITG-2.6.1d: https://web.archive.org/web/20110403085033/http://www.grid.unina.it/software/ITG/codice/D-ITG-2.6.1d.zip
+                        - [x] Checksum: https://web.archive.org/web/20121212010732/http://traffic.comics.unina.it/software/ITG/download.php
+                    - [x] 6. Versija D-ITG-2.3:    https://web.archive.org/web/20051109071016/http://www.grid.unina.it/software/ITG/codice/D-ITG-2.3.zip
+                        - [ ] 1. Versijos iki tol, TODO: https://web.archive.org/web/20040713001605/http://www.grid.unina.it/software/ITG/download-old.html
+                        - [ ] 2. Versijos po to, TODO: https://web.archive.org/web/20120922195440/http://www.grid.unina.it/software/ITG/download.php
+                    - [x] W. Versijų sąrašas: http://traffic.comics.unina.it/software/ITG/news.php
+                        - [x] 01. December 7, 2004: The version 2.4 has been released.
+                        - [x] 02. February 19, 2005: D-ITG 2.4 GUI has been released.
+                        - [x] 03. November 7, 2005: D-ITG 2.4(02) Decoder has been updated.
+                        - [x] 04. April 16, 2006: DCCP support for D-ITG has been released here.
+                        - [x] 05. July 17, 2006: D-ITG version 2.4.3 has been released.
+                        - [x] 06. March 15, 2007: D-ITG version 2.4.4 has been released.
+                        - [x] 07. March 15, 2007: D-ITG will be at Infocom 2007 demo session !.
+                        - [x] 08. May 9, 2007: D-ITG version 2.5 "INFOCOM 2007 edition" has been released.
+                        - [x] 09. September 12, 2007: D-ITG version 2.6.1 has been released.
+                        - [x] 10. September 28, 2007: D-ITG version 2.6.1b has been released.
+                        - [x] 11. December 10, 2007: D-ITG version 2.6.1c has been released.
+                        - [x] 12. May 2, 2008: D-ITG version 2.6.1d has been released under GPLv3 license.
+                        - [x] 13. December 9, 2008: D-ITG version 2.7.0-Beta has been released.
+                        - [x] 14. May 25, 2009: D-ITG version 2.7.0-Beta2 has been released.
+                        - [x] 15. January 25, 2011: D-ITG officially added to Debian distribution (sid/unstable version).
+                        - [x] 16. August 11, 2011: D-ITG version 2.8.0-rc1 has been released.
+                        - [x] 17. July 2, 2013: D-ITG version 2.8.1 has been released.
+                    - [ ] X. Surinktos visos D-ITG versijos
                 - [ ] WW. Strategijos / teorija:
                     - [ ] 1. [Software Heritage: Why and How to Preserve Software Source Code](https://hal.archives-ouvertes.fr/hal-01590958/document)
                     - [ ] 2. [Feature: Claim Abandoned Projects #1385](https://github.com/isaacs/github/issues/1385)
-                    - [ ] 3. [On the abandonment and survival of open source projects: An empirical investigation](https://arxiv.org/abs/1906.08058)
+                    - [ ] 3. [On the abandonment and survival of open source projects:  An empirical investigation](https://arxiv.org/abs/1906.08058)
                     - [ ] 4. https://openteq.wordpress.com/2020/06/03/reviving-abandoned-open-source-projects/
                     - [ ] 5. https://openteq.wordpress.com/2019/04/25/open-source-invites-abandonment-culture/
                 - [ ] XX. Baigtas mano F/LOSS išsaugojimas

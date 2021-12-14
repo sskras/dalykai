@@ -26,7 +26,7 @@
                 - [x] 4. Pavargimas su keliomis operacijomis, kad tekstas pavirstų tinkamu `Polyline`:
                     - [x] 1. `Text`
                     - [x] 2. `Explode`
-                    - [x] 3. `Trim` 
+                    - [x] 3. `Trim`
                 - [x] 5. Poilsis, vakarienė
                 - [x] 6. 3D _Solid_-ų formavimas:
                     - [x] 1. _Extrude_
@@ -35,7 +35,7 @@
                 - [x] 8. Gauto `.dwg` failo failo prisegimas į Moodle
                     - [x] URL: https://moodle.vilniustech.lt/mod/assign/view.php?id=84697
                 - [x] 9. Įvertinimo patikrinimas: "Graded" (žalia)
-                - [x]  . Kontrolinis darbas atsiskaitytas
+                - [x]  . Kontrolinis darbas atsiskaitytas.
             - [ ] 3. Laboratoriniai darbai
                 - [ ] 1. LD1: Paprastas daiktas (pakabukas) su tekstu.
                     - [x] 1. Objekto prototipo pasirinkimas
@@ -51,11 +51,12 @@
                         - [x] 5. Ruošimasis susirasti „ausies“ matavimo įrankius
                         - [x] 6. Ruošimasis pradėt pagaliau braižyti
                         - [x] 7. Daug blokerių pakeliui (psichologinių, sveikatos ir fizinių)
-                        - [x]  . Pasiruošimai baigti
+                        - [x]  . Pasiruošimai baigti.
                     - [x] 3. Matavimo įrankio susiradimas
                         - [x] 1. Silikoninės (vaikiškos) liniuotės paieška (_andstn_)
                         - [x] 2. Pasiūlymas naudoti pigų „skaitmeninį“ slankmatį (_andstn_)
                         - [x] 3. Slankmačio fizinis pasiėmimas
+                        - [x]  . Turiu matavimo įrankį.
                     - [x] 4. Prototipo nagrinėjimas
                         - [x] 1. Išsimontavimas ir pasiėmimas (iš N2DC)
                             - [x] 1. Turbūt sugadinau LED mikropanelę
@@ -65,11 +66,13 @@
                             - [x] 1. braižyti tik kairės serverio „ausies“ priekinį „liežuvėlį“;
                             - [x] 2. sujungti 3-5 solidus į vieną;
                             - [x] 3. "hp" logotipą imti iš interneto:
-                                - [x] 1. `.svg` formatu
-                                - [x] 2. Naudoti SVG formato konverterius į PDF, DXF ar kt.
-                                - [x] 3. Naudoti _Bitmap_ kopiją iš Clipboard (ją vektorizuojant AutoCADe pačiam)
+                                - [x] 1. `.svg` formatu;
+                                - [x] 2. Naudoti SVG formato konverterius į PDF, DXF ar kt.;
+                                - [x] 3. Naudoti _Bitmap_ kopiją iš Clipboard (ją vektorizuojant AutoCADe pačiam);
+                            - [ ] 4. imti trūkstamus vaizdus (dėl sunkaus „liežuvėlio“ išardymo) iš HPE instrukcijų;
                             - [x]  . Braižymas suplanuotas.
-                        - [x]  . Išnagrinėtas prototipas
+                        - [x]  . Išnagrinėtas prototipas.
+                    - [ ] 5. `?`
                     - [ ]  . Baigtas LD1
                 - [ ] 2. LD2: Scena iš kelių elementų.
                 - [ ] 3. LD3: LD1 atlikimas su _Fusion 360_.

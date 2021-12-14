@@ -37,6 +37,30 @@
                 - [x]  .
             - [ ] 3. Laboratoriniai darbai
                 - [ ] 1. LD1: Paprastas daiktas (pakabukas) su tekstu.
+                    - [x] 1. Objekto prototipo pasirinkimas
+                        - [x] 1. Ilgai truko rasti, kas man būtų artima (iš patirties, fiziškai)
+                        - [x] 2. Pasirinkau HPE ProLiant DL360p Gen8 serverio dalį _Rack Mount Ear (right)_
+                            - [x] 1. „Ausies“ užrašo šrifto identifikavimas
+                        - [x]  . Pasirinktas braižymo objektas
+                    - [x] 2. Psichologinis ruošimasis
+                        - [x] 1. Ruošimasis susirasti tikslius serverio „ausies“ vaizdus internete
+                        - [x] 2. Ruošimasis nuvykt į N2DC ir nusifotografuoti „ausį“ (arba abi) tiesiogiai
+                        - [x] 3. Ruošimasis „ausies“ tikslių matmenų ir tikslios formos nustatymui
+                        - [x] 4. Ruošimasis nuvykt į N2DC ir išsimontuoti „ausį“ fiziškai
+                        - [x] 5. Ruošimasis susirasti „ausies“ matavimo įrankius
+                        - [x] 6. Ruošimasis pradėt pagaliau braižyti
+                        - [x] 7. Daug blokerių pakeliui (psichologinių, sveikatos ir fizinių)
+                        - [x]  . Pasiruošimai baigti
+                    - [x] 3. Matavimo įrankio susiradimas
+                        - [x] 1. Silikoninės (vaikiškos) liniuotės paieška (_andstn_)
+                        - [x] 2. Pasiūlymas naudoti pigų „skaitmeninį“ slankmatį (_andstn_)
+                        - [x] 3. Slankmačio fizinis pasiėmimas
+                    - [x] 4. Prototipo apžiūrėjimas
+                        - [x] 1. Išsimontavimas ir pasiėmimas (iš N2DC)
+                            - [x] 1. Turbūt sugadinau LED mikropanelę
+                            - [x] 2. Matyt, teks priklijuoti, kai montuosiu atgal
+                        - [x] 2. Ilgas vartymas rankose,  maigymas ir vaizdinis nagrinėjimas
+                    - [ ]  . Baigtas LD1
                 - [ ] 2. LD2: Scena iš kelių elementų.
                 - [ ] 3. LD3: LD1 atlikimas su _Fusion 360_.
                 - [ ] 4. Įvertinimų gavimas

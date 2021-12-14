@@ -56,11 +56,20 @@
                         - [x] 1. Silikoninės (vaikiškos) liniuotės paieška (_andstn_)
                         - [x] 2. Pasiūlymas naudoti pigų „skaitmeninį“ slankmatį (_andstn_)
                         - [x] 3. Slankmačio fizinis pasiėmimas
-                    - [x] 4. Prototipo apžiūrėjimas
+                    - [x] 4. Prototipo nagrinėjimas
                         - [x] 1. Išsimontavimas ir pasiėmimas (iš N2DC)
                             - [x] 1. Turbūt sugadinau LED mikropanelę
                             - [x] 2. Matyt, teks priklijuoti, kai montuosiu atgal
-                        - [x] 2. Ilgas vartymas rankose,  maigymas ir vaizdinis nagrinėjimas
+                        - [x] 2. Ilgas vartymas rankose,  maigymas ir vaizdinis tyrimas
+                        - [x] 3. Planas:
+                            - [x] 1. braižyti tik kairės serverio „ausies“ priekinį „liežuvėlį“;
+                            - [x] 2. sujungti 3-5 solidus į vieną;
+                            - [x] 3. "hp" logotipą imti iš interneto:
+                                - [x] 1. `.svg` formatu
+                                - [x] 2. Naudoti SVG formato konverterius į PDF, DXF ar kt.
+                                - [x] 3. Naudoti _Bitmap_ kopiją iš Clipboard (ją vektorizuojant AutoCADe pačiam)
+                            - [x]  . Braižymas suplanuotas.
+                        - [x]  . Išnagrinėtas prototipas
                     - [ ]  . Baigtas LD1
                 - [ ] 2. LD2: Scena iš kelių elementų.
                 - [ ] 3. LD3: LD1 atlikimas su _Fusion 360_.

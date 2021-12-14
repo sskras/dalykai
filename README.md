@@ -3,46 +3,6 @@
 #### Nauji:
 
 - [ ] 1. Kasdien.
-- [ ] 2. Tunelių tyrimai
-    - [ ] 1. `Wireguard`:
-        - [x] Trūkumų URL:
-            - [x] 1. [Setting up a home VPN server with WireGuard (hoegh.org)](https://news.ycombinator.com/item?id=21421365#21440132)
-              > labawi on Nov 4, 2019 [–]
-              > 
-              >  Things you can't do with wireguard (unless you use workarounds like iptables, etc):
-              > * bind a tunnel to a certain interface/ip
-              > * use same port for different tunnels (with same ip or separate iface/ip)
-              > * specify a fixed peer ip/port (or network, interface to use)
-              > * use tunnel in tunnel (with kernel implementation, unless you get creative)
-            - [x] . Surašyti trūkumų URLai
-        - [ ] Trūkumai:
-            - [ ] . Išrinkti ir surašyti Wireguard trūkumai
-        - [x] Saugumo URL:
-            - [x] 1. [Palyginimas su `IPsec`](https://news.ycombinator.com/item?id=21421365#21425074):
-              > Avamander on Nov 2, 2019 [–]
-              > 
-              > IPSec is just usually an abysmal inane thing to set up, with defaults from 
-              > the 90s and an extra bonus of error messages and documentation that just make 
-              > you cuss. I don't recommend anyone IPSec, whatever it offers, after you spend 
-              > all the time making sure your configuration is good, is really not worth it 
-              > if you can do Wireguard or even OpenVPN. Ugh, I'm annoyed just thinking about 
-              > it again.
-              ---
-              > eeZah7Ux on Nov 2, 2019 [–]
-              > 
-              > Complexity is the n.1 enemy of security and IPsec is horribly complex.  \
-              > Wireguard is very lean and simple.
-            - [x] .
-        - [ ] . Baigtas aptarti `Wireguard`
-- [x] 3. _Samsung FIT Plus USB 3.1_ flash drive sparta:
-      <details open><summary><strong>Testai</strong></summary>
-    - [x] Iš interneto:
-          https://www.windowscentral.com/samsung-fit-plus-usb-flash-drive-review  \
-          \
-          ![Samsung FIT Plus iš interneto](https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2021/04/samsung-fit-plus-speed-tests.jpg)
-    - [x] Tiesiogiai išmatuotas (neturiu, bet pirko `andstn`):  \
-          **TODO** (dar neišmatuotas) ![_Samsung FIT Plus_ asmeninis](https://TODO)
-     </details>
 - [ ] X.
 
 #### P1:
@@ -222,6 +182,46 @@
           > impossible to tell for sure unless you say which.
           > i know tv2 sumo and viaplay uses widevine DRM which youtube-dl does not support.
     - [x] . Baigta aiškintis su `007` stryminimu.
+- [ ] 15. Tunelių tyrimai
+    - [ ] 1. `Wireguard`:
+        - [x] Trūkumų URL:
+            - [x] 1. [Setting up a home VPN server with WireGuard (hoegh.org)](https://news.ycombinator.com/item?id=21421365#21440132)
+              > labawi on Nov 4, 2019 [–]
+              > 
+              >  Things you can't do with wireguard (unless you use workarounds like iptables, etc):
+              > * bind a tunnel to a certain interface/ip
+              > * use same port for different tunnels (with same ip or separate iface/ip)
+              > * specify a fixed peer ip/port (or network, interface to use)
+              > * use tunnel in tunnel (with kernel implementation, unless you get creative)
+            - [x] . Surašyti trūkumų URLai
+        - [ ] Trūkumai:
+            - [ ] . Išrinkti ir surašyti Wireguard trūkumai
+        - [x] Saugumo URL:
+            - [x] 1. [Palyginimas su `IPsec`](https://news.ycombinator.com/item?id=21421365#21425074):
+              > Avamander on Nov 2, 2019 [–]
+              > 
+              > IPSec is just usually an abysmal inane thing to set up, with defaults from 
+              > the 90s and an extra bonus of error messages and documentation that just make 
+              > you cuss. I don't recommend anyone IPSec, whatever it offers, after you spend 
+              > all the time making sure your configuration is good, is really not worth it 
+              > if you can do Wireguard or even OpenVPN. Ugh, I'm annoyed just thinking about 
+              > it again.
+              ---
+              > eeZah7Ux on Nov 2, 2019 [–]
+              > 
+              > Complexity is the n.1 enemy of security and IPsec is horribly complex.  \
+              > Wireguard is very lean and simple.
+            - [x] .
+        - [ ] . Baigtas aptarti `Wireguard`
+- [x] 16. _Samsung FIT Plus USB 3.1_ flash drive sparta:
+      <details open><summary><strong>Testai</strong></summary>
+    - [x] Iš interneto:
+          https://www.windowscentral.com/samsung-fit-plus-usb-flash-drive-review  \
+          \
+          ![Samsung FIT Plus iš interneto](https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge/public/field/image/2021/04/samsung-fit-plus-speed-tests.jpg)
+    - [x] Tiesiogiai išmatuotas (neturiu, bet pirko `andstn`):  \
+          **TODO** (dar neišmatuotas) ![_Samsung FIT Plus_ asmeninis](https://TODO)
+     </details>
 - [ ] X.
 
 ## Siekiai

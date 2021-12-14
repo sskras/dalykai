@@ -73,6 +73,8 @@
                                 - [x] 3. arba naudoti _Bitmap_ kopiją iš Clipboard (ją vektorizuojant AutoCADe pačiam);
                             - [x] 4. imti trūkstamus vaizdus (dėl sunkaus „liežuvėlio“ išardymo) iš HPE instrukcijų;
                             - [x]  . Braižymas suplanuotas.
+                        - [x] 4. „Liežuvėlio“ išmontavimas iš visos serverinės „ausies“.
+                        - [x] 5. Dar detalesnis „liežuvėlio“ apžiūrėjimas (iš visų pusių).
                         - [x]  . Išnagrinėtas prototipas.
                     - [ ] 5. `?`
                     - [ ]  . Baigtas LD1

@@ -22,13 +22,14 @@
                 - [ ] 3. LD3: LD1 atlikimas su _Fusion 360_.
                 - [ ] 4. Įvertinimų gavimas
                 - [ ]  . LD atlikti.
-            - [ ] 3. Namų darbai
+            - [x] 3. Kontrolinis darbas
+            - [ ] 4. Namų darbai
                 - [ ] 1. Sudėtingesnio objekto modelis ir vizualizacija.
                 - [ ] 2. Referatas: LD1 ir LD3 darbų analizė / palyginimas.
                 - [ ]  . ND atlikti
-            - [ ] 4. ND referato pristatymas
+            - [ ] 5. ND referato pristatymas
                 - [ ] 1. Įrašo darymas? (Kadangi vėluoju)
-            - [ ] 5. Įvertinimų gavimas
+            - [ ] 6. Įvertinimų gavimas
                 - [ ]  . Referatas atsiskaitytas
             - [ ] . Baigtas 3DMV kursas
         - [ ] . Baigtas s3:

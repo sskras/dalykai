@@ -16,7 +16,22 @@
                     - [x] X. ~~.mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas~~
                 - [x] 5. ~~Konspekto sudarymas~~
                 - [x] 6. Pasibaigė
-            - [x] 2. Kontrolinis darbas
+            - [x] 2. `2021-11-11` kontrolinis darbas:
+                - [x] 0. `BLOCKER:` [Studijos: AutoCAD implementacijos parinkimas ir testai.](#Studijos--AutoCAD-implementacijos-parinkimas-ir-testai).
+                - [x] 1. Avarinis AutoCAD 2022 versijos diegimas
+                    - [x] 1. Praleidžiu visus SP ar kt. naujinius
+                - [x] 2. Ekspromtiškas įrankio/GUI mokinimasis kontrolinio metu
+                - [x] 3. 2D brėžinio braižymas ir 1993-94 m. „Inžinerinės grafikos“ kursų prisiminimas
+                - [x] 4. Pavargimas su keliomis operacijomis, kad tekstas pavirstų tinkamu `Polyline`:
+                    - [x] 1. `Text`
+                    - [x] 2. `Explode`
+                    - [x] 3. `Trim` 
+                - [x] 5. Poilsis, vakarienė
+                - [x] 6. 3D _Solid_-ų formavimas: _Extrude_, _Subtract_
+                - [x] 7. Renderinimo mokinimasis, surenderinimas
+                - [x] 8. Gauto `.dwg` failo failo prisegimas į Moodle
+                    - [x] URL: https://moodle.vilniustech.lt/mod/assign/view.php?id=84697
+                - [x]  .
             - [ ] 3. Laboratoriniai darbai
                 - [ ] 1. LD1: Paprastas daiktas (pakabukas) su tekstu.
                 - [ ] 2. LD2: Scena iš kelių elementų.
@@ -94,7 +109,7 @@
         - [ ] 5. `BLOCKER:` CentOS rootfs išplėtimas;
         - [ ] 6. Tikrinimas naudojant Wine + Linux;
     - [ ] X. `BLOCKER:` [`LSP` iš `lsp.lt` gavimas](#-LSP--iš--lsp.lt--gavimas)
-  <a id="Studijos--AutoCAD-implementacijos-parinkimas-ir-testai."></a>
+  <a id="Studijos--AutoCAD-implementacijos-parinkimas-ir-testai"></a>
 - [ ] 5. Studijos: AutoCAD implementacijos parinkimas ir testai.
     - [ ] 1. Kuo skiriasi versijos?
         - [ ] TODO: sąrašėlis, kiek spėjau susirast ir peržiūrėt

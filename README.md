@@ -7,10 +7,29 @@
     - [x] 3. s3:
         - [x] 1. 3DMV: 3D modeliavimas ir vizualizavimas
             - [x] 1. Paskaitos
+                - [x] 1. Prasidėjo
+                - [x] 2. Aiškūs įrankiai (Zoom), pradžios laikas, trukmė
+                - [x] 3. Vyksta
+                - [x] 4. ~~Paskaitų peržiūra~~
+                  <a id="Paskaitu-perziura-PIPr"></a>
+                    - [x] 1. ~~`TODO` sąrašas~~
+                    - [x] X. ~~.mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas~~
+                - [x] 5. ~~Konspekto sudarymas~~
+                - [x] 6. Pasibaigė
             - [ ] 2. Laboratoriniai darbai
+                - [ ] 1. LD1: Paprastas daiktas (pakabukas) su tekstu.
+                - [ ] 2. LD2: Scena iš kelių elementų.
+                - [ ] 3. LD3: LD1 atlikimas su _Fusion 360_.
+                - [ ] 4. Įvertinimų gavimas
+                - [ ]  . LD atlikti.
             - [ ] 3. Namų darbai
+                - [ ] 1. Sudėtingesnio objekto modelis ir vizualizacija.
+                - [ ] 2. Referatas: LD1 ir LD3 darbų analizė / palyginimas.
+                - [ ]  . ND atlikti
             - [ ] 4. ND referato pristatymas
+                - [ ] 1. Įrašo darymas? (Kadangi vėluoju)
             - [ ] 5. Įvertinimų gavimas
+                - [ ]  . Referatas atsiskaitytas
             - [ ] . Baigtas 3DMV kursas
         - [ ] . Baigtas s3:
     - [ ] 3. Studijos pratęstos

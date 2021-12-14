@@ -16,10 +16,11 @@
                     - [x] X. ~~.mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas~~
                 - [x] 5. ~~Konspekto sudarymas~~
                 - [x] 6. Pasibaigė
-            - [x] 2. `2021-11-11` kontrolinis darbas:
+            - [x] 2. Kontrolinis darbas:
                 - [x] 0. `BLOCKER:` [Studijos: AutoCAD implementacijos parinkimas ir testai.](#Studijos--AutoCAD-implementacijos-parinkimas-ir-testai).
-                - [x] 1. Avarinis AutoCAD 2022 versijos diegimas
+                - [x] 1. `2021-11-11` avarinis AutoCAD 2022 versijos diegimas
                     - [x] 1. Praleidžiu visus SP ar kt. naujinius
+                    - [x] 2. Reikalauja _Reboot_
                 - [x] 2. Ekspromtiškas įrankio/GUI mokinimasis kontrolinio metu
                 - [x] 3. 2D brėžinio braižymas ir 1993-94 m. „Inžinerinės grafikos“ kursų prisiminimas
                 - [x] 4. Pavargimas su keliomis operacijomis, kad tekstas pavirstų tinkamu `Polyline`:

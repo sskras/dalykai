@@ -68,9 +68,9 @@
                             - [x] 1. braižyti tik kairės serverio „ausies“ priekinį „liežuvėlį“;
                             - [x] 2. sujungti 3-5 solidus į vieną;
                             - [x] 3. "hp" logotipą imti iš interneto:
-                                - [x] 1. `.svg` formatu;
-                                - [x] 2. Naudoti SVG formato konverterius į PDF, DXF ar kt.;
-                                - [x] 3. Naudoti _Bitmap_ kopiją iš Clipboard (ją vektorizuojant AutoCADe pačiam);
+                                - [x] 1. kaip `.svg` failą;
+                                - [x] 2. ir naudoti SVG formato konverterius į PDF, DXF ar kt.;
+                                - [x] 3. arba naudoti _Bitmap_ kopiją iš Clipboard (ją vektorizuojant AutoCADe pačiam);
                             - [x] 4. imti trūkstamus vaizdus (dėl sunkaus „liežuvėlio“ išardymo) iš HPE instrukcijų;
                             - [x]  . Braižymas suplanuotas.
                         - [x]  . Išnagrinėtas prototipas.

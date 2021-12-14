@@ -153,7 +153,7 @@
           [Švedijoje "laisvė", tačiau visi ruošiami nelaimei...](https://www.youtube.com/watch?v=z49CFEf4uoQ&t=20m55s)
     - [ ] .
 - [x] 14. `007` reikalai
-    - [x] 1. Pasiūlymas iš _Viaplay_:  \
+    - [x] 1. Pasiūlymas iš _Viaplay_:
         - [x] [Džeimsas Bondas sugrįžta: pamatykite visus bondiados filmus tik per „Viaplay“](https://www.lrytas.lt/zmones/tv-antena/2021/09/30/news/dzeimsas-bondas-sugrizta-pamatykite-visus-bondiados-filmus-tik-per-viaplay--20906941#:~:text=Visus%2024,per%20%E2%80%9EViaplay%E2%80%9C.)
           > Visus 24 Džeimso Bondo filmus, o taip pat neoficialų „Niekada nesakyk niekada“, 
           > kuriame vaidina Šonas Koneris, jau nuo 2021 m. spalio 1 d. galėsite pamatyti 
@@ -185,16 +185,17 @@
           > impossible to tell for sure unless you say which.
           > i know tv2 sumo and viaplay uses widevine DRM which youtube-dl does not support.
     - [ ] 3. Naujausia dalis _No Time to Die_:
-        - [x] 1. https://yify-movies.tv/movies/no-time-to-die-2021-juftorrent400  \
+        - [x] 1. https://yify-movies.tv/movies/no-time-to-die-2021-juftorrent400
           > Updated & Posted On : December 09, 2021 at 11:14 PM
           > 
           > Tech specs:
-          > 7.29 GB
-          > 3840*2160
-          > en
-          > Subtitles 
-          > 23.976 fps 
-          > 2hr 43 min
+          >                   \
+          > 7.29 GB           \
+          > 3840*2160         \
+          > en                \
+          > Subtitles         \
+          > 23.976 fps        \
+          > 2hr 43 min        \
           > P/S: 419 / 1,084
         - [ ] .
     - [ ] . Baigta aiškintis su `007` medija.

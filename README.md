@@ -27,7 +27,9 @@
                     - [x] 2. `Explode`
                     - [x] 3. `Trim` 
                 - [x] 5. Poilsis, vakarienė
-                - [x] 6. 3D _Solid_-ų formavimas: _Extrude_, _Subtract_
+                - [x] 6. 3D _Solid_-ų formavimas:
+                    - [x] 1. _Extrude_
+                    - [x] 2. _Subtract_
                 - [x] 7. Renderinimo mokinimasis, surenderinimas
                 - [x] 8. Gauto `.dwg` failo failo prisegimas į Moodle
                     - [x] URL: https://moodle.vilniustech.lt/mod/assign/view.php?id=84697

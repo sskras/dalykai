@@ -42,6 +42,8 @@
                         - [x] 1. Ilgai truko rasti, kas man būtų artima (iš patirties, fiziškai)
                         - [x] 2. Pasirinkau HPE ProLiant DL360p Gen8 serverio dalį _Rack Mount Ear (right)_
                             - [x] 1. „Ausies“ užrašo šrifto identifikavimas
+                                - [x] `BLOCKER:` Šriftų identifikavimo įrankių sąrašas, `TODO`
+                            - [x] 2. Šrifto tiksliai taip ir nenustačiau
                         - [x]  . Pasirinktas braižymo objektas
                     - [x] 2. Psichologinis ruošimasis
                         - [x] 1. Ruošimasis susirasti tikslius serverio „ausies“ vaizdus internete
@@ -69,7 +71,7 @@
                                 - [x] 1. `.svg` formatu;
                                 - [x] 2. Naudoti SVG formato konverterius į PDF, DXF ar kt.;
                                 - [x] 3. Naudoti _Bitmap_ kopiją iš Clipboard (ją vektorizuojant AutoCADe pačiam);
-                            - [ ] 4. imti trūkstamus vaizdus (dėl sunkaus „liežuvėlio“ išardymo) iš HPE instrukcijų;
+                            - [x] 4. imti trūkstamus vaizdus (dėl sunkaus „liežuvėlio“ išardymo) iš HPE instrukcijų;
                             - [x]  . Braižymas suplanuotas.
                         - [x]  . Išnagrinėtas prototipas.
                     - [ ] 5. `?`

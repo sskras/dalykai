@@ -34,7 +34,8 @@
                 - [x] 7. Renderinimo mokinimasis, surenderinimas
                 - [x] 8. Gauto `.dwg` failo failo prisegimas į Moodle
                     - [x] URL: https://moodle.vilniustech.lt/mod/assign/view.php?id=84697
-                - [x]  .
+                - [x] 9. Įvertinimo patikrinimas: "Graded" (žalia)
+                - [x]  . Kontrolinis darbas atsiskaitytas
             - [ ] 3. Laboratoriniai darbai
                 - [ ] 1. LD1: Paprastas daiktas (pakabukas) su tekstu.
                     - [x] 1. Objekto prototipo pasirinkimas

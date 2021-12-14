@@ -184,7 +184,20 @@
           > 
           > impossible to tell for sure unless you say which.
           > i know tv2 sumo and viaplay uses widevine DRM which youtube-dl does not support.
-    - [x] . Baigta aiškintis su `007` stryminimu.
+    - [ ] 3. Naujausia dalis _No Time to Die_:
+        - [x] 1. https://yify-movies.tv/movies/no-time-to-die-2021-juftorrent400  \
+          > Updated & Posted On : December 09, 2021 at 11:14 PM
+          > 
+          > Tech specs:
+          > 7.29 GB
+          > 3840*2160
+          > en
+          > Subtitles 
+          > 23.976 fps 
+          > 2hr 43 min
+          > P/S: 419 / 1,084
+        - [ ] .
+    - [ ] . Baigta aiškintis su `007` medija.
 - [ ] 15. Tunelių tyrimai
     - [ ] 1. `Wireguard`:
         - [x] Trūkumų URL:

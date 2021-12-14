@@ -2349,7 +2349,7 @@ Asmeninių tvarkymų medis.
                                 - [x] 2. Video sudėlioti
                                 - [x] 3. Maža dalis peržiūrėta
                                 - [x] 4. .mp4 pavadinimų (ir poskyrių Relative laikų) sužymėjimas
-                                - [x] X. Baigta TPKV įrašų peržiūra
+                                - [x] X. Baigta ISAd įrašų peržiūra
                             - [x] 6. Pasibaigė
                         - [x] 2. Namų darbai – Linux komandos/pasistemės pristatymas
                             - [x] 1. Parinkta tema: `/proc` FS

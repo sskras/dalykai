@@ -6,6 +6,11 @@
 - [ ] 2. Studijų tęsimas:
     - [x] 3. s3:
         - [x] 1. 3DMV: 3D modeliavimas ir vizualizavimas
+            - [x] 1. Paskaitos
+            - [ ] 2. Laboratoriniai darbai
+            - [ ] 3. Namų darbai
+            - [ ] 4. ND referato pristatymas
+            - [ ] 5. Įvertinimų gavimas
             - [ ] . Baigtas 3DMV kursas
         - [ ] . Baigtas s3:
     - [ ] 3. Studijos pratęstos

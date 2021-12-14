@@ -3,6 +3,12 @@
 #### Nauji:
 
 - [ ] 1. Kasdien.
+- [ ] 2. Studijų tęsimas:
+    - [x] 3. s3:
+        - [x] 1. 3DMV: 3D modeliavimas ir vizualizavimas
+            - [ ] . Baigtas 3DMV kursas
+        - [ ] . Baigtas s3:
+    - [ ] 3. Studijos pratęstos
 - [ ] X.
 
 #### P1:

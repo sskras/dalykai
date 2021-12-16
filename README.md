@@ -64,7 +64,7 @@
                             - [x] 1. Turbūt sugadinau LED mikropanelę
                             - [x] 2. Matyt, teks priklijuoti, kai montuosiu atgal
                         - [x] 2. Ilgas vartymas rankose,  maigymas ir vaizdinis tyrimas
-                        - [x] 3. Planas:
+                        - [x] 3. Veiksmų planas:
                             - [x] 1. braižyti tik kairės serverio „ausies“ priekinį „liežuvėlį“;
                             - [x] 2. sujungti 3-5 solidus į vieną;
                             - [x] 3. "hp" logotipą imti iš interneto:
@@ -76,7 +76,29 @@
                         - [x] 4. „Liežuvėlio“ išmontavimas iš visos serverinės „ausies“.
                         - [x] 5. Dar detalesnis „liežuvėlio“ apžiūrėjimas (iš visų pusių).
                         - [x]  . Išnagrinėtas prototipas.
-                    - [ ] 5. `?`
+                    - [ ] 5. Detalesnis „liežuvėlio“ modeliavimo planas:
+                        - [ ] 1. L-formos priekinės dalies braižymas
+                        - [ ] 2. Galinės „auselės“ monolito braižymas + ištempimas į storį
+                        - [ ] 3. 2x2 kiaurymių vyriams išpjovimas
+                        - [ ] 4. Šio monolito išpjaustymas iki dviejų plonų „auselių“ ir skersinio sutvirtinančio sluoksnio
+                        - [ ] 5. „Auselių“ išsikišančio pado pastorinimas dešinėje
+                        - [ ] 6. Plati cilindrinė nuopjova išilgai pado (iki pat „auselių“)
+                        - [ ] 7. Sklandus 3D perėjimas nuo auselių krašto iki pado nuopjovos paviršiaus (kaip?)
+                        - [ ] 8. Skersinės pagilintos išpjovos likusiame pade
+                        - [ ] 9. Tekstas dugne tarp auselių
+                        - [ ] 10. Galbūt `(B)` įspaudas šalia teksto (apačios kairėje)
+                        - [ ] 11. _`hp`_ logotipo įkėlimas ir perbraižymas
+                        - [ ] 12. Išpjova etiketei priekinėje L-dalyje
+                        - [ ] 13. Etiketės modeliavimas (kartu su užrašu "ProLiant DL360p Gen8")
+                        - [ ] 14. Etiketės įtūpdymas į priekinę L-dalį
+                        - [ ] 15. Priekinės L-dalies ir galinių „auselių“ konstrukcijų sujungimas
+                        - [ ] 16. Statmenų išorinių kampų suapvalinimas
+                            - [ ] `Fillet` ?
+                        - [ ] 17. Statmenų vidinių kampų suapvalinimas 
+                            - [ ] Turbūt papildomų solidų braižymas ir prijungimas ?
+                        - [ ] 18. Galbūt „auselių“ ašies nubraižymas
+                            - [ ] Kiek detalus, dar nenuspręsta
+                        - [ ] 19. Galutinė apžiūra ir pataisymai, jei reikalingi
                     - [ ]  . Baigtas LD1
                 - [ ] 2. LD2: Scena iš kelių elementų.
                 - [ ] 3. LD3: LD1 atlikimas su _Fusion 360_.

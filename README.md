@@ -76,7 +76,14 @@
                         - [x] 4. „Liežuvėlio“ išmontavimas iš visos serverinės „ausies“.
                         - [x] 5. Dar detalesnis „liežuvėlio“ apžiūrėjimas (iš visų pusių).
                         - [x]  . Išnagrinėtas prototipas.
-                    - [ ] 5. Detalesnis „liežuvėlio“ modeliavimo planas:
+                    - [x] 5. AutoCAD versijos naujinimas nuo "Vanilla" iki "2022.1.1"
+                        - [ ] 0. Atsistačiau pamirštą AutoCAD paskyros slaptažodį
+                        - [x] 1. Pasitikrinau Online būdu, per _Autodesk Desktop App_
+                        - [x] 2. Parodė: [_AutoCAD v2022.1.1 Update 64-bit_ (663.7 MB)](https://help.autodesk.com/view/ACD/2022/ENU/?guid=AUTOCAD_2022_1_1_FIXED_ISSUES)
+                        - [x] 3. Pasirinkau _Offline_ kelią:
+                            - [x] Startavau seniau parsisiųstą failą `AutoCAD_2022.1.1_Update.exe`
+                        - [x]  . AutoCAD atnaujintas.
+                    - [ ] 6. Detalesnis „liežuvėlio“ modeliavimo planas:
                         - [ ] 1. L-formos priekinės dalies braižymas
                         - [ ] 2. Galinės „auselės“ monolito braižymas + ištempimas į storį
                         - [ ] 3. 2x2 kiaurymių vyriams išpjovimas

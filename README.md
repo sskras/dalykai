@@ -1306,11 +1306,13 @@ Asmeninių tvarkymų medis.
                     - [ ] 3. Potencialūs portai
                         - [ ] 001. https://github.com/odeke-em/drive
                     - [ ] 4. Naudojamas Linux distribucijose ir šiose kitose OS:
-                        - [x] 1. (Still live) https://github.com/Aalbus-linux/Aalbus (NetBSD-based?)
+                        - [x] 1. (Still active) https://github.com/Aalbus-linux/Aalbus (NetBSD-based?)
                         - [x] 2. (2008-06-11) https://distrowatch.com/table.php?distribution=voltalinux (Slackware-based)
                         - [x] 3. (2012-10-08) https://distrowatch.com/table.php?distribution=draco + emails (Slackware-based)
                         - [x] 4. (2006-05-28) https://distrowatch.com/table.php?distribution=bluewall (Debian-based)  \
                                  https://web.archive.org/web/20070709213115/http://bluewall.es.gnu.org/
+                        - [x] 5. (2020-12-19) https://capricelinux.org/faq/ (Debian-based)  \
+                                 https://web.archive.org/web/20200727034726/http://wiki.capricelinux.org/doku.php?id=hitchhiker_guide_pkgsrc
                         - [x] . Surašytos Linux distros, naudojančios _pkgsrc / pkgin_
                     - [ ] X. Išanalizuoti `pkgsrc` + `pkgin` ir padirbėta ties jų taikymu
                 - [ ] 4. `Windows` paketų sistema

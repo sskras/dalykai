@@ -1307,13 +1307,27 @@ Asmeninių tvarkymų medis.
                         - [ ] 001. https://github.com/odeke-em/drive
                     - [ ] 4. Naudojamas Linux distribucijose ir šiose kitose OS:
                         - [x] 1. (Still active) https://github.com/Aalbus-linux/Aalbus (NetBSD-based?)
-                        - [x] 2. (2008-06-11) https://distrowatch.com/table.php?distribution=voltalinux (Slackware-based)
-                        - [x] 3. (2012-10-08) https://distrowatch.com/table.php?distribution=draco + emails (Slackware-based)
+                        - [x] 2. (2008-06-11) https://distrowatch.com/table.php?distribution=voltalinux (Slackware-based)  \
+                                 https://web.archive.org/web/20070505024101/http://linux.med.unifi.it:80/voltalinux/  \
+                                 http://chomikuj.pl/Kot_Maciek/Linux/voltalinux2.0,3552827538.iso(archive)
+                        - [x] 3. (2012-10-08) https://distrowatch.com/table.php?distribution=draco + emails (Slackware-based)  \
+                                 https://code.google.com/archive/p/dracolinux/downloads
                         - [x] 4. (2006-05-28) https://distrowatch.com/table.php?distribution=bluewall (Debian-based)  \
                                  https://web.archive.org/web/20070709213115/http://bluewall.es.gnu.org/
                         - [x] 5. (2020-12-19) https://capricelinux.org/faq/ (Debian-based)  \
                                  https://web.archive.org/web/20200727034726/http://wiki.capricelinux.org/doku.php?id=hitchhiker_guide_pkgsrc
+                        - [x] 6. (2014?04-03) https://kaashif.co.uk/2014/04/03/creating-a-gnu-linux-distro/ (FreeBSD-based?) "kaashif Linux"
                         - [x] . Surašytos Linux distros, naudojančios _pkgsrc / pkgin_
+                    - [ ] 5. Naudojamas čia kaip antrinis paketų valdiklis
+                        - [x] 1. https://github.com/agjohnson/ohess-blog/blob/master/pub/using-pkgsrc-on-centos-55.rst
+                        - [x] 2. https://github.com/agjohnson/ohess-blog/blob/master/pub/using-pkgsrc-on-debian-squeeze.rst
+                        - [x] 3. https://docs.huihoo.com/netbsd/pkgsrc/platforms.html#linux
+                        - [x] 4. https://www.linuxquestions.org/questions/slackware-14/pkgsrc-and-slackware-14-2-a-4175679203/
+                        - [x] 5. https://opensource.com/article/19/11/pkgsrc-netbsd-linux
+                        - [x] 6. https://gist.github.com/dewaka/1bc7eea1844855356f9d0a1bc14cf032
+                        - [x] 7. https://github.com/justincormack/alpine-pkgsrc
+                        - [x] 8. https://www.reddit.com/r/linux/comments/7b13x7/pkgsrc_on_linux_worth_it/
+                        - [x] 9. [HackerNews on: Using NetBSD’s pkgsrc everywhere I can](https://news.ycombinator.com/item?id=27294114)
                     - [ ] X. Išanalizuoti `pkgsrc` + `pkgin` ir padirbėta ties jų taikymu
                 - [ ] 4. `Windows` paketų sistema
                     - [ ] 1. Diskusijos apie `ReactOS` paketų valdymą:

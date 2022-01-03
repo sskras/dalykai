@@ -1306,7 +1306,7 @@ Asmeninių tvarkymų medis.
                     - [ ] 3. Potencialūs portai
                         - [ ] 001. https://github.com/odeke-em/drive
                     - [ ] 4. Naudojamas Linux distribucijose ir šiose kitose OS:
-                        - [x] 1. (Still active) https://github.com/Aalbus-linux/Aalbus (NetBSD-based?)
+                        - [x] 1. (Still active) https://github.com/Aalbus-linux/Aalbus (Gentoo + NetBSD-based)
                         - [x] 2. (2008-06-11) https://distrowatch.com/table.php?distribution=voltalinux (Slackware-based)  \
                                  https://web.archive.org/web/20070505024101/http://linux.med.unifi.it:80/voltalinux/  \
                                  http://chomikuj.pl/Kot_Maciek/Linux/voltalinux2.0,3552827538.iso(archive)

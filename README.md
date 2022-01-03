@@ -122,6 +122,19 @@
             - [ ] . Baigtas 3DMV kursas
         - [ ] . Baigtas s3:
     - [ ] 3. Studijos pratęstos
+- [x] 3. Android root-access
+    - [ ] 1. Exploit radimas
+        - [x] https://gist.github.com/Arinerron/0e99d69d70a778ca13a0087fa6fdfd80
+    - [ ] 2. Android NDK diegimas
+        - [x] 0. URL: https://developer.android.com/ndk/guides#download-ndk
+        - [ ] 1. Per `scoop`? 
+        - [ ] 2. Per MSYS2?
+        - [ ] 3. Tiesiogiai?
+    - [ ] 3. Deployment skripto taisymas
+    - [ ] 4. Kompiliavimas
+    - [ ] 5. `ADB` iš NDK įsijungimas?
+    - [ ] 6. Supušinimas į telefoną
+    - [ ] 7. Testai
 - [ ] X.
 
 #### P1:

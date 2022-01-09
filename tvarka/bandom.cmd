@@ -3,20 +3,20 @@
 :
 :<<BATCH
     : --- Windows ---
-
     @echo off
+
     echo %PATH%
     echo.
-    : exit /b
-
-    goto ------Fin------
+    echo Darbas baigtas
+    exit /b
 BATCH
 
 : --- *nix OS ---
 
 echo $PATH
 echo
-# exit
+echo Darbas baigtas
+exit
 
 : ------Fin------
 echo Darbas baigtas

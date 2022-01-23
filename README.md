@@ -6,6 +6,7 @@
 - [ ] 2. Studijų tęsimas:
     - [x] 3. s3:
         - [x] 1. 3DMV: 3D modeliavimas ir vizualizavimas
+              <details><summary><strong>Sąrašas:</strong></summary>
             - [x] 1. Paskaitos
                 - [x] 1. Prasidėjo
                 - [x] 2. Aiškūs įrankiai (Zoom), pradžios laikas, trukmė
@@ -120,6 +121,7 @@
             - [ ] 6. Įvertinimų gavimas
                 - [ ]  . Referatas atsiskaitytas
             - [ ] . Baigtas 3DMV kursas
+             </details>
         - [ ] . Baigtas s3:
     - [ ] 3. Studijos pratęstos
 - [x] 3. Android root-access
@@ -136,6 +138,7 @@
     - [ ] 6. Supušinimas į telefoną
     - [ ] 7. Testai
 - [ ] 4. _coLinux_ stuff
+      <details><summary><strong>Sąrašas:</strong></summary>
     - [ ] 1. Intro
         - [ ] Run old Windows host + old Linux guest + test the combo.
         - [ ] Get used to the boot and configuration.
@@ -207,6 +210,7 @@
         - [ ] Research doing SMP ?
         - [ ] Done _coLinux_ R'n'D.
     - [ ] Done _coLinux_ stuff in general.
+     </details>
 - [ ] X.
 
 #### P1:

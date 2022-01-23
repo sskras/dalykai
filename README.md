@@ -145,10 +145,37 @@
     - [ ] 2. R'n'D
         - [ ] Draw diagrams / document coLinux architecture properly.
         - [ ] Try porting guest drivers to newer Linux kernel (incrementally).
-        - [ ] Try using `virtio-blk` instead of `cobd`.
+        - [ ] Try using `virtio-blk` instead of `cobd`:
             - [x] https://www.qemu.org/2021/01/19/virtio-blk-scsi-configuration/
-        - [ ] Try using `virtio-
-        - [ ] Try booting Linux kernel directly to reduce manual interaction on Host side:
+        - [ ] Try using `virtio-console` instead of `cocon`:
+            - [x] https://cateee.net/lkddb/web-lkddb/VIRTIO_CONSOLE.html
+            - [x] https://projectacrn.github.io/latest/developer-guides/hld/virtio-console.html
+            - [x] https://fedoraproject.org/wiki/Features/VirtioSerial
+        - [ ] Try using `virtio-9p-*` instead of `cofs`:
+            - [x] `virtio-9p-device`: https://wiki.qemu.org/Documentation/9psetup
+            - [x] `virtio-9p-pci`: https://github.com/virtio-win/kvm-guest-drivers-windows/issues/126
+            - [ ] "9p works from OSes other than Linux; there's a driver for Windows as well.
+                  That said, it will likely always work best in Linux.
+                  Unfortunately, even over virtio, 9p has awful performance."
+                - [x] https://news.ycombinator.com/item?id=8851428#8852259
+            - [ ] .
+        - [ ] Try using `virtio-fs` instead of `cofs`:
+            - [x] https://virtio-fs.gitlab.io/
+            - [x] [https://www.openampproject.org/docs/blogs/HypervisorlessVirtioBlog_Feb2021.pdf#page=3](https://lkml.org/lkml/2018/12/10/615)
+            - [x] https://www.reddit.com/r/VFIO/comments/i12uyn/virtiofs_is_amazing_plus_how_i_set_it_up/
+            - [x] https://www.phoronix.com/forums/forum/software/distributions/1173793-virtio-fs-support-is-in-qemu-5-0-for-better-file-folder-sharing-between-hosts-and-vms
+            - [x] https://news.ycombinator.com/item?id=22876237
+                - [x] https://github.com/microsoft/WSL/issues/4197#issuecomment-604592340
+                - [x] https://github.com/microsoft/WSL/issues/3865#issuecomment-490630559
+            - [x] Might be doable only on _ReactOS_, it seems.
+            - [ ] `virtio-fs` architecture:
+                - [x] https://www.programmerall.com/article/48201470955/
+                - [x] https://kernel.taobao.org/2019/11/virtio-fs-intro-and-perf-optimize/
+                - [x] https://www.openampproject.org/docs/blogs/HypervisorlessVirtioBlog_Feb2021.pdf#page=3
+            - [x] https://github.com/kata-containers/documentation/blob/master/how-to/how-to-use-virtio-fs-with-kata.md#introduction
+        - [ ] Try booting Linux kernel directly:
+            - [ ] To reduce manual interaction on Host side:
+                - [x] https://colinux.fandom.com/wiki/FAQ#Q29.2_Debian_apt-update_-_DO_NOT_believe_everything_you_read_.21
             - [ ] Use the `bootinfoscript` to detect the booloader config files:
                 - [x] https://github.com/arvidjaar/bootinfoscript
             - [ ] Rewrite it in Zig as `bootinfo`?

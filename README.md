@@ -144,7 +144,11 @@
         - [ ] Build the host for driver (and userland) for ReactOS ?
     - [ ] 2. R'n'D
         - [ ] Draw diagrams / document coLinux architecture properly.
+        - [ ] Contact developers ?
+            - [x] http://www.colinux.org/?section=devteam
         - [ ] Try porting guest drivers to newer Linux kernel (incrementally).
+        - [ ] Research the use of `virtio` in general:
+            - [x] https://projectacrn.github.io/2.0/developer-guides/hld/hld-virtio-devices.html#virtio-introduction
         - [ ] Try using `virtio-blk` instead of `cobd`:
             - [x] https://www.qemu.org/2021/01/19/virtio-blk-scsi-configuration/
         - [ ] Try using `virtio-console` instead of `cocon`:
@@ -173,6 +177,15 @@
                 - [x] https://kernel.taobao.org/2019/11/virtio-fs-intro-and-perf-optimize/
                 - [x] https://www.openampproject.org/docs/blogs/HypervisorlessVirtioBlog_Feb2021.pdf#page=3
             - [x] https://github.com/kata-containers/documentation/blob/master/how-to/how-to-use-virtio-fs-with-kata.md#introduction
+        - [ ] Try using `virtio-net` instead of SLIRP, TAP, WinPCAP drivers maybe ?
+            - [x] https://wiki.qemu.org/Documentation/Networking#User_Networking_.28SLIRP.29
+            - [ ] "vhost-net = backend component: host side of the VIRTIO interface":
+                - [x] https://rafaeldtinoco.com/security/qemu-security#:~:text=1.d.2%2D)-,virtio%2Dnet%20%3C%3D%3E%20vhost%2Dnet
+            - [x] https://www.cnblogs.com/allcloud/p/7808074.html
+            - [x] https://stackoverflow.com/questions/65550766/confusion-about-virtio-net-pci-and-virtio-net-in-qemu/65571268#65571268
+            - [x] https://colinux.fandom.com/wiki/Network#Introduction
+            - [x] https://www.redhat.com/en/blog/introduction-virtio-networking-and-vhost-net
+            - [x] https://www.redhat.com/en/blog/deep-dive-virtio-networking-and-vhost-net
         - [ ] Try booting Linux kernel directly:
             - [ ] To reduce manual interaction on Host side:
                 - [x] https://colinux.fandom.com/wiki/FAQ#Q29.2_Debian_apt-update_-_DO_NOT_believe_everything_you_read_.21

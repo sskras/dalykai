@@ -135,6 +135,38 @@
     - [ ] 5. `ADB` iš NDK įsijungimas?
     - [ ] 6. Supušinimas į telefoną
     - [ ] 7. Testai
+- [ ] 4. _coLinux_ stuff
+    - [ ] 1. Intro
+        - [ ] Run old Windows host + old Linux guest + test the combo.
+        - [ ] Get used to the boot and configuration.
+        - [ ] Rebuild the guest drivers for old Linux kernel.
+        - [ ] Rebuild the host software for XP.
+        - [ ] Build the host for driver (and userland) for ReactOS ?
+    - [ ] 2. R'n'D
+        - [ ] Draw diagrams / document coLinux architecture properly.
+        - [ ] Try porting guest drivers to newer Linux kernel (incrementally).
+        - [ ] Try using `virtio-blk` instead of `cobd`.
+            - [x] https://www.qemu.org/2021/01/19/virtio-blk-scsi-configuration/
+        - [ ] Try using `virtio-
+        - [ ] Try booting Linux kernel directly to reduce manual interaction on Host side:
+            - [ ] Use the `bootinfoscript` to detect the booloader config files:
+                - [x] https://github.com/arvidjaar/bootinfoscript
+            - [ ] Rewrite it in Zig as `bootinfo`?
+            - [ ] Parse the files to extract the image names, their order and initRDs.
+            - [ ] Research booting kernel image directly:
+                - [x] https://superuser.com/questions/415429/how-to-boot-linux-kernel-without-bootloader
+                - [ ] Maybe use _EFI boot stub_ if possible:
+                    - [x] https://www.kernel.org/doc/html/latest/admin-guide/efi-stub.html
+                    - [x] https://wiki.archlinux.org/title/EFISTUB
+                - [ ] Rewrite the bootloading part of Linux kernel:
+                    - [x] https://elinux.org/images/7/7b/LinuxWithoutABootLoader.pdf
+                - [ ] Load the files directly as in `qemu`:
+                    - [x] https://unix.stackexchange.com/questions/47619/load-linux-bzimage-in-qemu/47622#47622
+                - [ ] Done researching direct kernel boot.
+            - [ ] Finished testing direct kernel boot.
+        - [ ] Research doing SMP ?
+        - [ ] Done _coLinux_ R'n'D.
+    - [ ] Done _coLinux_ stuff in general.
 - [ ] X.
 
 #### P1:

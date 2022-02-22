@@ -7,7 +7,6 @@
     - [x] 3. s3:
         - [x] 1. 3DMV: 3D modeliavimas ir vizualizavimas
               <details><summary><strong>Sąrašas:</strong></summary>
-            - [x] 1. Paskaitos
                 - [x] 1. Prasidėjo
                 - [x] 2. Aiškūs įrankiai (Zoom), pradžios laikas, trukmė
                 - [x] 3. Vyksta
@@ -2112,6 +2111,7 @@ Asmeninių tvarkymų medis.
                             - [ ] 1. VisualGDB, https://visualgdb.com/
                         - [ ] 05. Tuneliai
                             - [ ] 1. UDP Tunnel .Net, https://sourceforge.net/projects/udptunnelnet/
+                            - [ ] 2. Proxifier, http://www.proxifier.com/screenshots/
                         - [ ] XX. Surinkti _Win32_ testavimo atvejai
                     - [ ] 2. Išoriniai diskai
                         - [ ] 1. `TODO` su unikaliais, specializuotais Win32 softais, ypač Kernel-mode draiveriais

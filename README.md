@@ -211,6 +211,28 @@
         - [ ] Done _coLinux_ R'n'D.
     - [ ] Done _coLinux_ stuff in general.
      </details>
+- [ ] 5. Tunnel over **https**:
+    - [ ] https://stackoverflow.com/questions/181341/tunnel-over-https
+        - [ ] https://daniel.haxx.se/docs/sshproxy.html
+        - [ ] stunnel (SSL but no https): https://blog.chmd.fr/ssh-over-ssl-episode-3-avoiding-using-a-patched-apache.html
+        - [ ] https://proxytunnel.sourceforge.io/
+    - [ ] https://stackoverflow.com/questions/14080845/tunnel-any-kind-of-tcp-traffic-through-http-s
+        - [ ] https://sourceforge.net/projects/sshh/
+    - [ ] https://sourceforge.net/projects/desproxy/
+    - [ ] https://sourceforge.net/projects/midorisocsk/
+    - [ ] https://sourceforge.net/projects/htsneak/
+    - [ ] https://sourceforge.net/projects/httpsmuggler/
+    - [ ] https://sourceforge.net/projects/http-tunnel/
+    - [ ] https://github.com/proxytunnel/proxytunnel !
+    - [ ] https://sourceforge.net/projects/webtunnel/
+    - [ ] https://sourceforge.net/projects/proxifier/ !
+    - [ ] https://sourceforge.net/projects/tunnelizer/
+    - [ ] https://sourceforge.net/projects/proxychains/ !
+    - [ ] 
+- [ ] 6. Remote access software to account sessions time:
+    - [ ] https://control.connectwise.com/support/trial
+- [ ] 7. MPTCP tyrimui:
+    - [ ] https://sourceforge.net/projects/comcast.mirror/
 - [ ] X.
 
 #### P1:
@@ -2088,6 +2110,8 @@ Asmeninių tvarkymų medis.
                             - [x] 2. Firefox v45 - No SSE2 Edition, http://retrosystemsrevival.blogspot.com/2019/05/firefox-no-sse2-edition.html
                         - [ ] 04. Debugeriai
                             - [ ] 1. VisualGDB, https://visualgdb.com/
+                        - [ ] 05. Tuneliai
+                            - [ ] 1. UDP Tunnel .Net, https://sourceforge.net/projects/udptunnelnet/
                         - [ ] XX. Surinkti _Win32_ testavimo atvejai
                     - [ ] 2. Išoriniai diskai
                         - [ ] 1. `TODO` su unikaliais, specializuotais Win32 softais, ypač Kernel-mode draiveriais

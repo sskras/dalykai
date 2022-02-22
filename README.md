@@ -7,6 +7,7 @@
     - [x] 3. s3:
         - [x] 1. 3DMV: 3D modeliavimas ir vizualizavimas
               <details><summary><strong>Sąrašas:</strong></summary>
+            - [x] 1. Paskaitos
                 - [x] 1. Prasidėjo
                 - [x] 2. Aiškūs įrankiai (Zoom), pradžios laikas, trukmė
                 - [x] 3. Vyksta

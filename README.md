@@ -212,6 +212,7 @@
     - [ ] Done _coLinux_ stuff in general.
      </details>
 - [ ] 5. Tunnel over **https**:
+      <details><summary><strong>Sąrašas:</strong></summary>
     - [ ] https://stackoverflow.com/questions/181341/tunnel-over-https
         - [ ] https://daniel.haxx.se/docs/sshproxy.html
         - [ ] stunnel (SSL but no https): https://blog.chmd.fr/ssh-over-ssl-episode-3-avoiding-using-a-patched-apache.html
@@ -228,11 +229,33 @@
     - [ ] https://sourceforge.net/projects/proxifier/ !
     - [ ] https://sourceforge.net/projects/tunnelizer/
     - [ ] https://sourceforge.net/projects/proxychains/ !
-    - [ ] 
+     </details>
 - [ ] 6. Remote access software to account sessions time:
     - [ ] https://control.connectwise.com/support/trial
 - [ ] 7. MPTCP tyrimui:
     - [ ] https://sourceforge.net/projects/comcast.mirror/
+- [ ] 8. Sklandus, modernus Web-MUA:
+      <details><summary><strong>Analizė</strong></summary>
+    - [x] 1. RoundCube trūkumai:
+        - [x] Po _Saving a Message Draft_ gauni tik _Cancel_ mygtuką vietoj _Back to index_.
+        - [x] _Forward a Message inline_ (HTML režime) prastas
+            - [x] mini-headeris įkištas į HTML lentelę;
+            - [x] pats HTML redaktorius grubokas (galbūt dėl _Text boundaries_).
+        - [x] _Reply a Message_ (HTML režime) nepalaiko Outlook stiliaus.
+        - [x] UI lėtokas.
+    - [x] 2. RainLoop trūkumai:
+        - [x] Grubokas UI (pvz. RoundCube darnesnis, labiau nušlifuotas).
+        - [x] _Saving a Message Draft_ keistai veikia (palieka ne vieną kopiją).
+        - [x] _Editing a Message Draft_ neįsijungia su _Double-click_.
+        - [x] _Reply a Message_ (HTML režime) nepalaiko Outlook stiliaus.
+        - [x] Beveik nebevystomas:
+            - [x] Forkas SnappyMail: https://github.com/the-djmaze/snappymail
+            - [x] Forko palyginimas: https://snappymail.eu/comparison.html
+        - [x] Baigti RainLoop trūkumai.
+    - [ ] . Gal verta abu apjungti RoundCube su RainLoop?
+    - [ ] . Paklausiu N., kokį Web-MUA naudoja savo debesiui.
+    - [ ] X. Rastas tinkamas Web-MUA.
+     </details>
 - [ ] X.
 
 #### P1:

@@ -10,7 +10,7 @@ The first interview (from 2010) is available [here](https://habr.com/ru/post/108
 
 **– First, please remind our readers where and in what position do you work.**
 
-I work as a Principal Storage Architect at Huawei Technologies, German Research Center. In virtualization, I work on different aspects of storage. My work is not related to a specific operating system.
+I work as a Principal Storage Architect at Huawei Technologies, German Research Center. In virtualization department, I work on different aspects of storage. My work is not related to a specific operating system.
 
 **– Do you currently commit to the main branch of the kernel?**
 

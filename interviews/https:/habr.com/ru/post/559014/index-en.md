@@ -12,15 +12,15 @@ The first interview (from 2010) is available [here](https://habr.com/ru/post/108
 
 I work as a Principal Storage Architect at Huawei Technologies, German Research Center.
 In virtualization department, I work on different aspects of storage.
-My work is not related to a specific operating system.
+My work is not tied to a specific operating system.
 
 **– Do you currently commit to the main branch of the kernel?**
 
 Very rarely, and only if my employer requires it.
 Last time, about three years ago, I sent patches to improve the throughput of 9p hosted storage (also called VirtFS).
-Here is an important note: although I've been working with Linux for a long time, I've never been a Linux fan, that is, I "breathe easy", as well as to everything else.
-In particular, if I notice any flaw, I can point it out once at most.
-And so that then to go after someone and persuade - this will not happen.
+Here is an important note: although I've been working with Linux for a long time, I've never been a Linux fan, that is, I "breathe calmly" with regard to it, as well as to everything else.
+In particular, if I notice any flaw, I can point it out at most once.
+But for me to go after someone and try persuading, this will not happen.
 
 **– I remember the last time, ten years ago, you were quite critical of the style of kernel development.
     Has anything changed from your (or perhaps corporate) point of view, has the community become more responsive or not?

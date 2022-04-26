@@ -33,7 +33,7 @@ So if someone starts proclaiming a different meaning for 2x2 than 4, under the f
 All misfortunes first and foremost come from the incompetence and uneducation of those who make decisions.
 If the manager is incompetent, he will not able to make an objective and adequate decision.
 If he is also uncultured, he cannot find a competent person to give him the right advice.
-It is very likely that the choice will fall on a crook who talks the "seemingly right things".
+It is very likely that the choice will fall on a crook who speaks the "seemingly right thing".
 A corrupt environment always develops around incompetent lone leaders.
 Moreover, history knows no exceptions to this, and the community is the clearest example of this.
 
@@ -44,10 +44,10 @@ Moreover, history knows no exceptions to this, and the community is the clearest
 No, it hasn't.
 Everything I mentioned 11 years ago is still relevant today.
 One of the problems with Btrfs that makes it unusable for serious applications is the space problem.
-I am not even talking about running to the store to buy a new disk when any other FS would show a lot of free space.
-Not being able to complete an operation on a logical volume due to lack of free space is not the worst part either.
+I am not even talking about an advice of running to the store to buy a new disk in situations when any other FS would still show a lot of free space.
+And not being able to complete an operation on a logical volume due to lack of free space is not the worst part either.
 The worst thing is that an unprivileged user can almost always make everyone run out of free space in a fairly short time, bypassing any disk quotas.
-This looks like this (tested with Linux kernel 5.12).
+This goes like following (tested with Linux kernel 5.12).
 On a freshly installed system, a script is started which loops to create files with certain names in the home directory, writes data to them at certain offsets and then removes those files.
 After a minute of running this script, nothing unusual happens.
 After five minutes, the amount of occupied space on the partition increases slightly.

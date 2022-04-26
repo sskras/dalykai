@@ -54,13 +54,15 @@ After five minutes, the amount of occupied space on the partition increases slig
 After two or three hours, it reaches 50% (the initial value is 15%).
 After 5-6 hours the script crashes with "no free space" error.
 After that you will not be able to write even a 4K file to your partition.
-What happens is an interesting situation: you have not written anything to the partition, but all the free space (about 85%) has disappeared.
+What happens is an interesting situation:
+ you have not written anything to the partition, but all the free space (about 85%) has disappeared.
 The analysis of a partition attacked in this way will show many tree nodes, containing just one single byte-sized object (keyed object).
 That is, the content which used to occupy 15% of disk space has turned out to be evenly "smeared" on the whole partition, so that there is nowhere to write a new file since its key is larger than all existing ones and there are no more free blocks on the partition.
 Moreover, all this already happens in basic Btrfs configuration (without any snapshots, subvolumes, etc.) and it does not matter how you decide to store file bodies in that FS (as "fragments" in the tree or as extents of unformatted blocks) – the end result will be the same.
 
 You will not be able to expose the rest of the upstream filesystems to such an attack (no matter what they tell you).
-I explained the reason for the problem a long time ago: it is a complete perversion of the B-tree concept in Btrfs, which makes its spontaneous or intentional degeneration possible.
+I explained the reason for the problem a long time ago:
+ it is a complete perversion of the B-tree concept in Btrfs, which makes its spontaneous or intentional degeneration possible.
 In particular, under some loads, your FS will continually "fall apart" on its own, without any help.
 It is clear that all sorts of "nudging" background processes will save the day only on individual desktops.
 On collective servers, however, the intruder will always be able to "outrun" them.
@@ -75,9 +77,11 @@ It will not come in the form of a mounting option "which you and I did not know 
 For each such hasty "fix," I will present a new degeneration scenario.
 B-trees are one of my favorite topics, and I must say that these structures do not tolerate any liberties with themselves!
 
-How do I position Btrfs for myself? As something that cannot be called a file system, let alone used.
+How do I position Btrfs for myself?
+As something that cannot be called a file system, let alone used.
 For by definition a FS is a subsystem of the operating system, responsible for the efficient management of the "disk space" resource, which in the case of Btrfs we do not observe.
-Well, imagine that you came to the store to buy a watch, so you won't be late for work, but instead of a watch you were sold an electric grill with a timer for 30 minutes maximum.
+Well, imagine that you came to t
+he store to buy a watch, so you won't be late for work, but instead of a watch you were sold an electric grill with a timer for 30 minutes maximum.
 The situation with Btrfs is even worse.
 
 Looking through the mailing lists, I often come across the statement that effectively managing disk space is no longer relevant due to the cheapness of drives.
@@ -90,14 +94,19 @@ No matter what capacity disks you have on your machine.
 There's not much to comment on, it's very clear.
 It was a "technology preview".
 So, it didn't pass this very "preview".
-This label must not hang forever! And they can't launch a flawed by-design product with full support.
+This label must not hang forever!
+And they can't launch a flawed by-design product with full support.
 RHEL is an entreprenuership, i.e. a prescribed commodity-money relationship.
 Red Hat can't bully users like the Btrfs mailing list does.
-Just imagine the situation: a customer who paid his money for a disk and your support wants to know where his disk space went after he didn't write anything.
-What do you tell him? 
+Just imagine the situation:
+ a customer who paid his money for a disk and your support wants to know where his disk space went after he didn't write anything.
+What do you tell him?
 Next. Red Hat's clients include major banks and stock exchanges.
 Imagine what would happen if they were subjected to a DoS attack based on the mentioned Btrfs vulnerability.
-Who do you think would be responsible? For those who are going to point their fingers at the line in the GPL license where it says the author is not responsible for anything, I'll tell you right now: "hide it away! Red Hat will answer, and in a big way! I know that Red Hat isn't facing these kinds of problems, considering their particularly strong team of QA engineers with whom I worked closely in my time.
+Who do you think would be responsible?
+For those who are going to point their fingers at the line in the GPL license where it says the author is not responsible for anything,
+ I'll tell you right now: "hide it away!", Red Hat will answer, and in a big way!
+I know that Red Hat isn't facing these kinds of problems, considering their particularly strong team of QA engineers with whom I worked closely in my time.
 
 **– Why do some companies continue to support Btrfs in their enterprise products?**
 
@@ -119,7 +128,8 @@ Moreover, I would recommend that the addresses of those servers be carefully kep
 
 I don't remember what motivated that.
 It is quite possible that the initiative came from Red Hat customers.
-I remember that there were some studies of this kind: some upstream file systems were used to create a huge number of objects on new generation high end drives.
+I remember that there were some studies of this kind:
+ some upstream file systems were used to create a huge number of objects on new generation high end drives.
 The results showed that XFS behaved better than ext4.
 So it was promoted as the most promising.
 In any case, I would not look for anything sensational here.
@@ -136,14 +146,16 @@ In this case, various freakishly ugly neoplasms arise, which everyone points the
 In general, introduction of any levels and decision making about their non-breaking is usually a question of politics and I won't comment anything here.
 Few people are interested in objective aspects of the violation of levels, but we can consider some of them on the example of violation "from above", namely the implementation in the FS of the functionality already available in the block layer.
 Such a "violation" is justified only with rare exceptions.
-For each such case, you must first prove two things: that it is really necessary, and that the system design will not be harmed by it.
+For each such case, you must first prove two things:
+ that it is really necessary, and that the system design will not be harmed by it.
 Say, mirroring, which has traditionally been a block layer thing, makes sense at the filesystem level.
 For a variety of reasons.
 For example, bit rot occurs on disk drives.
 This is when the device works properly, but the block data is suddenly corrupted by a hard gamma quantum emitted by a distant quasar, etc.
 The worst thing is if the block happens to be a FS system block (superblock, bitmap block, storage tree node, etc.), because this will certainly lead to a kernel panic.
 Note that the mirrors offered by block layer (so called RAID 1) will not save you from this problem.
-Well, really: someone has to check the checksums and read the replica if it fails, right? Also, it makes sense to mirror only the metadata, not everything.
+Well, really: someone has to check the checksums and read the replica if it fails, right?
+Also, it makes sense to mirror only the metadata, not everything.
 Some important data (e.g., executables of critical applications) can be stored as metadata.
 In this case, they will also receive the same security guarantees.
 The protection of the rest of the data makes sense to be entrusted to other subsystems (perhaps even to user applications) – we have provided all the necessary conditions for this.
@@ -229,7 +241,8 @@ Because of this, it now runs on many platforms, including NetBSD.
 **– What concepts could local FS adopt from network FS and vice versa?**
 
 Now network FSs tend to be superstructures over local FSs, so I don't quite see how you can borrow anything from the latter.
-Well, really, consider a company of 4 employees, where each does his own thing: one distributes, another sends, the third receives, the fourth stores.
+Well, really, consider a company of 4 employees, where each does his own thing:
+ one distributes, another sends, the third receives, the fourth stores.
 And the question, what can the company borrow from its employee, who stores, sounds somehow incorrect (what can be borrowed from him, she has long ago).
 
 But local FSs have a lot to learn from network FSs.
@@ -238,13 +251,17 @@ At present, so called "advanced" local FSs aggregate logical volumes exclusively
 In other words, virtual addresses (block numbers) are translated into real addresses and back at a low level (i.e., after the file system has issued an I/O request).
 Note that adding and removing devices to logical volumes (not mirrors) compiled on a block layer leads to problems that vendors of such "features" are modestly silent about.
 I am talking about fragmentation on real devices, which can reach monstrous values, while on a virtual device you are doing fine.
-But nobody cares about virtual devices: nobody cares about what's going on on your real devices.
+But nobody cares about virtual devices:
+ nobody cares about what's going on on your real devices.
 But the ZFS-like FS (as well as any other FS in tandem with LVM) only operates on virtual disk devices (allocating virtual disk addresses from free space, defragmenting those virtual devices, etc.)
-What happens on real devices they have no idea! Now imagine that you have zero fragmentation on your virtual device (that is, you only have one giant extents living there), you add a disk to your logical volume, and then you remove another random disk from your logical volume, followed by a rebalance.
+What happens on real devices they have no idea!
+Now imagine that you have zero fragmentation on your virtual device (that is, you only have one giant extents living there), you add a disk to your logical volume, and then you remove another random disk from your logical volume, followed by a rebalance.
 And so it goes many times.
 It's not hard to figure out that you'll still have that single extent living on your virtual device, but you won't see anything good on your real devices.
-The worst thing is that you are not even able to fix this situation! The only thing you can do here is to ask the file system to defragment the virtual device.
-But it will tell you that everything is fine there – there is only one extent, the fragmentation is zero, and it couldn't be better! So, block-level logical volumes are not designed to add/remove devices repeatedly.
+The worst thing is that you are not even able to fix this situation!
+The only thing you can do here is to ask the file system to defragment the virtual device.
+But it will tell you that everything is fine there – there is only one extent, the fragmentation is zero, and it couldn't be better!
+So, block-level logical volumes are not designed to add/remove devices repeatedly.
 Ideally, you should only link a block-level logical volume once, give it to the file system, and then do nothing more with it.
 
 Moreover, the linkage of independent FS+LVM subsystems does not allow for the different nature of the drives from which logical volumes are aggregated.
@@ -283,19 +300,24 @@ A logical volume operations (addition/removal of devices) will not be rolled bac
 Let's look at this with an example.
 At some point in time, when you have a logical volume of two devices A and B containing 100 files, you take a snapshot S of the system and then create another hundred files.
 You then add device C to your volume, and finally roll your system back to snapshot S.
-Question: how many files and devices does your logical volume contain after rolling back to S? The files, as you have already guessed, will be 100, but the devices will be 3 – the same devices A, B and C, even though there were only two devices (A and B) in the system at the time of the snapshot.
+Question: how many files and devices does your logical volume contain after rolling back to S?
+The files, as you have already guessed, will be 100, but the devices will be 3 – the same devices A, B and C, even though there were only two devices (A and B) in the system at the time of the snapshot.
 The operation to add device C has not rolled back, and if you remove device C from your computer now, it will corrupt your data, so before you remove it, you will need to first perform a costly operation to remove the device from the logical volume with rebalancing, which will spread all the data from device C to devices A and B.
 But if your FS supported global snapshots, this rebalancing would not be necessary and you could safely remove device C from your computer after a momentary rollback to S.
 So, global snapshots are good because they avoid expensive deletion (addition) of a device from a logical volume (into a logical volume) with a lot of data (unless you forget to "photograph" your system at the right moment, of course).
 Let me remind you that creating snapshots and rolling back the file system to those are momentary operations.
-You may wonder: how is it possible to instantly rollback a logical volume operation that took you three days? But it is possible! Provided your FS is properly designed.
+You may wonder: how is it possible to instantly rollback a logical volume operation that took you three days?
+But it is possible!
+Provided your FS is properly designed.
 I had the idea of such "3D snapshots" three years ago, and last year I patented the technique.
 
 The next thing local FSs should learn from network FSs is to store metadata on separate devices in the same way that network FSs store metadata on separate machines (called metadata servers).
 There are applications that work primarily with metadata, and these applications can be significantly accelerated by putting metadata on expensive high-performance storage devices.
-You will not be able to be that selective with FS+LVM: LVM does not know what is on the block you pass it (the data or the metadata).
+You will not be able to be that selective with FS+LVM:
+ LVM does not know what is on the block you pass it (the data or the metadata).
 Implementing your own low-level LVM in the FS will not give you a big advantage over FS+LVM, but what you will succeed at is cluttering the FS so that it becomes impossible to work with its code later.
-ZFS and Btrfs, the rush to virtual devices, are all clear examples of how layering violation kills the system architecturally.So, what's my point? Well, the point is that you should not build your own low-level LVM in the file system.
+ZFS and Btrfs, the rush to virtual devices, are all clear examples of how layering violation kills the system architecturally.So, what's my point?
+Well, the point is that you should not build your own low-level LVM in the file system.
 Instead, you need to aggregate the devices into high-level logical volumes, like some network FSs do with different machines (storage nodes).
 Admittedly, they do this abysmally, due to bad algorithms.
 Examples of absolutely terrible algorithms are the DHT translator in the GlusterFS file system and the so-called CRUSH map in the Ceph file system.
@@ -305,7 +327,8 @@ In 2015, experimenting with stratifications over hash functions, I came up with 
 I can tell you now that trying to put it all into practice has been successful.
 I don't see any scalability issues with the new approach.
 Yes, each subvolume will require a separate superblock type structure in memory.
-Is that very scary? In general, I don't know who is going to "boil the ocean" and create logical volumes of hundreds of thousands or more devices on one local machine.
+Is that very scary?
+In general, I don't know who is going to "boil the ocean" and create logical volumes of hundreds of thousands or more devices on one local machine.
 If someone could explain this to me, I would be very grateful.
 In the meantime, it's marketing bullshit for me.
 
@@ -381,14 +404,16 @@ Publications on FS architecture are relevant, but so far I have only found time 
 Another thing is that I am a mathematician, and in mathematics any publication is a summary of theorems and their proofs.
 To publish something there without a proof is a sign of bad form.
 If I rigorously prove or disprove any statement on the architecture of FS, then there is such a pile-up that it would be pretty hard to wade through.
-Who needs it? Probably, that's why everything remains in its old form – the source code and comments to it.
+Who needs it?
+Probably, that's why everything remains in its old form – the source code and comments to it.
 
 **– What's new in Reiser4 in the last few years?**
 
 The long-awaited stability has finally materialized.
 One of the last to give up was a bug that led to "undeleteable" directories.
 The problem was that it only showed up on the background of name hash collisions and on a certain layout of the director entries in the tree node.
-However, I still can't recommend Reiser4 for production: you need to do some work in active collaboration with the administrators of production systems.
+However, I still can't recommend Reiser4 for production:
+ you need to do some work in active collaboration with the administrators of production systems.
 
 I finally managed to implement my long-standing idea – different transactional models.
 Before that, only one hard-coded McDonald-Reiser model worked in Reiser4.
@@ -410,7 +435,8 @@ Note that ZFS and Btrfs can't do that: the design doesn't allow it.
 There, you have to run a special background scanning process called "scrub" and wait for it to get to the problem block.
 Such activities are figuratively called "crutches" by programmers.
 
-Finally, heterogeneous logical volumes have emerged, offering everything that ZFS, Btrfs, block layer, and FS+LVM bundles cannot offer in principle: parallel scaling, O(1)-allocation of disk addresses, and transparent migration of data between subvolumes.
+Finally, heterogeneous logical volumes have emerged, offering everything that ZFS, Btrfs, block layer, and FS+LVM bundles cannot offer in principle:
+ parallel scaling, O(1)-allocation of disk addresses, and transparent migration of data between subvolumes.
 There is also a user interface for the latter.
 Now you can easily move the hottest data to the highest-performing drive on your volume.
 In addition, it is possible to urgently dump any dirty pages to such a drive, and thereby significantly speed up applications that often cause fsync(2).
@@ -429,9 +455,12 @@ At least, it passed when I was preparing the last release.
 
 **– Is it possible in principle to make Reiser4 a network (cluster) FS with the help of plugins?**
 
-It is possible, and even necessary! If you create network FS on the basis of correctly designed local one, the result will be very impressive! What I don't like about modern network FS is that they have a backend storage layer, which can be implemented with any local FS.
+It is possible, and even necessary!
+If you create network FS on the basis of correctly designed local one, the result will be very impressive!
+What I don't like about modern network FS is that they have a backend storage layer, which can be implemented with any local FS.
 The existence of this layer is completely unjustified.
-Network FS should directly interact with block layer, and not ask local FS to create some other service files there! In general, the division of file systems into local and network is a fallacy.
+Network FS should directly interact with block layer, and not ask local FS to create some other service files there!
+In general, the division of file systems into local and network is a fallacy.
 It arose from the imperfection of the algorithms that were used thirty years ago, instead of which nothing has been proposed so far.
 This is also the reason for the appearance of masses of unnecessary software components (various services, etc.)
 Ideally, there should be only one FS in the form of a kernel module and a set of user utilities to be installed on each machine, the cluster node.
@@ -444,20 +473,24 @@ Nothing extra!
 
 Well, as we just found out, everything already works fine with Linux:
 there's a separate working port for it in the form of the Reiser4 master branch in our repository.
-I haven't forgotten about FreeBSD either! Suggestions! Ready to work closely with people who know the insides of FreeBSD.
+I haven't forgotten about FreeBSD either! Suggestions!
+Ready to work closely with people who know the insides of FreeBSD.
 By the way: One thing I really like about their community is that decisions are made by an updated board of independent experts,
 with nothing to do with the self-significance/cockyness of one permanent person.
 
-**– What do you think of the Linux user community today? Has it become more generic?**
+**– What do you think of the Linux user community today?
+    Has it become more generic?**
 
 In my line of work it is quite difficult to assess this.
 Users come to me mostly with bug reports and requests to fix the partition.
 They are ordinary users.
 Someone is more knowledgeable, someone less.
 My attitude to all them is same.
-Well, if a user ignores my instructions, then excuse me please: the ignore will be introduced and on my part too.
+Well, if a user ignores my instructions, then excuse me please:
+ the ignore will be introduced and on my part too.
 
-**– Is it possible to predict the development of file systems over the next five to ten years? What do you think are the main challenges facing FS developers?**
+**– Is it possible to predict the development of file systems over the next five to ten years?
+    What do you think are the main challenges facing FS developers?**
 
 Yes, it is not difficult to make such a prediction.
 In upstream there has long been no development of file systems.
@@ -470,7 +503,8 @@ Each patch only aggravates its problems.
 Well, and there are always all kinds of "evangelists" who have "everything works".
 Most of them are schoolchildren and students who skip lectures.
 Just imagine: it works for him, but not for the professor.
-What an adrenaline rush! The greatest harm from my point of view is caused by "handymen" who enthusiastically "screw" miracle-features of Btrfs to all kinds of layers like systemd, docker, etc. – it already looks like metastases.
+What an adrenaline rush!
+The greatest harm from my point of view is caused by "handymen" who enthusiastically "screw" miracle-features of Btrfs to all kinds of layers like systemd, docker, etc. – it already looks like metastases.
 
 Now let's try to make a prediction for five to ten years.
 What we will do in Reiser4 I have already briefly listed.
@@ -494,7 +528,8 @@ And ext4 and XFS are not even the day before yesterday.
 So, "the future of filesystems in Linux" seems to be just another hyped up, but not very usable piece of software.
 After Btrfs it is very likely that the place of this "future" will be taken by Bcachefs, which is another attempt to cross-connect Linux block layer with a file system (bad examples are contagious).
 And remarkably: it has the same problems as Btrfs.
-I suspected that for a long time, and then I've looked into the code and it's true! The authors of Bcachefs and Btrfs, creating their FS, actively used other people's sources, with little understanding of them.
+I suspected that for a long time, and then I've looked into the code and it's true!
+The authors of Bcachefs and Btrfs, creating their FS, actively used other people's sources, with little understanding of them.
 The situation is very reminiscent of the children's game "spoiled phone".
 And I have an approximate idea how this code will be included into kernel.
 Actually "rake" nobody will see (all will step on them later).

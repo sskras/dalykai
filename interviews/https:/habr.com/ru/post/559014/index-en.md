@@ -28,13 +28,13 @@ But for me to go after someone and try persuading, this will not happen.
 
 I still haven't seen any shifts for the better.
 The community's main problem is the substitution of science for political technology, personal attitudes, majority opinion, populism, advice from "inner voices," rotten compromises, anything but science.
-Computer science, as it were, is first and foremost an exact science.
-And if someone starts proclaiming a different meaning for 2x2 than 4, under the flag of "Linux way" or under some other, it will hardly do any harm.
-All misfortunes are first and foremost from the incompetence and uneducation of those who make decisions.
-If the manager is incompetent, he is not able to make an objective and adequate decision.
+As it were, Computer science first and foremost is an exact science.
+So if someone starts proclaiming a different meaning for 2x2 than 4, under the flag of "the Linux way" or under some other, it will hardly do anything except harm.
+All misfortunes first and foremost come from the incompetence and uneducation of those who make decisions.
+If the manager is incompetent, he will not able to make an objective and adequate decision.
 If he is also uncultured, he cannot find a competent person to give him the right advice.
-It is very likely that the choice will fall on a crook who says the "seemingly right thing".
-A corrupt environment always develops around incompetent single leaders.
+It is very likely that the choice will fall on a crook who talks the "seemingly right things".
+A corrupt environment always develops around incompetent lone leaders.
 Moreover, history knows no exceptions to this, and the community is the clearest example of this.
 
 **– What do you think of the progress of the Btrfs development?

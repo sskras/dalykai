@@ -8,7 +8,7 @@ Recently I was contacted by Edward Shishkin and asked to publish the interview (
 
 The first interview (from 2010) is available [here](https://habr.com/ru/post/108629/).
 
-**– First, please remind our readers where you work and in what position.**
+**– First, please remind our readers where and in what position do you work.**
 
 I work as a Principal Storage Architect at Huawei Technologies, German Research Center. In virtualization, I work on different aspects of storage. My work is not related to a specific operating system.
 

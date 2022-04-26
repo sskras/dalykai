@@ -1,6 +1,6 @@
 (machine translation from the [original in Russian](https://habr.com/ru/post/559014/))
 
-[BratSinot](https://habr.com/ru/users/BratSinot/) | May 24 at 21:27
+[BratSinot](https://habr.com/ru/users/BratSinot/) | 2021 May 24 at 21:27
 
 ### The second interview with Reiser4 developer Edward Shishkin
 

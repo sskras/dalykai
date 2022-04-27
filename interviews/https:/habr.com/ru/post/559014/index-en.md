@@ -60,12 +60,12 @@ The analysis of a partition attacked in this way will show many tree nodes, cont
 That is, the content which used to occupy 15% of disk space has turned out to be evenly "smeared" on the whole partition, so that there is nowhere to write a new file since its key is larger than all existing ones and there are no more free blocks on the partition.
 Moreover, all this already happens in basic Btrfs configuration (without any snapshots, subvolumes, etc.) and it does not matter how you decide to store file bodies in that FS (as "fragments" in the tree or as extents of unformatted blocks) – the end result will be the same.
 
-You will not be able to expose the rest of the upstream filesystems to such an attack (no matter what they tell you).
+You will not be able to expose any other upstream filesystem to such an attack (no matter what they tell you).
 I explained the reason for the problem a long time ago:
  it is a complete perversion of the B-tree concept in Btrfs, which makes its spontaneous or intentional degeneration possible.
 In particular, under some loads, your FS will continually "fall apart" on its own, without any help.
 It is clear that all sorts of "nudging" background processes will save the day only on individual desktops.
-On collective servers, however, the intruder will always be able to "outrun" them.
+On multi-user, multi-tenant servers, however, the intruder will always be able to "outrun" them.
 The system administrator will not even be able to determine who exactly was messing with it.
 The fastest way to fix this problem in Btrfs is to rebuild the structure of the regular B-tree, i.e. to redesign the disk format and to rewrite a substantial part of the Btrfs code.
 This will take 8-10 years together with debugging, provided that the developers clearly followed the original articles on the corresponding algorithms and data structures, and not played "spoiled phone", as is customary (and encouraged) in the "Linux way".

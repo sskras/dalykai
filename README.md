@@ -2328,6 +2328,30 @@ Asmeninių tvarkymų medis.
                             - [x] 1. https://casual-effects.com/markdeep/slides.md.html (_Paragraph Alignment_ šiaip sau)
                             - [x] 2. https://doersino.github.io/markdeep-slides/demo.md.html
                         - [x] X. Baigti rinkti Markdown sintaksės varikliai
+                    - [x] 5. Asciidoc sintaksės varikliai:
+                        - [x] 1. Diskusijos
+                            - [x] 1. https://discuss.asciidoctor.org/Slide-deck-creation-ideas-td1901.html
+                            - [x] 2. https://github.com/LightGuard/asciidoc_slides_conversation
+                        - [x] 2. AsciiDoctor Presentation Model ( + `reveal.js` backend)
+                            - [x] 0. Homepage: https://github.com/Zenika/adoc-presentation-model
+                            - [x] 1. https://zenika.github.io/adoc-presentation-model/reveal/reveal-my-asciidoc.html (kiek grubokas išdėstymas?)
+                            - [x] 2. Docs: https://docs.asciidoctor.org/reveal.js-converter/latest/converter/features/
+                        - [ ] 3. Slidy backend for AsciiDoc
+                            - [ ] 0. Homepage: https://asciidoc-py.github.io/slidy.html
+                            - [x] 1. Official:
+                                - [x] 1. Source: https://pandoc.org/demo/SLIDES
+                                - [x] 2. https://pandoc.org/demo/example16b.html
+                                - [x] 3. Other demos: https://web.archive.org/web/20160501011148/http://www.methods.co.nz/asciidoc#_example_unix_man_pages
+                            - [x] 2. Tutorial #1:
+                                - [x] 1. Homepage: http://kaczanowscy.pl/tomek/2011-09/nice-presentations-in-no-time-with-asciidoc-and-slidy
+                                - [x] 2. http://kaczanowscy.pl/tomek/sites/default/files/asciidoc_slidy.html#(1)
+                            - [x] 3. Tutorial #2:
+                                - [x] 1. https://git.cybbh.space/Thomas/public/blob/081e6ec076b931ed9b398a5dd3cbe3526ac21d94/guides/asciidoc_slides_guide.adoc
+                            - [x] 4. Old AsciiDoc Home Page:
+                                - [x] 1. Ref: https://web.archive.org/web/20160501011148/http://www.methods.co.nz/asciidoc#_example_unix_man_pages
+                                - [x] 2. Source: https://github.com/segeljakt/asciidoc/blob/master/doc/slidy-example.txt
+                                - [x] 3. http://losc.nl/Breda/slides/slidy-example.html (per grubu)
+                            - [ ] . Baigtas Slidy backend-o tyrimas
                     - [x] 5. Eksportas į `.pdf`
                         - [x] 1. https://github.com/astefanutti/decktape#examples
                         - [x] 2. https://web.marp.app/ (Print to "Save as PDF")

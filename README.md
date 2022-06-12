@@ -746,6 +746,10 @@ Asmeninių tvarkymų medis.
                                         - [ ] X. Ištirti įprastų VCS tinkamumai
                                     - [ ] 2. (Per-FS) _OpenVMS_-like file copies (\*;VER-NUM)
                                     - [ ] 3. (Per-FS) some quick DB ?
+                                        - [x] 1. Using Fossil / SQLite: 
+                                              [Git vs. Fossil: what you should have done vs. what you did (fossil-scm.org)](https://news.ycombinator.com/item?id=27736980)
+                                        - [ ] . Rasti DB naudojimo scenarijai
+                                    - [ ] . Apžvelgti _Storage_ modeliai
                                 - [ ] X. Surinktos idėjos kaip versijuoti, baigtos paieškos
                             - [ ] 2. Prototipai:
                                   <a id="-gite.sh-:-Write-hook-skriptas,-tinka--vim-"></a>

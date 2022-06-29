@@ -1303,6 +1303,12 @@ Asmeninių tvarkymų medis.
                         - [x] 16. August 11, 2011: D-ITG version 2.8.0-rc1 has been released.
                         - [x] 17. July 2, 2013: D-ITG version 2.8.1 has been released.
                     - [ ] X. Surinktos visos D-ITG versijos
+                - [ ] 13. Hosts File Manager: http://hostsmanager.tk/old.php
+                    - [ ] 1. Versijų sąrašas
+                        - [ ] 1. June 05 2012 23:02:35: Hosts File Manager Version 1.0.0.0
+                        - [ ] ...
+                        - [ ] X. April 20 2016 23:17:54: Hosts File Manager Version 1.0.0.6
+                    - [ ] . Išsaugotos visos _Hosts File Manager_ versijos. 
                 - [ ] WW. Strategijos / teorija:
                     - [ ] 1. [Software Heritage: Why and How to Preserve Software Source Code](https://hal.archives-ouvertes.fr/hal-01590958/document)
                     - [ ] 2. [Feature: Claim Abandoned Projects #1385](https://github.com/isaacs/github/issues/1385)

@@ -582,6 +582,8 @@ Asmeninių tvarkymų medis.
                 - [ ] 3, dokumentuoti procesą;
                 - [ ] 4, pradėti kartojimą;
                 - [ ] 5, registruoti trukdžius;
+            - [ ] 2. [Likusi entropija](https://github.com/sskras/entropija-bute)
+                - [x] 1. 2022-09-18 pradėtas medis
             - [ ] X. Buto tvarkymas baigtas
         - [ ] 2. Popierinės medžiagos skaitmeninimas
             - [ ] 1. `BLOCKER`: [Įrankiai skaitmeninti popierinei medžiagai](#Įrankiai-skaitmeninti-popierinei-medžiagai)

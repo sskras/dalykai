@@ -363,6 +363,7 @@
         - [x] https://github.com/tristanseifert/kush-os/tree/e5efaae949d17befa7fbf7e8a6c576260026b6fd/user/drivers/ahci/src
         - [x] https://github.com/dhavalhirdhav/LearnOS/blob/master/drivers/ata/ata.c
         - [x] https://github.com/mit-pdos/biscuit/blob/master/biscuit/src/ahci/ahci.go
+        - [x] https://github.com/klange/toaruos/blob/master/modules/ahci.c
     - [x] 16. The related articles / discussions:
         - [x] [Reading the disk with AHCI.](https://forum.osdev.org/viewtopic.php?t=40718)
         - [x] http://learnitonweb.com/2020/05/22/12-developing-an-operating-system-tutorial-episode-6-ata-pio-driver-osdev/
@@ -370,7 +371,9 @@
         - [x] https://github.com/christianb93/ctOS/blob/master/doc/system/HarddiskDriver.md
         - [x] [Controlling Hard disk SATA in asm on x86 in pmode](https://forum.osdev.org/viewtopic.php?f=1&t=30758)
         - [x] [How to read from SATA HDD (AHCI) on low level?](https://forum.osdev.org/viewtopic.php?f=1&t=31449)
+        - [x] https://stackoverflow.com/questions/28256157/how-many-physical-channels-sata-controller-has
         - [x] https://blraaz.me/osdev/2021/06/29/building-ahci-driver.html
+        - [x] https://wiki.osdev.org/AHCI
         - [x] https://www.google.com/search?q=osdev+access+sata+asm+pm
         - [x] https://www.google.com/search?q=osdev+access+pata+without+int13
         - [x] https://www.google.com/search?q=osdev+access+pata+without+bios
@@ -378,8 +381,39 @@
         - [x] https://www.google.com/search?q=asm+enumerate+ahci+drives
         - [x] https://www.google.com/search?q=osdev+enumerate+ahci+drive
         - [x] https://www.google.com/search?q=osdev+ahci+drive+numbering
+        - [x] https://www.google.com/search?q=map+BIOS+drive+number+0x80+to+AHCI+port
     - [x] . Finished researching the PM-based MBR bootstrapping.
       </details>
+- [ ] 11. OSdev URL collection:
+    - [x] https://github.com/Mic92/x86_64-linux-cheatsheats/blob/master/pages/STOSB
+    - [x] https://leftasexercise.com/tag/osdev/
+    - [x] https://gusc.lv/2012/11/im-writing-my-own-os/
+    - [x] https://github.com/christianb93/ctOS
+    - [x] https://github.com/dhavalhirdhav/LearnOS/
+    - [x] https://github.com/yshui/SadOS
+    - [x] https://github.com/tristanseifert/kush-os
+    - [x] https://github.com/devport/xos
+    - [x] https://github.com/BrownieOS/lux
+    - [x] https://github.com/BrownieOS/BrownieOS
+    - [x] https://github.com/klange/toaruos
+    - [x] https://github.com/mit-pdos/biscuit
+    - [x] https://github.com/yzz127/osdev
+    - [x] https://github.com/oleksiyp/mysmall-OS
+    - [x] [16-bit RM MS-DOS + 32-bit PM OS386 multicore CPU demo](https://twitter.com/B_Shamshirsaz/status/1571186662914560000)
+    - [x] https://github.com/SpyderTL/OZone
+    - [x] http://dc0d32.blogspot.com/2010/06/real-mode-in-c-with-gcc-writing.html
+    - [x] https://web.archive.org/web/20151101003134/http://www.returninfinity.com/pure64.html
+    - [x] https://web.archive.org/web/20151027062646/http://www.returninfinity.com/baremetal.html
+    - [x] http://www.jamesmolloy.co.uk/tutorial_html/index.html
+    - [x] https://www.google.com/search?q=bios+drive+number+int+13h
+    - [x] https://www.google.com/search?q=bios+boot+drive+DL+register
+    - [x] https://www.google.com/search?q=bios+boot+disk+DL+register
+    - [x] https://www.google.com/search?q=bios+boot+disk+DL
+    - [x] https://www.google.com/search?q=boot+disk+DL+register
+    - [x] https://www.google.com/search?q=osdev+boot+disk+DL+register
+- [ ] 12. Low-level optimization stuff:
+    - [x] https://msrc-blog.microsoft.com/2021/01/11/building-faster-amd64-memset-routines/
+    - [x] 
 - [ ] X.
 
 #### P1:

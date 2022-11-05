@@ -313,6 +313,48 @@
         ```
          </details>
     - [ ] X. Baigti `midipix` reikalai.
+- [ ] 10. MBR bootloader entering PM ASAP
+    - [x] 01. After entering PM we lose ability to call BIOS services (int 13h)
+    - [x] 02. We need to have AHCI/SATA (or maybe IDE/PATA) PM-driver to detect the bootable drive and read code from it further.
+    - [x] 03. Bootstrap code length (usually) = 446 bytes:  \
+          https://en.wikipedia.org/wiki/Master_boot_record#Sector_layout
+    - [x] 04. If we get rid of the partition table, the bootstrap area gets 510 bytes long.
+    - [x] 05. We need to combine PM init + AHCI driver code into that small area. 
+    - [x] 06. PM init is probably a dozen of insns.
+    - [x] 07. AHCI driver would be quite bigger.
+    - [x] 08. An example:  \
+          https://github.com/ReturnInfinity/BareMetal-OS-legacy/blob/568f04897ff00ad729f032fa1c9270edea6fd20d/os/drivers/pci.asm
+    - [x] 09. A minimized code:  \
+          https://github.com/sskras/BareMetal-OS-legacy/commit/8b6ad037726aac7c02c8082f48b2633d326a4eec
+    - [x] 10. Now if you compile these 3 files, you get only 1DAh or just 474 byte long binary:
+        ```
+        $ cat os/sysvar.asm os/drivers/pci.asm os/drivers/storage/ahci.asm > concated.asm && nasm -f elf64 concated.asm && strip -s concated.o && ls -l concated.o && objdump -x concated.o 
+        -rw-rw-r-- 1 saukrs saukrs 752 Nov  5 14:13 concated.o
+
+        concated.o:     file format elf64-x86-64
+        concated.o
+        architecture: i386:x86-64, flags 0x00000000:
+
+        start address 0x0000000000000000
+
+        Sections:
+        Idx Name          Size      VMA               LMA               File off  Algn
+          0 .text         000001da  0000000000000000  0000000000000000  00000040  2**4
+                          CONTENTS, ALLOC, LOAD, READONLY, CODE
+        SYMBOL TABLE:
+        no symbols
+        
+        
+        $ echo | awk '{printf("%d\n", 0x1da)}'
+        474
+        ```
+    - [x] 11. ... which might be enough to be combined with PM init code +
+              a jump into the code we just read from an AHCI disk
+              to fit into the aforementioned 510 bytes.
+    - [x] 12. If we minimize the PM-bootstrap further into the 446 bytes, we regain the partition table.
+    - [x] 13. There is a newer, more up to date version of the aforementioned code:  \
+          https://github.com/ReturnInfinity/BareMetal/blob/master/src/drivers/storage/ahci.asm
+    - [x] . Finished researching the PM-based MBR bootstrapping.
 - [ ] X.
 
 #### P1:

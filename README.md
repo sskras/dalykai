@@ -314,10 +314,12 @@
          </details>
     - [ ] X. Baigti `midipix` reikalai.
 - [ ] 10. MBR bootloader entering PM ASAP
+      <details><summary><strong>Steps</strong></summary>
     - [x] 01. After entering PM we lose ability to call BIOS services (int 13h)
     - [x] 02. We need to have AHCI/SATA (or maybe IDE/PATA) PM-driver to detect the bootable drive and read code from it further.
     - [x] 03. Bootstrap code length (usually) = 446 bytes:  \
-          https://en.wikipedia.org/wiki/Master_boot_record#Sector_layout
+          https://en.wikipedia.org/wiki/Master_boot_record#Sector_layout  \
+          https://unix.stackexchange.com/questions/254657/mbr-size-is-440-bytes-or-512-bytes/254668#254668
     - [x] 04. If we get rid of the partition table, the bootstrap area gets 510 bytes long.
     - [x] 05. We need to combine PM init + AHCI driver code into that small area. 
     - [x] 06. PM init is probably a dozen of insns.
@@ -354,7 +356,30 @@
     - [x] 12. If we minimize the PM-bootstrap further into the 446 bytes, we regain the partition table.
     - [x] 13. There is a newer, more up to date version of the aforementioned code:  \
           https://github.com/ReturnInfinity/BareMetal/blob/master/src/drivers/storage/ahci.asm
+    - [x] 14. `TODO:` mapping the legacy BIOS drive number passed via `DL` to the AHCI port number 
+    - [x] 15. Other related AHCI / ATA driver implementations:
+        - [x] https://github.com/BrownieOS/xOS/blob/master/kernel/blkdev/ahci.asm
+        - [x] https://github.com/yshui/SadOS/blob/master/bin/fs/ahci.c
+        - [x] https://github.com/tristanseifert/kush-os/tree/e5efaae949d17befa7fbf7e8a6c576260026b6fd/user/drivers/ahci/src
+        - [x] https://github.com/dhavalhirdhav/LearnOS/blob/master/drivers/ata/ata.c
+        - [x] https://github.com/mit-pdos/biscuit/blob/master/biscuit/src/ahci/ahci.go
+    - [x] 16. The related articles / discussions:
+        - [x] [Reading the disk with AHCI.](https://forum.osdev.org/viewtopic.php?t=40718)
+        - [x] http://learnitonweb.com/2020/05/22/12-developing-an-operating-system-tutorial-episode-6-ata-pio-driver-osdev/
+        - [x] https://leftasexercise.com/2019/01/14/accessing-your-hard-drive-the-os-developers-moment-of-truth/
+        - [x] https://github.com/christianb93/ctOS/blob/master/doc/system/HarddiskDriver.md
+        - [x] [Controlling Hard disk SATA in asm on x86 in pmode](https://forum.osdev.org/viewtopic.php?f=1&t=30758)
+        - [x] [How to read from SATA HDD (AHCI) on low level?](https://forum.osdev.org/viewtopic.php?f=1&t=31449)
+        - [x] https://blraaz.me/osdev/2021/06/29/building-ahci-driver.html
+        - [x] https://www.google.com/search?q=osdev+access+sata+asm+pm
+        - [x] https://www.google.com/search?q=osdev+access+pata+without+int13
+        - [x] https://www.google.com/search?q=osdev+access+pata+without+bios
+        - [x] https://www.google.com/search?q=osdev+access+pata+from+mbr
+        - [x] https://www.google.com/search?q=asm+enumerate+ahci+drives
+        - [x] https://www.google.com/search?q=osdev+enumerate+ahci+drive
+        - [x] https://www.google.com/search?q=osdev+ahci+drive+numbering
     - [x] . Finished researching the PM-based MBR bootstrapping.
+      </details>
 - [ ] X.
 
 #### P1:

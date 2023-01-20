@@ -419,6 +419,16 @@
     - [x] https://github.com/cockpit-project/cockpit/issues/14545
     - [x] Maybe use some cross-platform lib for that?
     - [x] https://github.com/golang-design/hotkey
+- [ ] 14. GPU para-passthrough virtualization:
+    - [x] https://www.mysciencework.com/patent/show/method-system-capturing-frame-buffer-virtual-machine-gpu-passthrough-environment-US20170004808A1
+    - [x] https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Graphics_Virtualization_Technology
+        - [ ] Reuse GVT-g for Intel GPUs ?
+        - [ ] Research a way to intercept the framebuffer / implement soft SR-IOVs
+            - [ ] https://www.os.ecc.u-tokyo.ac.jp/papers/2021-ieeetcc-fukai.pdf#page=3
+        - [ ] .
+    - [ ] libVF.IO: https://arccompute.com/blog/libvfio-commodity-gpu-multiplexing/ (OMG)
+        - [ ] Contains an overview of alternative technologies
+    - [ ] .
 - [ ] X.
 
 #### P1:

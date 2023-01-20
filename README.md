@@ -414,6 +414,11 @@
 - [ ] 12. Low-level optimization stuff:
     - [x] https://msrc-blog.microsoft.com/2021/01/11/building-faster-amd64-memset-routines/
     - [x] 
+- [ ] 13. Implement a cross-platform hotkey manager (disabler):
+    - [x] To disable Ctrl-{W,T,N} combos for Cockpit
+    - [x] https://github.com/cockpit-project/cockpit/issues/14545
+    - [x] Maybe use some cross-platform lib for that?
+    - [x] https://github.com/golang-design/hotkey
 - [ ] X.
 
 #### P1:

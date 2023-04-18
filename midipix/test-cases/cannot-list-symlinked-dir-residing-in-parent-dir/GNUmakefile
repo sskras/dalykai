@@ -4,6 +4,7 @@ all: clean
 	@echo
 	mkdir -v 1-real-dir
 	ln -sv /home 2-symlinked-dir
+	
 	@echo
 	@echo Accessing the parent dir:
 	@echo
@@ -15,6 +16,12 @@ all: clean
 	@echo
 	cd 1-real-dir && \
 	ls -Al --color ../2-symlinked-dir \
+	
+	@echo
+	@echo Accessing the symlinked dir content:
+	@echo
+	cd 1-real-dir && \
+	ls -Al --color ../2-symlinked-dir/ \
 
 clean:
 	@echo

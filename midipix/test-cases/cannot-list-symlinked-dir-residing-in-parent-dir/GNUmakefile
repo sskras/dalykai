@@ -7,8 +7,9 @@ all: clean
 	@echo
 	@echo Accessing the parent dir:
 	@echo
-	@cd 1-real-dir && \
-	ls -Al --color ..
+	cd 1-real-dir && \
+	ls -Al --color .. \
+	
 	@echo
 	@echo Accessing the symlinked dir name:
 	@echo

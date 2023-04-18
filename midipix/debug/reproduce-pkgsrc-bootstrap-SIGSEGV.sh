@@ -125,8 +125,10 @@ run_cmd()
 
 mkdir_p()
 {
-	run_cmd "/bin/sh home-midipix-src-pkgsrc-work-bin-install.sh -d -o the-owner -g the-group $1"
-	run_cmd "/bin/sh home-midipix-src-pkgsrc-work-bin-install.sh -d -o the-owner -g the-group $2"
+	#run_cmd "/bin/sh home-midipix-src-pkgsrc-work-bin-install.sh -d -o the-owner -g the-group $1"
+	#run_cmd "/bin/sh home-midipix-src-pkgsrc-work-bin-install.sh -d -o the-owner -g the-group $2"
+	run_cmd "/bin/bash home-midipix-src-pkgsrc-work-bin-install.sh -d -o the-owner -g the-group $1"
+	run_cmd "/bin/bash home-midipix-src-pkgsrc-work-bin-install.sh -d -o the-owner -g the-group $2"
 }
 
 set space_XX

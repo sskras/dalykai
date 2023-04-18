@@ -6,8 +6,14 @@ all: clean
 	ln -sv /home 2-symlinked-dir
 	@echo
 	@echo Accessing the parent dir:
+	@echo
 	@cd 1-real-dir && \
 	ls -Al --color ..
+	@echo
+	@echo Accessing the symlinked dir name:
+	@echo
+	cd 1-real-dir && \
+	ls -Al --color ../2-symlinked-dir \
 
 clean:
 	@echo

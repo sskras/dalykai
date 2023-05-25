@@ -2,6 +2,14 @@
 
 #### Nauji:
 
+- [ ] 12. TOTP programėlės tyrimas:
+  - [ ] 1. F/LOSS
+  - [ ] 2. Mobility support
+  - [ ] 3. Desktop support
+  - [ ] 4. Eg. [ente Authenticator](https://github.com/ente-io/auth)
+  - [ ] 5. https://www.reddit.com/r/KeePass/comments/bgaaaq/android_app_with_totp_support/
+  - [ ] 6. https://jeffmcneill.com/keepass/
+  - [ ] 7. https://www.reddit.com/r/androidapps/comments/k825yg/keepass_dx_worth_switching_to_from_keepass2android/
 - [ ] 1. Kasdien.
 - [ ] 2. Studijų tęsimas:
     - [x] 3. s3:

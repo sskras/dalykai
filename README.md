@@ -2,6 +2,7 @@
 
 #### Nauji:
 
+- [ ] 13. TODO
 - [ ] 12. TOTP programėlės tyrimas:
   - [ ] 1. F/LOSS
   - [ ] 2. Mobility support

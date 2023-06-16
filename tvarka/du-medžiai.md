@@ -15,6 +15,8 @@
       - [x] reaguoti į išsigryninimo banko prašymus:
         - [x] `2023-05-24`: Verify your details before June 23, 2023
           - [ ] Prisijungimas prie N26 paskyros appse
+            - [ ] Gudrafone veikiantis N26 appsas
+              - [ ] . N26 appsas gudrafone jau veikia.
             - [ ] . Prisijungiau prie N26 paskytos mobiliame appse.
           - [ ] . N26 patikslinti mano tapatybės duomenys.
         - [ ] . Išsigryninimo banko prašymai patenkinti.

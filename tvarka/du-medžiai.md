@@ -1,10 +1,10 @@
-# Siekiai:
-
-
 # Stabdžiai:
 
   - [ ] 1. N26 Android appsas neįsidiegia
     <a id="N26-Android-appsas-neįsidiegia"></a>
+
+
+# Siekiai:
 
   - [x] Išbandyti gyvenime naujų dalykų ?
     - [x] Sukaupti idėjų

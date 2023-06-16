@@ -7,11 +7,11 @@
     <a id="N26-Android-appsas-neįsidiegia"></a>
 
   - [x] Išbandyti gyvenime naujų dalykų ?
-    - [x] `BLOCKER` Sukaupti idėjų
-    - [x] `BLOCKER` Turėti resursų
+    - [x] Sukaupti idėjų
+    - [x] Turėti resursų
 
   - [x] Galimybė išsigrynint pinigų nemokamai
-    - [x] `BLOCKER` Pasirinkti banką:
+    - [x] Pasirinkti banką:
       - [x] virtualusis Number26 (N26.de)
       - [x] . Išsigryninimo bankas pasirinktas.
     - [x] Prižiūrėti sąskaitą:

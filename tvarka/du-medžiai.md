@@ -11,4 +11,6 @@
     - [x] `BLOCKER` Pasirinkti banką:
       - [x] virtualusis Number26 (N26.de)
       - [x] . Išsigryninimo bankas pasirinktas.
+    - [x] `BLOCKER` Prižiūrėti sąskaitą:
+      - [x] . Išsigryninimo sąskaita prižiūrima.
     - [x] . Išsigryninimo galimybė pagerinta.

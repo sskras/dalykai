@@ -4,6 +4,11 @@
     <a id="N26-Android-appsas-neįsidiegia"></a>
 
 
+# RCA (Kodėl):
+
+  - [ ] 1. N26 Android appsas neįsidiegia. Kodėl?
+
+
 # Siekiai:
 
   - [x] Išbandyti gyvenime naujų dalykų ?

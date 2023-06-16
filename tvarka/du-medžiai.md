@@ -7,6 +7,12 @@
 # RCA (Kodėl):
 
   - [ ] 1. N26 Android appsas neįsidiegia. Kodėl?
+    - [ ] 1. Gudrafone trūksta vietos.
+          Kodėl?
+      - [ ] 1. Gudrafono esama vieta išnaudota kitiems dalykams.
+            Kodėl?
+      - [ ] 2. Gudrafonas tinkamai neprižiūrimas.
+            Kodėl?
 
 
 # Siekiai:

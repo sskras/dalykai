@@ -3,6 +3,9 @@
 
 # Stabdžiai:
 
+  - [ ] 1. N26 Android appsas neįsidiegia
+    <a id="N26-Android-appsas-neįsidiegia"></a>
+
   - [x] Išbandyti gyvenime naujų dalykų ?
     - [x] `BLOCKER` Sukaupti idėjų
     - [x] `BLOCKER` Turėti resursų
@@ -25,6 +28,3 @@
         - [ ] . Išsigryninimo banko prašymai patenkinti.
       - [x] . Išsigryninimo sąskaita prižiūrima.
     - [x] . Išsigryninimo galimybė pagerinta.
-
-- [ ] 1. N26 Android appsas neįsidiegia
-  <a id="N26-Android-appsas-neįsidiegia"></a>

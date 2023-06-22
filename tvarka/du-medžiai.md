@@ -26,8 +26,22 @@
                         Kodėl?
                     - [ ] 1. Bandant išsaugoti kitas laiko žymes atsiranda technologiniai aspektai:
                           Kodėl?
+                      - [ ] 1. \*nix laiko žymes, besiskiriančias nuo `mtime`, sunku atstatyti (įrašyti į įprastinę FS).
+                            Kodėl?
+                      - [ ] 2. Kai kurios iš šių \*nix žymių laikomos dviprasmėmis, beprasmėmis ar OS net nenaudojamos.
+                            Kodėl?
                     - [ ] 2. Dauguma naudotojų nutylėjo dėl tokio bekupavimo būdo.
                           Kodėl?
+                      - [ ] 1. Daliai naudotojų pakanka esamo tikslumo (tik `mtime` ar netgi išvis laiko žymės nesvarbu).
+                            Kodėl?
+                        - [ ] 1. Turbūt naudojantis GUI pakanka tik `mtime` (o gal net ir ja nesinaudojama).
+                              Kodėl?
+                          - [ ] 1. Žmonės pripratinti prie "Good enough".
+                                Kodėl?
+                      - [ ] 2. Naudotojai, kuriems to nepakanka, nesitiki tikslesnio būdo.
+                            Kodėl?
+                        - [ ] 1. Žmonės pripratinti prie "Good enough".
+                              Kodėl?
       - [ ] 2. Gudrafonas tinkamai neprižiūrimas.
             Kodėl?
 

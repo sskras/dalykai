@@ -24,6 +24,10 @@
                       Kodėl?
                   - [ ] 1. Jau tokį bekupavimo būdą įdiegė kūrėjai.
                         Kodėl?
+                    - [ ] 1. Bandant išsaugoti kitas laiko žymes atsiranda technologiniai aspektai:
+                          Kodėl?
+                    - [ ] 2. Dauguma naudotojų nutylėjo dėl tokio bekupavimo būdo.
+                          Kodėl?
       - [ ] 2. Gudrafonas tinkamai neprižiūrimas.
             Kodėl?
 

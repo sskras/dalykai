@@ -6,11 +6,24 @@
 
 # RCA (Kodėl):
 
-  - [ ] 1. N26 Android appsas neįsidiegia. Kodėl?
+  - [ ] 1. N26 Android appsas neįsidiegia.
+        Kodėl?
     - [ ] 1. Gudrafone trūksta vietos.
           Kodėl?
       - [ ] 1. Gudrafono esama vieta išnaudota kitiems dalykams.
             Kodėl?
+        - [ ] 1. Gudrafone tenka saugoti daug foto/video.
+              Kodėl?
+          - [ ] 1. Tie failai vis dar nesubekupuoti.
+                Kodėl?
+            - [ ] 1. Trūksta tinkamo bekupavimo būdo.
+                  Kodėl?
+              - [ ] 1. Bekupavimas pagal nutylėjimą (o gal ir dauguma esamų/populiarieji) man netinka.
+                    Kodėl?
+                - [ ] 1. Jis neišsaugo `btime`, `ctime`, `atime` (mano supratimu).
+                      Kodėl?
+                  - [ ] 1. Jau tokį bekupavimo būdą įdiegė kūrėjai.
+                        Kodėl?
       - [ ] 2. Gudrafonas tinkamai neprižiūrimas.
             Kodėl?
 

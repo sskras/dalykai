@@ -62,12 +62,16 @@
               - [ ] . Jau turiu pasiruošęs gudrafoną + tinkamą app šalia savęs.
             - [ ] Popierinę užrašinę.
               - [ ] . Pasiruošiau užrašinę.
+            - [x] Progai esant žymėtis GitHube
+              - [x] . Jau žymiuosi GitHube (pvz. šią akimirką).
             - [ ] . Turiu įrankius žymėjimuisi
           - [ ] . Žymėtis jau pradedu laiku (kuo anksčiau)
         - [ ] Kelti viską iš popieriaus į skaitmeną
           - [ ] . Kėlimas į skaitmeną jau veikia.
         - [ ] Kelti dalį iš skaitmenos į popierių
           - [ ] . Jau keliu į popierių.
+        - [ ] Sinchronizuoti ir su GitHub repo
+          - [ ] . Jau sinchronizuoju ir su GitHub.
         - [ ] . Jau žymiuosi idėjas.
       - [ ] . Idėjų kaupimas jau tinkamas.
     - [x] Turėti resursų

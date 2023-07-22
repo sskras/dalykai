@@ -94,3 +94,11 @@
         - [ ] . Išsigryninimo banko prašymai patenkinti.
       - [x] . Išsigryninimo sąskaita prižiūrima.
     - [x] . Išsigryninimo galimybė pagerinta.
+
+  - [x] `winget-cli` panaudojimas senesniuose Windows (įsk. XP)
+    - [x] Radau `erkinalp` portą į reactOS:
+          https://github.com/erkinalp/winget-cli
+    - [x] Radau `winget` kritikos ir kt. apžvalgų
+      - [ ] TODO
+      - [ ] . Atsiliepimai apie `winget` sužymėti.
+    - [ ] . `winget` panaudojimas senesniuose Windows ištirtas.

@@ -50,6 +50,26 @@
 
   - [x] Išbandyti gyvenime naujų dalykų ?
     - [x] Sukaupti idėjų
+      - [ ] Jas susižymėti
+        - [ ] Pradėti, kol neišsišakojo giliau
+          - [ ] Turėti žymėjimo įrankį šalia:
+            - [ ] Gudrafoną + tinkamą app;
+                - [ ] Tinkamas gudrafono setupas;
+                  - [ ] . Gudrafonas jau susetupintas.
+                - [ ] Tinkamas app;
+                  - [ ] . Appsas jau parinktas.
+                - [ ] . Susitvarkiau Gudrafoną.
+              - [ ] . Jau turiu pasiruošęs gudrafoną + tinkamą app šalia savęs.
+            - [ ] Popierinę užrašinę.
+              - [ ] . Pasiruošiau užrašinę.
+            - [ ] . Turiu įrankius žymėjimuisi
+          - [ ] . Žymėtis jau pradedu laiku (kuo anksčiau)
+        - [ ] Kelti viską iš popieriaus į skaitmeną
+          - [ ] . Kėlimas į skaitmeną jau veikia.
+        - [ ] Kelti dalį iš skaitmenos į popierių
+          - [ ] . Jau keliu į popierių.
+        - [ ] . Jau žymiuosi idėjas.
+      - [ ] . Idėjų kaupimas jau tinkamas.
     - [x] Turėti resursų
 
   - [x] Galimybė išsigrynint pinigų nemokamai

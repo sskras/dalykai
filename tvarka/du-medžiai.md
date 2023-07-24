@@ -70,6 +70,12 @@
                                 .
             - [ ] 2. Žemokas proto našumas.
                   Kodėl?
+              - [ ] 1. Per didelis darbo krūvis.
+                    Kodėl?
+              - [ ] 2. Pažeista sveikata.
+                    Kodėl?
+              - [ ] 3. Senėjimo procesai.
+                    Kodėl?
 
 
 # Stabdymo priežasčių medis:

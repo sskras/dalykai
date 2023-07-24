@@ -44,6 +44,14 @@
                               Kodėl?
       - [ ] 2. Gudrafonas tinkamai neprižiūrimas.
             Kodėl?
+        - [ ] 1. Trūksta priežiūros žinių ir įgūdžių.
+              Kodėl?
+          - [ ] 1. Žinių gavimas reikalauja daugiau pastangų nei įprastai.
+                Kodėl?
+            - [ ] 1. Aukštesni reikalavimai nei pas daugumą kitų naudotojų.
+                  Kodėl?
+            - [ ] 2. Žemokas proto našumas.
+                  Kodėl?
 
 
 # Stabdymo priežasčių medis:

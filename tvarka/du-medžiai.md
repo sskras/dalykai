@@ -46,6 +46,13 @@
             Kodėl?
 
 
+# Stabdymo priežasčių medis:
+
+(apverstas RCA medis)
+
+ - [ ] TODO
+
+
 # Siekiai:
 
   - [x] Išbandyti gyvenime naujų dalykų ?

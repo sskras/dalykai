@@ -74,8 +74,12 @@
                     Kodėl?
               - [ ] 2. Pažeista sveikata.
                     Kodėl?
+                - [ ] 1. TODO
+                      Kodėl?
               - [ ] 3. Senėjimo procesai.
                     Kodėl?
+                - [ ] 1. TODO
+                      Kodėl?
 
 
 # Stabdymo priežasčių medis:

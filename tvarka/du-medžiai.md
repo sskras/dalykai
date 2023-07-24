@@ -70,8 +70,12 @@
                                 .
             - [ ] 2. Žemokas proto našumas.
                   Kodėl?
-              - [ ] 1. Per didelis darbo krūvis.
+              - [ ] 1. Paveikė per didelis darbo krūvis paskutinėse darbovietėse.
                     Kodėl?
+                - [ ] 1. Buvo siekis visiškai pilnai laikytis darbo sutarties punktų, metinių tikslų ir deliverinti, bet vis nepavykdavo.
+                      Kodėl?
+                - [ ] 2. Buvo per aukšti / netinkami darbo pozicijos reikalavimai
+                      Kodėl?
               - [ ] 2. Pažeista sveikata.
                     Kodėl?
                 - [ ] 1. TODO

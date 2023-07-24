@@ -74,6 +74,10 @@
                     Kodėl?
                 - [ ] 1. Buvo siekis visiškai pilnai laikytis darbo sutarties punktų, metinių tikslų ir deliverinti, bet vis nepavykdavo.
                       Kodėl?
+                  - [ ] 1. Susitarimus laikau dalykais, svarbesniais už viską.
+                        Kodėl?
+                  - [ ] 2. Galbūt darbo sutartis (ir teisė) apskritai yra pernelyg grubūs, netikslūs ir sunkiai dera su mano smulkmeniškumu?
+                        Kodėl?
                 - [ ] 2. Buvo per aukšti / netinkami darbo pozicijos reikalavimai
                       Kodėl?
                     - [ ] 1. TODO: MF, VUB, Telia

@@ -76,6 +76,8 @@
                       Kodėl?
                 - [ ] 2. Buvo per aukšti / netinkami darbo pozicijos reikalavimai
                       Kodėl?
+                    - [ ] 1. TODO: MF, VUB, Telia
+                          .
               - [ ] 2. Pažeista sveikata.
                     Kodėl?
                 - [ ] 1. TODO

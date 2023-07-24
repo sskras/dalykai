@@ -50,6 +50,24 @@
                 Kodėl?
             - [ ] 1. Aukštesni reikalavimai nei pas daugumą kitų naudotojų.
                   Kodėl?
+              - [ ] 1. Nepatinka įprastiniai / daugumos naudotojų reikalavimai.
+                    Kodėl?
+                - [ ] 1. Jie veda į technologinę skolą ir galiausiai pražūtį.
+                      Kodėl?
+                  - [ ] 1. Naudojama prasta architektūra, sudaryti prasti algoritmai, veikia prasti procesai.
+                        Kodėl?
+                    - [ ] 1. TODO pasiteirauti realybės/simuliacijos architekto.
+                          Kodėl?
+                      - [ ] 1. Tai kone vienintelis matomas būdas mano modelyje būti nors kažkiek užtikrintam visa ko pradžia
+                            .
+                    - [ ] 2. Dauguma tenkinasi išvardintomis sąlygomis ir vietoj jų keitimo taikosi prie jų.
+                          Kodėl?
+                      - [ ] 1. Žmonės pripratinti prie "Good enough".
+                            Kodėl?
+                        - [ ] 1. Galbūt žmonių energija ir kitos galimybės pernelyg apribotos šioje realybėje/simuliacijoje.
+                              Kodėl?
+                          - [ ] 1. TODO pasiteirauti realybės/simuliacijos architekto.
+                                .
             - [ ] 2. Žemokas proto našumas.
                   Kodėl?
 

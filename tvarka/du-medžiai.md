@@ -76,6 +76,18 @@
                       Kodėl?
                   - [ ] 1. Susitarimus laikau dalykais, svarbesniais už viską.
                         Kodėl?
+                    - [ ] 1. Stengiuosi kalbos funkcijos bent jau išlaikyti (nenaikinti), o gal net ir sustiprinti
+                          (priešingu atveju kalba nustoja perduoti informaciją, pradeda perduoti daugiaprasmybes ar apskritai bereikšmius duomenis).
+                          Kodėl?
+                      - [ ] 1. Kuo didesnio aiškumo suteikimui žmonių (darbo) santykiams.
+                            Kodėl?
+                        - [ ] 1. Psicho/socialinės įtampos mažinimui.
+                              Kodėl?
+                          - [ ] 1. Nes tokį turiu vienintelį gyvenimo konvergencijos modelį
+                                (grįstą taikos ir įtampų mažinimu).
+                                Kodėl?
+                            - [ ] 1. TODO pasiteirauti realybės/simuliacijos architekto.
+                                  .
                   - [ ] 2. Galbūt darbo sutartis (ir teisė) apskritai yra pernelyg grubūs, netikslūs ir sunkiai dera su mano smulkmeniškumu?
                         Kodėl?
                     - [ ] 1. TODO

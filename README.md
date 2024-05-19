@@ -2,7 +2,14 @@
 
 #### Nauji:
 
-- [ ] 14. TODO
+- [ ] 15. TODO
+
+- [ ] 14. n2ix/Midipix sudo/gsudo patobulinimai:
+  - [ ] 1. Use SeBackupPrivilege to bypass NTFS ACLs:
+           https://kopia.discourse.group/t/kopia-utilise-sebackupprivilege-on-win32-to-bypass-ntfs-acls/1317
+  - [ ] 2. Maybe use `SYSTEM` account token as an alternative.
+  - [ ] 3. Escalate parent PID correctness for child processes so gsudo gets the right PPID and is able to track timestaps properly
+  - [ ] . sudo-on-Windows veikia puikiai.
 
 - [ ] 13. GitHub 2FA + `git clone` konfigūravimas
   - [ ] Kaip autentifikuotis su TOTP slaptažodžiais?

@@ -2,7 +2,15 @@
 
 #### Nauji:
 
-- [ ] 15. TODO
+- [ ] 16. TODO
+
+- [ ] 15. `twitter.com` => `x.com` masking reverse HTTP proxy:
+  - [ ] 1. Verify SSL certs against the original services:
+           https://stackoverflow.com/questions/43033509/how-to-force-nginx-to-verify-upstream-certificates-against-the-hostnames-present/55735194#55735194
+  - [ ] 2. Replace all `x.com` references back to `twitter.com` in the headers via `proxy_pass` or so:
+           https://stackoverflow.com/questions/14352690/change-host-header-in-nginx-reverse-proxy/14352958#14352958
+  - [ ] 3. Restore all `x.com` occurences back to `twitter.com` in the response body:
+           https://samanbaboli.medium.com/modify-html-pages-on-the-fly-using-nginx-2e7a2d069086
 
 - [ ] 14. n2ix/Midipix sudo/gsudo patobulinimai:
   - [ ] 1. Use SeBackupPrivilege to bypass NTFS ACLs:

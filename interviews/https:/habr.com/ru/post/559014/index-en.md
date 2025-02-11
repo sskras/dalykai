@@ -2,6 +2,8 @@
 
 [BratSinot](https://habr.com/ru/users/BratSinot/) | 2021 May 24 at 21:27
 
+<div align="center">
+
 ### The second interview with Reiser4 developer Edward Shishkin
 
 &nbsp;
@@ -11,6 +13,7 @@
 
 &NewLine;
 
+</div>
 
 Recently I was contacted by Edward Shishkin and asked to publish the interview (which I am happy to do) in a Q&A format.
 

@@ -7,7 +7,6 @@
 ## The second interview with Reiser4 developer Edward Shishkin
 
 &nbsp;
-&nbsp;
 
 <a href="https://habrastorage.org/r/w1560/getpro/habr/upload_files/f84/598/7ca/f845987ca932cdfbf5ce95914f94ec33.jpg">
   <img src="f845987ca932cdfbf5ce95914f94ec33.jpg" />

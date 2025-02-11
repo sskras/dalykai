@@ -4,6 +4,14 @@
 
 ### The second interview with Reiser4 developer Edward Shishkin
 
+&nbsp;
+&nbsp;
+
+  <img src="f845987ca932cdfbf5ce95914f94ec33.jpg" />
+
+&NewLine;
+
+
 Recently I was contacted by Edward Shishkin and asked to publish the interview (which I am happy to do) in a Q&A format.
 
 The first interview (from 2010) is available [here](https://habr.com/ru/post/108629/).
